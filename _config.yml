@@ -10,7 +10,7 @@ description:         'Thoughts, ideas, research, explanations around economics, 
 url:                 ''
 baseurl:             ''
 plugins: [jekyll-paginate]
-paginate:            5
+paginate:            1
 paginate_path: "page:num"
 
 # About/contact
