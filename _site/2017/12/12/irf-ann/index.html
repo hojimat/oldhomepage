@@ -10,7 +10,7 @@
 
   <title>
     
-      What's Jekyll? &middot; Ravshan S.K.
+      Using impulse response functions to interpret partial effects in neural networks &middot; Ravshan S.K.
     
   </title>
 
@@ -93,17 +93,15 @@
 
       <div class="container content">
         <div class="post">
-  <h1 class="post-title">What's Jekyll?</h1>
-  <span class="post-date">31 Dec 2013</span>
-  <p><a href="http://jekyllrb.com">Jekyll</a> is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From <a href="https://github.com/mojombo/jekyll/blob/master/README.markdown">the project’s readme</a>:</p>
+  <h1 class="post-title">Using impulse response functions to interpret partial effects in neural networks</h1>
+  <span class="post-date">12 Dec 2017</span>
+  <p>This week I’ve been working on a research paper based on a very simple idea which, hopefully, can solve an important problem in applying machine learning techniques in economics — the interpretability. So, if you recall, the neural networks is the generalization of a logit model where sigmoid of a linear combination of inputs is used iteratively.</p>
 
-<blockquote>
-  <p>Jekyll is a simple, blog aware, static site generator. It takes a template directory […] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.</p>
-</blockquote>
+<p>So, the problem with applying this model to economics problems is that the information is distributed among neurons and one cannot tell the causal effect of any given input variable on the variable of interest. So, I proposed a very simple solution: after having computed all of the weights using backpropagation, we need to do the following: use sparce vectors [1,0,0,0,…,0], [0,1,0,0,0,…,0],….,[0,0,0,0,…,1] and feed them to the network. The output will give the effects of any individual input variable to the output variable. This method is called Impulse Response Function Analysis in Economics and has much use in VAR models.</p>
 
-<p>It’s an immensely useful tool and one we encourage you to use here with Lanyon.</p>
+<p>In conclusion, since simple doesn’t mean trivial, I believe this simple workaround is an important contribution to the economic analysis.</p>
 
-<p>Find out more by <a href="https://github.com/mojombo/jekyll">visiting the project on GitHub</a>.</p>
+<p>Link to the original post: https://ravshansk.wordpress.com/2017/10/14/using-impulse-response-functions-to-interpret-partial-effects-in-neural-networks/</p>
 
 </div>
 
@@ -122,18 +120,18 @@
     
       <li>
         <h3>
-          <a href="/2017/12/12/irf-ann/">
-            Using impulse response functions to interpret partial effects in neural networks
-            <small>12 Dec 2017</small>
+          <a href="/2014/01/02/introducing-lanyon/">
+            Introducing Lanyon
+            <small>02 Jan 2014</small>
           </a>
         </h3>
       </li>
     
       <li>
         <h3>
-          <a href="/2014/01/02/introducing-lanyon/">
-            Introducing Lanyon
-            <small>02 Jan 2014</small>
+          <a href="/2014/01/01/example-content/">
+            Example content
+            <small>01 Jan 2014</small>
           </a>
         </h3>
       </li>
