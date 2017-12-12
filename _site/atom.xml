@@ -4,7 +4,7 @@
  <title>Ravshan S.K.</title>
  <link href="http://0.0.0.0:4000/atom.xml" rel="self"/>
  <link href="http://0.0.0.0:4000/"/>
- <updated>2017-12-12T20:17:33+00:00</updated>
+ <updated>2017-12-12T20:49:30+00:00</updated>
  <id>http://0.0.0.0:4000</id>
  <author>
    <name>Ravshan S.K.</name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Using impulse response functions to interpret partial effects in neural networks</title>
-   <link href="http://0.0.0.0:4000/2017/12/12/irf-ann/"/>
+   <link href="http://0.0.0.0:4000/blog/2017/12/12/irf-ann/"/>
    <updated>2017-12-12T00:00:00+00:00</updated>
-   <id>http://0.0.0.0:4000/2017/12/12/irf-ann</id>
+   <id>http://0.0.0.0:4000/blog/2017/12/12/irf-ann</id>
    <content type="html">&lt;p&gt;This week I’ve been working on a research paper based on a very simple idea which, hopefully, can solve an important problem in applying machine learning techniques in economics — the interpretability. So, if you recall, the neural networks is the generalization of a logit model where sigmoid of a linear combination of inputs is used iteratively.&lt;/p&gt;
 
 &lt;p&gt;So, the problem with applying this model to economics problems is that the information is distributed among neurons and one cannot tell the causal effect of any given input variable on the variable of interest. So, I proposed a very simple solution: after having computed all of the weights using backpropagation, we need to do the following: use sparce vectors [1,0,0,0,…,0], [0,1,0,0,0,…,0],….,[0,0,0,0,…,1] and feed them to the network. The output will give the effects of any individual input variable to the output variable. This method is called Impulse Response Function Analysis in Economics and has much use in VAR models.&lt;/p&gt;
@@ -29,11 +29,20 @@
  
  <entry>
    <title>Hello world</title>
-   <link href="http://0.0.0.0:4000/2017/12/12/hrf-ann/"/>
+   <link href="http://0.0.0.0:4000/blog/2017/12/12/hrf-ann/"/>
    <updated>2017-12-12T00:00:00+00:00</updated>
-   <id>http://0.0.0.0:4000/2017/12/12/hrf-ann</id>
+   <id>http://0.0.0.0:4000/blog/2017/12/12/hrf-ann</id>
    <content type="html">&lt;p&gt;heljflsakjdfalskj fljdlfja sldkf alskjdf laskdjf askjdflasjdfl;kasj flkasdjf a;lksjdfl sadjfl asdlkf;j asdlkfja lsdfj lasdkfj lakd lkdlk alkdf alksd jlaksjd fl;aksj dfl;askj dfl;kasj fl;aksjf elkasj flkajs flirewj goiwerjhglkf lksjh falks fl;kasd fl;kas lkasdlf asldj flaksj dfl;kajsd fl;kajsljal lks;dfjlkjg oj osaij afoj fao jaosefj lksajf lask jal;s ls;akjf lka  lksdj flasjf laskdjf alskj faslkjfal;skdjf al;skd a l;aj flaskj fsad jlsa;kjfalskdfj adlk jas fl;sak fla;s jfl;askjflaskj a sal fja;lskjtoierqhgkfdg klal k jal fjasl;dkjfalskjf;alsjf;lask j a;lfaksj ;laksj asl;kdfj a sad;lkfjasl;kfj asdfoij dsaj ddf.&lt;/p&gt;
 
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Hann</title>
+   <link href="http://0.0.0.0:4000/blog/2017/11/12/hann/"/>
+   <updated>2017-11-12T00:00:00+00:00</updated>
+   <id>http://0.0.0.0:4000/blog/2017/11/12/hann</id>
+   <content type="html">&lt;p&gt;ksjfdlaskjfl;asdkjf;lasdjflasjdfl&lt;/p&gt;
 </content>
  </entry>
  

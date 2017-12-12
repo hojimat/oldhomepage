@@ -10,7 +10,7 @@
 
   <title>
     
-      About &middot; Ravshan S.K.
+      Ravshan S.K. &middot; Economist, Blogger
     
   </title>
 
@@ -51,6 +51,14 @@
     
       
         
+          <a class="sidebar-nav-item" href="/">About</a>
+        
+      
+    
+      
+        
+      
+    
       
     
       
@@ -59,10 +67,6 @@
     
       
         
-          <a class="sidebar-nav-item active" href="/about/">About</a>
-        
-      
-    
       
     
       
@@ -96,39 +100,38 @@
       </div>
 
       <div class="container content">
-        <div class="page">
-  <h1 class="page-title">About</h1>
-  <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+        <div class="posts">
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="//blog/2017/12/12/irf-ann/">
+        Using impulse response functions to interpret partial effects in neural networks
+      </a>
+    </h1>
 
-<p>In the novel, <em>The Strange Case of Dr. Jeykll and Mr. Hyde</em>, Mr. Poole is Dr. Jekyll’s virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It’s made by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+    <span class="post-date">12 Dec 2017</span>
 
-<p>There are currently two themes built on Poole:</p>
+    <p>This week I’ve been working on a research paper based on a very simple idea which, hopefully, can solve an important problem in applying machine learning techniques in economics — the interpretability. So, if you recall, the neural networks is the generalization of a logit model where sigmoid of a linear combination of inputs is used iteratively.</p>
 
-<ul>
-  <li><a href="http://hyde.getpoole.com">Hyde</a></li>
-  <li><a href="http://lanyon.getpoole.com">Lanyon</a></li>
-</ul>
+<p>So, the problem with applying this model to economics problems is that the information is distributed among neurons and one cannot tell the causal effect of any given input variable on the variable of interest. So, I proposed a very simple solution: after having computed all of the weights using backpropagation, we need to do the following: use sparce vectors [1,0,0,0,…,0], [0,1,0,0,0,…,0],….,[0,0,0,0,…,1] and feed them to the network. The output will give the effects of any individual input variable to the output variable. This method is called Impulse Response Function Analysis in Economics and has much use in VAR models.</p>
 
-<p>Learn more and contribute on <a href="https://github.com/poole">GitHub</a>.</p>
+<p>In conclusion, since simple doesn’t mean trivial, I believe this simple workaround is an important contribution to the economic analysis.</p>
 
-<h2 id="setup">Setup</h2>
+<p>Link to the original post: https://ravshansk.wordpress.com/2017/10/14/using-impulse-response-functions-to-interpret-partial-effects-in-neural-networks/</p>
 
-<p>Some fun facts about the setup of this project include:</p>
-
-<ul>
-  <li>Built for <a href="http://jekyllrb.com">Jekyll</a></li>
-  <li>Developed on GitHub and hosted for free on <a href="https://pages.github.com">GitHub Pages</a></li>
-  <li>Coded with <a href="http://sublimetext.com">Sublime Text 2</a>, an amazing code editor</li>
-  <li>Designed and developed while listening to music like <a href="https://soundcloud.com/maddecent/sets/blood-bros-series">Blood Bros Trilogy</a></li>
-</ul>
-
-<p>Have questions or suggestions? Feel free to <a href="https://github.com/poole/issues/new">open an issue on GitHub</a> or <a href="https://twitter.com/mdo">ask me on Twitter</a>.</p>
-
-<p>Thanks for reading!</p>
-
+  </div>
+  
 </div>
+
+<div class="pagination">
+  
+    <span class="pagination-item newer">Newer</span>
+  
+  
+    <a class="pagination-item older" href="/blog/page/2">Older</a>
+  
+</div>
+
 
       </div>
     </div>
