@@ -32,77 +32,28 @@
 
   <body>
 
-    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
-     styles, `#sidebar-checkbox` for behavior. -->
-<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-
-<!-- Toggleable sidebar -->
-<div class="sidebar" id="sidebar">
-  <div class="sidebar-item">
-    <p>Thoughts, ideas, research, explanations around economics, philology, math, computers, literature.</p>
-  </div>
-
-  <nav class="sidebar-nav">
-    <a class="sidebar-nav-item" href="/">Home</a>
-
-    
-
-    
-    
-      
-        
-          <a class="sidebar-nav-item" href="/">About</a>
-        
-      
-    
-      
-        
-      
-    
-      
-    
-      
-        
-      
-    
-      
-        
-      
-    
-      
-        
-      
-    
-      
-    
-
-    <a class="sidebar-nav-item" href="/archive/v1.0.0.zip">Download</a>
-    <a class="sidebar-nav-item" href="">GitHub project</a>
-    <span class="sidebar-nav-item">Currently v1.0.0</span>
-  </nav>
-
-  <div class="sidebar-item">
-    <p>
-      &copy; 2017. All rights reserved.
-    </p>
-  </div>
-</div>
-
-
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
-         content to avoid any CSS collisions with our real content. -->
-    <div class="wrap">
-      <div class="masthead">
-        <div class="container">
-          <h3 class="masthead-title">
-            <a href="/" title="Home">Ravshan S.K.</a>
-            <small>Economist, Blogger</small>
-          </h3>
-        </div>
+    <div class="masthead">
+      <div class="container">
+        <h3 class="masthead-title">
+          <a href="/" title="Home">Ravshan S.K.</a>
+          <small>Economist, rsk@ravshansk.com</small>
+        </h3>
       </div>
+      <div class="container">
+        <nav class="navbar-names">
+					<ul>
+						<li><a href="/" title="Home">Home</a></li>
+	          <li><a href="/blog" title="Blog">Blog</a></li>
+					</ul>
+        </nav>
+      </div>
+    </div>
 
-      <div class="container content">
-        <div class="post">
+
+
+
+    <div class="container content">
+      <div class="post">
   <h1 class="post-title">Hello world</h1>
   <span class="post-date">12 Dec 2017</span>
   <p>heljflsakjdfalskj fljdlfja sldkf alskjdf laskdjf askjdflasjdfl;kasj flkasdjf a;lksjdfl sadjfl asdlkf;j asdlkfja lsdfj lasdkfj lakd lkdlk alkdf alksd jlaksjd fl;aksj dfl;askj dfl;kasj fl;aksjf elkasj flkajs flirewj goiwerjhglkf lksjh falks fl;kasd fl;kas lkasdlf asldj flaksj dfl;kajsd fl;kajsljal lks;dfjlkjg oj osaij afoj fao jaosefj lksajf lask jal;s ls;akjf lka  lksdj flasjf laskdjf alskj faslkjfal;skdjf al;skd a l;aj flaskj fsad jlsa;kjfalskdfj adlk jas fl;sak fla;s jfl;askjflaskj a sal fja;lskjtoierqhgkfdg klal k jal fjasl;dkjfalskjf;alsjf;lask j a;lfaksj ;laksj asl;kdfj a sad;lkfjasl;kfj asdfoij dsaj ddf.</p>
@@ -135,27 +86,7 @@
   </ul>
 </div>
 
-      </div>
     </div>
 
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-
-    <script>
-      (function(document) {
-        var toggle = document.querySelector('.sidebar-toggle');
-        var sidebar = document.querySelector('#sidebar');
-        var checkbox = document.querySelector('#sidebar-checkbox');
-
-        document.addEventListener('click', function(e) {
-          var target = e.target;
-
-          if(!checkbox.checked ||
-             sidebar.contains(target) ||
-             (target === checkbox || target === toggle)) return;
-
-          checkbox.checked = false;
-        }, false);
-      })(document);
-    </script>
   </body>
 </html>
