@@ -1,9 +1,8 @@
 ---
 layout: page
+title: Ravshanbek Khodzhimatov
 permalink: cv
 ---
-
-# Rasdkfavshanbek Khodzhimatov
 
 The pdf version is available [here](/assets/cv.pdf).
 
