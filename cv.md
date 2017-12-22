@@ -9,10 +9,10 @@ The pdf version is available [here](/assets/cv.pdf).
 
 ## Education
 
-#### M.A. Economics, **Bogazici University**
+#### 2015-2018, M.A. Economics, **Bogazici University**
 _Thesis: Dynamic lifecycle investments_  
 _GPA: 3.5_
-#### B.A. International Trade, **Bogazici University**
+#### 2011-2015, B.A. International Trade, **Bogazici University**
 _Specialization: Economics_  
 _GPA: 3.31_
 
