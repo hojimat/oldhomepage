@@ -272,7 +272,6 @@ tbody tr:nth-child(odd) th {
 .masthead {
   padding-top:    1rem;
   padding-bottom: 1rem;
-  margin-bottom: 3rem;
   border-bottom: 1px solid #eee;
 }
 .masthead-title {
@@ -297,6 +296,38 @@ tbody tr:nth-child(odd) th {
   .masthead-title small {
     display: none;
   }
+}
+
+/* Navbar */
+.navbar {
+    overflow: hidden;
+  	padding-top:    1rem;
+  	padding-bottom: 1rem;
+  	margin-bottom: 3rem;
+  	border-bottom: 1px solid #eee;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+    float: center;
+		color: #505050; 
+    display: inline;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+}
+
+/* Add an active class to highlight the current page */
+.active {
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.navbar .icon {
+    display: none;
 }
 
 /*
