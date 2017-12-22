@@ -4,20 +4,20 @@
 permalink:           pretty
 
 # Setup
-title:               Ravshan S.K.
-tagline:             'Economist'
+title:               Ravshan S.K. 
+tagline:             'Economist, Blogger'
 description:         'Thoughts, ideas, research, explanations around economics, philology, math, computers, literature.'
 url:                 ''
 baseurl:             ''
 plugins: [jekyll-paginate]
-paginate:            1
+paginate:            3
 paginate_path: "/blog/page/:num"
 
 # About/contact
 author:
-  name:              Ravshan S.K.
+  name:              Ravshanbek Khodzhimatov
   url:               
-  email:             ravshansk@protonmail.com
+  email:             rsk@ravshansk.com
 
 # Custom vars
 version:             1.0.0
