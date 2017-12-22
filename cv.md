@@ -3,7 +3,7 @@ layout: page
 permalink: cv
 ---
 
-# Ravshanbek Khodzhimatov
+# Rasdkfavshanbek Khodzhimatov
 
 The pdf version is available [here](/assets/cv.pdf).
 
