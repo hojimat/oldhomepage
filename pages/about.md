@@ -8,7 +8,7 @@ My name is **Ravshanbek Khodzhimatov**. I am about to graduate from [Master's Pr
 
 I am trilingual - my native languages are Uzbek, Russian and Kyrgyz. I am fluent in English and Turkish. I have a fair fluency in German and elementary in Arabic.  
 
-You can access my full resume [here](/cv) or to download the [pdf](/cv.pdf).  
+You can access my full resume [here](/cv) or to download the [pdf](/assets/cv.pdf).  
 
 I blog about economics, math, AI and literature. You can read it at [ravshansk.com/blog](/blog)  
 
