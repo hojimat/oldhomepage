@@ -4,7 +4,7 @@
  <title>Ravshan S.K.</title>
  <link href="http://0.0.0.0:4000/atom.xml" rel="self"/>
  <link href="http://0.0.0.0:4000/"/>
- <updated>2017-12-22T23:32:14+00:00</updated>
+ <updated>2017-12-23T09:58:07+00:00</updated>
  <id>http://0.0.0.0:4000</id>
  <author>
    <name>Ravshanbek Khodzhimatov</name>
@@ -18,12 +18,14 @@
    <updated>2017-12-12T00:00:00+00:00</updated>
    <id>http://0.0.0.0:4000/blog/2017/12/12/irf-ann</id>
    <content type="html">&lt;p&gt;This week I’ve been working on a research paper based on a very simple idea which, hopefully, can solve an important problem in applying machine learning techniques in economics — the interpretability. So, if you recall, the neural networks is the generalization of a logit model where sigmoid of a linear combination of inputs is used iteratively.&lt;/p&gt;
-
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img src=&quot;/assets/img/ann.png&quot; alt=&quot;Generalization of Logit&quot; /&gt;
+	&lt;figcaption&gt;ANN as a generalization of logit&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;p&gt;So, the problem with applying this model to economics problems is that the information is distributed among neurons and one cannot tell the causal effect of any given input variable on the variable of interest. So, I proposed a very simple solution: after having computed all of the weights using backpropagation, we need to do the following: use sparce vectors [1,0,0,0,…,0], [0,1,0,0,0,…,0],….,[0,0,0,0,…,1] and feed them to the network. The output will give the effects of any individual input variable to the output variable. This method is called Impulse Response Function Analysis in Economics and has much use in VAR models.&lt;/p&gt;
 
 &lt;p&gt;In conclusion, since simple doesn’t mean trivial, I believe this simple workaround is an important contribution to the economic analysis.&lt;/p&gt;
 
-&lt;p&gt;Link to the original post: https://ravshansk.wordpress.com/2017/10/14/using-impulse-response-functions-to-interpret-partial-effects-in-neural-networks/&lt;/p&gt;
 </content>
  </entry>
  
