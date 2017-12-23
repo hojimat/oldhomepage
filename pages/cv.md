@@ -29,6 +29,6 @@ _Web scraping, statictical analysis, machine learning_
 _Customer communication, Database management, Report automation_
 ## Skills
 #### Computer skills
-_Python, Django, Ruby on Rails, MATLAB, Stata, R, LaTeX_
+_Python, Django, Ruby on Rails, MATLAB, Stata, R, LaTeX, Linux, Docker_
 #### Languages
 _Russian(native), English(TOEFL iBT: 103), Turkish(C2), Uzbek(native), Kyrgyz(native), German(B2)_
