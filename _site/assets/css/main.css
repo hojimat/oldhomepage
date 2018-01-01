@@ -452,4 +452,15 @@ figure.blog figcaption{
 	border: 1px blue;
 	text-align: center;
 	color: gray;
+	font-size: 0.8rem;
+}
+
+figure.margins{
+	position: absolute;
+	margin-left: -15rem;
+}
+
+figure.margins img{
+	width: 13rem;
+	height: auto;
 }
