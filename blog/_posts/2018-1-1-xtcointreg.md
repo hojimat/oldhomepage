@@ -12,4 +12,6 @@ So, I got that and tried to write a code for it, but it turned out to be very ch
 
 Meet a new command for Stata `xtcointreg`. It basically adapts `cointreg` to a panel environment, so you need to [install it first](http://agec    onsearch.umn.edu/bitstream/229441/2/sjart_st0272.pdf). The documentation is the same as `cointreg` plus one option `full`. I will submit the file to "ssc". In the meantime you can [download the .ado file here](/assets/ftp/xtcointreg.ado) and place it in the folder called "ado" located inside your system directory(which can be found with a command `sysdir'). 
 
-Hope it will help you in your research. Please feel free to [contact me](/contact) with any questions and commments.
+Hope it will help you in your research. Please feel free to [contact me](/contact) with any questions and commments. 
+
+**Update** It was included to SSC. You can use `ssc install xtcointreg` to download it.
