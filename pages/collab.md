@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Portfolio & Publications 
+title: Collaborate 
 permalink: collaborate 
 ---
 
