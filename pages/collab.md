@@ -16,4 +16,4 @@ You can pay me using bank transfer or by contacting me to invoice you a payment 
 
 
 ### Communication Methods
-I invite clients to the [http://ravshansk.slack.com](lack chat) where we can communicate effectively during the project and retain the contact for the future collaboration.
+I invite clients to the [http://ravshansk.slack.com](lack chat) where we can communicate effectively during the project and retain the contact for future collaboration.
