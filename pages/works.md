@@ -14,7 +14,7 @@ permalink: works
 
 - Using IRF in ANN (working paper)
 - Individualized Lifecycle Investments in Turkey (working paper)
-- Economics in Questions and Answers (planned)a
+- Economics in Questions and Answers (planned)
 
 ## Freelance works
 
