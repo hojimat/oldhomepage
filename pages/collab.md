@@ -14,3 +14,6 @@ I will ask some negotiated percentage upfront before starting the project. Every
 ### Pricing Methods
 You can pay me using bank transfer or by contacting me to invoice you a payment on Payoneer service. You don't have to have a Payoneer account to pay for the invoice - the credit card payment is accepted. Be sure to ignore the commission fees - you can subtract them from the payment. I will repeat this: Don't pay commissions, I will pay them.
 
+
+### Communication Methods
+I invite clients to the [http://ravshansk.slack.com](lack chat) where we can communicate effectively during the project and retain the contact for the future collaboration.
