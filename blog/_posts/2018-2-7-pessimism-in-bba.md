@@ -11,7 +11,7 @@ I claim that undergraduate business education does not focus enough on the negat
 Kotler and Keller in their "Marketing Management" book introduce different marketing strategies and instead of discussing the tradeoffs, they propose "Holistic Marketing" which captures all of the strategies. How convenient is it that we don't have to make any choice - we can have all at the same time!
 
 <figure class="blog">
-	<img src="/assets/img/holistic_marketing.png" alt="Holistic Marketing">
+	<img src="/assets/img/holistic.png" alt="Holistic Marketing">
 	<figcaption>Source: Kotler and Keller "Marketing Management" Google preview</figcaption>
 </figure>
 
