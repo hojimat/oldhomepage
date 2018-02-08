@@ -4,13 +4,70 @@
  <title>Ravshan S.K.</title>
  <link href="http://0.0.0.0:4000/atom.xml" rel="self"/>
  <link href="http://0.0.0.0:4000/"/>
- <updated>2018-01-01T00:40:26+00:00</updated>
+ <updated>2018-02-08T01:19:21+00:00</updated>
  <id>http://0.0.0.0:4000</id>
  <author>
    <name>Ravshanbek Khodzhimatov</name>
    <email>rsk@ravshansk.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Business education needs a dose of pessimism</title>
+   <link href="http://0.0.0.0:4000/blog/2018/02/07/pessimism-in-bba/"/>
+   <updated>2018-02-07T00:00:00+00:00</updated>
+   <id>http://0.0.0.0:4000/blog/2018/02/07/pessimism-in-bba</id>
+   <content type="html">&lt;p&gt;Business education in college faces a lot of criticism from lack of practical training to philosophical arguments that management shouldn’t be taught at undergraduate level at all. I cannot change the status quo and won’t try to repeat these statements - I will try to give a constructive feedback. What I propose in this article is very easy to implement and doesn’t require any new textbooks or training, it will just require change in the attitude.&lt;/p&gt;
+
+&lt;p&gt;I claim that undergraduate business education does not focus enough on the negative aspects of business environment. While this may be great for MBA students who have a business experience and can relate to the subject matter of the textbooks, undergrads have to visualize them. This places reading a fantasy novel and a management textbook on the same ground because both build new worlds. But as everyone would agree, “The Lord of the Rings” is much more interesting than “Silmarillion”, because while the former has the conflict, the latter just explores The Middle Earth. To prove my point, I will list some of the examples.&lt;/p&gt;
+
+&lt;p&gt;Kotler and Keller in their “Marketing Management” book introduce different marketing strategies and instead of discussing the tradeoffs, they propose “Holistic Marketing” which captures all of the strategies. How convenient is it that we don’t have to make any choice - we can have all at the same time!&lt;/p&gt;
+
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img src=&quot;/assets/img/holistic_marketing.png&quot; alt=&quot;Holistic Marketing&quot; /&gt;
+	&lt;figcaption&gt;Source: Kotler and Keller &quot;Marketing Management&quot; Google preview&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Richard Daft’s “New era of management” call the matrix structure “controversial” but spends just half of the paragraph about the disadvantages of the matrix structure.&lt;/p&gt;
+
+&lt;p&gt;“The matrix structure is controversial because of the dual chain of command. However, the matrix can be highly effective in a complex, rapidly changing environment in which the organization needs to be flexible and adaptable…”&lt;/p&gt;
+
+&lt;p&gt;Technically, it does justice and uses 7 sentences to describe disadvantages and 4 sentences to describe advantages, but what I propose is to focus on these controversies and maximize the conflict content of any course.&lt;/p&gt;
+
+&lt;p&gt;Keegan’s “Global marketing” textbook uses a fancy phrase “Think globally, act locally” as a motto and tries to prove the case. I would suggest presenting the book as a conflict between liberal and conservative thought and how difficult it is to bring both to the consensus.&lt;/p&gt;
+
+&lt;p&gt;Rainer and Cegielski’s “Information Systems for Business” textbook endorses its tech optimism throughout the book. So, for example it doesn’t mention the disadvantages of Web 2.0, the “JavaScript trap”.&lt;/p&gt;
+
+&lt;h3 id=&quot;examples&quot;&gt;Examples&lt;/h3&gt;
+
+&lt;p&gt;International Law - MFN vs. FTA. Economics is the most popular business course - and it is a very definition of “dismal science” - pizza or cola, you face a trade off, there is no free lunch.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;In conclusion, business courses should ideally be taught only at Master’s level for people with experience, but as long as we are willing to teach inexperienced undergrads, we have to make the material engaging and this can be done by injecting a dose of pessimism/conflict in the curriculum.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Introducing Panel FMOLS/DOLS command for Stata</title>
+   <link href="http://0.0.0.0:4000/blog/2018/01/01/xtcointreg/"/>
+   <updated>2018-01-01T00:00:00+00:00</updated>
+   <id>http://0.0.0.0:4000/blog/2018/01/01/xtcointreg</id>
+   <content type="html">&lt;p&gt;Last week I was hired to perform a thorough analysis of a panel dataset for export dynamics of different sectors in a country. I had never done panel econometrics before or even read it in a textbook. But since I am good at cross-section and time-series, I believed I could handle the task. And I wasn’t wrong.&lt;/p&gt;
+
+&lt;p&gt;Since this task was single time with no generalizations/automations required, my tool of choice was of course Stata. It doesn’t have a scalability like R but has a very comfortable syntax. You ask me what about E-views? E-views sucks.&lt;/p&gt;
+
+&lt;p&gt;However, in process I realized that panel FMOLS cannot be done natively in stata. The closest thing is &lt;code class=&quot;highlighter-rouge&quot;&gt;xtpedroni&lt;/code&gt; but it gives panel DOLS and didn’t add panel FMOLS. R also doesn’t have such a library. Ironically, E-views turned out to have that feature. But I wouldn’t concede that easy. So, I decided to go back to &lt;a href=&quot;https://econpapers.repec.org/article/tprrestat/v_3a83_3ay_3a2001_3ai_3a4_3ap_3a727-731.htm&quot;&gt;Pedroni’s 1996 paper&lt;/a&gt; and examine the structure of panel FMOLS estimators. It turned out to be a simple average between each panel’s FMOLS for coefficients and sum divided by the square root of the total number of panels for t-statistics.&lt;/p&gt;
+
+&lt;p&gt;So, I got that and tried to write a code for it, but it turned out to be very challenging. Then I found out that there is actually an existing tool for time series FMOLS estimation called &lt;code class=&quot;highlighter-rouge&quot;&gt;cointreg&lt;/code&gt;. This is an excellent program written by &lt;a href=&quot;http://ageconsearch.umn.edu/bitstream/229441/2/sjart_st0272.pdf&quot;&gt;Qunyong Wang and Na Wu&lt;/a&gt;. So, I just applied the group mean averaging to it.&lt;/p&gt;
+
+&lt;p&gt;Meet a new command for Stata &lt;code class=&quot;highlighter-rouge&quot;&gt;xtcointreg&lt;/code&gt;. It basically adapts &lt;code class=&quot;highlighter-rouge&quot;&gt;cointreg&lt;/code&gt; to a panel environment, so you need to &lt;a href=&quot;http://agec    onsearch.umn.edu/bitstream/229441/2/sjart_st0272.pdf&quot;&gt;install it first&lt;/a&gt;. The documentation is the same as &lt;code class=&quot;highlighter-rouge&quot;&gt;cointreg&lt;/code&gt; plus one option &lt;code class=&quot;highlighter-rouge&quot;&gt;full&lt;/code&gt;. I will submit the file to “ssc”. In the meantime you can &lt;a href=&quot;/assets/ftp/xtcointreg.ado&quot;&gt;download the .ado file here&lt;/a&gt; and place it in the folder called “ado” located inside your system directory(which can be found with a command `sysdir’).&lt;/p&gt;
+
+&lt;p&gt;Hope it will help you in your research. Please feel free to &lt;a href=&quot;/contact&quot;&gt;contact me&lt;/a&gt; with any questions and commments.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt; It was included to SSC. You can use &lt;code class=&quot;highlighter-rouge&quot;&gt;ssc install xtcointreg&lt;/code&gt; to download it.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Using impulse response functions to interpret partial effects in neural networks</title>
