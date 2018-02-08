@@ -5,8 +5,8 @@ permalink:           pretty
 
 # Setup
 title:               Ravshan S.K. 
-tagline:             'Economist, Freelancer'
-description:         'Thoughts, ideas, research, explanations around economics, philology, math, computers, literature.'
+tagline:             'Professional Economist'
+description:         'Thoughts, ideas, research, explanations around economics, math, computers, literature and higher education.'
 url:                 ''
 baseurl:             ''
 plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
