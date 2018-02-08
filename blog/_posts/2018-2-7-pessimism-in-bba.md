@@ -3,35 +3,27 @@ layout: post
 title: Business education needs a dose of pessimism
 ---
 
-Business education in college faces a lot of criticism from lack of practical training to philosophical arguments that management shouldn't be taught at undergraduate level at all. I cannot change the status quo and won't try to repeat these statements - I will try to give a constructive feedback. What I propose in this article is very easy to implement and doesn't require any new textbooks or training, it will just require change in the attitude.  
+Undergraduate business education faces a lot of criticism spanning from lack of practical training to philosophical arguments that management shouldn't be taught at undergraduate level at all. I cannot change the status quo and won't try to repeat these statements - I will try to give a constructive feedback. What I propose in this article is very easy to implement: it will just require change in the attitude.  
+I claim that undergraduate business education does not focus enough on the negative aspects of business environment. While this may be great for MBA students or rising seniors who have business experience or did internships and can relate to the subject matter of the textbooks, inexperienced undergrads have to visualize every aspect in their minds. This places reading a management textbook on the same ground as reading a fantasy novel - both build and explain new worlds. But as everyone would agree, _"The Lord of the Rings"_ is much more interesting than _"Silmarillion"_, because while the former focuses on the conflict of races, the latter just explores _The Middle Earth_. The same argument can be provided to explain why economics is the most popular course among business majors - its main topic is scarcity and tradeoffs, "you cannot have a free lunch". To illustrate why current educational approach is not optimal, let's look at a few examples.   
 
-I claim that undergraduate business education does not focus enough on the negative aspects of business environment. While this may be great for MBA students who have a business experience and can relate to the subject matter of the textbooks, undergrads have to visualize them. This places reading a fantasy novel and a management textbook on the same ground because both build new worlds. But as everyone would agree, "The Lord of the Rings" is much more interesting than "Silmarillion", because while the former has the conflict, the latter just explores The Middle Earth. To prove my point, I will list some of the examples.  
-
-
-Kotler and Keller in their "Marketing Management" book introduce different marketing strategies and instead of discussing the tradeoffs, they propose "Holistic Marketing" which captures all of the strategies. How convenient is it that we don't have to make any choice - we can have all at the same time!
+* Kotler and Keller in their _"Marketing Management"_ book introduce different marketing strategies and instead of discussing the tradeoffs, they propose "Holistic Marketing" which captures all of the strategies - there are no dilemmas. 
 
 <figure class="blog">
 	<img src="/assets/img/holistic.png" alt="Holistic Marketing">
-	<figcaption>Source: Kotler and Keller "Marketing Management" Google preview</figcaption>
+	<figcaption>Source: Kotler and Keller "Marketing Management"</figcaption>
 </figure>
 
+* Richard Daft's _"New era of management"_ calls the matrix structure of management "controversial" but spends only half of the paragraph about the disadvantages of the matrix structure. Quote: _"The matrix structure is controversial because of the dual chain of command. However, the matrix can be highly effective in a complex, rapidly changing environment in which the organization needs to be flexible and adaptable..."_ Technically, it does justice and uses 7 sentences to describe disadvantages and 4 sentences to describe advantages, but what I propose is to focus on these controversies and tell "how this structure struggles to exist despite the clear problems, which are, by the way, unsolvable".  
 
-Richard Daft's "New era of management" call the matrix structure "controversial" but spends just half of the paragraph about the disadvantages of the matrix structure.  
+* Keegan's _"Global marketing"_ textbook uses a fancy phrase _"Think globally, act locally"_ as a motto and tries to prove the case throughout the book. I would suggest presenting the same idea in a darker manner, as conflict between liberal and conservative thought and how difficult it is to bring both to the consensus.  
 
-"The matrix structure is controversial because of the dual chain of command. However, the matrix can be highly effective in a complex, rapidly changing environment in which the organization needs to be flexible and adaptable..."
+* Rainer and Cegielski's _"Information Systems for Business"_ textbook endorses its tech optimism throughout the book. So, for example it doesn't mention a single disadvantage of Web 2.0 or failure of Moore's Law or the ["JavaScript trap"](https://www.gnu.org/philosophy/javascript-trap.html). It spends only 4 sentences discussing drawbacks of e-learning in a whole chapter.  
 
-Technically, it does justice and uses 7 sentences to describe disadvantages and 4 sentences to describe advantages, but what I propose is to focus on these controversies and maximize the conflict content of any course.  
+<figure class="blog">
+	<img src="/assets/img/elearn.png" alt="Drawbacks of E-learning">
+	<figcaption>Source: Rainer and Cegielski "Information Systems for Business"</figcaption>
+</figure>
 
+In contrast to the above, _Commercial Law_ is very engaging to business students despite being a law course because it illustrates the incompatibilities between GATT's MFN and FTA principles, it focuses on court cases which are intrinsically conflict stories.  
 
-Keegan's "Global marketing" textbook uses a fancy phrase "Think globally, act locally" as a motto and tries to prove the case. I would suggest presenting the book as a conflict between liberal and conservative thought and how difficult it is to bring both to the consensus.  
-
-
-Rainer and Cegielski's "Information Systems for Business" textbook endorses its tech optimism throughout the book. So, for example it doesn't mention the disadvantages of Web 2.0, the "JavaScript trap".  
-
-### Examples
-
-International Law - MFN vs. FTA. Economics is the most popular business course - and it is a very definition of "dismal science" - pizza or cola, you face a trade off, there is no free lunch. 
-
-### Conclusion
-
-In conclusion, business courses should ideally be taught only at Master's level for people with experience, but as long as we are willing to teach inexperienced undergrads, we have to make the material engaging and this can be done by injecting a dose of pessimism/conflict in the curriculum.
+In conclusion, since freshman/sophomore undergraduate business students lack experience to relate with the curriculum, it will be healthy to inject a dose of pessimism/conflict into the courses to keep students engaged. 
