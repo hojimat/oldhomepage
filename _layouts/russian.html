@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  {% include head.html %}
+	{% seo %}
+  <body>
+
+    <div class="masthead">
+      <div class="container">
+        <h3 class="masthead-title">
+          <a href="{{ site.baseurl }}/ru" title="Home">Равшан Ходжиматов</a>
+          <small>Профессиональный Экономист</small>
+        </h3>
+      </div>
+    </div>
+
+		<div class="container">
+      <div class="navbar">
+  	    <a href="/" title="Home">English</a>
+				<a href="/ru" title="Homeru">Главная</a>
+  	    <a href="/blog" title="Blog">Blog</a>
+  	    <a href="/cv" title="CV">Резюме</a>
+  	    <a href="/works" title="Works">Работы</a>
+  	    <a href="/collaborate" title="Collaborate">Сотрудничать</a>
+  	    <a href="/contact" title="Contact">Связаться</a>
+			</div>
+		</div>
+
+    <div class="container content">
+      {{ content }}
+    </div>
+
+  </body>
+</html>
