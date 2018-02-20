@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Portfolio & Publications 
-permalink: works
+permalink: /works
 ---
 
 ## Computing projects
