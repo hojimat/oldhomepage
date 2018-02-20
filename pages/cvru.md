@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: pageru
 title: Резюме 
 permalink: /ru/cv
 ---
