@@ -4,7 +4,7 @@
  <title>Ravshan S.K.</title>
  <link href="http://0.0.0.0:4000/atom.xml" rel="self"/>
  <link href="http://0.0.0.0:4000/"/>
- <updated>2018-02-08T01:19:21+00:00</updated>
+ <updated>2018-03-17T19:02:55+00:00</updated>
  <id>http://0.0.0.0:4000</id>
  <author>
    <name>Ravshanbek Khodzhimatov</name>
@@ -13,38 +13,56 @@
 
  
  <entry>
+   <title>Новый канал в Telegram</title>
+   <link href="http://0.0.0.0:4000/blogru/2018/02/20/telegramblog/"/>
+   <updated>2018-02-20T00:00:00+00:00</updated>
+   <id>http://0.0.0.0:4000/blogru/2018/02/20/telegramblog</id>
+   <content type="html">&lt;p&gt;Всем привет! Я открыл новый канал в Telegram об экономике. Он доступен по ссылке &lt;a href=&quot;http://t.me/econblog&quot;&gt;t.me/econblog&lt;/a&gt; Это не будет канал с перепостами новостей и рекламой. Это будет интересный просветительский канал от эксперта своего дела для взрослых думающих людей. Мучать терминами и математикой не буду. Но философию и историю иногда буду упоминать. Подписывайтесь!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Business education needs a dose of pessimism</title>
    <link href="http://0.0.0.0:4000/blog/2018/02/07/pessimism-in-bba/"/>
    <updated>2018-02-07T00:00:00+00:00</updated>
    <id>http://0.0.0.0:4000/blog/2018/02/07/pessimism-in-bba</id>
-   <content type="html">&lt;p&gt;Business education in college faces a lot of criticism from lack of practical training to philosophical arguments that management shouldn’t be taught at undergraduate level at all. I cannot change the status quo and won’t try to repeat these statements - I will try to give a constructive feedback. What I propose in this article is very easy to implement and doesn’t require any new textbooks or training, it will just require change in the attitude.&lt;/p&gt;
+   <content type="html">&lt;p&gt;Undergraduate business education faces a lot of criticism spanning from lack of practical training to philosophical arguments that management shouldn’t be taught at undergraduate level at all. I cannot change the status quo and won’t try to repeat these statements - I will try to give a constructive feedback. What I propose in this article is very easy to implement: it will just require change in the attitude.&lt;/p&gt;
 
-&lt;p&gt;I claim that undergraduate business education does not focus enough on the negative aspects of business environment. While this may be great for MBA students who have a business experience and can relate to the subject matter of the textbooks, undergrads have to visualize them. This places reading a fantasy novel and a management textbook on the same ground because both build new worlds. But as everyone would agree, “The Lord of the Rings” is much more interesting than “Silmarillion”, because while the former has the conflict, the latter just explores The Middle Earth. To prove my point, I will list some of the examples.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;&lt;em&gt;Since young business majors lack experience to relate with the curriculum, it will be healthy to inject a dose of pessimism into the courses to keep students engaged…&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;Kotler and Keller in their “Marketing Management” book introduce different marketing strategies and instead of discussing the tradeoffs, they propose “Holistic Marketing” which captures all of the strategies. How convenient is it that we don’t have to make any choice - we can have all at the same time!&lt;/p&gt;
+&lt;p&gt;I claim that undergraduate business education does not focus enough on the negative aspects of business environment. While this may be great for MBA students or rising seniors who have business experience or did internships and can relate to the subject matter of the textbooks, inexperienced undergrads have to visualize every aspect in their minds. This places reading a management textbook on the same ground as reading a fantasy novel - both build and explain new worlds. But as everyone would agree, &lt;em&gt;“The Lord of the Rings”&lt;/em&gt; is much more interesting than &lt;em&gt;“Silmarillion”&lt;/em&gt;, because while the former focuses on the conflict of races, the latter just explores &lt;em&gt;The Middle Earth&lt;/em&gt;. The same argument can be provided to explain why economics is the most popular course among business majors - its main topic is scarcity and tradeoffs, “you cannot have a free lunch”. To illustrate why current educational approach is not optimal, let’s look at a few examples.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Kotler and Keller in their &lt;em&gt;“Marketing Management”&lt;/em&gt; book introduce different marketing strategies and instead of discussing the tradeoffs, they propose “Holistic Marketing” which captures all of the strategies - there are no dilemmas.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/holistic_marketing.png&quot; alt=&quot;Holistic Marketing&quot; /&gt;
-	&lt;figcaption&gt;Source: Kotler and Keller &quot;Marketing Management&quot; Google preview&lt;/figcaption&gt;
+	&lt;img src=&quot;/assets/img/holistic.png&quot; alt=&quot;Holistic Marketing&quot; /&gt;
+	&lt;figcaption&gt;Source: Kotler and Keller &quot;Marketing Management&quot;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;Richard Daft’s “New era of management” call the matrix structure “controversial” but spends just half of the paragraph about the disadvantages of the matrix structure.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Richard Daft’s &lt;em&gt;“New era of management”&lt;/em&gt; calls the matrix structure of management “controversial” but spends only half of the paragraph about the disadvantages of the matrix structure. Technically, it does justice and uses &lt;strong&gt;7 sentences to describe disadvantages and 4 sentences to describe advantages&lt;/strong&gt;, but what I propose is to focus on these controversies and tell “how this structure struggles to exist despite the clear problems, which are, by the way, unsolvable”.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Keegan’s &lt;em&gt;“Global marketing”&lt;/em&gt; textbook uses a fancy phrase &lt;em&gt;“Think globally, act locally”&lt;/em&gt; as a motto and tries to prove the case throughout the book. I would suggest presenting the same idea in a darker manner, as conflict between liberal and conservative thought and how difficult it is to bring both to the consensus.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Rainer and Cegielski’s &lt;em&gt;“Information Systems for Business”&lt;/em&gt; textbook endorses its tech optimism throughout the book. So, for example it doesn’t mention a single disadvantage of Web 2.0 or failure of Moore’s Law or the &lt;a href=&quot;https://www.gnu.org/philosophy/javascript-trap.html&quot;&gt;“JavaScript trap”&lt;/a&gt;. It spends only &lt;strong&gt;4 sentences discussing drawbacks of e-learning in a whole chapter&lt;/strong&gt;:&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;“The matrix structure is controversial because of the dual chain of command. However, the matrix can be highly effective in a complex, rapidly changing environment in which the organization needs to be flexible and adaptable…”&lt;/p&gt;
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img src=&quot;/assets/img/elearn.png&quot; alt=&quot;Drawbacks of E-learning&quot; /&gt;
+	&lt;figcaption&gt;Source: Rainer and Cegielski &quot;Information Systems for Business&quot;&lt;/figcaption&gt;
+&lt;/figure&gt;
 
-&lt;p&gt;Technically, it does justice and uses 7 sentences to describe disadvantages and 4 sentences to describe advantages, but what I propose is to focus on these controversies and maximize the conflict content of any course.&lt;/p&gt;
+&lt;p&gt;In contrast to the above, &lt;em&gt;Commercial Law&lt;/em&gt;, for example, is very engaging to business students despite being a law course because it illustrates the incompatibilities between GATT’s MFN and FTA principles, it focuses on court cases which are intrinsically conflict stories.&lt;/p&gt;
 
-&lt;p&gt;Keegan’s “Global marketing” textbook uses a fancy phrase “Think globally, act locally” as a motto and tries to prove the case. I would suggest presenting the book as a conflict between liberal and conservative thought and how difficult it is to bring both to the consensus.&lt;/p&gt;
-
-&lt;p&gt;Rainer and Cegielski’s “Information Systems for Business” textbook endorses its tech optimism throughout the book. So, for example it doesn’t mention the disadvantages of Web 2.0, the “JavaScript trap”.&lt;/p&gt;
-
-&lt;h3 id=&quot;examples&quot;&gt;Examples&lt;/h3&gt;
-
-&lt;p&gt;International Law - MFN vs. FTA. Economics is the most popular business course - and it is a very definition of “dismal science” - pizza or cola, you face a trade off, there is no free lunch.&lt;/p&gt;
-
-&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
-
-&lt;p&gt;In conclusion, business courses should ideally be taught only at Master’s level for people with experience, but as long as we are willing to teach inexperienced undergrads, we have to make the material engaging and this can be done by injecting a dose of pessimism/conflict in the curriculum.&lt;/p&gt;
+&lt;p&gt;In conclusion, since freshman/sophomore undergraduate business students lack experience to relate with the curriculum, it will be healthy to inject a dose of pessimism/conflict into the courses to keep students engaged.&lt;/p&gt;
 </content>
  </entry>
  
@@ -75,10 +93,12 @@
    <updated>2017-12-12T00:00:00+00:00</updated>
    <id>http://0.0.0.0:4000/blog/2017/12/12/irf-ann</id>
    <content type="html">&lt;p&gt;This week I’ve been working on a research paper based on a very simple idea which, hopefully, can solve an important problem in applying machine learning techniques in economics — the interpretability. So, if you recall, the neural networks is the generalization of a logit model where sigmoid of a linear combination of inputs is used iteratively.&lt;/p&gt;
+
 &lt;figure class=&quot;blog&quot;&gt;
 	&lt;img src=&quot;/assets/img/ann.png&quot; alt=&quot;Generalization of Logit&quot; /&gt;
 	&lt;figcaption&gt;ANN as a generalization of logit&lt;/figcaption&gt;
 &lt;/figure&gt;
+
 &lt;p&gt;So, the problem with applying this model to economics problems is that the information is distributed among neurons and one cannot tell the causal effect of any given input variable on the variable of interest. So, I proposed a very simple solution: after having computed all of the weights using backpropagation, we need to do the following: use sparce vectors [1,0,0,0,…,0], [0,1,0,0,0,…,0],….,[0,0,0,0,…,1] and feed them to the network. The output will give the effects of any individual input variable to the output variable. This method is called Impulse Response Function Analysis in Economics and has much use in VAR models.&lt;/p&gt;
 
 &lt;p&gt;In conclusion, since simple doesn’t mean trivial, I believe this simple workaround is an important contribution to the economic analysis.&lt;/p&gt;
