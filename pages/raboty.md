@@ -1,7 +1,7 @@
 ---
 layout: pageru
 title: Портфолио и Публикации 
-permalink: /ru/works
+permalink: raboty
 ---
 
 ## Протфолио

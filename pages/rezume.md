@@ -1,7 +1,7 @@
 ---
 layout: pageru
 title: Резюме 
-permalink: /ru/cv
+permalink: /rezume
 ---
 
 Скачать [pdf-версию](/assets/cv.pdf).

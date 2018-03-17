@@ -1,7 +1,7 @@
 ---
 layout: pageru
 title: Связаться 
-permalink: /ru/contact
+permalink: /kontakt
 ---
 
 Я веду канал на Telegram ["Блог экономиста"](http://t.me/econblog).  

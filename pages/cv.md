@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Ravshanbek Khodzhimatov
-permalink: cv
+permalink: /cv
 ---
 
 The pdf version is available [here](/assets/cv.pdf).
