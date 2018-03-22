@@ -16,6 +16,6 @@ No matter what social media experts will tell you, people still respect expertis
 
 > **If people have thoughts they think worth sharing, they will comment without you asking them to**
 
-Here is my solution: use CTAs but use them differently, in expert way: *"if you have questions/didn't understand/wan't me to continue writing on this topic, ask me in comments"*. The message should be that you know what you are talking about and some random thoughts in comments won't easily change your view on the topic. Of course this also means that if you are not an expert, then don't waste everyone's time by your useless piece of graphomania.  
+Here is my solution: use CTAs but use them differently, in an expert way: *"if you have questions/didn't understand/wan't me to continue writing on this topic, ask me in comments"*. The message should be that you know what you are talking about and some random thoughts in comments won't easily change your view on the topic. Of course this also means that if you are not an expert, then don't waste everyone's time by your useless piece of graphomania.  
 
 **What about expert debates in comments?** Simple, I suggest that if an expert happens to read your post and have some important thoughts, he has to write them up elaborately in a new article and share the link with you - expert debates shouldn't happen in comments. Anyway, even if the expert wants to write a comment, he will do that without you asking to *"please share your thoughts"*
