@@ -8,7 +8,7 @@ Almost every blogging tutorial suggests you to end your posts with the so-called
 
 > **Never end your blog post encouraging to share thoughts in comments**
 
-Unless I am reading a Tumblr post about some poetry piece my friend has written, I won't even click on posts about some topics I am already an expert in. Indeed, I will think "what could this post teach me that I don't know already?" and skip it. So, here is my point: unless you are an internet addict or really bored you won't open an article to comment on it, you will open it to learn something or just enjoy your writing style.  
+Unless I am reading a Tumblr post about some poetry piece my friend has written, I won't even click on posts about some topics I am already an expert in. Indeed, I will think "what could this post teach me that I don't know already?" and skip it. So, here is my point: unless you are an internet addict or really bored you won't open an article to comment on it, you will open it to learn something or just enjoy author's writing style.  
 
 > **Normal people click on your article to read it, not to comment on it**
 
