@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Ravshan S.K.</title>
- <link href="http://0.0.0.0:4000/atom.xml" rel="self"/>
- <link href="http://0.0.0.0:4000/"/>
- <updated>2018-03-19T21:12:03+00:00</updated>
- <id>http://0.0.0.0:4000</id>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2018-03-24T21:58:56+03:00</updated>
+ <id>http://localhost:4000</id>
  <author>
    <name>Ravshanbek Khodzhimatov</name>
    <email>rsk@ravshansk.com</email>
@@ -13,19 +13,833 @@
 
  
  <entry>
+   <title>Nocomment Blogs_md</title>
+   <link href="http://localhost:4000/doc/blog/2018/03/22/nocomment-blogs_md/"/>
+   <updated>2018-03-22T00:00:00+03:00</updated>
+   <id>http://localhost:4000/doc/blog/2018/03/22/nocomment-blogs_md</id>
+   <content type="html">&lt;!DOCTYPE html&gt;
+
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;UTF-8&quot;&gt;
+
+&lt;title&gt;2018-3-22-nocomment-blogs - RDoc Documentation&lt;/title&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+  var rdoc_rel_prefix = &quot;../../&quot;;
+  var index_rel_prefix = &quot;../../&quot;;
+&lt;/script&gt;
+
+&lt;script src=&quot;../../js/jquery.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;../../js/darkfish.js&quot;&gt;&lt;/script&gt;
+
+&lt;link href=&quot;../../css/fonts.css&quot; rel=&quot;stylesheet&quot;&gt;
+&lt;link href=&quot;../../css/rdoc.css&quot; rel=&quot;stylesheet&quot;&gt;
+
+
+
+&lt;body id=&quot;top&quot; role=&quot;document&quot; class=&quot;file&quot;&gt;
+&lt;nav role=&quot;navigation&quot;&gt;
+  &lt;div id=&quot;project-navigation&quot;&gt;
+    &lt;div id=&quot;home-section&quot; role=&quot;region&quot; title=&quot;Quick navigation&quot; class=&quot;nav-section&quot;&gt;
+  &lt;h2&gt;
+    &lt;a href=&quot;../../index.html&quot; rel=&quot;home&quot;&gt;Home&lt;/a&gt;
+  &lt;/h2&gt;
+
+  &lt;div id=&quot;table-of-contents-navigation&quot;&gt;
+    &lt;a href=&quot;../../table_of_contents.html#pages&quot;&gt;Pages&lt;/a&gt;
+    &lt;a href=&quot;../../table_of_contents.html#classes&quot;&gt;Classes&lt;/a&gt;
+    &lt;a href=&quot;../../table_of_contents.html#methods&quot;&gt;Methods&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+    &lt;div id=&quot;search-section&quot; role=&quot;search&quot; class=&quot;project-section initially-hidden&quot;&gt;
+  &lt;form action=&quot;#&quot; method=&quot;get&quot; accept-charset=&quot;utf-8&quot;&gt;
+    &lt;div id=&quot;search-field-wrapper&quot;&gt;
+      &lt;input id=&quot;search-field&quot; role=&quot;combobox&quot; aria-label=&quot;Search&quot;
+             aria-autocomplete=&quot;list&quot; aria-controls=&quot;search-results&quot;
+             type=&quot;text&quot; name=&quot;search&quot; placeholder=&quot;Search&quot; spellcheck=&quot;false&quot;
+             title=&quot;Type to search, Up and Down to navigate, Enter to load&quot;&gt;
+    &lt;/div&gt;
+
+    &lt;ul id=&quot;search-results&quot; aria-label=&quot;Search Results&quot;
+        aria-busy=&quot;false&quot; aria-expanded=&quot;false&quot;
+        aria-atomic=&quot;false&quot; class=&quot;initially-hidden&quot;&gt;&lt;/ul&gt;
+  &lt;/form&gt;
+&lt;/div&gt;
+
+  &lt;/div&gt;
+
+  
+
+  &lt;div id=&quot;project-metadata&quot;&gt;
+    &lt;div id=&quot;fileindex-section&quot; class=&quot;nav-section&quot;&gt;
+  &lt;h3&gt;Pages&lt;/h3&gt;
+
+  &lt;ul class=&quot;link-list&quot;&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../CNAME.html&quot;&gt;CNAME&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../Gemfile.html&quot;&gt;Gemfile&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../Gemfile_lock.html&quot;&gt;Gemfile.lock&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../README_md.html&quot;&gt;README&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_Dockerfile.html&quot;&gt;_Dockerfile&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_includes/analytics_html.html&quot;&gt;analytics.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_includes/head_html.html&quot;&gt;head.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_layouts/default_html.html&quot;&gt;default.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_layouts/page_html.html&quot;&gt;page.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_layouts/pageru_html.html&quot;&gt;pageru.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_layouts/post_html.html&quot;&gt;post.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_layouts/russian_html.html&quot;&gt;russian.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/404_html.html&quot;&gt;404.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/CNAME.html&quot;&gt;CNAME&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/README_md.html&quot;&gt;README&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/all-posts_json.html&quot;&gt;all-posts.json&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/assets/css/main_css.html&quot;&gt;main.css&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/assets/css/syntax_css.html&quot;&gt;syntax.css&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/assets/ftp/xtcointreg_ado.html&quot;&gt;xtcointreg.ado&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/atom_xml.html&quot;&gt;atom.xml&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/blog/2017/12/12/irf-ann/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/blog/2018/01/01/xtcointreg/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/blog/2018/02/07/pessimism-in-bba/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/blog/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/blogru/2018/02/20/telegramblog/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/blogru/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/collaborate_html.html&quot;&gt;collaborate.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/contact_html.html&quot;&gt;contact.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/cv_html.html&quot;&gt;cv.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/js/infinite-jekyll_js.html&quot;&gt;infinite-jekyll.js&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/kontakt_html.html&quot;&gt;kontakt.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/naym_html.html&quot;&gt;naym.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/raboty_html.html&quot;&gt;raboty.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/rezume_html.html&quot;&gt;rezume.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/robots_txt.html&quot;&gt;robots&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/ru_html.html&quot;&gt;ru.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/sitemap_xml.html&quot;&gt;sitemap.xml&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/works_html.html&quot;&gt;works.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../assets/css/main_css.html&quot;&gt;main.css&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../assets/css/syntax_css.html&quot;&gt;syntax.css&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../assets/ftp/xtcointreg_ado.html&quot;&gt;xtcointreg.ado&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../atom_xml.html&quot;&gt;atom.xml&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../blog/_posts/2017-12-12-irf-ann_md.html&quot;&gt;2017-12-12-irf-ann&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../blog/_posts/2018-1-1-xtcointreg_md.html&quot;&gt;2018-1-1-xtcointreg&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../blog/_posts/2018-2-7-pessimism-in-bba_md.html&quot;&gt;2018-2-7-pessimism-in-bba&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../blog/_posts/2018-3-22-nocomment-blogs_md.html&quot;&gt;2018-3-22-nocomment-blogs&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../blog/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../blogru/_posts/2018-2-20-telegramblog_md.html&quot;&gt;2018-2-20-telegramblog&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../blogru/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/404_html.html&quot;&gt;404.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/about_md.html&quot;&gt;about&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/collab_md.html&quot;&gt;collab&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/contact_md.html&quot;&gt;contact&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/cv_md.html&quot;&gt;cv&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/kontakt_md.html&quot;&gt;kontakt&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/naym_md.html&quot;&gt;naym&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/obomne_md.html&quot;&gt;obomne&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/raboty_md.html&quot;&gt;raboty&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/rezume_md.html&quot;&gt;rezume&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/works_md.html&quot;&gt;works&lt;/a&gt;
+  
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/nav&gt;
+
+&lt;main role=&quot;main&quot; aria-label=&quot;Page blog/_posts/2018-3-22-nocomment-blogs.md&quot;&gt;
+
+&lt;p&gt;— layout: post title: This is how you should never end your blog posts&lt;/p&gt;
+
+&lt;h2 id=&quot;label-lang-3A+english&quot;&gt;lang: english&lt;span&gt;&lt;a href=&quot;#label-lang-3A+english&quot;&gt;&amp;para;&lt;/a&gt; &lt;a href=&quot;#top&quot;&gt;&amp;uarr;&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;
+
+&lt;p&gt;Almost every blogging tutorial suggests you to end your posts with the
+so-called CTAs (call-to-action). They say that encouraging your readers to
+comment will help to promote your blog. Most bloggers seem to miss the
+point and use phrases like &lt;em&gt;“and what do you think?”, “share your
+thoughts in comments”&lt;/em&gt;. For sure, commenting increases indexation of
+your page and solidifies your audience, but this only happens if comments
+come organically. I will now elaborate on my claim.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Never end your blog post encouraging to share thoughts in
+comments&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Unless I am reading a Tumblr post about some poetry piece my friend has
+written, I won&amp;#39;t even click on posts about some topics I am already an
+expert in. Indeed, I will think “what could this post teach me that I
+don&amp;#39;t know already?” and skip it. So, here is my point: unless you are
+an internet addict or really bored you won&amp;#39;t open an article to comment
+on it, you will open it to learn something or just enjoy author&amp;#39;s
+writing style.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Normal people click on your article to read it, not to comment on
+it&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;No matter what social media experts will tell you, people still respect
+expertise - academic journals and printed newspapers are still being
+published, television and radio are still broadcasting although none of
+them have one-click feedback mechanism. The same thing goes with the blog
+posts: I hate reading a very long complicated technical post comparing two
+laptops which ends with &lt;em&gt;“and what do you think? write in
+comments.”&lt;/em&gt; This immediately kills a confidence in everything an author
+has written above. I get an impression that the author isn&amp;#39;t sure about
+what he&amp;#39;s talking about and isn&amp;#39;t an expert in this field. This
+wouldn&amp;#39;t be a problem if I knew the topic myself, I would just evaluate
+the article in my mind and go on, but the problem is that I don&amp;#39;t click
+on topics that I am an expert in - I click on topics in which I am a newbie
+and want some expert to give me an expositive summary. Would you imagine
+the disappointment when at the end of a long read I see an out-of-place
+call-to-action asking me what I think? Well, I don&amp;#39;t think anything! I
+am a novice, it is you who should be telling me what to know, how to think.
+Can you imagine a primary school teacher asking children at the end of a
+math class: “2 times 2 equals 4. What do you think about that?” I
+can&amp;#39;t.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;If people have thoughts they think worth sharing, they will comment
+without you asking them to&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Here is my solution: use CTAs but use them differently, in an expert way:
+&lt;em&gt;“if you have questions/didn&amp;#39;t understand/wan&amp;#39;t me to continue
+writing on this topic, ask me in comments”&lt;/em&gt;. The message should be that
+you know what you are talking about and some random thoughts in comments
+won&amp;#39;t easily change your view on the topic. Of course this also means
+that if you are not an expert, then don&amp;#39;t waste everyone&amp;#39;s time by
+your useless piece of graphomania.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What about expert debates in comments?&lt;/strong&gt; Simple, I suggest
+that if an expert happens to read your post and have some important
+thoughts, he has to write them up elaborately in a new article and share
+the link with you - expert debates shouldn&amp;#39;t happen in comments.
+Anyway, even if the expert wants to write a comment, he will do that
+without you asking to &lt;em&gt;“please share your thoughts”&lt;/em&gt;&lt;/p&gt;
+&lt;/main&gt;
+
+
+
+&lt;footer id=&quot;validator-badges&quot; role=&quot;contentinfo&quot;&gt;
+  &lt;p&gt;&lt;a href=&quot;https://validator.w3.org/check/referer&quot;&gt;Validate&lt;/a&gt;
+  &lt;p&gt;Generated by &lt;a href=&quot;https://ruby.github.io/rdoc/&quot;&gt;RDoc&lt;/a&gt; 6.0.1.
+  &lt;p&gt;Based on &lt;a href=&quot;http://deveiate.org/projects/Darkfish-RDoc/&quot;&gt;Darkfish&lt;/a&gt; by &lt;a href=&quot;http://deveiate.org&quot;&gt;Michael Granger&lt;/a&gt;.
+&lt;/footer&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>This is how you should never end your blog posts</title>
+   <link href="http://localhost:4000/blog/2018/03/22/nocomment-blogs/"/>
+   <updated>2018-03-22T00:00:00+03:00</updated>
+   <id>http://localhost:4000/blog/2018/03/22/nocomment-blogs</id>
+   <content type="html">&lt;p&gt;Almost every blogging tutorial suggests you to end your posts with the so-called CTAs (call-to-action). They say that encouraging your readers to comment will help to promote your blog. Most bloggers seem to miss the point and use phrases like &lt;em&gt;“and what do you think?”, “share your thoughts in comments”&lt;/em&gt;. For sure, commenting increases indexation of your page and solidifies your audience, but this only happens if comments come organically. I will now elaborate on my claim.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Never end your blog post encouraging to share thoughts in comments&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Unless I am reading a Tumblr post about some poetry piece my friend has written, I won’t even click on posts about some topics I am already an expert in. Indeed, I will think “what could this post teach me that I don’t know already?” and skip it. So, here is my point: unless you are an internet addict or really bored you won’t open an article to comment on it, you will open it to learn something or just enjoy author’s writing style.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Normal people click on your article to read it, not to comment on it&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;No matter what social media experts will tell you, people still respect expertise - academic journals and printed newspapers are still being published, television and radio are still broadcasting although none of them have one-click feedback mechanism. The same thing goes with the blog posts: I hate reading a very long complicated technical post comparing two laptops which ends with &lt;em&gt;“and what do you think? write in comments.”&lt;/em&gt; This immediately kills a confidence in everything an author has written above. I get an impression that the author isn’t sure about what he’s talking about and isn’t an expert in this field. This wouldn’t be a problem if I knew the topic myself, I would just evaluate the article in my mind and go on, but the problem is that I don’t click on topics that I am an expert in - I click on topics in which I am a newbie and want some expert to give me an expositive summary. Would you imagine the disappointment when at the end of a long read I see an out-of-place call-to-action asking me what I think? Well, I don’t think anything! I am a novice, it is you who should be telling me what to know, how to think. Can you imagine a primary school teacher asking children at the end of a math class: “2 times 2 equals 4. What do you think about that?” I can’t.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;If people have thoughts they think worth sharing, they will comment without you asking them to&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Here is my solution: use CTAs but use them differently, in an expert way: &lt;em&gt;“if you have questions/didn’t understand/wan’t me to continue writing on this topic, ask me in comments”&lt;/em&gt;. The message should be that you know what you are talking about and some random thoughts in comments won’t easily change your view on the topic. Of course this also means that if you are not an expert, then don’t waste everyone’s time by your useless piece of graphomania.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What about expert debates in comments?&lt;/strong&gt; Simple, I suggest that if an expert happens to read your post and have some important thoughts, he has to write them up elaborately in a new article and share the link with you - expert debates shouldn’t happen in comments. Anyway, even if the expert wants to write a comment, he will do that without you asking to &lt;em&gt;“please share your thoughts”&lt;/em&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Telegramblog_md</title>
+   <link href="http://localhost:4000/doc/blogru/2018/02/20/telegramblog_md/"/>
+   <updated>2018-02-20T00:00:00+03:00</updated>
+   <id>http://localhost:4000/doc/blogru/2018/02/20/telegramblog_md</id>
+   <content type="html">&lt;!DOCTYPE html&gt;
+
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;UTF-8&quot;&gt;
+
+&lt;title&gt;2018-2-20-telegramblog - RDoc Documentation&lt;/title&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+  var rdoc_rel_prefix = &quot;../../&quot;;
+  var index_rel_prefix = &quot;../../&quot;;
+&lt;/script&gt;
+
+&lt;script src=&quot;../../js/jquery.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;../../js/darkfish.js&quot;&gt;&lt;/script&gt;
+
+&lt;link href=&quot;../../css/fonts.css&quot; rel=&quot;stylesheet&quot;&gt;
+&lt;link href=&quot;../../css/rdoc.css&quot; rel=&quot;stylesheet&quot;&gt;
+
+
+
+&lt;body id=&quot;top&quot; role=&quot;document&quot; class=&quot;file&quot;&gt;
+&lt;nav role=&quot;navigation&quot;&gt;
+  &lt;div id=&quot;project-navigation&quot;&gt;
+    &lt;div id=&quot;home-section&quot; role=&quot;region&quot; title=&quot;Quick navigation&quot; class=&quot;nav-section&quot;&gt;
+  &lt;h2&gt;
+    &lt;a href=&quot;../../index.html&quot; rel=&quot;home&quot;&gt;Home&lt;/a&gt;
+  &lt;/h2&gt;
+
+  &lt;div id=&quot;table-of-contents-navigation&quot;&gt;
+    &lt;a href=&quot;../../table_of_contents.html#pages&quot;&gt;Pages&lt;/a&gt;
+    &lt;a href=&quot;../../table_of_contents.html#classes&quot;&gt;Classes&lt;/a&gt;
+    &lt;a href=&quot;../../table_of_contents.html#methods&quot;&gt;Methods&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+    &lt;div id=&quot;search-section&quot; role=&quot;search&quot; class=&quot;project-section initially-hidden&quot;&gt;
+  &lt;form action=&quot;#&quot; method=&quot;get&quot; accept-charset=&quot;utf-8&quot;&gt;
+    &lt;div id=&quot;search-field-wrapper&quot;&gt;
+      &lt;input id=&quot;search-field&quot; role=&quot;combobox&quot; aria-label=&quot;Search&quot;
+             aria-autocomplete=&quot;list&quot; aria-controls=&quot;search-results&quot;
+             type=&quot;text&quot; name=&quot;search&quot; placeholder=&quot;Search&quot; spellcheck=&quot;false&quot;
+             title=&quot;Type to search, Up and Down to navigate, Enter to load&quot;&gt;
+    &lt;/div&gt;
+
+    &lt;ul id=&quot;search-results&quot; aria-label=&quot;Search Results&quot;
+        aria-busy=&quot;false&quot; aria-expanded=&quot;false&quot;
+        aria-atomic=&quot;false&quot; class=&quot;initially-hidden&quot;&gt;&lt;/ul&gt;
+  &lt;/form&gt;
+&lt;/div&gt;
+
+  &lt;/div&gt;
+
+  
+
+  &lt;div id=&quot;project-metadata&quot;&gt;
+    &lt;div id=&quot;fileindex-section&quot; class=&quot;nav-section&quot;&gt;
+  &lt;h3&gt;Pages&lt;/h3&gt;
+
+  &lt;ul class=&quot;link-list&quot;&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../CNAME.html&quot;&gt;CNAME&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../Gemfile.html&quot;&gt;Gemfile&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../Gemfile_lock.html&quot;&gt;Gemfile.lock&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../README_md.html&quot;&gt;README&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_Dockerfile.html&quot;&gt;_Dockerfile&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_includes/analytics_html.html&quot;&gt;analytics.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_includes/head_html.html&quot;&gt;head.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_layouts/default_html.html&quot;&gt;default.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_layouts/page_html.html&quot;&gt;page.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_layouts/pageru_html.html&quot;&gt;pageru.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_layouts/post_html.html&quot;&gt;post.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_layouts/russian_html.html&quot;&gt;russian.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/404_html.html&quot;&gt;404.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/CNAME.html&quot;&gt;CNAME&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/README_md.html&quot;&gt;README&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/all-posts_json.html&quot;&gt;all-posts.json&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/assets/css/main_css.html&quot;&gt;main.css&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/assets/css/syntax_css.html&quot;&gt;syntax.css&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/assets/ftp/xtcointreg_ado.html&quot;&gt;xtcointreg.ado&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/atom_xml.html&quot;&gt;atom.xml&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/blog/2017/12/12/irf-ann/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/blog/2018/01/01/xtcointreg/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/blog/2018/02/07/pessimism-in-bba/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/blog/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/blogru/2018/02/20/telegramblog/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/blogru/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/collaborate_html.html&quot;&gt;collaborate.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/contact_html.html&quot;&gt;contact.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/cv_html.html&quot;&gt;cv.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/js/infinite-jekyll_js.html&quot;&gt;infinite-jekyll.js&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/kontakt_html.html&quot;&gt;kontakt.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/naym_html.html&quot;&gt;naym.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/raboty_html.html&quot;&gt;raboty.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/rezume_html.html&quot;&gt;rezume.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/robots_txt.html&quot;&gt;robots&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/ru_html.html&quot;&gt;ru.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/sitemap_xml.html&quot;&gt;sitemap.xml&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/works_html.html&quot;&gt;works.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../assets/css/main_css.html&quot;&gt;main.css&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../assets/css/syntax_css.html&quot;&gt;syntax.css&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../assets/ftp/xtcointreg_ado.html&quot;&gt;xtcointreg.ado&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../atom_xml.html&quot;&gt;atom.xml&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../blog/_posts/2017-12-12-irf-ann_md.html&quot;&gt;2017-12-12-irf-ann&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../blog/_posts/2018-1-1-xtcointreg_md.html&quot;&gt;2018-1-1-xtcointreg&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../blog/_posts/2018-2-7-pessimism-in-bba_md.html&quot;&gt;2018-2-7-pessimism-in-bba&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../blog/_posts/2018-3-22-nocomment-blogs_md.html&quot;&gt;2018-3-22-nocomment-blogs&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../blog/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../blogru/_posts/2018-2-20-telegramblog_md.html&quot;&gt;2018-2-20-telegramblog&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../blogru/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/404_html.html&quot;&gt;404.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/about_md.html&quot;&gt;about&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/collab_md.html&quot;&gt;collab&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/contact_md.html&quot;&gt;contact&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/cv_md.html&quot;&gt;cv&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/kontakt_md.html&quot;&gt;kontakt&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/naym_md.html&quot;&gt;naym&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/obomne_md.html&quot;&gt;obomne&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/raboty_md.html&quot;&gt;raboty&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/rezume_md.html&quot;&gt;rezume&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/works_md.html&quot;&gt;works&lt;/a&gt;
+  
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/nav&gt;
+
+&lt;main role=&quot;main&quot; aria-label=&quot;Page blogru/_posts/2018-2-20-telegramblog.md&quot;&gt;
+
+&lt;p&gt;— layout: post title: Новый канал в Telegram&lt;/p&gt;
+
+&lt;h2 id=&quot;label-lang-3A+russian&quot;&gt;lang: russian&lt;span&gt;&lt;a href=&quot;#label-lang-3A+russian&quot;&gt;&amp;para;&lt;/a&gt; &lt;a href=&quot;#top&quot;&gt;&amp;uarr;&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;
+
+&lt;p&gt;Всем привет! Я открыл новый канал в Telegram об экономике. Он доступен по
+ссылке &lt;a href=&quot;http://t.me/econblog&quot;&gt;t.me/econblog&lt;/a&gt; Это не будет канал
+с перепостами новостей и рекламой. Это будет интересный просветительский
+канал от эксперта своего дела для взрослых думающих людей. Мучать терминами
+и математикой не буду. Но философию и историю иногда буду упоминать.
+Подписывайтесь!&lt;/p&gt;
+&lt;/main&gt;
+
+
+
+&lt;footer id=&quot;validator-badges&quot; role=&quot;contentinfo&quot;&gt;
+  &lt;p&gt;&lt;a href=&quot;https://validator.w3.org/check/referer&quot;&gt;Validate&lt;/a&gt;
+  &lt;p&gt;Generated by &lt;a href=&quot;https://ruby.github.io/rdoc/&quot;&gt;RDoc&lt;/a&gt; 6.0.1.
+  &lt;p&gt;Based on &lt;a href=&quot;http://deveiate.org/projects/Darkfish-RDoc/&quot;&gt;Darkfish&lt;/a&gt; by &lt;a href=&quot;http://deveiate.org&quot;&gt;Michael Granger&lt;/a&gt;.
+&lt;/footer&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
    <title>Новый канал в Telegram</title>
-   <link href="http://0.0.0.0:4000/blogru/2018/02/20/telegramblog/"/>
-   <updated>2018-02-20T00:00:00+00:00</updated>
-   <id>http://0.0.0.0:4000/blogru/2018/02/20/telegramblog</id>
+   <link href="http://localhost:4000/blogru/2018/02/20/telegramblog/"/>
+   <updated>2018-02-20T00:00:00+03:00</updated>
+   <id>http://localhost:4000/blogru/2018/02/20/telegramblog</id>
    <content type="html">&lt;p&gt;Всем привет! Я открыл новый канал в Telegram об экономике. Он доступен по ссылке &lt;a href=&quot;http://t.me/econblog&quot;&gt;t.me/econblog&lt;/a&gt; Это не будет канал с перепостами новостей и рекламой. Это будет интересный просветительский канал от эксперта своего дела для взрослых думающих людей. Мучать терминами и математикой не буду. Но философию и историю иногда буду упоминать. Подписывайтесь!&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
+   <title>Pessimism In Bba_md</title>
+   <link href="http://localhost:4000/doc/blog/2018/02/07/pessimism-in-bba_md/"/>
+   <updated>2018-02-07T00:00:00+03:00</updated>
+   <id>http://localhost:4000/doc/blog/2018/02/07/pessimism-in-bba_md</id>
+   <content type="html">&lt;!DOCTYPE html&gt;
+
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;UTF-8&quot;&gt;
+
+&lt;title&gt;2018-2-7-pessimism-in-bba - RDoc Documentation&lt;/title&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+  var rdoc_rel_prefix = &quot;../../&quot;;
+  var index_rel_prefix = &quot;../../&quot;;
+&lt;/script&gt;
+
+&lt;script src=&quot;../../js/jquery.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;../../js/darkfish.js&quot;&gt;&lt;/script&gt;
+
+&lt;link href=&quot;../../css/fonts.css&quot; rel=&quot;stylesheet&quot;&gt;
+&lt;link href=&quot;../../css/rdoc.css&quot; rel=&quot;stylesheet&quot;&gt;
+
+
+
+&lt;body id=&quot;top&quot; role=&quot;document&quot; class=&quot;file&quot;&gt;
+&lt;nav role=&quot;navigation&quot;&gt;
+  &lt;div id=&quot;project-navigation&quot;&gt;
+    &lt;div id=&quot;home-section&quot; role=&quot;region&quot; title=&quot;Quick navigation&quot; class=&quot;nav-section&quot;&gt;
+  &lt;h2&gt;
+    &lt;a href=&quot;../../index.html&quot; rel=&quot;home&quot;&gt;Home&lt;/a&gt;
+  &lt;/h2&gt;
+
+  &lt;div id=&quot;table-of-contents-navigation&quot;&gt;
+    &lt;a href=&quot;../../table_of_contents.html#pages&quot;&gt;Pages&lt;/a&gt;
+    &lt;a href=&quot;../../table_of_contents.html#classes&quot;&gt;Classes&lt;/a&gt;
+    &lt;a href=&quot;../../table_of_contents.html#methods&quot;&gt;Methods&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+    &lt;div id=&quot;search-section&quot; role=&quot;search&quot; class=&quot;project-section initially-hidden&quot;&gt;
+  &lt;form action=&quot;#&quot; method=&quot;get&quot; accept-charset=&quot;utf-8&quot;&gt;
+    &lt;div id=&quot;search-field-wrapper&quot;&gt;
+      &lt;input id=&quot;search-field&quot; role=&quot;combobox&quot; aria-label=&quot;Search&quot;
+             aria-autocomplete=&quot;list&quot; aria-controls=&quot;search-results&quot;
+             type=&quot;text&quot; name=&quot;search&quot; placeholder=&quot;Search&quot; spellcheck=&quot;false&quot;
+             title=&quot;Type to search, Up and Down to navigate, Enter to load&quot;&gt;
+    &lt;/div&gt;
+
+    &lt;ul id=&quot;search-results&quot; aria-label=&quot;Search Results&quot;
+        aria-busy=&quot;false&quot; aria-expanded=&quot;false&quot;
+        aria-atomic=&quot;false&quot; class=&quot;initially-hidden&quot;&gt;&lt;/ul&gt;
+  &lt;/form&gt;
+&lt;/div&gt;
+
+  &lt;/div&gt;
+
+  
+
+  &lt;div id=&quot;project-metadata&quot;&gt;
+    &lt;div id=&quot;fileindex-section&quot; class=&quot;nav-section&quot;&gt;
+  &lt;h3&gt;Pages&lt;/h3&gt;
+
+  &lt;ul class=&quot;link-list&quot;&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../CNAME.html&quot;&gt;CNAME&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../Gemfile.html&quot;&gt;Gemfile&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../Gemfile_lock.html&quot;&gt;Gemfile.lock&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../README_md.html&quot;&gt;README&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_Dockerfile.html&quot;&gt;_Dockerfile&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_includes/analytics_html.html&quot;&gt;analytics.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_includes/head_html.html&quot;&gt;head.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_layouts/default_html.html&quot;&gt;default.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_layouts/page_html.html&quot;&gt;page.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_layouts/pageru_html.html&quot;&gt;pageru.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_layouts/post_html.html&quot;&gt;post.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_layouts/russian_html.html&quot;&gt;russian.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/404_html.html&quot;&gt;404.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/CNAME.html&quot;&gt;CNAME&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/README_md.html&quot;&gt;README&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/all-posts_json.html&quot;&gt;all-posts.json&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/assets/css/main_css.html&quot;&gt;main.css&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/assets/css/syntax_css.html&quot;&gt;syntax.css&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/assets/ftp/xtcointreg_ado.html&quot;&gt;xtcointreg.ado&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/atom_xml.html&quot;&gt;atom.xml&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/blog/2017/12/12/irf-ann/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/blog/2018/01/01/xtcointreg/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/blog/2018/02/07/pessimism-in-bba/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/blog/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/blogru/2018/02/20/telegramblog/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/blogru/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/collaborate_html.html&quot;&gt;collaborate.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/contact_html.html&quot;&gt;contact.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/cv_html.html&quot;&gt;cv.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/js/infinite-jekyll_js.html&quot;&gt;infinite-jekyll.js&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/kontakt_html.html&quot;&gt;kontakt.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/naym_html.html&quot;&gt;naym.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/raboty_html.html&quot;&gt;raboty.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/rezume_html.html&quot;&gt;rezume.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/robots_txt.html&quot;&gt;robots&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/ru_html.html&quot;&gt;ru.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/sitemap_xml.html&quot;&gt;sitemap.xml&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/works_html.html&quot;&gt;works.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../assets/css/main_css.html&quot;&gt;main.css&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../assets/css/syntax_css.html&quot;&gt;syntax.css&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../assets/ftp/xtcointreg_ado.html&quot;&gt;xtcointreg.ado&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../atom_xml.html&quot;&gt;atom.xml&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../blog/_posts/2017-12-12-irf-ann_md.html&quot;&gt;2017-12-12-irf-ann&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../blog/_posts/2018-1-1-xtcointreg_md.html&quot;&gt;2018-1-1-xtcointreg&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../blog/_posts/2018-2-7-pessimism-in-bba_md.html&quot;&gt;2018-2-7-pessimism-in-bba&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../blog/_posts/2018-3-22-nocomment-blogs_md.html&quot;&gt;2018-3-22-nocomment-blogs&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../blog/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../blogru/_posts/2018-2-20-telegramblog_md.html&quot;&gt;2018-2-20-telegramblog&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../blogru/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/404_html.html&quot;&gt;404.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/about_md.html&quot;&gt;about&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/collab_md.html&quot;&gt;collab&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/contact_md.html&quot;&gt;contact&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/cv_md.html&quot;&gt;cv&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/kontakt_md.html&quot;&gt;kontakt&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/naym_md.html&quot;&gt;naym&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/obomne_md.html&quot;&gt;obomne&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/raboty_md.html&quot;&gt;raboty&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/rezume_md.html&quot;&gt;rezume&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/works_md.html&quot;&gt;works&lt;/a&gt;
+  
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/nav&gt;
+
+&lt;main role=&quot;main&quot; aria-label=&quot;Page blog/_posts/2018-2-7-pessimism-in-bba.md&quot;&gt;
+
+&lt;p&gt;— layout: post title: Business education needs a dose of pessimism&lt;/p&gt;
+
+&lt;h2 id=&quot;label-lang-3A+english&quot;&gt;lang: english&lt;span&gt;&lt;a href=&quot;#label-lang-3A+english&quot;&gt;&amp;para;&lt;/a&gt; &lt;a href=&quot;#top&quot;&gt;&amp;uarr;&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;
+
+&lt;p&gt;Undergraduate business education faces a lot of criticism spanning from
+lack of practical training to philosophical arguments that management
+shouldn&amp;#39;t be taught at undergraduate level at all. I cannot change the
+status quo and won&amp;#39;t try to repeat these statements - I will try to
+give a constructive feedback. What I propose in this article is very easy
+to implement: it will just require change in the attitude.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Since young business majors lack experience to relate with the
+curriculum, it will be healthy to inject a dose of pessimism into the
+courses to keep students engaged…&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I claim that undergraduate business education does not focus enough on the
+negative aspects of business environment. While this may be great for MBA
+students or rising seniors who have business experience or did internships
+and can relate to the subject matter of the textbooks, inexperienced
+undergrads have to visualize every aspect in their minds. This places
+reading a management textbook on the same ground as reading a fantasy novel
+- both build and explain new worlds. But as everyone would agree, &lt;em&gt;“The
+Lord of the Rings”&lt;/em&gt; is much more interesting than
+&lt;em&gt;“Silmarillion”&lt;/em&gt;, because while the former focuses on the conflict
+of races, the latter just explores &lt;em&gt;The Middle Earth&lt;/em&gt;. The same
+argument can be provided to explain why economics is the most popular
+course among business majors - its main topic is scarcity and tradeoffs,
+“you cannot have a free lunch”. To illustrate why current educational
+approach is not optimal, let&amp;#39;s look at a few examples.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+&lt;p&gt;Kotler and Keller in their &lt;em&gt;“Marketing Management”&lt;/em&gt; book introduce
+different marketing strategies and instead of discussing the tradeoffs,
+they propose “Holistic Marketing” which captures all of the strategies -
+there are no dilemmas.&lt;/p&gt;
+&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;&amp;lt;figure class=“blog”&amp;gt;  &amp;lt;img src=“/assets/img/holistic.png”
+alt=“Holistic Marketing”&amp;gt;  &amp;lt;figcaption&amp;gt;Source: Kotler and Keller
+“Marketing Management”&amp;lt;/figcaption&amp;gt; &amp;lt;/figure&amp;gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+&lt;p&gt;Richard Daft&amp;#39;s &lt;em&gt;&quot;New era of management&quot;&lt;/em&gt; calls the matrix
+structure of management &quot;controversial&quot; but spends only half of the
+paragraph about the disadvantages of the matrix structure. Technically, it
+does justice and uses &lt;strong&gt;7 sentences to describe disadvantages and 4
+sentences to describe advantages&lt;/strong&gt;, but what I propose is to focus
+on these controversies and tell &quot;how this structure struggles to exist
+despite the clear problems, which are, by the way, unsolvable&quot;.&lt;/p&gt;
+&lt;/li&gt;&lt;li&gt;
+&lt;p&gt;Keegan&amp;#39;s &lt;em&gt;&quot;Global marketing&quot;&lt;/em&gt; textbook uses a fancy phrase
+&lt;em&gt;&quot;Think globally, act locally&quot;&lt;/em&gt; as a motto and tries to prove the
+case throughout the book. I would suggest presenting the same idea in a
+darker manner, as conflict between liberal and conservative thought and how
+difficult it is to bring both to the consensus.&lt;/p&gt;
+&lt;/li&gt;&lt;li&gt;
+&lt;p&gt;Rainer and Cegielski&amp;#39;s &lt;em&gt;&quot;Information Systems for Business&quot;&lt;/em&gt;
+textbook endorses its tech optimism throughout the book. So, for example it
+doesn&amp;#39;t mention a single disadvantage of Web 2.0 or failure of
+Moore&amp;#39;s Law or the &lt;a
+href=&quot;https://www.gnu.org/philosophy/javascript-trap.html&quot;&gt;&quot;JavaScript
+trap&quot;&lt;/a&gt;. It spends only &lt;strong&gt;4 sentences discussing drawbacks of
+e-learning in a whole chapter&lt;/strong&gt;:&lt;/p&gt;
+&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;&amp;lt;figure class=“blog”&amp;gt;  &amp;lt;img src=“/assets/img/elearn.png”
+alt=“Drawbacks of E-learning”&amp;gt;  &amp;lt;figcaption&amp;gt;Source: Rainer and
+Cegielski “Information Systems for Business”&amp;lt;/figcaption&amp;gt;
+&amp;lt;/figure&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;In contrast to the above, &lt;em&gt;Commercial Law&lt;/em&gt;, for example, is very
+engaging to business students despite being a law course because it
+illustrates the incompatibilities between GATT&amp;#39;s MFN and FTA
+principles, it focuses on court cases which are intrinsically conflict
+stories.&lt;/p&gt;
+
+&lt;p&gt;In conclusion, since freshman/sophomore undergraduate business students
+lack experience to relate with the curriculum, it will be healthy to inject
+a dose of pessimism/conflict into the courses to keep students engaged.&lt;/p&gt;
+&lt;/main&gt;
+
+
+
+&lt;footer id=&quot;validator-badges&quot; role=&quot;contentinfo&quot;&gt;
+  &lt;p&gt;&lt;a href=&quot;https://validator.w3.org/check/referer&quot;&gt;Validate&lt;/a&gt;
+  &lt;p&gt;Generated by &lt;a href=&quot;https://ruby.github.io/rdoc/&quot;&gt;RDoc&lt;/a&gt; 6.0.1.
+  &lt;p&gt;Based on &lt;a href=&quot;http://deveiate.org/projects/Darkfish-RDoc/&quot;&gt;Darkfish&lt;/a&gt; by &lt;a href=&quot;http://deveiate.org&quot;&gt;Michael Granger&lt;/a&gt;.
+&lt;/footer&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
    <title>Business education needs a dose of pessimism</title>
-   <link href="http://0.0.0.0:4000/blog/2018/02/07/pessimism-in-bba/"/>
-   <updated>2018-02-07T00:00:00+00:00</updated>
-   <id>http://0.0.0.0:4000/blog/2018/02/07/pessimism-in-bba</id>
+   <link href="http://localhost:4000/blog/2018/02/07/pessimism-in-bba/"/>
+   <updated>2018-02-07T00:00:00+03:00</updated>
+   <id>http://localhost:4000/blog/2018/02/07/pessimism-in-bba</id>
    <content type="html">&lt;p&gt;Undergraduate business education faces a lot of criticism spanning from lack of practical training to philosophical arguments that management shouldn’t be taught at undergraduate level at all. I cannot change the status quo and won’t try to repeat these statements - I will try to give a constructive feedback. What I propose in this article is very easy to implement: it will just require change in the attitude.&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -67,10 +881,267 @@
  </entry>
  
  <entry>
+   <title>Xtcointreg_md</title>
+   <link href="http://localhost:4000/doc/blog/2018/01/01/xtcointreg_md/"/>
+   <updated>2018-01-01T00:00:00+03:00</updated>
+   <id>http://localhost:4000/doc/blog/2018/01/01/xtcointreg_md</id>
+   <content type="html">&lt;!DOCTYPE html&gt;
+
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;UTF-8&quot;&gt;
+
+&lt;title&gt;2018-1-1-xtcointreg - RDoc Documentation&lt;/title&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+  var rdoc_rel_prefix = &quot;../../&quot;;
+  var index_rel_prefix = &quot;../../&quot;;
+&lt;/script&gt;
+
+&lt;script src=&quot;../../js/jquery.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;../../js/darkfish.js&quot;&gt;&lt;/script&gt;
+
+&lt;link href=&quot;../../css/fonts.css&quot; rel=&quot;stylesheet&quot;&gt;
+&lt;link href=&quot;../../css/rdoc.css&quot; rel=&quot;stylesheet&quot;&gt;
+
+
+
+&lt;body id=&quot;top&quot; role=&quot;document&quot; class=&quot;file&quot;&gt;
+&lt;nav role=&quot;navigation&quot;&gt;
+  &lt;div id=&quot;project-navigation&quot;&gt;
+    &lt;div id=&quot;home-section&quot; role=&quot;region&quot; title=&quot;Quick navigation&quot; class=&quot;nav-section&quot;&gt;
+  &lt;h2&gt;
+    &lt;a href=&quot;../../index.html&quot; rel=&quot;home&quot;&gt;Home&lt;/a&gt;
+  &lt;/h2&gt;
+
+  &lt;div id=&quot;table-of-contents-navigation&quot;&gt;
+    &lt;a href=&quot;../../table_of_contents.html#pages&quot;&gt;Pages&lt;/a&gt;
+    &lt;a href=&quot;../../table_of_contents.html#classes&quot;&gt;Classes&lt;/a&gt;
+    &lt;a href=&quot;../../table_of_contents.html#methods&quot;&gt;Methods&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+    &lt;div id=&quot;search-section&quot; role=&quot;search&quot; class=&quot;project-section initially-hidden&quot;&gt;
+  &lt;form action=&quot;#&quot; method=&quot;get&quot; accept-charset=&quot;utf-8&quot;&gt;
+    &lt;div id=&quot;search-field-wrapper&quot;&gt;
+      &lt;input id=&quot;search-field&quot; role=&quot;combobox&quot; aria-label=&quot;Search&quot;
+             aria-autocomplete=&quot;list&quot; aria-controls=&quot;search-results&quot;
+             type=&quot;text&quot; name=&quot;search&quot; placeholder=&quot;Search&quot; spellcheck=&quot;false&quot;
+             title=&quot;Type to search, Up and Down to navigate, Enter to load&quot;&gt;
+    &lt;/div&gt;
+
+    &lt;ul id=&quot;search-results&quot; aria-label=&quot;Search Results&quot;
+        aria-busy=&quot;false&quot; aria-expanded=&quot;false&quot;
+        aria-atomic=&quot;false&quot; class=&quot;initially-hidden&quot;&gt;&lt;/ul&gt;
+  &lt;/form&gt;
+&lt;/div&gt;
+
+  &lt;/div&gt;
+
+  
+
+  &lt;div id=&quot;project-metadata&quot;&gt;
+    &lt;div id=&quot;fileindex-section&quot; class=&quot;nav-section&quot;&gt;
+  &lt;h3&gt;Pages&lt;/h3&gt;
+
+  &lt;ul class=&quot;link-list&quot;&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../CNAME.html&quot;&gt;CNAME&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../Gemfile.html&quot;&gt;Gemfile&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../Gemfile_lock.html&quot;&gt;Gemfile.lock&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../README_md.html&quot;&gt;README&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_Dockerfile.html&quot;&gt;_Dockerfile&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_includes/analytics_html.html&quot;&gt;analytics.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_includes/head_html.html&quot;&gt;head.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_layouts/default_html.html&quot;&gt;default.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_layouts/page_html.html&quot;&gt;page.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_layouts/pageru_html.html&quot;&gt;pageru.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_layouts/post_html.html&quot;&gt;post.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_layouts/russian_html.html&quot;&gt;russian.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/404_html.html&quot;&gt;404.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/CNAME.html&quot;&gt;CNAME&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/README_md.html&quot;&gt;README&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/all-posts_json.html&quot;&gt;all-posts.json&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/assets/css/main_css.html&quot;&gt;main.css&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/assets/css/syntax_css.html&quot;&gt;syntax.css&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/assets/ftp/xtcointreg_ado.html&quot;&gt;xtcointreg.ado&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/atom_xml.html&quot;&gt;atom.xml&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/blog/2017/12/12/irf-ann/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/blog/2018/01/01/xtcointreg/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/blog/2018/02/07/pessimism-in-bba/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/blog/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/blogru/2018/02/20/telegramblog/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/blogru/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/collaborate_html.html&quot;&gt;collaborate.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/contact_html.html&quot;&gt;contact.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/cv_html.html&quot;&gt;cv.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/js/infinite-jekyll_js.html&quot;&gt;infinite-jekyll.js&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/kontakt_html.html&quot;&gt;kontakt.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/naym_html.html&quot;&gt;naym.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/raboty_html.html&quot;&gt;raboty.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/rezume_html.html&quot;&gt;rezume.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/robots_txt.html&quot;&gt;robots&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/ru_html.html&quot;&gt;ru.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/sitemap_xml.html&quot;&gt;sitemap.xml&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/works_html.html&quot;&gt;works.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../assets/css/main_css.html&quot;&gt;main.css&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../assets/css/syntax_css.html&quot;&gt;syntax.css&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../assets/ftp/xtcointreg_ado.html&quot;&gt;xtcointreg.ado&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../atom_xml.html&quot;&gt;atom.xml&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../blog/_posts/2017-12-12-irf-ann_md.html&quot;&gt;2017-12-12-irf-ann&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../blog/_posts/2018-1-1-xtcointreg_md.html&quot;&gt;2018-1-1-xtcointreg&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../blog/_posts/2018-2-7-pessimism-in-bba_md.html&quot;&gt;2018-2-7-pessimism-in-bba&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../blog/_posts/2018-3-22-nocomment-blogs_md.html&quot;&gt;2018-3-22-nocomment-blogs&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../blog/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../blogru/_posts/2018-2-20-telegramblog_md.html&quot;&gt;2018-2-20-telegramblog&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../blogru/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/404_html.html&quot;&gt;404.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/about_md.html&quot;&gt;about&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/collab_md.html&quot;&gt;collab&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/contact_md.html&quot;&gt;contact&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/cv_md.html&quot;&gt;cv&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/kontakt_md.html&quot;&gt;kontakt&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/naym_md.html&quot;&gt;naym&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/obomne_md.html&quot;&gt;obomne&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/raboty_md.html&quot;&gt;raboty&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/rezume_md.html&quot;&gt;rezume&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/works_md.html&quot;&gt;works&lt;/a&gt;
+  
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/nav&gt;
+
+&lt;main role=&quot;main&quot; aria-label=&quot;Page blog/_posts/2018-1-1-xtcointreg.md&quot;&gt;
+
+&lt;p&gt;— layout: post title: Introducing Panel FMOLS/DOLS command for Stata&lt;/p&gt;
+
+&lt;h2 id=&quot;label-lang-3A+english&quot;&gt;lang: english&lt;span&gt;&lt;a href=&quot;#label-lang-3A+english&quot;&gt;&amp;para;&lt;/a&gt; &lt;a href=&quot;#top&quot;&gt;&amp;uarr;&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;
+
+&lt;p&gt;Last week I was hired to perform a thorough analysis of a panel dataset for
+export dynamics of different sectors in a country. I had never done panel
+econometrics before or even read it in a textbook. But since I am good at
+cross-section and time-series, I believed I could handle the task. And I
+wasn&amp;#39;t wrong.&lt;/p&gt;
+
+&lt;p&gt;Since this task was single time with no generalizations/automations
+required, my tool of choice was of course Stata. It doesn&amp;#39;t have a
+scalability like R but has a very comfortable syntax. You ask me what about
+E-views? E-views sucks.&lt;/p&gt;
+
+&lt;p&gt;However, in process I realized that panel FMOLS cannot be done natively in
+stata. The closest thing is &lt;code&gt;xtpedroni&lt;/code&gt; but it gives panel DOLS
+and didn&amp;#39;t add panel FMOLS. R also doesn&amp;#39;t have such a library.
+Ironically, E-views turned out to have that feature. But I wouldn&amp;#39;t
+concede that easy. So, I decided to go back to &lt;a
+href=&quot;https://econpapers.repec.org/article/tprrestat/v_3a83_3ay_3a2001_3ai_3a4_3ap_3a727-731.htm&quot;&gt;Pedroni’s
+1996 paper&lt;/a&gt; and examine the structure of panel FMOLS estimators. It
+turned out to be a simple average between each panel&amp;#39;s FMOLS for
+coefficients and sum divided by the square root of the total number of
+panels for t-statistics.&lt;/p&gt;
+
+&lt;p&gt;So, I got that and tried to write a code for it, but it turned out to be
+very challenging. Then I found out that there is actually an existing tool
+for time series FMOLS estimation called &lt;code&gt;cointreg&lt;/code&gt;. This is an
+excellent program written by &lt;a
+href=&quot;http://ageconsearch.umn.edu/bitstream/229441/2/sjart_st0272.pdf&quot;&gt;Qunyong
+Wang and Na Wu&lt;/a&gt;. So, I just applied the group mean averaging to it.&lt;/p&gt;
+
+&lt;p&gt;Meet a new command for Stata &lt;code&gt;xtcointreg&lt;/code&gt;. It basically adapts
+&lt;code&gt;cointreg&lt;/code&gt; to a panel environment, so you need to [install it
+first](&lt;a href=&quot;http://agec&quot;&gt;agec&lt;/a&gt;
+onsearch.umn.edu/bitstream/229441/2/sjart_st0272.pdf). The documentation is
+the same as &lt;code&gt;cointreg&lt;/code&gt; plus one option &lt;code&gt;full&lt;/code&gt;. I will
+submit the file to “ssc”. In the meantime you can &lt;a
+href=&quot;/assets/ftp/xtcointreg.ado&quot;&gt;download the .ado file here&lt;/a&gt; and place
+it in the folder called “ado” located inside your system directory(which
+can be found with a command `sysdir&amp;#39;).&lt;/p&gt;
+
+&lt;p&gt;Hope it will help you in your research. Please feel free to &lt;a
+href=&quot;/contact&quot;&gt;contact me&lt;/a&gt; with any questions and commments.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt; It was included to SSC. You can use &lt;code&gt;ssc
+install xtcointreg&lt;/code&gt; to download it.&lt;/p&gt;
+&lt;/main&gt;
+
+
+
+&lt;footer id=&quot;validator-badges&quot; role=&quot;contentinfo&quot;&gt;
+  &lt;p&gt;&lt;a href=&quot;https://validator.w3.org/check/referer&quot;&gt;Validate&lt;/a&gt;
+  &lt;p&gt;Generated by &lt;a href=&quot;https://ruby.github.io/rdoc/&quot;&gt;RDoc&lt;/a&gt; 6.0.1.
+  &lt;p&gt;Based on &lt;a href=&quot;http://deveiate.org/projects/Darkfish-RDoc/&quot;&gt;Darkfish&lt;/a&gt; by &lt;a href=&quot;http://deveiate.org&quot;&gt;Michael Granger&lt;/a&gt;.
+&lt;/footer&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
    <title>Introducing Panel FMOLS/DOLS command for Stata</title>
-   <link href="http://0.0.0.0:4000/blog/2018/01/01/xtcointreg/"/>
-   <updated>2018-01-01T00:00:00+00:00</updated>
-   <id>http://0.0.0.0:4000/blog/2018/01/01/xtcointreg</id>
+   <link href="http://localhost:4000/blog/2018/01/01/xtcointreg/"/>
+   <updated>2018-01-01T00:00:00+03:00</updated>
+   <id>http://localhost:4000/blog/2018/01/01/xtcointreg</id>
    <content type="html">&lt;p&gt;Last week I was hired to perform a thorough analysis of a panel dataset for export dynamics of different sectors in a country. I had never done panel econometrics before or even read it in a textbook. But since I am good at cross-section and time-series, I believed I could handle the task. And I wasn’t wrong.&lt;/p&gt;
 
 &lt;p&gt;Since this task was single time with no generalizations/automations required, my tool of choice was of course Stata. It doesn’t have a scalability like R but has a very comfortable syntax. You ask me what about E-views? E-views sucks.&lt;/p&gt;
@@ -88,10 +1159,246 @@
  </entry>
  
  <entry>
+   <title>Irf Ann_md</title>
+   <link href="http://localhost:4000/doc/blog/2017/12/12/irf-ann_md/"/>
+   <updated>2017-12-12T00:00:00+03:00</updated>
+   <id>http://localhost:4000/doc/blog/2017/12/12/irf-ann_md</id>
+   <content type="html">&lt;!DOCTYPE html&gt;
+
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;UTF-8&quot;&gt;
+
+&lt;title&gt;2017-12-12-irf-ann - RDoc Documentation&lt;/title&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+  var rdoc_rel_prefix = &quot;../../&quot;;
+  var index_rel_prefix = &quot;../../&quot;;
+&lt;/script&gt;
+
+&lt;script src=&quot;../../js/jquery.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;../../js/darkfish.js&quot;&gt;&lt;/script&gt;
+
+&lt;link href=&quot;../../css/fonts.css&quot; rel=&quot;stylesheet&quot;&gt;
+&lt;link href=&quot;../../css/rdoc.css&quot; rel=&quot;stylesheet&quot;&gt;
+
+
+
+&lt;body id=&quot;top&quot; role=&quot;document&quot; class=&quot;file&quot;&gt;
+&lt;nav role=&quot;navigation&quot;&gt;
+  &lt;div id=&quot;project-navigation&quot;&gt;
+    &lt;div id=&quot;home-section&quot; role=&quot;region&quot; title=&quot;Quick navigation&quot; class=&quot;nav-section&quot;&gt;
+  &lt;h2&gt;
+    &lt;a href=&quot;../../index.html&quot; rel=&quot;home&quot;&gt;Home&lt;/a&gt;
+  &lt;/h2&gt;
+
+  &lt;div id=&quot;table-of-contents-navigation&quot;&gt;
+    &lt;a href=&quot;../../table_of_contents.html#pages&quot;&gt;Pages&lt;/a&gt;
+    &lt;a href=&quot;../../table_of_contents.html#classes&quot;&gt;Classes&lt;/a&gt;
+    &lt;a href=&quot;../../table_of_contents.html#methods&quot;&gt;Methods&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+    &lt;div id=&quot;search-section&quot; role=&quot;search&quot; class=&quot;project-section initially-hidden&quot;&gt;
+  &lt;form action=&quot;#&quot; method=&quot;get&quot; accept-charset=&quot;utf-8&quot;&gt;
+    &lt;div id=&quot;search-field-wrapper&quot;&gt;
+      &lt;input id=&quot;search-field&quot; role=&quot;combobox&quot; aria-label=&quot;Search&quot;
+             aria-autocomplete=&quot;list&quot; aria-controls=&quot;search-results&quot;
+             type=&quot;text&quot; name=&quot;search&quot; placeholder=&quot;Search&quot; spellcheck=&quot;false&quot;
+             title=&quot;Type to search, Up and Down to navigate, Enter to load&quot;&gt;
+    &lt;/div&gt;
+
+    &lt;ul id=&quot;search-results&quot; aria-label=&quot;Search Results&quot;
+        aria-busy=&quot;false&quot; aria-expanded=&quot;false&quot;
+        aria-atomic=&quot;false&quot; class=&quot;initially-hidden&quot;&gt;&lt;/ul&gt;
+  &lt;/form&gt;
+&lt;/div&gt;
+
+  &lt;/div&gt;
+
+  
+
+  &lt;div id=&quot;project-metadata&quot;&gt;
+    &lt;div id=&quot;fileindex-section&quot; class=&quot;nav-section&quot;&gt;
+  &lt;h3&gt;Pages&lt;/h3&gt;
+
+  &lt;ul class=&quot;link-list&quot;&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../CNAME.html&quot;&gt;CNAME&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../Gemfile.html&quot;&gt;Gemfile&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../Gemfile_lock.html&quot;&gt;Gemfile.lock&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../README_md.html&quot;&gt;README&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_Dockerfile.html&quot;&gt;_Dockerfile&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_includes/analytics_html.html&quot;&gt;analytics.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_includes/head_html.html&quot;&gt;head.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_layouts/default_html.html&quot;&gt;default.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_layouts/page_html.html&quot;&gt;page.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_layouts/pageru_html.html&quot;&gt;pageru.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_layouts/post_html.html&quot;&gt;post.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_layouts/russian_html.html&quot;&gt;russian.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/404_html.html&quot;&gt;404.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/CNAME.html&quot;&gt;CNAME&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/README_md.html&quot;&gt;README&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/all-posts_json.html&quot;&gt;all-posts.json&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/assets/css/main_css.html&quot;&gt;main.css&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/assets/css/syntax_css.html&quot;&gt;syntax.css&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/assets/ftp/xtcointreg_ado.html&quot;&gt;xtcointreg.ado&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/atom_xml.html&quot;&gt;atom.xml&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/blog/2017/12/12/irf-ann/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/blog/2018/01/01/xtcointreg/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/blog/2018/02/07/pessimism-in-bba/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/blog/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/blogru/2018/02/20/telegramblog/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/blogru/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/collaborate_html.html&quot;&gt;collaborate.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/contact_html.html&quot;&gt;contact.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/cv_html.html&quot;&gt;cv.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/js/infinite-jekyll_js.html&quot;&gt;infinite-jekyll.js&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/kontakt_html.html&quot;&gt;kontakt.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/naym_html.html&quot;&gt;naym.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/raboty_html.html&quot;&gt;raboty.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/rezume_html.html&quot;&gt;rezume.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/robots_txt.html&quot;&gt;robots&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/ru_html.html&quot;&gt;ru.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/sitemap_xml.html&quot;&gt;sitemap.xml&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../_site/works_html.html&quot;&gt;works.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../assets/css/main_css.html&quot;&gt;main.css&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../assets/css/syntax_css.html&quot;&gt;syntax.css&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../assets/ftp/xtcointreg_ado.html&quot;&gt;xtcointreg.ado&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../atom_xml.html&quot;&gt;atom.xml&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../blog/_posts/2017-12-12-irf-ann_md.html&quot;&gt;2017-12-12-irf-ann&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../blog/_posts/2018-1-1-xtcointreg_md.html&quot;&gt;2018-1-1-xtcointreg&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../blog/_posts/2018-2-7-pessimism-in-bba_md.html&quot;&gt;2018-2-7-pessimism-in-bba&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../blog/_posts/2018-3-22-nocomment-blogs_md.html&quot;&gt;2018-3-22-nocomment-blogs&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../blog/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../blogru/_posts/2018-2-20-telegramblog_md.html&quot;&gt;2018-2-20-telegramblog&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../blogru/index_html.html&quot;&gt;index.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/404_html.html&quot;&gt;404.html&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/about_md.html&quot;&gt;about&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/collab_md.html&quot;&gt;collab&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/contact_md.html&quot;&gt;contact&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/cv_md.html&quot;&gt;cv&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/kontakt_md.html&quot;&gt;kontakt&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/naym_md.html&quot;&gt;naym&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/obomne_md.html&quot;&gt;obomne&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/raboty_md.html&quot;&gt;raboty&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/rezume_md.html&quot;&gt;rezume&lt;/a&gt;
+  
+    &lt;li&gt;&lt;a href=&quot;../../pages/works_md.html&quot;&gt;works&lt;/a&gt;
+  
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/nav&gt;
+
+&lt;main role=&quot;main&quot; aria-label=&quot;Page blog/_posts/2017-12-12-irf-ann.md&quot;&gt;
+
+&lt;p&gt;— layout: post title: Using impulse response functions to interpret partial
+effects in neural networks&lt;/p&gt;
+
+&lt;h2 id=&quot;label-lang-3A+english&quot;&gt;lang: english&lt;span&gt;&lt;a href=&quot;#label-lang-3A+english&quot;&gt;&amp;para;&lt;/a&gt; &lt;a href=&quot;#top&quot;&gt;&amp;uarr;&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;
+
+&lt;p&gt;This week I’ve been working on a research paper based on a very simple idea
+which, hopefully, can solve an important problem in applying machine
+learning techniques in economics — the interpretability. So, if you recall,
+the neural networks is the generalization of a logit model where sigmoid of
+a linear combination of inputs is used iteratively.&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;figure class=“blog”&amp;gt;  &amp;lt;img src=“/assets/img/ann.png”
+alt=“Generalization of Logit”&amp;gt;  &amp;lt;figcaption&amp;gt;ANN as a
+generalization of logit&amp;lt;/figcaption&amp;gt; &amp;lt;/figure&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;So, the problem with applying this model to economics problems is that the
+information is distributed among neurons and one cannot tell the causal
+effect of any given input variable on the variable of interest. So, I
+proposed a very simple solution: after having computed all of the weights
+using backpropagation, we need to do the following: use sparce vectors
+[1,0,0,0,…,0], [&lt;a href=&quot;0,0,0,0,…,1&quot;&gt;0,1,0,0,0,…,0],….,&lt;/a&gt; and feed them
+to the network. The output will give the effects of any individual input
+variable to the output variable. This method is called Impulse Response
+Function Analysis in Economics and has much use in VAR models.&lt;/p&gt;
+
+&lt;p&gt;In conclusion, since simple doesn’t mean trivial, I believe this simple
+workaround is an important contribution to the economic analysis.&lt;/p&gt;
+&lt;/main&gt;
+
+
+
+&lt;footer id=&quot;validator-badges&quot; role=&quot;contentinfo&quot;&gt;
+  &lt;p&gt;&lt;a href=&quot;https://validator.w3.org/check/referer&quot;&gt;Validate&lt;/a&gt;
+  &lt;p&gt;Generated by &lt;a href=&quot;https://ruby.github.io/rdoc/&quot;&gt;RDoc&lt;/a&gt; 6.0.1.
+  &lt;p&gt;Based on &lt;a href=&quot;http://deveiate.org/projects/Darkfish-RDoc/&quot;&gt;Darkfish&lt;/a&gt; by &lt;a href=&quot;http://deveiate.org&quot;&gt;Michael Granger&lt;/a&gt;.
+&lt;/footer&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
    <title>Using impulse response functions to interpret partial effects in neural networks</title>
-   <link href="http://0.0.0.0:4000/blog/2017/12/12/irf-ann/"/>
-   <updated>2017-12-12T00:00:00+00:00</updated>
-   <id>http://0.0.0.0:4000/blog/2017/12/12/irf-ann</id>
+   <link href="http://localhost:4000/blog/2017/12/12/irf-ann/"/>
+   <updated>2017-12-12T00:00:00+03:00</updated>
+   <id>http://localhost:4000/blog/2017/12/12/irf-ann</id>
    <content type="html">&lt;p&gt;This week I’ve been working on a research paper based on a very simple idea which, hopefully, can solve an important problem in applying machine learning techniques in economics — the interpretability. So, if you recall, the neural networks is the generalization of a logit model where sigmoid of a linear combination of inputs is used iteratively.&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
