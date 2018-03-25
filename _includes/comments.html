@@ -1,0 +1,21 @@
+<div class="js-comments">
+	{% assign reviews = site.data.reviews | sort %}
+	
+	{% for review in reviews reversed %}
+		{% assign reviewData = review[1] %}
+
+		<article class="review mdl-card mdl-shadow--2dp">
+		  <div class="mdl-card__supporting-text">
+		  	<p><strong>Review by: </strong>{{ reviewData.name }}</p>
+		    <div class="review__description">
+		    	{{ reviewData.message | markdownify }}
+		    </div>
+		  </div>
+		  <div class="mdl-card__actions mdl-card--border">
+		    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="http://www.imdb.com/find?ref_=nv_sr_fn&q={{ reviewData.title }}&s=all">
+		      Find on IMDB
+		    </a>
+		  </div>
+		</article>
+	{% endfor %}
+</div>

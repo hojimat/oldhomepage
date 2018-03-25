@@ -1,0 +1,8 @@
+comments:
+  allowedFields: ["name", "email", "message"]
+  branch: "master"
+  commitMessage: "Add Staticman data"
+  filename: "entry{@timestamp}"
+  format: "yml"
+  path: "_data/comments"
+#  requiredFields: ["name", "email", "message"]
