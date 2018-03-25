@@ -15,4 +15,6 @@ Meet a new command for Stata `xtcointreg`. It basically adapts `cointreg` to a p
 
 Hope it will help you in your research. Please feel free to [contact me](/contact) with any questions and commments. 
 
-**Update** It was included to SSC. You can use `ssc install xtcointreg` to download it.
+**Update** It was included to SSC. You can use `ssc install xtcointreg` to download it.  
+
+**Update 2** If you have installed the program successfully but it is not working for some reason, please try this workaround: 1) write a command `which xtcointreg` and find the location of the **xtcointreg.ado** file; 2) open that file with any text editor and remove the line number 8 `capt program drop xtcointreg`; 3) save the file and try to run `xtcointreg` again. This problem is related to the publisher of the code and not to my code itself.
