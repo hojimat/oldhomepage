@@ -4,13 +4,44 @@
  <title>Ravshan S.K.</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-03-24T22:05:01+03:00</updated>
+ <updated>2018-03-26T20:24:12+03:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Ravshanbek Khodzhimatov</name>
    <email>rsk@ravshansk.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Как научиться абсолютно всему? (1/3)</title>
+   <link href="http://localhost:4000/blogru/2018/03/26/beginner-mind/"/>
+   <updated>2018-03-26T00:00:00+03:00</updated>
+   <id>http://localhost:4000/blogru/2018/03/26/beginner-mind</id>
+   <content type="html">&lt;p&gt;Впервые меня освободили от занятий в восьмом классе для подготовки к олимпиаде по математике, и с тех пор я, в основном, учусь сам. Я закончил вуз, магистратуру, поработал в разных специальностях от переводчика до веб-разработчика, и каждый раз учился (и продолжаю учиться) новым вещам. Если верить правилу 10000 часов, то я смело могу сказать, что являюсь экспертом в получении знаний. В этой серии постов, я решил поделиться своими методами.&lt;/p&gt;
+
+&lt;h2 id=&quot;1-подход-новичка&quot;&gt;1. Подход новичка&lt;/h2&gt;
+
+&lt;p&gt;Итак, самый главный принцип - это обнулить своё эго. Надо убедить себя, что вы совершенно ничего не знаете в той области, которую хотите изучить. Тогда, вы будете по-детски удивляться каждой новой мелочи и запоминать. Наверняка, вы видели много примеров в поп-культуре, когда мастер обучает ученика, заставляя его(её) готовить еду, чистить обувь, носить воду и т.д. Так вот, в моём понимании, это всё делается для обнуления эго. Конечно, если сегодня кто-то начнет морально унижать вас и ваш образ жизни, а потом предложит свои образовательные услуги как спасение, то это - скорее всего сектант какой-нибудь, бегите от таких.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Самый главный принцип - обнулить своё эго&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;То, что я имею в виду - это личное убеждение в собственной неосведомленности в какой-либо теме, которое исходит от вас осознанно, а не от кого-то. Почему это так важно? Ответ прост: &lt;a href=&quot;https://ru.wikipedia.org/wiki/%D0%AD%D1%84%D1%84%D0%B5%D0%BA%D1%82_%D0%94%D0%B0%D0%BD%D0%BD%D0%B8%D0%BD%D0%B3%D0%B0_%E2%80%94_%D0%9A%D1%80%D1%8E%D0%B3%D0%B5%D1%80%D0%B0&quot;&gt;&lt;em&gt;эффект Даннинга-Крюгера&lt;/em&gt;&lt;/a&gt;. Чем больше мы знаем, тем ниже у нас уверенность в знании, поэтому обнуление эго приводит к некоему балансу.&lt;/p&gt;
+
+&lt;h2 id=&quot;2-учебники-textbooks&quot;&gt;2. Учебники, Textbooks&lt;/h2&gt;
+
+&lt;p&gt;Когда вы, например, вводите в поисковике “научиться экономике”, вам на каждом шагу предложат какие-то популярные книги, вроде “Фрикономика”, “Почему одни страны бедные, а другие - богатые”, “Думай как экономист” и т.д. Так вот, мое экспертное мнение - эти книги вас не научат экономике. Книга “Думай как экономист” не научит вас думать как экономист. Я уверен, что в других областях так же - я читал несколько популярных книг о науке, но так и не научился гибридизации орбиталей - эту тему мы в 10-м классе прошли на уроке химии за две недели, которые я не был в школе. Поэтому, обязательно приобретайте учебники!&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Одна глава введения учебника даст вам столько же знаний, сколько дадут несколько популярных книг&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Повторюсь, учебники - это ресурс №1 в обучении. Теперь, когда вы взяли учебник, вспомните первое правило - обнулите своё эго и начните его изучать, заставляя себя удивляться даже самым базовым вещам. Естественно, читайте введение - одна глава введения в учебнике может вам дать столько же, сколько и несколько популярных книг.&lt;/p&gt;
+
+&lt;p&gt;На этом остановимся, продолжение будет в следующей статье.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Nocomment Blogs_md</title>
@@ -535,15 +566,6 @@ without you asking to &lt;em&gt;“please share your thoughts”&lt;/em&gt;&lt;/
   &lt;p&gt;Based on &lt;a href=&quot;http://deveiate.org/projects/Darkfish-RDoc/&quot;&gt;Darkfish&lt;/a&gt; by &lt;a href=&quot;http://deveiate.org&quot;&gt;Michael Granger&lt;/a&gt;.
 &lt;/footer&gt;
 
-</content>
- </entry>
- 
- <entry>
-   <title>тест</title>
-   <link href="http://localhost:4000/blogru/2018/02/20/telegramblog/"/>
-   <updated>2018-02-20T00:00:00+03:00</updated>
-   <id>http://localhost:4000/blogru/2018/02/20/telegramblog</id>
-   <content type="html">&lt;p&gt;тест&lt;/p&gt;
 </content>
  </entry>
  
@@ -1155,6 +1177,13 @@ install xtcointreg&lt;/code&gt; to download it.&lt;/p&gt;
 &lt;p&gt;Hope it will help you in your research. Please feel free to &lt;a href=&quot;/contact&quot;&gt;contact me&lt;/a&gt; with any questions and commments.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt; It was included to SSC. You can use &lt;code class=&quot;highlighter-rouge&quot;&gt;ssc install xtcointreg&lt;/code&gt; to download it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update 2&lt;/strong&gt; If you have installed the program successfully but it is not working for some reason, please try this workaround:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;write a command &lt;code class=&quot;highlighter-rouge&quot;&gt;which xtcointreg&lt;/code&gt; and find the location of the &lt;strong&gt;xtcointreg.ado&lt;/strong&gt; file;&lt;/li&gt;
+  &lt;li&gt;open that file with any text editor and remove the line number 8 &lt;code class=&quot;highlighter-rouge&quot;&gt;capt program drop xtcointreg&lt;/code&gt;;&lt;/li&gt;
+  &lt;li&gt;save the file and try to run &lt;code class=&quot;highlighter-rouge&quot;&gt;xtcointreg&lt;/code&gt; again. This problem is related to the publisher of the code and not to my code itself.&lt;/li&gt;
+&lt;/ol&gt;
 </content>
  </entry>
  

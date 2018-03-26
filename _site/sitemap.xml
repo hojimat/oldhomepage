@@ -25,10 +25,6 @@
 <lastmod>2018-02-07T00:00:00+03:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/blogru/2018/02/20/telegramblog/</loc>
-<lastmod>2018-02-20T00:00:00+03:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/doc/blogru/2018/02/20/telegramblog_md/</loc>
 <lastmod>2018-02-20T00:00:00+03:00</lastmod>
 </url>
@@ -39,6 +35,10 @@
 <url>
 <loc>http://localhost:4000/doc/blog/2018/03/22/nocomment-blogs_md/</loc>
 <lastmod>2018-03-22T00:00:00+03:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blogru/2018/03/26/beginner-mind/</loc>
+<lastmod>2018-03-26T00:00:00+03:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
