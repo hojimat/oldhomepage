@@ -17,3 +17,6 @@ You can pay me using bank transfer or by contacting me to invoice you a payment 
 
 ### Communication Methods
 I invite clients to the [Slack chat](http://ravshansk.slack.com) where we can communicate effectively during the project and retain the contact for future collaboration.
+
+### Disclaimer:
+Once you hire me I never publish the work I've done - you've paid me and it all belongs to you. In the blog of this website I give a generic picture and publish some related stuff, not the work itself.
