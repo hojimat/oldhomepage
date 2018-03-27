@@ -43,7 +43,7 @@ Unfortunately, the product of two distinct Beta(2,1)-distributed variables was n
 
 I discovered that the product formula for two beta-distributed variables was really complex and I decided that the _rigor could be compensated for intuitiveness in this case_, after all this was statistics and not a real analysis (if you disagree, you are welcome to leave a comment with your suggestion, I would be very interested to learn your perspective). After trying to solve for the free parameters and combining this with trial-and-error, _I have finally discovered the answer!_ 
 
-> **Product of two Beta(1.2, 0.5)-distributed variables is uniform**
+> **Product of two Beta(1.2, 0.5)-distributed variables is approximately uniform**
 
 **The** distribution was **Beta(1.2, 0.5)**!
 

@@ -4,7 +4,7 @@
  <title>Ravshan S.K.</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-03-27T21:01:07+03:00</updated>
+ <updated>2018-03-27T21:04:24+03:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Ravshanbek Khodzhimatov</name>
@@ -59,7 +59,7 @@
 &lt;p&gt;I discovered that the product formula for two beta-distributed variables was really complex and I decided that the &lt;em&gt;rigor could be compensated for intuitiveness in this case&lt;/em&gt;, after all this was statistics and not a real analysis (if you disagree, you are welcome to leave a comment with your suggestion, I would be very interested to learn your perspective). After trying to solve for the free parameters and combining this with trial-and-error, &lt;em&gt;I have finally discovered the answer!&lt;/em&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Product of two Beta(1.2, 0.5)-distributed variables is uniform&lt;/strong&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Product of two Beta(1.2, 0.5)-distributed variables is approximately uniform&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; distribution was &lt;strong&gt;Beta(1.2, 0.5)&lt;/strong&gt;!&lt;/p&gt;
