@@ -272,7 +272,7 @@ tbody tr:nth-child(odd) th {
 .masthead {
   padding-top:    1rem;
   padding-bottom: 1rem;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #a4a4a4;
 }
 .masthead-title {
   margin-top: 0;
@@ -304,7 +304,7 @@ tbody tr:nth-child(odd) th {
   	padding-top:    1rem;
   	padding-bottom: 1rem;
   	margin-bottom: 3rem;
-  	border-bottom: 1px solid #eee;
+  	border-bottom: 1px solid #a4a4a4;
 }
 
 /* Style the links inside the navigation bar */
@@ -465,33 +465,9 @@ figure.margins img{
 	height: auto;
 }
 
-.infinite-spinner {
-  display: block;
-  width: 40px;
-  height: 40px;
-  border-radius: 40px;
-  background-color: #333;
-  margin: 60px auto;
-  
-  -webkit-animation: scaleout 1.0s infinite ease-in-out;
-  animation: scaleout 1.0s infinite ease-in-out;
-}
-
-@-webkit-keyframes scaleout {
-  0% { -webkit-transform: scale(0.0) }
-  100% {
-    -webkit-transform: scale(1.0);
-    opacity: 0;
-  }
-}
-
-@keyframes scaleout {
-  0% {
-    transform: scale(0.0);
-    -webkit-transform: scale(0.0);
-  } 100% {
-    transform: scale(1.0);
-    -webkit-transform: scale(1.0);
-    opacity: 0;
-  }
+div.footer {
+    overflow: hidden;
+  	padding-top:    1rem;
+  	padding-bottom: 1rem;
+  	border-top: 1px solid #a4a4a4;
 }
