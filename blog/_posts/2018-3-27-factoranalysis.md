@@ -61,4 +61,4 @@ The product of two variables from this distribution is approximately uniformly d
 
 ## Conclusion
 
-As you can see, I successfully completed the project with learning a lot of new things and even contributing a new knowledge which wasn't there before (you can search the Web and see that I am the first to perform a product decomposition of a uniform distribution. To read about my other projects please read my other blog entries. **To hire me, please visit the Collaborate tab or [click here](/collaborate).**  
+I find this discovery extremely enlightening and useful. Hope you will too. To read about my other projects please see my other blog entries. **To hire me, please visit the Collaborate tab or [click here](/collaborate).** 
