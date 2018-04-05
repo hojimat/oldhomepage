@@ -183,6 +183,7 @@ blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
   color: #7a7a7a;
+  background-color: #f9f9f9;
   border-left: .25rem solid #e5e5e5;
 }
 blockquote p:last-child {
