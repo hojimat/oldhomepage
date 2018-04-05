@@ -4,7 +4,7 @@
  <title>Ravshan S.K.</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-04-04T21:21:19+03:00</updated>
+ <updated>2018-04-05T20:44:53+03:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Ravshanbek Khodzhimatov</name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Доверять или проверять?</title>
-   <link href="http://localhost:4000/blogru/2018/04/01/newton-giants/"/>
+   <link href="http://localhost:4000/lit/2018/04/01/newton-giants/"/>
    <updated>2018-04-01T00:00:00+03:00</updated>
-   <id>http://localhost:4000/blogru/2018/04/01/newton-giants</id>
+   <id>http://localhost:4000/lit/2018/04/01/newton-giants</id>
    <content type="html">&lt;p&gt;А: Ты слишком усложняешь себе жизнь.&lt;br /&gt;
 Б: Почему?&lt;br /&gt;
 А: Ты не доверяешь ничему, что слышишь.&lt;br /&gt;
