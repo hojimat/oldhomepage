@@ -14,7 +14,7 @@ I am trilingual - my native languages are _Uzbek, Russian and Kyrgyz_. I am flue
 
 **I am a professional economic consultant. To see my works and to hire me please visit Works and Collaborate tabs.**  
 
-I blog about economics, math, AI and literature. I promise that I won't write anything boring, predictable or pretentious. Some articles will require advanced knowledge of math, but I will try to write accessible ones more frequently. To read my thoughts please visit the Blog tab.  
+I blog about economics, math and AI. I promise that I won't write anything boring, predictable or pretentious. Some articles will require advanced knowledge of math, but I will try to write accessible ones more frequently. To read my thoughts please visit the Blog tab.  
 
 I am fairly conservative when it comes to Web 2.0 and prefer communication via e-mail, still I included comments section at the end of every post where you can share your thoughts using your Google account (there is a high probability that you have one). At the moment I don't cross-post my articles in other platforms and don't send newsletters, so I encourage you to visit my website from time to time to check for updates.
 
