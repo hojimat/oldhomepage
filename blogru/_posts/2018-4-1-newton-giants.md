@@ -1,7 +1,7 @@
 ---
-layout: postlit 
+layout: postru 
 title: Доверять или проверять? 
-lang: lit 
+lang: russian 
 ---
 
 **А:** Ты слишком усложняешь себе жизнь.  
