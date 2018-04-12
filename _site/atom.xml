@@ -4,7 +4,7 @@
  <title>Ravshan S.K.</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-04-05T21:38:15+03:00</updated>
+ <updated>2018-04-12T18:53:39+03:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Ravshanbek Khodzhimatov</name>
@@ -13,19 +13,50 @@
 
  
  <entry>
-   <title>Общество без зависти</title>
-   <link href="http://localhost:4000/lit/2018/04/05/jealous/"/>
-   <updated>2018-04-05T00:00:00+03:00</updated>
-   <id>http://localhost:4000/lit/2018/04/05/jealous</id>
-   <content type="html">
+   <title>Библиотека Босфорского Университета</title>
+   <link href="http://localhost:4000/blogru/2018/04/12/bounlib/"/>
+   <updated>2018-04-12T00:00:00+03:00</updated>
+   <id>http://localhost:4000/blogru/2018/04/12/bounlib</id>
+   <content type="html">&lt;p&gt;Сколько учусь в Босфорском университете (Bogazici University), никогда не приходило в голову снять библиотеку и опубликовать. Наверстываю.&lt;/p&gt;
+
+&lt;p&gt;Библиотека находится в &lt;em&gt;Северном кампусе&lt;/em&gt; универа и была построена в семидесятых, отсюда и стиль архитектуры:&lt;/p&gt;
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img src=&quot;/assets/img/bounlib/lib1.JPG&quot; alt=&quot;libphoto&quot; /&gt;
+	&lt;figcaption&gt;Фасад Библиотеки&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Имя ректора, который построил её.&lt;/p&gt;
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img src=&quot;/assets/img/bounlib/lib2.JPG&quot; alt=&quot;libphoto&quot; /&gt;
+	&lt;figcaption&gt;Библиотека им. Абдуллаха Курана&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;В библиотеке четыре этажа (один этаж в подвале, здесь его не видно).&lt;/p&gt;
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img src=&quot;/assets/img/bounlib/lib3.JPG&quot; alt=&quot;libphoto&quot; /&gt;
+	&lt;figcaption&gt;Вид с третьего этажа&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Везде приклеены различные вариации просьбы не шуметь.&lt;/p&gt;
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img src=&quot;/assets/img/bounlib/lib4.JPG&quot; alt=&quot;libphoto&quot; /&gt;
+	&lt;figcaption&gt;Не шуметь!&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Схема каталогизации книг:&lt;/p&gt;
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img src=&quot;/assets/img/bounlib/lib5.JPG&quot; alt=&quot;libphoto&quot; /&gt;
+	&lt;figcaption&gt;Как найти нужную книгу?&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;За окном виден свет. Он символизирует знание.&lt;/p&gt;
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img src=&quot;/assets/img/bounlib/lib6.JPG&quot; alt=&quot;libphoto&quot; /&gt;
+	&lt;figcaption&gt;Книжные полки ведут к просвещению&lt;/figcaption&gt;
+&lt;/figure&gt;
 </content>
  </entry>
  
  <entry>
    <title>Доверять или проверять?</title>
-   <link href="http://localhost:4000/lit/2018/04/01/newton-giants/"/>
+   <link href="http://localhost:4000/blogru/2018/04/01/newton-giants/"/>
    <updated>2018-04-01T00:00:00+03:00</updated>
-   <id>http://localhost:4000/lit/2018/04/01/newton-giants</id>
+   <id>http://localhost:4000/blogru/2018/04/01/newton-giants</id>
    <content type="html">&lt;p&gt;&lt;strong&gt;А:&lt;/strong&gt; Ты слишком усложняешь себе жизнь.&lt;br /&gt;
 &lt;strong&gt;Б:&lt;/strong&gt; Почему?&lt;br /&gt;
 &lt;strong&gt;А:&lt;/strong&gt; Ты не доверяешь ничему, что слышишь.&lt;br /&gt;
@@ -1584,9 +1615,9 @@ workaround is an important contribution to the economic analysis.&lt;/p&gt;
  
  <entry>
    <title>Интернет-зависимость</title>
-   <link href="http://localhost:4000/lit/2016/02/01/internet-addiction/"/>
+   <link href="http://localhost:4000/blogru/2016/02/01/internet-addiction/"/>
    <updated>2016-02-01T00:00:00+02:00</updated>
-   <id>http://localhost:4000/lit/2016/02/01/internet-addiction</id>
+   <id>http://localhost:4000/blogru/2016/02/01/internet-addiction</id>
    <content type="html">&lt;p&gt;Я не писал стихов с начальной школы, но эти строки родились спонтанно и сразу, поэтому решил опубликовать, не судите строго. Стих родился в 2016-м году в очереди в столовой универа, одному другу понравилось, а другому - нет. Тогда я удалил строки из компьютера, и воспроизвожу сейчас, в апреле 2018-го. Поэтому могу не всё вспомнить правильно.&lt;/p&gt;
 
 &lt;div align=&quot;center&quot;&gt;
