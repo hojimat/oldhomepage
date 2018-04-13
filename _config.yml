@@ -5,8 +5,8 @@ permalink:           pretty
 
 # Setup
 title:               Ravshan S.K. 
-tagline:             'Economist'
-description:         'Thoughts, ideas, research, explanations around economics, math, computers, literature and higher education.'
+tagline:             'Economic Consultant'
+description:         'Thoughts, ideas, research, explanations around economics, math, computers and higher education.'
 url:                 ''
 baseurl:             ''
 plugins: [jekyll-seo-tag, jekyll-sitemap]
