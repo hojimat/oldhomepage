@@ -4,6 +4,8 @@ title: About
 permalink: /
 ---
 
+_Для русской версии сайта нажмите на моё имя в заголовке_
+
 <figure class="margins">
 	<img src="/assets/myphoto.jpg" alt="myphoto">
 </figure>
