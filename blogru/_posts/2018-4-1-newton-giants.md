@@ -1,5 +1,5 @@
 ---
-layout: postru 
+layout: postlit
 title: Доверять или проверять? 
 lang: russian 
 ---

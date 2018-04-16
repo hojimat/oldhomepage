@@ -1,5 +1,5 @@
 ---
-layout: postru 
+layout: postlit 
 title: Интернет-зависимость 
 lang: russian 
 ---

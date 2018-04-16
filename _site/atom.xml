@@ -4,13 +4,27 @@
  <title>Ravshan S.K.</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-04-12T20:02:14+03:00</updated>
+ <updated>2018-04-16T22:08:08+03:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Ravshanbek Khodzhimatov</name>
    <email>rsk@ravshansk.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Лето</title>
+   <link href="http://localhost:4000/blogru/2018/04/16/september/"/>
+   <updated>2018-04-16T00:00:00+03:00</updated>
+   <id>http://localhost:4000/blogru/2018/04/16/september</id>
+   <content type="html">&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img src=&quot;/assets/img/sunset2017.JPG&quot; alt=&quot;sunset photo&quot; /&gt;
+	&lt;figcaption&gt;Летний вечер на крыше Босфорского университета&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Сколько себя помню, я всегда очень сильно любил лето. Настолько, что я начинал радоваться 22-го декабря, что дни теперь будут длиннее, и огорчался 21-го июня, что дни теперь будут короче, и лето закончится. Помню, в 6-м классе, при поступлении в лицей, надо было написать сочинение на тему “Моё любимое время года”. Я тогда тоже написал про лето; писал, что летом хронические заболевания протекают менее остро, и что Пушкин родился летом (и что я не мог понять, чего он такого нашел в осени). Если бы я умел рисовать, то мое полотно о детстве было бы в стиле импрессионизма, потому что остались сильные, но мутные впечатления.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Опровержение статьи РИА о рейтинге российских вузов</title>
@@ -93,6 +107,27 @@
 	&lt;img src=&quot;/assets/img/bounlib/lib6.JPG&quot; alt=&quot;libphoto&quot; /&gt;
 	&lt;figcaption&gt;Книжные полки ведут к просвещению&lt;/figcaption&gt;
 &lt;/figure&gt;
+&lt;p&gt;Еще один ракурс:&lt;/p&gt;
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img src=&quot;/assets/img/bounlib/lib7.JPG&quot; alt=&quot;libphoto&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;А так выглядит нумеровка книг:&lt;/p&gt;
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img src=&quot;/assets/img/bounlib/lib8.JPG&quot; alt=&quot;libphoto&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;А благодаря этой книге я стал экономистом:&lt;/p&gt;
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img src=&quot;/assets/img/bounlib/colander.JPG&quot; alt=&quot;libphoto&quot; /&gt;
+	&lt;figcaption&gt;David Colander _&quot;The Making of an Economist, Redux&quot;_&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;А эта книга опустила мою самооценку до минус тысячи:&lt;/p&gt;
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img src=&quot;/assets/img/bounlib/stokey.JPG&quot; alt=&quot;libphoto&quot; /&gt;
+	&lt;figcaption&gt;Самый сложный в мире учебник по экономике&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Те, кто хочет попытать свои шансы с этой книгой, вбейте в поисковик &lt;em&gt;“Stokey, Lucas, Prescott”&lt;/em&gt; и скачайте/купите. Если эта книга вам дастся легко, то я вас сразу найму на работу.&lt;/p&gt;
+
+&lt;p&gt;Я пропустил стеклянную пирамиду, комнату для просмотра фильмов и прослушивания пластинок, одиночные комнаты для аспирантов и еще некоторые места, их можно найти в интернете.&lt;/p&gt;
 </content>
  </entry>
  
