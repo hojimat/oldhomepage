@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Collaborate 
-permalink: /collaborate 
+permalink: /hire 
 ---
 
 I provide data analysis, statistical and economic consulting, academic writing, statistical package tweaking services. I provide tutoring in advanced economics courses.
