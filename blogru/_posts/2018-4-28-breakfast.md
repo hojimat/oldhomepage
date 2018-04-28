@@ -1,7 +1,6 @@
 ---
 layout: postlit
 title: The Breakfast club. Наверстывая культуру.
-thumbnail: /assets/img/breakfastclub.jpg
 lang: russian
 ---
 
