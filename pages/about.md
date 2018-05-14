@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /
+permalink: /about
 ---
 
 _Для русской версии сайта нажмите на моё имя в заголовке_
