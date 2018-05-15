@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-  {% include head.html %}
-	{% seo %}
+{% include head.html %}
+{% seo %}
   <body>
 
-    <div class="masthead">
-      <div class="container">
-        <h3 class="masthead-title" align=center>
-          <a href="/ru" title="Home">{{ site.title }}</a>
+    <div class="titlehead">
+        <div class="titleleft">
+          <a href="#" title="Home">{{ site.title }}</a>
           <small>{{ site.tagline }}</small>
-        </h3>
-      </div>
+        </div>
+        <div class="titleright">
+  	    	<a href="/#about" title="About">About</a>
+  	    	<a href="/#works" title="Works">Works</a>
+  	    	<a href="/#hire" title="Hire">Hire now</a>
+  	    	<a href="/#contact" title="Contact">Contact</a>
+  	    	<a href="/blog" title="Blog">Blog</a>
+		</div>
     </div>
 
-		<div class="container">
-      <div class="navbar" align=center>
-				<a href="/" title="Home">Home</a>
-  	    <a href="/blog" title="Blog">Blog</a>
-  	    <a href="/cv" title="CV">CV</a>
-  	    <a href="/works" title="Works">Works</a>
-  	    <a href="/hire" title="Collaborate">Collaborate</a>
-  	    <a href="/about" title="About">About</a>
-  	    <a href="/contact" title="Contact">Contact</a>
-			</div>
-		</div>
 
     <div class="container content">
       {{ content }}
     </div>
+
+	<div class="footer">
+		<div class="titleleft">
+		sdlfjlskdjflk
+		</div>
+		<div class="titleright">
+			Copyright 2018. All rights reserved
+		</div>
+	</div>
 
   </body>
 </html>
