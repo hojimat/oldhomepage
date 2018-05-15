@@ -445,10 +445,10 @@ figure.expand {
 	padding-top: -10em;
 }
 
-label, input, select {
+label, input, select, textarea{
     display: block;
 }
 
-label {
+input, select, textarea {
     margin-bottom: 20px;
 }

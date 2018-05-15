@@ -75,46 +75,38 @@ In the blog of this website I give a generic picture of works done and publish o
 # Let me help you with your project<a name="hire"></a>
 
 <div class="row">
-	<form class="contactform" action="https://formspree.io/rsk@ravshansk.com" method="post" enctype="text/plain">
+	<form class="contactform" action="https://formspree.io/rsk@ravshansk.com" method="POST">
 		<input type="hidden" name="_subject" value="Job request from website" />
 		<div class="column">
-			<label>
-				Name:
-				<input type="text" name="name" placeholder="How should I address you?" required>
-			</label>
-			<label>
-				Email:
-				<input type="email" name="email" placeholder="Please enter your email" required>
-			</label>
-			<label>
-				Other contact info:
-				<input type="text" name="other" placeholder="Your phone, Twitter, Skype">
-			</label>
+			<label>Name:</label>
+			<input type="text" name="name" placeholder="How should I address you?" required />
+			<label>Email:</label>
+			<input type="email" name="email" placeholder="Please enter your email" required />
+			<label>Other contact info:</label>
+			<input type="text" name="other" placeholder="Your phone, Twitter, Skype" />
 		</div>
 		<div class="column">
-			<label>Subject to consult:
-				<select name="topic">
-					<option>Economic Theory</option>
-					<option>Statistical Theory</option>
-					<option>Economic Analysis</option>
-					<option>Statistical Analysis</option>
-					<option>Machine Learning</option>
-					<option>Computational Statistics</option>
-					<option>Other</option>
-				</select>
-			</label>
-			<label>Estimated budget:
-				<select name="budget">
-					<option><500 USD</option>
-					<option>500-1000 USD</option>
-					<option>1000-2000 USD</option>
-					<option>>2000 USD</option>
-				</select>
-			</label>
-			<label>Describe the task
-				<textarea name="body" rows="10" cols="50" placeholder="Write the task details. I will answer within a day." required></textarea>
-			</label>
-			<input type="submit" value="Submit">
+			<label>Subject to consult:</label>
+			<select name="topic">
+				<option>Economic Theory</option>
+				<option>Statistical Theory</option>
+				<option>Economic Analysis</option>
+				<option>Statistical Analysis</option>
+				<option>Machine Learning</option>
+				<option>Computational Statistics</option>
+				<option>Other</option>
+			</select>
+			<label>Estimated budget:</label>
+			<select name="budget">
+				<option><500 USD</option>
+				<option>500-1000 USD</option>
+				<option>1000-2000 USD</option>
+				<option>>2000 USD</option>
+			</select>
+			<label>Describe the task:</label>
+			<textarea name="body" rows="10" cols="50" placeholder="Write the task details. I will answer within a day." required></textarea>
+			
+			<input type="submit" value="Send" />
 		</div>
 	</form>
 </div>
