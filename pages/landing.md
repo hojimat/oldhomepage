@@ -84,7 +84,7 @@ In the blog of this website I give a generic picture of works done and publish o
 			</label>
 			<label>
 				Email:
-				<input type="email" namee="email" placeholder="Please enter your email" required>
+				<input type="email" name="email" placeholder="Please enter your email" required>
 			</label>
 			<label>
 				Other contact info:
@@ -112,7 +112,7 @@ In the blog of this website I give a generic picture of works done and publish o
 				</select>
 			</label>
 			<label>Describe the task
-				<textarea title="body" rows="10" cols="50" placeholder="Write the task details. I will answer within a day." required></textarea>
+				<textarea name="body" rows="10" cols="50" placeholder="Write the task details. I will answer within a day." required></textarea>
 			</label>
 			<input type="submit" value="Submit">
 		</div>
