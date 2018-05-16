@@ -113,9 +113,72 @@ In the blog of this website I give a generic picture of works done and publish o
 	</form>
 </div>
 
-Follow me on Twitter <a href="https://twitter.com/ravshansk">@ravshansk</a>
-My e-mail address is [rsk@ravshansk.com](mailto:rsk@ravshansk.com). Please feel free to contact me with any questions, comments, collaboration requests. 
- 
+### Don't like forms?
+You can also contact me via email or social media. The most recent info is available below. Please write the subject and description of your project and include the estimated budget. 
 
+# Contact <a name="contact"></a>
 
+The best way to contact me is via email to [rsk@ravshansk.com](mailto:rsk@ravshansk.com). I am also available on most social media, but I'm mostly active on Twitter.  
+
+I share important posts from this website's blog to Medium.  
+
+To ask me small specific questions about your algorithm, you can send me an email or ask me on StackExchange. To ask me generic questions, you can request an answer from me on Quora.  
+
+All links to profiles are listed below.
+
+<div class="row">
+	<div class="column">
+	<ul class="contacts">
+		<li>
+			<a href="mailto:rsk@ravshansk.com">
+				<img src="/assets/img/landing/email.png" height="20px" class="inline"> rsk@ravshansk.com
+			</a>
+		</li>
+		<li>
+			<a href="https://twitter.com/ravshansk">
+				<img src="/assets/img/landing/twitter.png" height="20px" class="inline">@ravshansk
+			</a>
+		</li>
+		<li>
+			<a href="https://facebook.com/ravshanskh">
+				<img src="/assets/img/landing/facebook.png" height="20px" class="inline"> @ravshanskh
+			</a>
+		</li>
+		<li>
+			<a href="https://medium.com/@ravshansk">
+				<img src="/assets/img/landing/medium.png" height="20px" class="inline">@ravshansk
+			</a>
+		</li>
+		<li>
+			<a href="https://linkedin.com/in/ravshanbek">
+				<img src="/assets/img/landing/linkedin.png" height="20px" class="inline"> ravshan @ linkedin
+			</a>
+		</li>
+	</ul>
+	</div>
+	<div class="column">
+	<ul class="contacts">
+		<li>
+			<a href="/blog">
+				<img src="/assets/img/landing/blog.png" height="20px" class="inline">blog @ ravshansk.com
+			</a>
+		</li>
+		<li>
+			<a href="https://twitter.com/ravshansk">
+				<img src="/assets/img/landing/stackexchange.png" height="20px" class="inline">stackexchange/ravshansk
+			</a>
+		</li>
+		<li>
+			<a href="https://www.quora.com/profile/Ravshan-K">
+				<img src="/assets/img/landing/quora.png" height="20px" class="inline">quora.com/ravshan-k
+			</a>
+		</li>
+		<li>
+			<a href="https://www.github.com/ravshansk">
+				<img src="/assets/img/landing/github.png" height="20px" class="inline">github.com/ravshansk
+			</a>
+		</li>
+	</ul>
+	</div>
+</div>
 
