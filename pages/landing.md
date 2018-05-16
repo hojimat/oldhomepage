@@ -72,7 +72,9 @@ In the blog of this website I give a generic picture of works done and publish o
 - Economics in Questions and Answers (planned)
 
 
-# Let me help you with your project<a name="hire"></a>
+# Hire me<a name="hire"></a>
+
+## Let me help you with your project
 
 <div class="row">
 	<form class="contactform" action="https://formspree.io/rsk@ravshansk.com" method="POST">
