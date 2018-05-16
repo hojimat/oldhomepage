@@ -164,8 +164,13 @@ All links to profiles are listed below.
 			</a>
 		</li>
 		<li>
-			<a href="https://twitter.com/ravshansk">
-				<img src="/assets/img/landing/stackexchange.png" height="20px" class="inline">stackexchange/ravshansk
+			<a href="https://economics.stackexchange.com/users/18320/ravshan-s-k">
+				<img src="/assets/img/landing/stackexchange.png" height="20px" class="inline">economics stackexchange
+			</a>
+		</li>
+		<li>
+			<a href="https://stats.stackexchange.com/users/208529/ravshan-s-k">
+				<img src="/assets/img/landing/stackexchange.png" height="20px" class="inline">statistics stackexchange
 			</a>
 		</li>
 		<li>
