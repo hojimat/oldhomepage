@@ -474,9 +474,9 @@ ul.contacts li {
 .nav-container {
 	 position: fixed;
 	 top: 0;
-	 left: 0;
+	 left: 50%;
 	 height: 100%;
-	 width: 100%;
+	 width: 50%;
 	 z-index: -1;
   	 background-color: rgb(45,122,141,0.7);
 	 opacity: 0;
