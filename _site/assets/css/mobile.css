@@ -383,8 +383,15 @@ div.titlemain {
 	padding-left: 1em;
 	margin-left: -1em;
 	margin-right: -1em;
-	font-size: 1em;
 	float: center;
+}
+
+div.titlemain div.tagline {
+	font-size: 0.6em;
+}
+
+div.titlemain h1 {
+	font-size: 0.8em;
 }
 
 div.row::after {
