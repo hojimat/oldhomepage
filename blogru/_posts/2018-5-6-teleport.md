@@ -1,5 +1,5 @@
 ---
-layout: postlit 
+layout: post 
 title: Что будет, если у каждого появится телепорт 
 lang: russian 
 ---

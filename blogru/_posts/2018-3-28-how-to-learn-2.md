@@ -1,5 +1,5 @@
 ---
-layout: postlit
+layout: post
 title: Как научиться абсолютно всему? (2/3)
 lang: russian 
 ---

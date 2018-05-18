@@ -1,5 +1,5 @@
 ---
-layout: postlit
+layout: post
 title: Лето 
 lang: russian 
 ---

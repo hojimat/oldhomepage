@@ -1,5 +1,5 @@
 ---
-layout: postlit
+layout: post
 title: The Breakfast club. Наверстывая культуру.
 lang: russian
 ---
