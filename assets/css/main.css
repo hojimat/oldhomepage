@@ -370,6 +370,10 @@ div.titleleft a {
 	color: #fff;	
 }
 
+div.titleright {
+	color: #fff;	
+}
+
 div.background {
 	position: relative;
 	text-align: center;
