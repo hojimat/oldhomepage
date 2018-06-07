@@ -494,3 +494,28 @@ nav ul li {
 .hidden {
 	display: none;
 }
+
+
+div.highlighted{
+	font-family: serif;
+	font-size: 2em;
+	font-style: italic;
+	color: grey;
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+
+div.highlighted:before {
+	color: grey;
+	content: open-quote;
+}
+
+ul.index {
+	list-style-type:none;
+	font-family: "PT Sans",sans-serif;
+}
+
+ul.index a{
+	color: black;
+	font-style: underline;
+}
