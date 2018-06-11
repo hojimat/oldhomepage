@@ -505,11 +505,6 @@ div.highlighted{
 	padding-top: 1em;
 }
 
-div.highlighted:before {
-	color: grey;
-	content: open-quote;
-}
-
 ul.index {
 	list-style-type:none;
 	font-family: "PT Sans",sans-serif;
