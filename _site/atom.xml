@@ -4,32 +4,13 @@
  <title>Ravshan S.K.</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-06-11T05:00:08+03:00</updated>
+ <updated>2018-06-18T00:15:23+03:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Ravshanbek Khodzhimatov</name>
    <email>rsk@ravshansk.com</email>
  </author>
 
- 
- <entry>
-   <title>What are lifecycle investments and how do they work?</title>
-   <link href="http://localhost:4000/blog/2018/06/10/thesis1/"/>
-   <updated>2018-06-10T00:00:00+03:00</updated>
-   <id>http://localhost:4000/blog/2018/06/10/thesis1</id>
-   <content type="html">&lt;p&gt;I finally ajdflskdjf;lksjdf lskdjflaksj lkasjdf laksjfl lskjdf laskjdf lksdj lj ladsjf ladsj f&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;
-Lifecycles are great. I kinda recommend them to be used at my disgression. What the hell is this all about anyway?
-&lt;/div&gt;
-
-&lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/ann.png&quot; alt=&quot;Generalization of Logit&quot; /&gt;
-	&lt;figcaption&gt;ANN as a generalization of logit&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-</content>
- </entry>
  
  <entry>
    <title>Как написать диссертацию? Мой опыт.</title>
