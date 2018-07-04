@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I learned Factor Analysis (and more)
+title: Factor Analysis and Uniform distributions
 lang: english
 description: Product of which distributions is uniform, square root of uniform distributions
 ---

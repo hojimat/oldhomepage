@@ -374,6 +374,11 @@ div.titleright {
 	color: #fff;	
 }
 
+div.titlecenter {
+	color: #fff;	
+	text-align: center;
+}
+
 div.background {
 	position: relative;
 	text-align: center;
