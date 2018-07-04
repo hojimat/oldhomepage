@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Crypto-token economy. Discussion, model and R implementation
+published: false
 lang: english
 ---
 
