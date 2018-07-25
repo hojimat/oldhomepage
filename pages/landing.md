@@ -4,7 +4,8 @@ title: Home
 permalink: /
 ---
 
-# About<a name="about"></a>
+<a name="about"></a><br>
+# About
 
 My name is Ravshan S.K. (Ravshanbek Khodzhimatov). I hold a [Master's Degree in Economics](http://econ.boun.edu.tr) from [Bogazici University](http://boun.edu.tr), [Istanbul, Turkey](https://en.wikipedia.org/wiki/Istanbul). My research interests are _agent-based modeling, macroeconometrics and forecasting_. Aside from my expertise in economics, I have an experience working as _financial analyst, customer service assistant, marketing assistant, interpreter, data scientist and web developer_.  
 
@@ -27,8 +28,8 @@ I also _tutor, but only graduate economics courses_.
 
 In the blog of this website I give a generic picture of works done and publish on related auxilliary topics, but not the work itself. Once you hire me I never publish the work I've done - you've paid me and it all belongs to you.
 
-
-# Works<a name="works"></a>
+<a name="works"></a><br>
+# Works
 
 ## Contributions to projects
 <div class="row">
@@ -71,8 +72,8 @@ In the blog of this website I give a generic picture of works done and publish o
 - Individualized Lifecycle Pension Investments in Turkey (working paper)
 - Economics in Questions and Answers (planned)
 
-
-# Hire me<a name="hire"></a>
+<a name="hire"></a><br>
+# Hire me
 
 ## Let me help you with your project
 
@@ -116,7 +117,8 @@ In the blog of this website I give a generic picture of works done and publish o
 ### Don't like forms?
 You can also contact me via email or social media. The most recent info is available below. Please write the subject and description of your project and include the estimated budget. 
 
-# Contact <a name="contact"></a>
+<a name="contact"></a><br>
+# Contact
 
 The best way to contact me is via email to [rsk@ravshansk.com](mailto:rsk@ravshansk.com). I am also available on most social media, but I'm mostly active on Twitter.  
 

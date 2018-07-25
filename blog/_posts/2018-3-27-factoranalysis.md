@@ -43,9 +43,9 @@ Unfortunately, the product of two distinct Beta(2,1)-distributed variables was n
 
 I discovered that the product formula for two beta-distributed variables was really complex and I decided that the _rigor could be compensated for intuitiveness in this case_, after all this was statistics and not a real analysis (if you disagree, you are welcome to leave a comment with your suggestion, I would be very interested to learn your perspective). After trying to solve for the free parameters and combining this with trial-and-error, _I have finally discovered the answer!_ 
 
-> **Product of two Beta(1.2, 0.5)-distributed variables is approximately uniform**
+<div class="highlighted">Product of two Beta(1.2, 0.5)-distributed variables is approximately uniform</div>
 
-**The** distribution was **Beta(1.2, 0.5)**!
+_The_ distribution was _Beta(1.2, 0.5)_!
 
 <figure class="blog">
 	<img src="/assets/img/factoranalysis/beta1205.png" alt="Beta(1.2,0.5) distribution">
@@ -61,4 +61,4 @@ The product of two variables from this distribution is approximately uniformly d
 
 ## Conclusion
 
-I find this discovery extremely enlightening and useful. Hope you will too. To read about my other projects please see my other blog entries. **To hire me, please visit the Collaborate tab or [click here](/collaborate).** 
+I find this discovery extremely enlightening and useful. Hope you will too. To read about my other projects please see my other blog entries.
