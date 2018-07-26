@@ -479,21 +479,15 @@ nav {
 	color: #fff;	
 }
 
-nav ul li a {
+nav a {
 	padding: 2.5%;
 	color: #fff;	
 	text-align: center;
 	text-decoration: none;
 }
 
-nav ul {
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-}
-
-nav ul li {
-	display: inline;
+nav a.icon {
+	display: none;
 }
 
 .hidden {

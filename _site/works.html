@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -18,7 +19,7 @@
   <!-- CSS -->
   <link rel="stylesheet" href="/assets/css/syntax.css">
   <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="stylesheet" media='screen and (max-width: 750px)' href='/assets/css/mobile.css' />
+  <link rel="stylesheet" media='screen and (max-width: 600px)' href='/assets/css/mobile.css' />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext">
 
@@ -61,17 +62,16 @@
         <div class="titleleft">
           <a href="/#" title="Home">Ravshan S.K.</a>
         </div>
-		<nav>
-  			<input type="checkbox" id="nav" class="hidden"/>
-  			<label for="nav" class="nav-open"><i></i><i></i><i></i></label>
+		<nav class="topnav" id="myTopNav">
   			<div class="nav-container">
-    			<ul>
-  	    			<li><a href="/#about" title="About">About</a></li>
-  	    			<li><a href="/#works" title="Works">Works</a></li>
-  	    			<li><a href="/#hire" title="Hire">Hire now</a></li>
-  	    			<li><a href="/#contact" title="Contact">Contact</a></li>
-  	    			<li><a href="/blog" title="Blog">Blog</a></li>
-    			</ul>
+  	    			<a href="/#about" title="About">About</a>
+  	    			<a href="/#works" title="Works">Works</a>
+  	    			<a href="/#hire" title="Hire">Hire now</a>
+  	    			<a href="/#contact" title="Contact">Contact</a>
+  	    			<a href="/blog" title="Blog">Blog</a>
+					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+						<i class="fa fa-bars"></i>
+					</a>
   			</div>
 		</nav>
     </div>
@@ -110,6 +110,17 @@
 			Copyright 2018. All rights reserved
 		</div>
 	</div>
+
+	<script>
+	function myFunction() {
+		var x = document.getElementById("myTopNav");
+		if (x.className === "topnav") {
+			x.className += " responsive";
+		} else {
+			x.className = "topnav";
+		}
+	}
+	</script>
 
   </body>
 </html>
