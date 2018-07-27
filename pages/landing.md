@@ -70,7 +70,7 @@ In the blog of this website I give a generic picture of works done and publish o
 
 - _[Welfare effects of individualizing lifecycle investments: a simulation](https://github.com/ravshansk/mathesis/blob/master/tex/article.pdf)_
 - _[Utility tokens: economic model and simulation in R](/blog/2018/07/04/tokenregs/)_
-- _Using impulse-response functions in artificial neural networks (working paper)_
+- _[Using impulse-response functions in artificial neural networks (working paper)](/blog/2017/12/12/irf-ann/)_
 
 <a name="hire"></a><br>
 # Hire me
