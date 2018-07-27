@@ -53,19 +53,37 @@ permalink: /works
 		<p>Stata community has been lacking a panel fully-modified ordinary least squares regression command. I have built it and it is now available as an <a href="https://ideas.repec.org/c/boc/bocode/s458447.html">SSC package here</a>. The package has found its demand and is being heavily used.</p>
 	</div>
 </div>
-
-to be completed
+<div class="row" id="factor">
+	<div class="column">
+		<h3>FA matrix generation</h3>
+		<p>I developed an algorithm and corresponding R function that uniformly generates correlation matrices for any n-factor models in factor analysis. This contributed to a psychometric research by a client.</p>
+	</div>
+	<div class="imgcolumn">
+		<figure class="blog">
+			<img src="/assets/img/landing/factor.png">
+		</figure>
+	</div>
+</div>
 # Economic Consulting
-
-to be completed
-# Computing projects
-to be completed
-
-- LaTeX template for M.A. Thesis in Bogazici University format
-
-# Publications 
-
-- Using IRF in ANN (working paper)
-- Individualized Lifecycle Investments in Turkey (working paper)
-- Economics in Questions and Answers (planned)
-
+<div class="row" id="tokens">
+	<div class="imgcolumn">
+		<figure class="blog">
+			<img src="/assets/img/landing/tokens.jpg">
+		</figure>
+	</div>
+	<div class="column">
+		<h3>Crypto token economics</h3>
+		<p>Most of the crypto research has been going in blogs instead of academic journals. This caused most of the incentive structures to be literally verbal. I created a mathematical model of token economies and a prototype R simulation to make future analyses rigorous.</p>
+	</div>
+</div>
+<div class="row" id="gradecon">
+	<div class="column">
+		<h3>Graduate economic tutoring</h3>
+		<p>I have successfully tutored a number of graduate economics students in their coursework and their theses.</p>
+	</div>
+	<div class="imgcolumn">
+		<figure class="blog">
+			<img src="/assets/img/landing/cup.JPG">
+		</figure>
+	</div>
+</div>
