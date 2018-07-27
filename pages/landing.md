@@ -31,21 +31,13 @@ In the blog of this website I give a generic picture of works done and publish o
 <a name="works"></a><br>
 # Works
 
-## Contributions to projects
+## Notable clients
 <div class="row">
 	<div class="imgcolumn">
 		<figure class="blog">
-			<a href="/works#stata">
-				<img src="/assets/img/landing/stata.jpg">
-				<figcaption>Stata</figcaption>
-			</a>
-		</figure>
-	</div>
-	<div class="imgcolumn">
-		<figure class="blog">
-			<a href="/works#latex">
-				<img src="/assets/img/landing/sharelatex.jpg">
-				<figcaption>ShareLaTeX</figcaption>
+			<a href="/works#caterpillar">
+				<img src="/assets/img/landing/caterpillar.png">
+				<figcaption>Caterpillar Inc.</figcaption>
 			</a>
 		</figure>
 	</div>
@@ -54,6 +46,14 @@ In the blog of this website I give a generic picture of works done and publish o
 			<a href="/works#bsh">
 				<img src="/assets/img/landing/bsh.jpg">
 				<figcaption>BSH Hausgeräte</figcaption>
+			</a>
+		</figure>
+	</div>
+	<div class="imgcolumn">
+		<figure class="blog">
+			<a href="/works#stata">
+				<img src="/assets/img/landing/stata.jpg">
+				<figcaption>Stata</figcaption>
 			</a>
 		</figure>
 	</div>
@@ -68,9 +68,9 @@ In the blog of this website I give a generic picture of works done and publish o
 
 ## Publications 
 
-- Using impulse-response functions in artificial neural networks (working paper)
-- Individualized Lifecycle Pension Investments in Turkey (working paper)
-- Economics in Questions and Answers (planned)
+- _[Welfare effects of individualizing lifecycle investments: a simulation](https://github.com/ravshansk/mathesis/blob/master/tex/article.pdf)_
+- _[Utility tokens: economic model and simulation in R](/blog/2018/07/04/tokenregs/)_
+- _Using impulse-response functions in artificial neural networks (working paper)_
 
 <a name="hire"></a><br>
 # Hire me
