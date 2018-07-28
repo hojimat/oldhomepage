@@ -31,7 +31,7 @@ In the blog of this website I give a generic picture of works done and publish o
 <a name="works"></a><br>
 # Works
 
-## Notable clients
+## Notable contributions
 <div class="row">
 	<div class="imgcolumn">
 		<figure class="blog">
