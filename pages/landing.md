@@ -45,7 +45,7 @@ In the blog of this website I give a generic picture of works done and publish o
 		<figure class="blog">
 			<a href="/works#bsh">
 				<img src="/assets/img/landing/bsh.jpg">
-				<figcaption>BSH Hausgeräte</figcaption>
+				<figcaption>Bosch Siemens Hausgeräte</figcaption>
 			</a>
 		</figure>
 	</div>
