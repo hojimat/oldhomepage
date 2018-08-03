@@ -12,14 +12,16 @@ My name is Ravshan S.K. (Ravshanbek Khodzhimatov). I hold a [Master's Degree in 
 ## What services do I provide?
 
 You have come to the right place, if you are:
+- a **manager** or **business owner** needing to analyze their corporate data and perform scenario analysis
 - a **researcher** needing a statistical algorithm/model, tailored exactly for your need
 - a **data scientist** needing a consultation in statistical theory
 - a **policymaker** needing to analyze economic impacts of a policy
 
 I provide **data analysis** and **statistical and economic consulting** services, which include:
-- developing statistical algorithms
-- performing economic impact analysis (EIA)
 - performing data analysis
+- performing scenario analysis
+- performing economic impact analysis (EIA)
+- developing statistical algorithms
 - consulting in statistical and economic theory
 - simulating economic markets (including token-based markets)
 
