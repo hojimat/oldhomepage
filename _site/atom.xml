@@ -4,13 +4,50 @@
  <title>Ravshan S.K.</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-08-03T23:52:47+06:00</updated>
+ <updated>2018-08-06T17:52:58+06:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Ravshanbek Khodzhimatov</name>
    <email>rsk@ravshansk.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Куда пойти работать?</title>
+   <link href="http://localhost:4000/blogru/2018/08/05/career/"/>
+   <updated>2018-08-05T00:00:00+06:00</updated>
+   <id>http://localhost:4000/blogru/2018/08/05/career</id>
+   <content type="html">&lt;h2 id=&quot;корпорация&quot;&gt;Корпорация&lt;/h2&gt;
+&lt;h3 id=&quot;риски&quot;&gt;риски&lt;/h3&gt;
+&lt;h3 id=&quot;потенциал&quot;&gt;потенциал&lt;/h3&gt;
+&lt;h3 id=&quot;отношение&quot;&gt;отношение&lt;/h3&gt;
+&lt;h3 id=&quot;мэслоу&quot;&gt;Мэслоу&lt;/h3&gt;
+
+&lt;h2 id=&quot;коби&quot;&gt;КОБИ&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- консалтинг
+- производство
+- торговля логистика ### риски ### потенциал ### отношение ### Мэслоу
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;стартап&quot;&gt;Стартап&lt;/h2&gt;
+&lt;h3 id=&quot;риски-1&quot;&gt;риски&lt;/h3&gt;
+&lt;h3 id=&quot;потенциал-1&quot;&gt;потенциал&lt;/h3&gt;
+&lt;h3 id=&quot;отношение-1&quot;&gt;отношение&lt;/h3&gt;
+&lt;h3 id=&quot;мэслоу-1&quot;&gt;Мэслоу&lt;/h3&gt;
+
+&lt;h2 id=&quot;нпо&quot;&gt;НПО&lt;/h2&gt;
+&lt;h3 id=&quot;риски-2&quot;&gt;риски&lt;/h3&gt;
+&lt;h3 id=&quot;потенциал-2&quot;&gt;потенциал&lt;/h3&gt;
+&lt;h3 id=&quot;отношение-2&quot;&gt;отношение&lt;/h3&gt;
+&lt;h3 id=&quot;мэслоу-2&quot;&gt;Мэслоу&lt;/h3&gt;
+
+&lt;h2 id=&quot;фриланс&quot;&gt;Фриланс&lt;/h2&gt;
+&lt;h3 id=&quot;риски-3&quot;&gt;риски&lt;/h3&gt;
+&lt;h3 id=&quot;потенциал-3&quot;&gt;потенциал&lt;/h3&gt;
+&lt;h3 id=&quot;отношение-3&quot;&gt;отношение&lt;/h3&gt;
+&lt;h3 id=&quot;мэслоу-3&quot;&gt;Мэслоу&lt;/h3&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Bitcoin forgot its roots. Should we tax it?</title>
@@ -42,6 +79,351 @@
 &lt;div class=&quot;highlighted&quot;&gt;Maybe Bitcoin community will remember its original purpose of overthrowing financial institutions and not creating them.&lt;/div&gt;
 
 &lt;p&gt;To sum up, Bitcoin is not doing the job of alternative currency it was supposed to do, and it is not planning to go green. Therefore, &lt;em&gt;governments have every moral right to tax them without regulating the system itself&lt;/em&gt;. Because of Bitcoin’s own problems, this will not be considered as government overreaching.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Utility tokens&#58; discussion, economic model and simulation in R</title>
+   <link href="http://localhost:4000/blog/2018/08/01/tokens/"/>
+   <updated>2018-08-01T00:00:00+06:00</updated>
+   <id>http://localhost:4000/blog/2018/08/01/tokens</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://hackernoon.com/utility-tokens-discussion-economic-model-and-simulation-in-r-798c0ff3d26c&quot;&gt;&lt;em&gt;This post has been originally published in HackerNoon. Click here to read the original.&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Last fall I was hired to build an economic model for &lt;em&gt;token-curated registries&lt;/em&gt; as part of my &lt;a href=&quot;/#hire&quot;&gt;consulting job&lt;/a&gt;. Since then, I encountered many people who expressed interest in this model, so I decided to share the basic theory and implementation.&lt;/p&gt;
+
+&lt;h3 id=&quot;contents&quot;&gt;Contents&lt;/h3&gt;
+&lt;ul class=&quot;index&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;#intro&quot;&gt;1. Philosophical introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#model&quot;&gt;2. Model summary&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#agents&quot;&gt;3. Agents and motivations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#statics&quot;&gt;4. System statics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#dynamics&quot;&gt;5. System dynamics: simulation in R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#conclusion&quot;&gt;6. Conclusion&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a name=&quot;intro&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;1-philosophical-introduction&quot;&gt;1. Philosophical introduction&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;#model&quot;&gt;To skip to the model click here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The great expositive summary of &lt;em&gt;Token economy&lt;/em&gt; can be found on &lt;a href=&quot;https://en.wikipedia.org/wiki/Token_economy&quot;&gt;Wikipedia&lt;/a&gt;, so I will dive into my points straight away.&lt;/p&gt;
+
+&lt;p&gt;As I see it, a token economy is an attempt to quantify life and give a price to everything. This aligns perfectly with classical economic thinking, where even externalities, such as air pollution, can be compensated by sufficient taxes.&lt;/p&gt;
+
+&lt;p&gt;Wikipedia says that tokens have been successfully used at schools and psychiatric hospitals, but the recent resurgence in interest has begun with the cryptocurrency rush. Since the creation of universally accepted token was problematic before, nobody tried to tie all services to some price. However, the open source blockchain algorithms made this process really easy and suddenly many people decided that it is a good idea to &lt;em&gt;tokenize&lt;/em&gt; (read &lt;em&gt;monetize&lt;/em&gt;) literally everything.&lt;/p&gt;
+
+&lt;p&gt;Being an economist myself, I believe that this thinking is terribly wrong. I understand where it comes from — everybody took  &lt;em&gt;Econ 101&lt;/em&gt; at some point and was inspired by elegance of &lt;em&gt;invisible hand&lt;/em&gt; models. But I also know that &lt;em&gt;free market&lt;/em&gt; is not the only mechanism out there. &lt;em&gt;Centralized matching mechanisms&lt;/em&gt;, &lt;em&gt;social planner’s problem&lt;/em&gt;, &lt;em&gt;lotteries&lt;/em&gt; all exist for a reason. Not every &lt;em&gt;equilibrium&lt;/em&gt; is &lt;em&gt;efficient&lt;/em&gt;. Sadly, not everybody takes advanced econ courses, while almost everybody wants to profit from &lt;em&gt;ICO&lt;/em&gt;’s.&lt;/p&gt;
+
+&lt;div class=&quot;highlighted&quot;&gt;Not every equilibrium is efficient&lt;/div&gt;
+
+&lt;p&gt;Of course, tokens can be justified in appropriate cases. Actually, the great working area for tokens is online games, where every crystal is given a price and has an obvious value to players. In general, whenever any kind of labor is involved, a money making procedure is good. Otherwise, it is some kind of &lt;em&gt;rent seeking&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ryan Selkis of &lt;em&gt;Messari&lt;/em&gt; &lt;a href=&quot;https://medium.com/tbis-weekly-bits/skin-in-the-game-coins-da0afdfdc650&quot;&gt;greatly summarized&lt;/a&gt; the difference between &lt;em&gt;bubble&lt;/em&gt; and &lt;em&gt;utility tokens&lt;/em&gt;, and explained why he believes the former will be worthless in the long run. I will go even further and claim that most so-called utility tokens are as well bubbles and don’t give any extra utility.&lt;/p&gt;
+
+&lt;h3 id=&quot;examples&quot;&gt;&lt;strong&gt;Examples&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Below I reviewed a couple of examples that appear in the first results page when you google &lt;em&gt;utility tokens&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://datum.org/assets/Datum-WhitePaper.pdf&quot;&gt;Datum&lt;/a&gt; claims to help users to prevent social networks from collecting their data “for free” and sell it for money instead, &lt;em&gt;i.e.&lt;/em&gt; &lt;em&gt;“take control”&lt;/em&gt; of their information. This certainly sounds fun, but it totally neglects the fact that Facebook or Youtube are already providing a great service for free in exchange for collecting users’ data, moreover they offer all kinds of privacy settings for all their users. It is a fair trade. What Datum wants is to take those services for granted and try to profit from that, providing no utility whatsoever.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.talenthon.io/docs/whitepaper_talenthon.pdf&quot;&gt;Talenthon&lt;/a&gt; wants to make another LinkedIn but to replace reputational structure with token structure and give tokens for truthful references. That’s wrong on many levels, including:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;impossibility to quantify references&lt;/li&gt;
+  &lt;li&gt;possibility that worker can change, making references obsolete&lt;/li&gt;
+  &lt;li&gt;the assumption that businessmen would care about tokens more than they care about their reputation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is exactly what I meant above, when I said that monetary relationships are not always efficient. And finally, these people hypocritically encourage openness and decentralization while using proprietary algorithms.&lt;/p&gt;
+
+&lt;div class=&quot;highlighted&quot;&gt;The right decision is to only decentralize those services that actually support the decentralization.&lt;/div&gt;
+
+&lt;p&gt;Another issue with &lt;em&gt;token-backed decentralization&lt;/em&gt; is that historically every decentralization was tightly related to &lt;em&gt;disruption, hippie philosophy, anarchy&lt;/em&gt;. All examples of successful decentralization used to be altruistic and didn’t involve monetary goals. Decentralized apps (DAPPs) I care for are &lt;em&gt;BitTorrent, Wikipedia, Linux, GNU Project, OpenStreetMap&lt;/em&gt; etc.&lt;/p&gt;
+
+&lt;p&gt;Decentralized projects used to be the very definitions of &lt;em&gt;trust-based systems&lt;/em&gt;, where corporations like &lt;em&gt;Apple&lt;/em&gt; would be put to shame by the community for not contributing code back to &lt;em&gt;BSD&lt;/em&gt; but still get away with it, and nobody would attempt to financially incentivize them to do so.&lt;/p&gt;
+
+&lt;div class=&quot;highlighted&quot;&gt;These old days, which most of us still remember, should raise everyone's concerns about the longevity of trustless structures.&lt;/div&gt;
+
+&lt;p&gt;There are, however, appropriate use cases for tokens and some developers get this.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://adtoken.com/uploads/white-paper.pdf&quot;&gt;AdChain&lt;/a&gt; does this well by aiming at a peculiar area — ranking ads services. This is compatible with token system and is not something that has already been done on a massive scale.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://filecoin.io/filecoin.pdf&quot;&gt;Filecoin&lt;/a&gt; does even better job by providing a service of renting storage space, which works at the same time as a mining tool via &lt;em&gt;proof-of-storage&lt;/em&gt;. They have problems with modelling incentives but at the end of the day they provide legit utility and thus are &lt;em&gt;not bubbles&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;In this article I will try to build an economic model for exactly those &lt;em&gt;utility tokens&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;model&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;2-model-summary&quot;&gt;2. Model summary&lt;/h2&gt;
+
+&lt;p&gt;This economic model of tokens is very generic, so that it can work as a blueprint for future token creators and as a reasonable abstraction for applied economists.&lt;/p&gt;
+
+&lt;div class=&quot;highlighted&quot;&gt;Ideally, this model can also serve as a guideline for writing whitepapers.&lt;/div&gt;
+
+&lt;p&gt;In case you have skipped the previous section, let me remind you that &lt;em&gt;utility tokens&lt;/em&gt; are any tokens that produce a legit service for consumers and are not &lt;em&gt;primarily&lt;/em&gt; tools for middlemen or speculators (although such agents do exist in our model).&lt;/p&gt;
+
+&lt;p&gt;Since tokens aim at &lt;em&gt;trustless&lt;/em&gt; structures, we will need some kind of proof that every &lt;em&gt;node&lt;/em&gt; corresponds to a single person instead of some &lt;em&gt;botnet&lt;/em&gt;. Since I am a huge &lt;a href=&quot;https://en.wikipedia.org/wiki/Proof-of-work_system&quot;&gt;&lt;em&gt;proof-of-work&lt;/em&gt;&lt;/a&gt; opposer and since most of the tokens are built on Ethereum platform, which is &lt;a href=&quot;https://cointelegraph.com/news/first-version-of-ethereums-casper-update-has-been-released&quot;&gt;moving towards &lt;em&gt;proof-of-stake&lt;/em&gt;&lt;/a&gt; anyway, I will use the latter in the model.&lt;/p&gt;
+
+&lt;div class=&quot;highlighted&quot;&gt;The service is paid for in fixed number of tokens, not in cash.&lt;/div&gt;
+
+&lt;p&gt;Pricing service in a fixed token rate will correctly capture the proportionate relationship between demand and price — the greater the demand for the service, the more people will buy tokens, the price of tokens will increase, and so will the cash equivalent of the service; and vice versa.&lt;/p&gt;
+
+&lt;p&gt;There are consumers, investors, and honest and malicious miners in our model, each having different &lt;em&gt;motivations&lt;/em&gt; and &lt;em&gt;types&lt;/em&gt;. Consumers and malicious miners want token price to depreciate, while honest miners and investors want token price to appreciate.&lt;/p&gt;
+
+&lt;p&gt;The incentives should be modelled in such a way that no player will want to deviate from the honest sutainable system as long as there is an honest majority (&lt;em&gt;conditional equilibrium&lt;/em&gt;). We will assume the &lt;a href=&quot;https://arxiv.org/abs/1710.09437&quot;&gt;&lt;em&gt;Ethereum Casper&lt;/em&gt;&lt;/a&gt;’s &lt;em&gt;checkpoint tree&lt;/em&gt; voting model, as it satisfies the &lt;em&gt;accountable safety&lt;/em&gt; and &lt;em&gt;plausible liveness&lt;/em&gt; as long as &lt;em&gt;2/3&lt;/em&gt; of votes are honest. We will model the resulting economy but not dig into the technicalities or revisit what &lt;em&gt;Vitalik Buterin&lt;/em&gt; and &lt;em&gt;Virgil Griffith&lt;/em&gt; have already spent some time to model.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;agents&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;3-agents-and-motivations&quot;&gt;3. Agents and motivations&lt;/h2&gt;
+
+&lt;p&gt;In a general &lt;em&gt;utility token economy&lt;/em&gt; there are four types of agents:&lt;/p&gt;
+
+&lt;h3 id=&quot;honest-miners&quot;&gt;Honest miners&lt;/h3&gt;
+&lt;p&gt;Honest miners are people with domain expertise, who actually do the job and create the utility. They are incentivized by a system to do the best job they can to earn more tokens as long as they constitute &lt;em&gt;51%&lt;/em&gt; of the &lt;em&gt;active&lt;/em&gt; token holders.&lt;/p&gt;
+
+&lt;p&gt;They do not play any &lt;em&gt;strategies&lt;/em&gt;, &lt;em&gt;i.e.&lt;/em&gt; they naively vote for the correct version in every quorum. They earn (mine) rewards as long as malicious miners don’t take over, and at the same time they provide a utility to customers. Therefore the main quantitative feature of honest miners is their proportion among all miners.&lt;/p&gt;
+
+&lt;div class=&quot;highlighted&quot;&gt;Main quantitative feature of honest miners is their number.&lt;/div&gt;
+
+&lt;p&gt;The corresponding issue is that it is impossible to tell for certain which miners are honest and which are not. Therefore customers and investors choose their strategies based on the expectations. The prior probabilities which form these expectations are exogeneous in this model but can be endogenized. If you are a researcher interested in extending the model in this area, please &lt;a href=&quot;/#contact&quot;&gt;contact me&lt;/a&gt;, so that we can discuss and share the ideas on that topic.&lt;/p&gt;
+
+&lt;h3 id=&quot;customers&quot;&gt;Customers&lt;/h3&gt;
+&lt;p&gt;Customers are people who use and benefit from the service created by the &lt;em&gt;honest miners&lt;/em&gt; and pay for it using tokens they bought for cash.&lt;/p&gt;
+
+&lt;p&gt;As mentioned in the introduction, utility tokens only work good in peculiar services like job referencing or ads ranking. Therefore, customers not only care about the quality of service, but also about its popularity/public acceptance. This can be modelled using the following version of &lt;em&gt;Cobb-Douglas utility function&lt;/em&gt;:&lt;/p&gt;
+
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img src=&quot;/assets/img/token/cust_util.png&quot; width=&quot;50%&quot; alt=&quot;Customer's utility function&quot; /&gt;
+	&lt;figcaption&gt;Customer's utility function&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;where &lt;em&gt;E[x]&lt;/em&gt; is the expected demand and &lt;em&gt;E[z]&lt;/em&gt; is the expected number of experts (honest miners) in the system.&lt;/p&gt;
+
+&lt;p&gt;Note that even when there is zero demand but nonzero number of experts (&lt;em&gt;E[x]=0; E[z]&amp;gt;0&lt;/em&gt;) the customer still receives a non-zero utility from the service. Conversely, when the service is very popular and has high demand but zero expert knowledge (&lt;em&gt;E[x]&amp;gt;0; E[z]=0&lt;/em&gt;) the utility from the service is zero despite its popularity.&lt;/p&gt;
+
+&lt;div class=&quot;highlighted&quot;&gt;The demand for tokens is equal to the expected total number of customers&lt;/div&gt;
+
+&lt;p&gt;The customers are not uniform though — there are &lt;em&gt;early adopters&lt;/em&gt;, &lt;em&gt;late majority&lt;/em&gt; and &lt;em&gt;laggards&lt;/em&gt;. They differ in reservation utility levels — each type of customer will only subscribe to the service if the utility &lt;em&gt;U(x,z)&lt;/em&gt; will exceed &lt;em&gt;U&lt;sub&gt;early&lt;/sub&gt;, U&lt;sub&gt;late&lt;/sub&gt;, U&lt;sub&gt;lag&lt;/sub&gt;&lt;/em&gt; respectively, where &lt;em&gt;U&lt;sub&gt;early&lt;/sub&gt; ≤ U&lt;sub&gt;late&lt;/sub&gt; ≤ U&lt;sub&gt;lag&lt;/sub&gt;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;According to &lt;a href=&quot;https://en.wikipedia.org/wiki/Technology_adoption_life_cycle&quot;&gt;&lt;em&gt;product adoption life cycle&lt;/em&gt;&lt;/a&gt;, the consumer types are distributed as &lt;em&gt;16%&lt;/em&gt; early adopters, &lt;em&gt;68%&lt;/em&gt; late majority and &lt;em&gt;16%&lt;/em&gt; laggards:&lt;/p&gt;
+
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img src=&quot;/assets/img/token/cust_dist.png&quot; width=&quot;60%&quot; alt=&quot;Customer type allocation&quot; /&gt;
+	&lt;figcaption&gt;Modified Roger's curve&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;You can see that I have simplified the actual Roger’s curve. If you are interested in extending the model to use actual technology adoption lifecycle, you can &lt;a href=&quot;/#contact&quot;&gt;contact me&lt;/a&gt; and I will share my ideas.&lt;/p&gt;
+
+&lt;h3 id=&quot;investors&quot;&gt;Investors&lt;/h3&gt;
+&lt;p&gt;Investors are people who buy tokens for &lt;em&gt;ICO&lt;/em&gt;/market value and hold them in expectation of value appreciation. We will assume that there are &lt;em&gt;N&lt;/em&gt; identical investors with equal wealth level &lt;em&gt;w&lt;/em&gt;, who are using a version of &lt;em&gt;Markowitz’s mean-variance formula&lt;/em&gt; to choose between investing in stocks and our tokens.&lt;/p&gt;
+
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img src=&quot;/assets/img/token/markowitz.png&quot; width=&quot;30%&quot; alt=&quot;Markowitz formula&quot; /&gt;
+	&lt;figcaption&gt;Modified Markowitz's mean-variance formula&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;where &lt;em&gt;μ&lt;sub&gt;c&lt;/sub&gt;&lt;/em&gt; and &lt;em&gt;μ&lt;sub&gt;s&lt;/sub&gt;&lt;/em&gt; are coin and stock returns respectively, and &lt;em&gt;γ&lt;/em&gt; and &lt;em&gt;σ&lt;sub&gt;c&lt;/sub&gt;&lt;/em&gt; are risk-aversion coefficient and coin volatility.&lt;/p&gt;
+
+&lt;p&gt;Note that we simplify and consider stock returns &lt;em&gt;deterministic&lt;/em&gt;, so the model can be extended here. You can also replace Markowitz with more complex and more realistic models like &lt;em&gt;Merton&lt;/em&gt;, &lt;em&gt;Munk&lt;/em&gt;, &lt;em&gt;Bodie&lt;/em&gt;, &lt;em&gt;Samuelson&lt;/em&gt; or &lt;em&gt;Campbell&lt;/em&gt; or add other cryptocoins into the decision. Since our model aims to be as generic as possible, we leave out these options. If you are interested in financial economics and want to extend the model in this area, please &lt;a href=&quot;/#contact&quot;&gt;contact me&lt;/a&gt; so that we can share ideas and/or collaborate.&lt;/p&gt;
+
+&lt;p&gt;We will also assume that all the investors are risk neutral.&lt;/p&gt;
+
+&lt;p&gt;For further simplicity, we will omit &lt;em&gt;gamblers&lt;/em&gt; from our model — the investors who will strategically predict the quorum outcome and vote in that direction to mine extra tokens. Those, who are interested in that, can enhance on this model themselves and/or &lt;a href=&quot;/#contact&quot;&gt;contact me&lt;/a&gt; for ideas and suggestions.&lt;/p&gt;
+
+&lt;div class=&quot;highlighted&quot;&gt;The more investors a system has, the more cash is in the system.&lt;/div&gt;
+
+&lt;h3 id=&quot;malicious-miners&quot;&gt;Malicious miners&lt;/h3&gt;
+&lt;p&gt;Malicious miners are people who buy tokens for &lt;em&gt;ICO&lt;/em&gt;/market value and vote at quorum to force their version of blockchain.&lt;/p&gt;
+
+&lt;p&gt;In this model we don’t consider hypothetical &lt;em&gt;Jokers&lt;/em&gt; (&lt;em&gt;i.e.&lt;/em&gt; system trolls who want to sabotage the honest blockchain just for the sake of it), so all malicious miners have a rational agenda — it’s almost always the profit maximization outside of the system.&lt;/p&gt;
+
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img src=&quot;/assets/img/token/malprofit.png&quot; width=&quot;90%&quot; alt=&quot;Malicious miner's profit&quot; /&gt;
+	&lt;figcaption&gt;Malicious miner's profit&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;where the first term is the initial profit a company makes by selling their good or service at price &lt;em&gt;f&lt;/em&gt; to their initial consumers plus a share of total demand that comes from the token vote with probability  &lt;em&gt;α&lt;/em&gt; of winning the vote. The second term is the &lt;em&gt;interference term&lt;/em&gt; which completes probability of demand from tokens to &lt;em&gt;1&lt;/em&gt; at the cost of buying tokens necessary to win the majority vote at price &lt;em&gt;p&lt;sub&gt;c&lt;/sub&gt;&lt;/em&gt; per token. The second term is equal to zero in case of non-interference, &lt;em&gt;i.e.&lt;/em&gt; no malicious token activity.&lt;/p&gt;
+
+&lt;div class=&quot;highlighted&quot;&gt;The more malicious miners a system has, the easier it is for them to influence the votes.&lt;/div&gt;
+
+&lt;p&gt;Malicious miners participate in the token economy only if spending cash on tokens and winning the votes will increase their outside profit. Otherwise, they won’t have any incentive to meddle with the blockchain.&lt;/p&gt;
+
+&lt;p&gt;In this model we assume that all malicious miners want to lobby the single version o the blockchain and not conflict among themselves. Moreover, malicious miners can preemptively buy tokens while they are cheap to increase profits in the future, even if this decision does not increase short-term profits. If you are interested in extending the model in this area, please feel free to &lt;a href=&quot;/#contact&quot;&gt;contact me&lt;/a&gt; to discuss this and exchange ideas.&lt;/p&gt;
+
+&lt;p&gt;In the next section we will quickly see how these agents interact at a fixed point in time.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;statics&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;4-system-statics&quot;&gt;4. System statics&lt;/h2&gt;
+
+&lt;p&gt;At any point in time, the agents solve their corresponding utility maximization problems from the previous section. The generalized static interactions can be visualized as follows:&lt;/p&gt;
+
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img src=&quot;/assets/img/token/tokenomy.png&quot; width=&quot;70%&quot; alt=&quot;Token economy system statics&quot; /&gt;
+	&lt;figcaption&gt;System statics in a utility token economy&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Note that we differentiate between &lt;em&gt;active&lt;/em&gt; and &lt;em&gt;passive&lt;/em&gt; tokens, where former participate in votes and the latter do not.&lt;/p&gt;
+
+&lt;p&gt;To model the price formation of a token we use a simplified version of &lt;em&gt;quantity theory of money&lt;/em&gt; with money market equilibrium modelled in &lt;a href=&quot;https://arxiv.org/pdf/1405.4498.pdf&quot;&gt;&lt;em&gt;“Economics of Bitcoin Price Formation”&lt;/em&gt;&lt;/a&gt; (Ciaian et al. (2014)).&lt;/p&gt;
+
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img src=&quot;/assets/img/token/price.png&quot; width=&quot;30%&quot; alt=&quot;Price of token formula&quot; /&gt;
+	&lt;figcaption&gt;Price formula of token&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;where &lt;em&gt;PY&lt;/em&gt; is the dollar value of a token economy, &lt;em&gt;r&lt;/em&gt; is the opportunity interest rate (in our case, &lt;em&gt;μ&lt;sub&gt;s&lt;/sub&gt;&lt;/em&gt;), &lt;em&gt;T&lt;/em&gt; is the size of token supply and  &lt;em&gt;η&lt;/em&gt; is an exogeneous stabilization parameter.&lt;/p&gt;
+
+&lt;p&gt;Note that in a proof-of-stake economy, the token supply &lt;em&gt;T&lt;/em&gt; is fixed, so the token is &lt;em&gt;deflationary&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;To calculate the nominal GDP (&lt;em&gt;PY&lt;/em&gt;) we add all the cash that customers and investors inject in the token economy.&lt;/p&gt;
+
+&lt;p&gt;If you are interested in more complicated pricing formulas, please read Ciaian’s paper, mentioned above, and/or &lt;a href=&quot;/#contact&quot;&gt;contact me&lt;/a&gt; to exchange ideas.&lt;br /&gt;
+&lt;a name=&quot;dynamics&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;4-system-dynamics-simulation-in-r&quot;&gt;4. System dynamics: simulation in R&lt;/h2&gt;
+&lt;p&gt;Previous two sections summarize the economy at any fixed point in time. To see how this system works over time we need to perform a dynamic analysis. The system dynamics can be modelled to follow the timing described below:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;The economy begins when developers create the protocol and generate all the tokens (see Section 2). &lt;em&gt;Without loss of generality&lt;/em&gt;, we assume that there is only one creator.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Creator distributes a certain share of all tokens to early experts who agree to work for tokens instead of cash and not sell them for at least a certain period of time. We make a weak assumption that all these early experts are &lt;em&gt;honest&lt;/em&gt; miners. She sells other tokens in an &lt;em&gt;ICO&lt;/em&gt;.&lt;/p&gt;
+
+    &lt;p&gt;The decision how much to keep, how much to sell and how much to distribute involves a whole optimization process on its own, but we exogenize it for simplicity. As always, any &lt;a href=&quot;/#contact&quot;&gt;extensions are welcome&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Consumers decide whether to subscribe to the service by buying tokens or to opt for other service providers.&lt;/p&gt;
+
+    &lt;p&gt;Investors decide whether to buy tokens or stocks instead.&lt;/p&gt;
+
+    &lt;p&gt;Malicious miners decide whether buying tokens and joining the vote will increase their short-term profit.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;All market participants are determined and active tokens are bidden in a vote.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Majority vote wins, and losers’ stakes are &lt;em&gt;slashed&lt;/em&gt; — equally redistributed among winners.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Consumers’ and investors’ cash injections are calculated and added to price formula. Token’s price is updated.&lt;/p&gt;
+
+    &lt;p&gt;Current token rate of return is calculated as &lt;em&gt;(1 + Δp&lt;sub&gt;t&lt;/sub&gt;/p&lt;sub&gt;t&lt;/sub&gt;)&lt;/em&gt;&lt;/p&gt;
+
+    &lt;p&gt;Token’s attractiveness parameter &lt;em&gt;η&lt;/em&gt; is updated.&lt;/p&gt;
+
+    &lt;p&gt;Current stock rates of returns &lt;em&gt;r&lt;/em&gt; are observed.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Loop steps 3 to 6.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;r-simulation&quot;&gt;R simulation&lt;/h3&gt;
+
+&lt;p&gt;We are ready to see how the economy will work in a simulation. First we will define the default parameters.&lt;/p&gt;
+&lt;div class=&quot;language-R highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# PERIODS&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;N&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;      &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#number of time periods of interest&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+
+&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# AGENTS&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_D&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1000&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;   &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#maximum potential subscription demand&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_I&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#number of investors&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_H&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#number of honest miners&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_M&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;     &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#number of malicious miners&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_HB&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#number of honest beneficiaries&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+
+&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# MARKET PARAMETERS&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mu_s&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0.2&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;   &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#stock rate of return (assume deterministic)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;      &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#unit price of malicious miner's side product&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_T&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;100000&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#total number of tokens&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;distsh&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0.5&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#share distributed to experts&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fee&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;      &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#service fee in tokens&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+
+&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# UTILITY PARAMETERS&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;eta&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;      &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#token's attractiveness&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;alpha&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#Cobb-Douglas weight of popularity&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;beta&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;     &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#Cobb-Douglas weight of expertise&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;U_early&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#reservation utility for early adopters&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;U_late&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;-16000&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#reservation utility for late majority&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;U_lag&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;-84000&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#reservation utility for laggards&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+
+&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# customer distribution&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_Dearly&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0.16&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_D&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#number of early adopters&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_Dlate&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0.68&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_D&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#number of late majority&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_Dlag&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0.16&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_D&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;   &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#number of laggards&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_B&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;included&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_M&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_HB&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#expected total beneficiaries&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Then we initialize the main results matrix:&lt;/p&gt;
+
+&lt;div class=&quot;language-R highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;results&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data.frame&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;token_price&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;rep&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;N&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+                      &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num_customers&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_Dearly&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+                      &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cash_invested&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+                      &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stock_rate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mu_s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+                      &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num_honest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_H&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+                      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Assuming that 160 early adopters each bought 5 tokens in the first period for exchange rate &lt;em&gt;1 token = 1 $&lt;/em&gt; and each of 200 investors also bought 10 tokens, we have the size of the token economy in the first period equal to 2800. Plugging that into price equation gives the real token value of &lt;em&gt;0.14&lt;/em&gt;, but we use this information in an unusual way and assign it as an appreciation in the first period:&lt;/p&gt;
+
+&lt;div class=&quot;language-R highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;results&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cash_invested&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2000&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;results&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;token_price&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1.21&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;What I just did, doesn’t really make any sense — I just had to arrive at a workable Markowitz solution somehow. So, if anyone wants to propose a good price appreciation mechanism, &lt;a href=&quot;/#contact&quot;&gt;please contact me&lt;/a&gt; and I will correct that.&lt;/p&gt;
+
+&lt;p&gt;And finally, we run a simulation for &lt;em&gt;N&lt;/em&gt; periods.&lt;/p&gt;
+
+&lt;div class=&quot;language-R highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# run the simulation&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;N&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# CUSTOMERS&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#calculate utility&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;U&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;results&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num_customers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;-1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;alpha&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;results&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num_honest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;-1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;beta&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#decide whether to enter or not&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;U&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;U_lag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;results&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num_customers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_Dearly&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_Dlate&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_Dlag&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;U&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;U_lag&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;U&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;U_late&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;results&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num_customers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_Dearly&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_Dlate&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;U&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;U_late&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;U&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;U_lag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;results&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num_customers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_Dearly&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  
+  &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# INVESTORS&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#calculate rate of return:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;token_rate&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;results&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;token_price&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;results&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;token_price&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;-1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#calculate sharpe ratio&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sharpe_ratio&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;token_rate&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mu_s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0.01&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#invest in the token&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;results&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cash_invested&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_I&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sharpe_ratio&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  
+  
+  &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# MALICIOUS MINERS&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;prior_profit&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;included&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;results&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num_customers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_B&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;enter_profit&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;results&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num_customers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_HB&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_M&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;results&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;token_price&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0.51&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;included&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_H&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_M&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_M&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  
+  
+  &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# TOKEN PRICE&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;results&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;token_price&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;+1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;eta&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;results&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num_customers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fee&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;results&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cash_invested&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mu_s&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_T&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This basic implementation gives &lt;em&gt;rudimentary&lt;/em&gt; results, like price and demand dynamics etc.&lt;/p&gt;
+
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img src=&quot;/assets/img/token/numcustomers.png&quot; width=&quot;50%&quot; alt=&quot;Demand dynamics&quot; /&gt;
+	&lt;img src=&quot;/assets/img/token/tokenprice.png&quot; width=&quot;50%&quot; alt=&quot;Token price&quot; /&gt;
+	&lt;figcaption&gt;Token price and demand dynamics&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;a name=&quot;conclusion&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;6-conclusion&quot;&gt;6. Conclusion&lt;/h2&gt;
+
+&lt;p&gt;In this article I have discussed my opinion on the current state of crypto-tokens and built a universal economic model of utility tokens. Since this model is very generic, &lt;strong&gt;&lt;em&gt;the realistic results can only be obtained by tailoring it to your specific use case&lt;/em&gt;&lt;/strong&gt;. However, this framework and the corresponding R script are the great start to model any utility token economy.&lt;/p&gt;
+
+&lt;p&gt;Whether you are a researcher or token developer, I believe this framework will be useful to you in analyzing token economies. I welcome every discussion on model extensions and/or improvements.&lt;/p&gt;
+
+&lt;p&gt;I strongly believe that open knowledge is the only way to the progress. You are free to use any of the components of the article, but &lt;strong&gt;&lt;em&gt;I kindly ask you to cite the source&lt;/em&gt;&lt;/strong&gt; and let other people read this article and contribute to the discussion. The publishable version of this paper is not ready yet, but I can send you a draft version &lt;a href=&quot;/#contact&quot;&gt;on demand&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I kindly want to remind that economic consulting &lt;a href=&quot;/#hire&quot;&gt;is my job&lt;/a&gt;, so I can provide any help with tailoring the model to your needs, but this will be a &lt;a href=&quot;/#hire&quot;&gt;paid service&lt;/a&gt;. You can hire me via &lt;a href=&quot;mailto:rsk@ravshansk.com&quot;&gt;email&lt;/a&gt; or by &lt;a href=&quot;/#hire&quot;&gt;filling the Hire Me form&lt;/a&gt;. Please be sure to include the estimated budget, the scope and the deadlines.&lt;/p&gt;
+
 </content>
  </entry>
  
