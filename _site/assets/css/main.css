@@ -140,6 +140,9 @@ pre {
   word-break: break-all;
   word-wrap: break-word;
   background-color: #f9f9f9;
+  -moz-tab-size: 2;
+  tab-size: 2;
+  -o-tab-size: 2;
 }
 pre code {
   padding: 0;
