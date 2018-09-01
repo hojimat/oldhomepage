@@ -25,7 +25,7 @@ First of all, let's recall the density plot of a uniform distribution:
 
 Unfortunately, the product of uniform distributions is not uniform and is skewed towards origin. So, I decided to find the square root of a uniform distribution. After long inquiries I found a [great proof](http://www.sci.csueastbay.edu/~esuess/classes/Statistics_6401/Handouts/trans/TransUnif.pdf) that square root of the uniform distribution is Beta(2,1) distribution.
 
-> **Square of a Beta(2,1) distributed variable is uniformly distributed**
+<div class="highlighted">Square of a Beta(2,1) distributed variable is uniformly distributed</div>
 
 <figure class="blog">
 	<img src="/assets/img/factoranalysis/beta21.png" alt="Beta(2,1) distribution">
@@ -39,13 +39,13 @@ Unfortunately, the product of uniform distributions is not uniform and is skewed
 
 Unfortunately, the product of two distinct Beta(2,1)-distributed variables was not uniform and was normally-skewed. So, the above property wasn't useful for the project. But I was inspired now - I discovered the beta distribution and wasn't going to let it go - I googled "the product of beta distributions" and found a great deal of related literature (please look it up if you are interested). 
 
-> **Uniform distribution is equivalent to Beta(1,1) distribution**
+<div class="highlighted">Uniform distribution is equivalent to Beta(1,1) distribution</div>
 
 I discovered that the product formula for two beta-distributed variables was really complex and I decided that the _rigor could be compensated for intuitiveness in this case_, after all this was statistics and not a real analysis (if you disagree, you are welcome to leave a comment with your suggestion, I would be very interested to learn your perspective). After trying to solve for the free parameters and combining this with trial-and-error, _I have finally discovered the answer!_ 
 
 <div class="highlighted">Product of two Beta(1.2, 0.5)-distributed variables is approximately uniform</div>
 
-_The_ distribution was _Beta(1.2, 0.5)_!
+The distribution was _Beta(1.2, 0.5)_!
 
 <figure class="blog">
 	<img src="/assets/img/factoranalysis/beta1205.png" alt="Beta(1.2,0.5) distribution">

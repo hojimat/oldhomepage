@@ -4,7 +4,7 @@
  <title>Ravshan S.K.</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-08-30T16:37:33+06:00</updated>
+ <updated>2018-09-01T22:13:50+06:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Ravshanbek Khodzhimatov</name>
@@ -1173,9 +1173,7 @@
 
 &lt;p&gt;Unfortunately, the product of uniform distributions is not uniform and is skewed towards origin. So, I decided to find the square root of a uniform distribution. After long inquiries I found a &lt;a href=&quot;http://www.sci.csueastbay.edu/~esuess/classes/Statistics_6401/Handouts/trans/TransUnif.pdf&quot;&gt;great proof&lt;/a&gt; that square root of the uniform distribution is Beta(2,1) distribution.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Square of a Beta(2,1) distributed variable is uniformly distributed&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;div class=&quot;highlighted&quot;&gt;Square of a Beta(2,1) distributed variable is uniformly distributed&lt;/div&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
 	&lt;img src=&quot;/assets/img/factoranalysis/beta21.png&quot; alt=&quot;Beta(2,1) distribution&quot; /&gt;
@@ -1189,15 +1187,13 @@
 
 &lt;p&gt;Unfortunately, the product of two distinct Beta(2,1)-distributed variables was not uniform and was normally-skewed. So, the above property wasn’t useful for the project. But I was inspired now - I discovered the beta distribution and wasn’t going to let it go - I googled “the product of beta distributions” and found a great deal of related literature (please look it up if you are interested).&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Uniform distribution is equivalent to Beta(1,1) distribution&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;div class=&quot;highlighted&quot;&gt;Uniform distribution is equivalent to Beta(1,1) distribution&lt;/div&gt;
 
 &lt;p&gt;I discovered that the product formula for two beta-distributed variables was really complex and I decided that the &lt;em&gt;rigor could be compensated for intuitiveness in this case&lt;/em&gt;, after all this was statistics and not a real analysis (if you disagree, you are welcome to leave a comment with your suggestion, I would be very interested to learn your perspective). After trying to solve for the free parameters and combining this with trial-and-error, &lt;em&gt;I have finally discovered the answer!&lt;/em&gt;&lt;/p&gt;
 
 &lt;div class=&quot;highlighted&quot;&gt;Product of two Beta(1.2, 0.5)-distributed variables is approximately uniform&lt;/div&gt;
 
-&lt;p&gt;&lt;em&gt;The&lt;/em&gt; distribution was &lt;em&gt;Beta(1.2, 0.5)&lt;/em&gt;!&lt;/p&gt;
+&lt;p&gt;The distribution was &lt;em&gt;Beta(1.2, 0.5)&lt;/em&gt;!&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
 	&lt;img src=&quot;/assets/img/factoranalysis/beta1205.png&quot; alt=&quot;Beta(1.2,0.5) distribution&quot; /&gt;
