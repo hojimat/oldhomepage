@@ -2,6 +2,7 @@
 layout: post
 title: Introducing Panel FMOLS/DOLS command for Stata
 lang: english
+keywords: stata, cointreg, pedroni, panel data
 ---
 Last week I was hired to perform a thorough analysis of a panel dataset for export dynamics of different sectors in a country. I had never done panel econometrics before or even read it in a textbook. But since I am good at cross-section and time-series, I believed I could handle the task. And I wasn't wrong.  
 

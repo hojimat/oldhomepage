@@ -2,6 +2,8 @@
 layout: post
 title: Business education needs a dose of pessimism
 lang: english
+description: how to reform business education and make it compelling
+keywords: business education, curriculum, reform, education
 ---
 
 Undergraduate business education faces a lot of criticism spanning from lack of practical training to philosophical arguments that management shouldn't be taught at undergraduate level at all. I cannot change the status quo and won't try to repeat these statements - I will try to give a constructive feedback. What I propose in this article is very easy to implement: it will just require change in the attitude.  

@@ -2,6 +2,8 @@
 layout: post
 title: Bitcoin forgot its roots. Should we tax it?
 lang: english
+description: how and why to regulate bitcoin
+keywords: bitcoin, tax, regulation, cryptocurrency, decentralization, anarchy
 ---
 
 Bitcoin was invented and became popular first within a crypto community whose members were predominantly influenced by the so-called “hacker culture”.  

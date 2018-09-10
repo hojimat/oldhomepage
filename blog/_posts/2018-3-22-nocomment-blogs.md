@@ -2,6 +2,7 @@
 layout: post
 title: This is how you should never end your blog posts
 lang: english
+keywords: cta, blog, writing
 ---
 
 Almost every blogging tutorial suggests you to end your posts with the so-called CTAs (call-to-action). They say that encouraging your readers to comment will help to promote your blog. Most bloggers seem to miss the point and use phrases like *"and what do you think?", "share your thoughts in comments"*. For sure, commenting increases indexation of your page and solidifies your audience, but this only happens if comments come organically. I will now elaborate on my claim.  

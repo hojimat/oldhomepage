@@ -5,6 +5,12 @@
 
   <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  {% if page.keywords %}
+ <meta name="keywords" content="{{ page.keywords }}" />
+  {% else %}
+ <meta name="keywords" content="statistics,econometrics,economics,consultant,hire" />
+ {% endif %}
 
   <title>
     {% if page.title == "Home" %}

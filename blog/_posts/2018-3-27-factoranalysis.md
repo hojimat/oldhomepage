@@ -3,6 +3,7 @@ layout: post
 title: Factor Analysis and Uniform distributions
 lang: english
 description: Product of which distributions is uniform, square root of uniform distributions
+keywords: uniform distribution, beta distribution, decomposition 
 ---
 
 [**To learn about product decomposition of uniform distribution click here or keep on reading**](#unifrand)
