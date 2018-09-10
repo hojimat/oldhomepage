@@ -26,9 +26,7 @@ I provide **data analysis** and **statistical and economic consulting** services
 - simulating economic markets (including token-based markets)
 
 
-I also _tutor, but only graduate economics courses_.  
-
-In the blog of this website I give a generic picture of works done and publish on related auxilliary topics, but not the work itself. Once you hire me I never publish the work I've done - you've paid me and it all belongs to you.
+In the blog of this website I give a generic picture of works done and publish on related auxilliary topics, but not the work itself. 
 
 <a name="works"></a><br>
 # Works

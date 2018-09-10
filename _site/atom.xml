@@ -4,7 +4,7 @@
  <title>Ravshan S.K.</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-09-01T22:13:50+06:00</updated>
+ <updated>2018-09-08T14:15:22+06:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Ravshanbek Khodzhimatov</name>
@@ -1158,13 +1158,17 @@
 
 &lt;p&gt;This month I worked on a &lt;a href=&quot;https://en.wikipedia.org/wiki/Psychometrics&quot;&gt;psychometric project&lt;/a&gt;. It is interesting that I had never heard about this field before. Psychometrics, is basically statistics applied to psychology, similar to econometrics, biostatitcs etc. What is great about my economic background, though, is the rigorous mathematical and statistical background - it helped me learn the subject and contribute fairly quickly.&lt;/p&gt;
 
-&lt;p&gt;The task was to design an algorithm which randomly generates correlation matrices satisfying given &lt;a href=&quot;https://en.wikipedia.org/wiki/Factor_analysis&quot;&gt;factor analysis model&lt;/a&gt;. I finished the great textbook “Modern Factor Analysis” by Harry H. Harman and learned a lot. In a nutshell, Factor analysis is the method used to find latent common factors which underlie the given variables; once found, such factors may be used in the model as regressors, thus reducing the number of variables. Psychologists use this to evaluate various test results: 100-question test by 1000 people gives a large panel dataset. However if the test questions could be reduced to their underlying hidden factors like introversion, risk aversion, optimism etc. we could considerably simplify the analysis. After all, the measure of those traits (and &lt;strong&gt;not&lt;/strong&gt; the test questions) is &lt;strong&gt;the&lt;/strong&gt; purpose of psychology.&lt;/p&gt;
+&lt;p&gt;The task was to design an algorithm which randomly generates correlation matrices satisfying given &lt;a href=&quot;https://en.wikipedia.org/wiki/Factor_analysis&quot;&gt;factor analysis model&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I finished the great textbook “Modern Factor Analysis” by Harry H. Harman and learned a lot. In a nutshell, Factor analysis is the method used to find latent common factors which underlie the given variables; once found, such factors may be used in the model as regressors, thus reducing the number of variables.&lt;/p&gt;
+
+&lt;p&gt;Psychologists use this to evaluate various test results: 100-question test by 1000 people gives a large panel dataset. However if the test questions could be reduced to their underlying hidden factors like introversion, risk aversion, optimism etc. we could considerably simplify the analysis. After all, the measure of those traits (and not the test questions) is &lt;em&gt;THE&lt;/em&gt; purpose of psychology.&lt;/p&gt;
 
 &lt;p&gt;Generating correlation matrices was easy, but generating them uniformly was a big trouble. Indeed, a product of two uniform random variables is not uniform. I have discovered a great combination of free terms for &lt;a href=&quot;https://en.wikipedia.org/wiki/Beta_distribution&quot;&gt;beta distribution&lt;/a&gt; to deal with this problem:&lt;/p&gt;
 
 &lt;h2 id=&quot;product-decomposition-of-uniform-random-variables-&quot;&gt;Product decomposition of Uniform Random variables &lt;a name=&quot;unifrand&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
 
-&lt;p&gt;First of all, let’s recall the density plot of a uniform distribution:&lt;/p&gt;
+&lt;p&gt;First of all, let’s recall the density plot of a &lt;em&gt;uniform distribution&lt;/em&gt;:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
 	&lt;img src=&quot;/assets/img/factoranalysis/unif.png&quot; alt=&quot;Uniform distribution&quot; /&gt;
@@ -1185,22 +1189,24 @@
 	&lt;figcaption&gt;Square of Beta(2,1) is Uniform&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;Unfortunately, the product of two distinct Beta(2,1)-distributed variables was not uniform and was normally-skewed. So, the above property wasn’t useful for the project. But I was inspired now - I discovered the beta distribution and wasn’t going to let it go - I googled “the product of beta distributions” and found a great deal of related literature (please look it up if you are interested).&lt;/p&gt;
+&lt;p&gt;Unfortunately, the product of two distinct &lt;em&gt;i.i.d.&lt;/em&gt; Beta(2,1)-distributed variables was not uniform. So, the above property wasn’t useful for the project. But I was inspired now — I discovered the beta distribution and wasn’t going to let it go — I googled “the product of beta distributions” and found a great deal of related literature (please look it up if you are interested).&lt;/p&gt;
 
-&lt;div class=&quot;highlighted&quot;&gt;Uniform distribution is equivalent to Beta(1,1) distribution&lt;/div&gt;
+&lt;div class=&quot;highlighted&quot;&gt;Uniform distribution can be expressed as Beta(1,1) distribution&lt;/div&gt;
 
-&lt;p&gt;I discovered that the product formula for two beta-distributed variables was really complex and I decided that the &lt;em&gt;rigor could be compensated for intuitiveness in this case&lt;/em&gt;, after all this was statistics and not a real analysis (if you disagree, you are welcome to leave a comment with your suggestion, I would be very interested to learn your perspective). After trying to solve for the free parameters and combining this with trial-and-error, &lt;em&gt;I have finally discovered the answer!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I discovered that the product formula for two beta-distributed variables was really complex and I decided that the &lt;em&gt;rigor could be compensated for intuitiveness in this case&lt;/em&gt;, after all this was statistics and not a real analysis.&lt;/p&gt;
+
+&lt;p&gt;After trying to solve for the free parameters and combining this with trial-and-error, I have finally discovered the answer — uhe distribution was &lt;em&gt;Beta(1.2, 0.5)&lt;/em&gt;!&lt;/p&gt;
 
 &lt;div class=&quot;highlighted&quot;&gt;Product of two Beta(1.2, 0.5)-distributed variables is approximately uniform&lt;/div&gt;
 
-&lt;p&gt;The distribution was &lt;em&gt;Beta(1.2, 0.5)&lt;/em&gt;!&lt;/p&gt;
+&lt;p&gt;The density plot for Beta(1.2, 0.5) looks as follows:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
 	&lt;img src=&quot;/assets/img/factoranalysis/beta1205.png&quot; alt=&quot;Beta(1.2,0.5) distribution&quot; /&gt;
 	&lt;figcaption&gt;Beta(1.2, 0.5) distribution&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;The product of two variables from this distribution is approximately uniformly distributed:&lt;/p&gt;
+&lt;p&gt;The product of two &lt;em&gt;i.i.d.&lt;/em&gt; variables from this distribution is approximately uniformly distributed, as can be seen below:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
 	&lt;img src=&quot;/assets/img/factoranalysis/beta1205prod.png&quot; alt=&quot;Product of Beta(1.2,0.5) variables&quot; /&gt;

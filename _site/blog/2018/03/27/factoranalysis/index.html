@@ -87,13 +87,17 @@
 
 <p>This month I worked on a <a href="https://en.wikipedia.org/wiki/Psychometrics">psychometric project</a>. It is interesting that I had never heard about this field before. Psychometrics, is basically statistics applied to psychology, similar to econometrics, biostatitcs etc. What is great about my economic background, though, is the rigorous mathematical and statistical background - it helped me learn the subject and contribute fairly quickly.</p>
 
-<p>The task was to design an algorithm which randomly generates correlation matrices satisfying given <a href="https://en.wikipedia.org/wiki/Factor_analysis">factor analysis model</a>. I finished the great textbook “Modern Factor Analysis” by Harry H. Harman and learned a lot. In a nutshell, Factor analysis is the method used to find latent common factors which underlie the given variables; once found, such factors may be used in the model as regressors, thus reducing the number of variables. Psychologists use this to evaluate various test results: 100-question test by 1000 people gives a large panel dataset. However if the test questions could be reduced to their underlying hidden factors like introversion, risk aversion, optimism etc. we could considerably simplify the analysis. After all, the measure of those traits (and <strong>not</strong> the test questions) is <strong>the</strong> purpose of psychology.</p>
+<p>The task was to design an algorithm which randomly generates correlation matrices satisfying given <a href="https://en.wikipedia.org/wiki/Factor_analysis">factor analysis model</a>.</p>
+
+<p>I finished the great textbook “Modern Factor Analysis” by Harry H. Harman and learned a lot. In a nutshell, Factor analysis is the method used to find latent common factors which underlie the given variables; once found, such factors may be used in the model as regressors, thus reducing the number of variables.</p>
+
+<p>Psychologists use this to evaluate various test results: 100-question test by 1000 people gives a large panel dataset. However if the test questions could be reduced to their underlying hidden factors like introversion, risk aversion, optimism etc. we could considerably simplify the analysis. After all, the measure of those traits (and not the test questions) is <em>THE</em> purpose of psychology.</p>
 
 <p>Generating correlation matrices was easy, but generating them uniformly was a big trouble. Indeed, a product of two uniform random variables is not uniform. I have discovered a great combination of free terms for <a href="https://en.wikipedia.org/wiki/Beta_distribution">beta distribution</a> to deal with this problem:</p>
 
 <h2 id="product-decomposition-of-uniform-random-variables-">Product decomposition of Uniform Random variables <a name="unifrand"></a></h2>
 
-<p>First of all, let’s recall the density plot of a uniform distribution:</p>
+<p>First of all, let’s recall the density plot of a <em>uniform distribution</em>:</p>
 
 <figure class="blog">
 	<img src="/assets/img/factoranalysis/unif.png" alt="Uniform distribution" />
@@ -114,22 +118,24 @@
 	<figcaption>Square of Beta(2,1) is Uniform</figcaption>
 </figure>
 
-<p>Unfortunately, the product of two distinct Beta(2,1)-distributed variables was not uniform and was normally-skewed. So, the above property wasn’t useful for the project. But I was inspired now - I discovered the beta distribution and wasn’t going to let it go - I googled “the product of beta distributions” and found a great deal of related literature (please look it up if you are interested).</p>
+<p>Unfortunately, the product of two distinct <em>i.i.d.</em> Beta(2,1)-distributed variables was not uniform. So, the above property wasn’t useful for the project. But I was inspired now — I discovered the beta distribution and wasn’t going to let it go — I googled “the product of beta distributions” and found a great deal of related literature (please look it up if you are interested).</p>
 
-<div class="highlighted">Uniform distribution is equivalent to Beta(1,1) distribution</div>
+<div class="highlighted">Uniform distribution can be expressed as Beta(1,1) distribution</div>
 
-<p>I discovered that the product formula for two beta-distributed variables was really complex and I decided that the <em>rigor could be compensated for intuitiveness in this case</em>, after all this was statistics and not a real analysis (if you disagree, you are welcome to leave a comment with your suggestion, I would be very interested to learn your perspective). After trying to solve for the free parameters and combining this with trial-and-error, <em>I have finally discovered the answer!</em></p>
+<p>I discovered that the product formula for two beta-distributed variables was really complex and I decided that the <em>rigor could be compensated for intuitiveness in this case</em>, after all this was statistics and not a real analysis.</p>
+
+<p>After trying to solve for the free parameters and combining this with trial-and-error, I have finally discovered the answer — uhe distribution was <em>Beta(1.2, 0.5)</em>!</p>
 
 <div class="highlighted">Product of two Beta(1.2, 0.5)-distributed variables is approximately uniform</div>
 
-<p>The distribution was <em>Beta(1.2, 0.5)</em>!</p>
+<p>The density plot for Beta(1.2, 0.5) looks as follows:</p>
 
 <figure class="blog">
 	<img src="/assets/img/factoranalysis/beta1205.png" alt="Beta(1.2,0.5) distribution" />
 	<figcaption>Beta(1.2, 0.5) distribution</figcaption>
 </figure>
 
-<p>The product of two variables from this distribution is approximately uniformly distributed:</p>
+<p>The product of two <em>i.i.d.</em> variables from this distribution is approximately uniformly distributed, as can be seen below:</p>
 
 <figure class="blog">
 	<img src="/assets/img/factoranalysis/beta1205prod.png" alt="Product of Beta(1.2,0.5) variables" />
