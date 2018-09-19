@@ -10,7 +10,7 @@ I have been planning to build a superior GUI alternative to _NetLogo_ for a long
 
 Can you imagine my surprise that I haven't found an object-oriented implementation of the game in Python --- all codes were either written in Java or in _imperative_ Python.  
 
-So, I decided to build the model. I used to classes --- _Person_, which corresponded to each cell, and _Game_, which controlled the system dynamics. A great [article by _Giorgio Sironi_](https://dzone.com/articles/oo-vs-functional-game-life) also adviced to create a third class _Generation_, but I didn't find it necessary.  
+So, I decided to build the model. I used two classes --- _Person_, which corresponded to each cell, and _Game_, which controlled the system dynamics. A great [article by _Giorgio Sironi_](https://dzone.com/articles/oo-vs-functional-game-life) also adviced to create a third class _Generation_, but I didn't find it necessary.  
 
 ### Model
 So, first, I imported three libraries that I used:

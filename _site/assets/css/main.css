@@ -246,22 +246,10 @@ th {
  */
 
 .container {
-  max-width: 28rem;
-  padding-left:  1rem;
-  padding-right: 1rem;
+  max-width: 60%;
   padding-top: 3rem;
-  margin-left:  auto;
-  margin-right: auto;
-}
-@media (min-width: 38em) {
-  .container {
-    max-width: 32rem;
-  }
-}
-@media (min-width: 56em) {
-  .container {
-    max-width: 38rem;
-  }
+  margin-left:  10%;
+  margin-right: 10%;
 }
 
 
@@ -342,21 +330,23 @@ p.sidenote {
 }
 
 div.titlehead {
-  background-color: rgb(45,122,141,1);
+  background-color: rgb(33,55,82,0.9);
   position: fixed;
   top: 0;
   width: 100%;
-  padding-top:    0.3rem;
-  padding-bottom: 0.3rem;
+  padding-top:    0.2rem;
+  padding-bottom: 0.2rem;
+  z-index: 1;
 }
 
 div.footer {
-  background-color: rgb(45,122,141,1);
+  background-color: rgb(33,55,82,1);
   top: 0;
   width: 100%;
   padding-top:    0.7rem;
   padding-bottom: 0.7rem;
   font-size: 1em;
+  font-family: "PT Sans", sans-serif;
 }
 
 div.titleleft {
@@ -516,3 +506,17 @@ ul.index a{
 	color: black;
 	font-style: underline;
 }
+
+div.sidebar {
+    width: 20%;
+    position: fixed;
+    z-index: 10;
+    top: 10rem;
+    right: 0;
+    overflow-x: hidden;
+    height: auto;
+	overflow: hidden;
+	float: right;
+
+}
+

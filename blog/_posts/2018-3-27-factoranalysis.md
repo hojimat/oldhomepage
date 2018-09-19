@@ -48,7 +48,7 @@ Unfortunately, the product of two distinct _i.i.d._ Beta(2,1)-distributed variab
 
 I discovered that the product formula for two beta-distributed variables was really complex and I decided that the _rigor could be compensated for intuitiveness in this case_, after all this was statistics and not a real analysis.  
 
-After trying to solve for the free parameters and combining this with trial-and-error, I have finally discovered the answer --- uhe distribution was _Beta(1.2, 0.5)_! 
+After trying to solve for the free parameters and combining this with trial-and-error, I have finally discovered the answer --- the distribution was _Beta(1.2, 0.5)_! 
 
 <div class="highlighted">Product of two Beta(1.2, 0.5)-distributed variables is approximately uniform</div>
 

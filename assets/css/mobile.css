@@ -88,7 +88,7 @@ nav a.icon {
 
 nav.responsive {
 	position: relative;
-	background-color: rgb(45,122,141,0.7);
+	background-color: rgb(33,55,82,0);
 }
 
 nav.responsive a.icon {
@@ -101,4 +101,15 @@ nav.responsive a {
 	float: none;
 	display: block;
 	text-align: left;
+}
+
+.container {
+	max-width: 80%;
+	padding-top: 3rem;
+	margin-left:  10%;
+	margin-right: 10%;
+}
+
+div.sidebar {
+	display: none;
 }
