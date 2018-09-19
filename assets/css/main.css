@@ -355,16 +355,14 @@ div.titleleft {
   	font-family: "PT Sans", sans-serif;
 	font-size: 1.2em;
 	float: left;
-	width: 65%;
+	width: 50%;
 	overflow: hidden;
+	display: inline-block;
 }
 
 div.titleleft a {
 	color: #fff;	
-}
-
-div.titleright {
-	color: #fff;	
+	text-decoration: none;
 }
 
 div.titlecenter {
@@ -469,14 +467,16 @@ ul.contacts li {
 nav {
 	overflow: hidden;
   	font-family: "PT Sans", sans-serif;
+	display: inline;
 	color: #fff;	
 }
 
 nav a {
-	padding: 2.5%;
+	padding: 1.5%;
 	color: #fff;	
 	text-align: center;
-	text-decoration: none;
+	text-decoration: none !important;
+
 }
 
 nav a.icon {
@@ -520,3 +520,13 @@ div.sidebar {
 
 }
 
+div.sidebar a.categs {
+	display: inline-block;
+	border: 1px solid;
+	text-align: center;
+	padding: 0 0.5em 0 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: 0.2em;
+	text-decoration: none;
+	color: inherit;
+}
