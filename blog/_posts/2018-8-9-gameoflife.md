@@ -3,6 +3,7 @@ layout: post
 title: Object-oriented Game of Life in Python
 lang: english
 keywords: object-oriented, game of life, agent-based model
+tags: economics complexity
 ---
 
 ### Intro

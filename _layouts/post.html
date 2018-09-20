@@ -8,21 +8,5 @@ layout: default
   {{ content }}
 </div>
 
-<div class="sidebar">
-	<h3>Categories</h3>
-		<a class="categs" href="/econ">Economics</a>
-		<a class="categs" href="/econ">Statistics</a>
-		<a class="categs" href="/econ">Finance</a>
-		<a class="categs" href="/econ">Complexity Theory</a>
-		<a class="categs" href="/econ">Crypto</a>
-	<h3>Recent articles</h3>
-		<ul>
-		{% for post in site.posts limit:5%}
-			{% if post.lang contains 'english' %}
-   	   			<li class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | truncate:40}}</a></li>
-			{% endif %}
-		{% endfor %}
-		</ul>
-</div>
 
 {% include comments.html %}
