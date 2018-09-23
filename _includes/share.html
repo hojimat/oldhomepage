@@ -1,15 +1,14 @@
-<!-- Twitter cards -->
 <meta name="twitter:site"    content="@{{ site.twitter_username }}">
 <meta name="twitter:title"   content="{{ page.title }}">
 <meta name="twitter:card"  content="summary_large_image">
-<meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
-<!-- end of Twitter cards -->
-
-<!-- Facebook settings -->
 <meta property="fb:admins" content="ravshanskh">
-<!-- end of Facebook settings -->
 
-
+{% if page.image %}
+<meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+{% else %}
+<meta name="twitter:image" content="http://ravshansk.com/assets/img/background2.jpg">
+<meta name="og:image" content="http://ravshansk.com/assets/img/background2.jpg">
+{% endif %}
 
 <div class="share-page">
 	<a href="https://twitter.com/share?
