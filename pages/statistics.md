@@ -4,7 +4,6 @@ title: Articles on Statistics
 permalink: /statistics
 ---
 
-<style>div.sidebar div.recent {display: none};</style>
 # Articles on Statistics 
 
 <div class="posts">

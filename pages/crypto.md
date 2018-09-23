@@ -4,7 +4,6 @@ title: Articles on Complexity Theory
 permalink: /crypto
 ---
 
-<style>div.sidebar div.recent {display: none};</style>
 # Articles on Cryptocurrencies and Token Economics
 
 <div class="posts">

@@ -4,7 +4,6 @@ title: Articles on Finance
 permalink: /finance
 ---
 
-<style>div.sidebar div.recent {display: none};</style>
 # Articles on Finance 
 
 <div class="posts">

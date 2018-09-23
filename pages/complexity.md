@@ -4,7 +4,6 @@ title: Articles on Complexity Theory
 permalink: /complexity
 ---
 
-<style>div.sidebar div.recent {display: none};</style>
 # Articles on Complexity Theory
 
 <div class="posts">

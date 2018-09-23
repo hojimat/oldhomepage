@@ -4,7 +4,6 @@ title: Articles on Complexity Theory
 permalink: /economics
 ---
 
-<style>div.sidebar div.recent {display: none};</style>
 # Articles on Economics
 
 <div class="posts">

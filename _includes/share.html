@@ -1,0 +1,38 @@
+<!-- Twitter cards -->
+<meta name="twitter:site"    content="@{{ site.twitter_username }}">
+<meta name="twitter:title"   content="{{ page.title }}">
+
+{% if page.author %}
+<meta name="twitter:creator" content="@{{ page.author }}">
+{% else %}
+<meta name="twitter:creator" content="@{{ site.twitter_username }}">
+{% endif %}
+
+{% if page.url %}
+	<meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+{% endif %}
+
+{% if page.description %}
+<meta name="twitter:description" content="{{ page.description }}">
+{% else %}
+<meta name="twitter:description" content="{{ site.description }}">
+{% endif %}
+
+{% if page.image %}
+<meta name="twitter:card"  content="summary_large_image">
+<meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+{% else %}
+<meta name="twitter:card"  content="summary">
+<meta name="twitter:image" content="{{ site.url }}/assets/img/background2.jpg">
+{% endif %}
+<!-- end of Twitter cards -->
+
+
+
+
+<div class="share-page">
+    Share this on &rarr;
+	<a class="twitter" href="https://twitter.com/intent/tweet?url={{site.url}}{{page.url}}" target="_blank"></a>
+    <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">Facebook</a>
+    <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+">Google+</a>
+</div>

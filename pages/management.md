@@ -4,7 +4,6 @@ title: Articles on Management
 permalink: /management
 ---
 
-<style>div.sidebar div.recent {display: none};</style>
 # Articles on Management
 
 <div class="posts">
