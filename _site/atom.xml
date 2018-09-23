@@ -4,7 +4,7 @@
  <title>Ravshan S.K.</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-09-20T15:08:17+06:00</updated>
+ <updated>2018-09-23T16:07:18+06:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Ravshanbek Khodzhimatov</name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Valuation Calculator for Subscription-Based Businesses</title>
-   <link href="http://localhost:4000/blog/2018/09/09/subvalue/"/>
+   <link href="http://localhost:4000/articles/valuation-calc.html"/>
    <updated>2018-09-09T00:00:00+06:00</updated>
-   <id>http://localhost:4000/blog/2018/09/09/subvalue</id>
+   <id>http://localhost:4000/articles/valuation-calc</id>
    <content type="html">&lt;p&gt;“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”
 Section 1.10.32 of “de Finibus Bonorum et Malorum”, written by Cicero in 45 BC&lt;/p&gt;
 
@@ -33,9 +33,9 @@ Section 1.10.32 of “de Finibus Bonorum et Malorum”, written by Cicero in 45 
  
  <entry>
    <title>Мысли о религии</title>
-   <link href="http://localhost:4000/blogru/2018/08/27/thoughts/"/>
+   <link href="http://localhost:4000/blog/thoughts.html"/>
    <updated>2018-08-27T00:00:00+06:00</updated>
-   <id>http://localhost:4000/blogru/2018/08/27/thoughts</id>
+   <id>http://localhost:4000/blog/thoughts</id>
    <content type="html">&lt;p&gt;В этой статье я собрал мысли, которые мне приходили во время или после (чаще после) споров со знакомыми на тему религии.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Дисклеймер:&lt;/strong&gt; Я - не эксперт ни в религии, ни в праве.&lt;/p&gt;
@@ -149,9 +149,9 @@ Section 1.10.32 of “de Finibus Bonorum et Malorum”, written by Cicero in 45 
  
  <entry>
    <title>Ты не прав</title>
-   <link href="http://localhost:4000/blogru/2018/08/17/urwrong/"/>
+   <link href="http://localhost:4000/blog/urwrong.html"/>
    <updated>2018-08-17T00:00:00+06:00</updated>
-   <id>http://localhost:4000/blogru/2018/08/17/urwrong</id>
+   <id>http://localhost:4000/blog/urwrong</id>
    <content type="html">&lt;p&gt;&lt;strong&gt;А:&lt;/strong&gt; А ты знал, что Солнечная система плоская?&lt;br /&gt;
 &lt;strong&gt;Б:&lt;/strong&gt; Кто сказал? Это неправдоподобно. Ты, наверняка, не прав.&lt;br /&gt;
 &lt;strong&gt;А:&lt;/strong&gt; (негодует) Зачем мне тебе врать? Или гнать чепуху? Я прочёл это в книге. &lt;br /&gt;
@@ -167,9 +167,9 @@ Section 1.10.32 of “de Finibus Bonorum et Malorum”, written by Cicero in 45 
  
  <entry>
    <title>Object-oriented Game of Life in Python</title>
-   <link href="http://localhost:4000/blog/2018/08/09/gameoflife/"/>
+   <link href="http://localhost:4000/articles/gameoflife.html"/>
    <updated>2018-08-09T00:00:00+06:00</updated>
-   <id>http://localhost:4000/blog/2018/08/09/gameoflife</id>
+   <id>http://localhost:4000/articles/gameoflife</id>
    <content type="html">&lt;h3 id=&quot;intro&quot;&gt;Intro&lt;/h3&gt;
 &lt;p&gt;I have been planning to build a superior GUI alternative to &lt;em&gt;NetLogo&lt;/em&gt; for a long time. When I finally started working on a project, I decided to test the basic implementations in Python. Sure enough, the first app was &lt;em&gt;Conway’s Game of Life&lt;/em&gt; - a great special case of &lt;em&gt;cellular automata&lt;/em&gt;.&lt;/p&gt;
 
@@ -298,9 +298,9 @@ Section 1.10.32 of “de Finibus Bonorum et Malorum”, written by Cicero in 45 
  
  <entry>
    <title>Bitcoin forgot its roots. Should we tax it?</title>
-   <link href="http://localhost:4000/blog/2018/08/03/bitcointax/"/>
+   <link href="http://localhost:4000/articles/tax-bitcoins.html"/>
    <updated>2018-08-03T00:00:00+06:00</updated>
-   <id>http://localhost:4000/blog/2018/08/03/bitcointax</id>
+   <id>http://localhost:4000/articles/tax-bitcoins</id>
    <content type="html">&lt;p&gt;Bitcoin was invented and became popular first within a crypto community whose members were predominantly influenced by the so-called “hacker culture”.&lt;/p&gt;
 
 &lt;p&gt;The culture was all about anarchy, decentralization, open source, denouncement of Wall Street. And even though the blockchain was called a “trustless structure”, where no one had incentive to cheat on the system, it was totally based on trust in the beginning. Think about times when there were only 10 computers in the Bitcoin system – why wouldn’t anyone do a 51% attack then? Mined bitcoins were worthless back then, why would nobody break the system? Actually, there is no game theoretic equilibrium that would explain early days of any new decentralized currency. Everybody in the crypto community actually contributed to decentralization &lt;em&gt;altruistically&lt;/em&gt;.&lt;/p&gt;
@@ -331,9 +331,9 @@ Section 1.10.32 of “de Finibus Bonorum et Malorum”, written by Cicero in 45 
  
  <entry>
    <title>Utility tokens&#58; discussion, economic model and simulation in R</title>
-   <link href="http://localhost:4000/blog/2018/08/01/tokens/"/>
+   <link href="http://localhost:4000/articles/token-economics.html"/>
    <updated>2018-08-01T00:00:00+06:00</updated>
-   <id>http://localhost:4000/blog/2018/08/01/tokens</id>
+   <id>http://localhost:4000/articles/token-economics</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://hackernoon.com/utility-tokens-discussion-economic-model-and-simulation-in-r-798c0ff3d26c&quot;&gt;&lt;em&gt;This post has been originally published in HackerNoon. Click here to read the original.&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Last fall I was hired to build an economic model for &lt;em&gt;token-curated registries&lt;/em&gt; as part of my &lt;a href=&quot;/#hire&quot;&gt;consulting job&lt;/a&gt;. Since then, I encountered many people who expressed interest in this model, so I decided to share the basic theory and implementation.&lt;/p&gt;
@@ -676,9 +676,9 @@ Section 1.10.32 of “de Finibus Bonorum et Malorum”, written by Cicero in 45 
  
  <entry>
    <title>Как написать диссертацию? Мой опыт.</title>
-   <link href="http://localhost:4000/blogru/2018/06/07/disser/"/>
+   <link href="http://localhost:4000/blog/disser.html"/>
    <updated>2018-06-07T00:00:00+06:00</updated>
-   <id>http://localhost:4000/blogru/2018/06/07/disser</id>
+   <id>http://localhost:4000/blog/disser</id>
    <content type="html">&lt;h3 id=&quot;содержание&quot;&gt;Содержание&lt;/h3&gt;
 &lt;ul class=&quot;index&quot;&gt;
 &lt;li&gt;&lt;a href=&quot;#intro&quot;&gt;1. С чем едят диссертацию?&lt;/a&gt;&lt;/li&gt;
@@ -915,9 +915,9 @@ Section 1.10.32 of “de Finibus Bonorum et Malorum”, written by Cicero in 45 
  
  <entry>
    <title>Что такое LaTeX и почему вы должны его внедрить в вашу фирму.</title>
-   <link href="http://localhost:4000/blogru/2018/05/17/latex/"/>
+   <link href="http://localhost:4000/blog/latex.html"/>
    <updated>2018-05-17T00:00:00+06:00</updated>
-   <id>http://localhost:4000/blogru/2018/05/17/latex</id>
+   <id>http://localhost:4000/blog/latex</id>
    <content type="html">&lt;h2 id=&quot;о-минусах-текстовых-редакторов&quot;&gt;О минусах текстовых редакторов&lt;/h2&gt;
 &lt;p&gt;На протяжении всей истории, письменность занимала очень важное место. Настолько, что каллиграфия была целой наукой, а письмо было отдельным ремеслом. Все важные документы, книги писали специально обученные люди, которые, по сути, являлись дизайнерами.&lt;/p&gt;
 
@@ -1021,9 +1021,9 @@ Section 1.10.32 of “de Finibus Bonorum et Malorum”, written by Cicero in 45 
  
  <entry>
    <title>The Breakfast club. Наверстывая культуру.</title>
-   <link href="http://localhost:4000/blogru/2018/04/28/breakfast/"/>
+   <link href="http://localhost:4000/blog/breakfast.html"/>
    <updated>2018-04-28T00:00:00+06:00</updated>
-   <id>http://localhost:4000/blogru/2018/04/28/breakfast</id>
+   <id>http://localhost:4000/blog/breakfast</id>
    <content type="html">&lt;figure class=&quot;blog&quot;&gt;
 	&lt;img src=&quot;/assets/img/breakfastclub.jpg&quot; alt=&quot;movie still&quot; /&gt;
 	&lt;figcaption&gt;Фильм &quot;Клуб Завтрак&quot;&lt;/figcaption&gt;
@@ -1049,9 +1049,9 @@ Section 1.10.32 of “de Finibus Bonorum et Malorum”, written by Cicero in 45 
  
  <entry>
    <title>Опровержение статьи РИА о рейтинге российских вузов</title>
-   <link href="http://localhost:4000/blogru/2018/04/12/ria-fake/"/>
+   <link href="http://localhost:4000/blog/ria-fake.html"/>
    <updated>2018-04-12T00:00:00+06:00</updated>
-   <id>http://localhost:4000/blogru/2018/04/12/ria-fake</id>
+   <id>http://localhost:4000/blog/ria-fake</id>
    <content type="html">&lt;p&gt;Сегодня прочёл статью РИА о том, что 11 российских вузов вошли в сотню лучших вузов мира в 2017-м году. Это - больная для меня тема - я слежу за высшим образованием в мире уже около восьми лет и часто натыкаюсь на то, что многие вузы обвиняют систему рейтингов в предвзятости в пользу западной системы обучения (см. &lt;a href=&quot;https://youtu.be/4nG1qYwSCHc?t=5m22s&quot;&gt;интервью Садовничего Познеру&lt;/a&gt; с 5-й минуты). Я не согласен с этим, но забудем обо мне, взгляните лучше на статью (&lt;a href=&quot;https://ria.ru/society/20180412/1518459066.html&quot;&gt;ссылка&lt;/a&gt;):&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
@@ -1093,9 +1093,9 @@ Section 1.10.32 of “de Finibus Bonorum et Malorum”, written by Cicero in 45 
  
  <entry>
    <title>Библиотека Босфорского Университета</title>
-   <link href="http://localhost:4000/blogru/2018/04/12/bounlib/"/>
+   <link href="http://localhost:4000/blog/bounlib.html"/>
    <updated>2018-04-12T00:00:00+06:00</updated>
-   <id>http://localhost:4000/blogru/2018/04/12/bounlib</id>
+   <id>http://localhost:4000/blog/bounlib</id>
    <content type="html">&lt;p&gt;Сколько учусь в Босфорском университете (Bogazici University), никогда не приходило в голову снять библиотеку и опубликовать. Наверстываю.&lt;/p&gt;
 
 &lt;p&gt;Библиотека находится в &lt;em&gt;Северном кампусе&lt;/em&gt; универа и была построена в семидесятых, отсюда и стиль архитектуры:&lt;/p&gt;
@@ -1154,9 +1154,9 @@ Section 1.10.32 of “de Finibus Bonorum et Malorum”, written by Cicero in 45 
  
  <entry>
    <title>Доверять или проверять?</title>
-   <link href="http://localhost:4000/blogru/2018/04/01/newton-giants/"/>
+   <link href="http://localhost:4000/blog/newton-giants.html"/>
    <updated>2018-04-01T00:00:00+06:00</updated>
-   <id>http://localhost:4000/blogru/2018/04/01/newton-giants</id>
+   <id>http://localhost:4000/blog/newton-giants</id>
    <content type="html">&lt;p&gt;&lt;strong&gt;А:&lt;/strong&gt; Ты слишком усложняешь себе жизнь.&lt;br /&gt;
 &lt;strong&gt;Б:&lt;/strong&gt; Почему?&lt;br /&gt;
 &lt;strong&gt;А:&lt;/strong&gt; Ты не доверяешь ничему, что слышишь.&lt;br /&gt;
@@ -1170,9 +1170,9 @@ Section 1.10.32 of “de Finibus Bonorum et Malorum”, written by Cicero in 45 
  
  <entry>
    <title>Factor Analysis and Uniform distributions</title>
-   <link href="http://localhost:4000/blog/2018/03/27/factoranalysis/"/>
+   <link href="http://localhost:4000/articles/uniform-distribution.html"/>
    <updated>2018-03-27T00:00:00+06:00</updated>
-   <id>http://localhost:4000/blog/2018/03/27/factoranalysis</id>
+   <id>http://localhost:4000/articles/uniform-distribution</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;#unifrand&quot;&gt;&lt;strong&gt;To learn about product decomposition of uniform distribution click here or keep on reading&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This month I worked on a &lt;a href=&quot;https://en.wikipedia.org/wiki/Psychometrics&quot;&gt;psychometric project&lt;/a&gt;. It is interesting that I had never heard about this field before. Psychometrics, is basically statistics applied to psychology, similar to econometrics, biostatitcs etc. What is great about my economic background, though, is the rigorous mathematical and statistical background - it helped me learn the subject and contribute fairly quickly.&lt;/p&gt;
@@ -1240,9 +1240,9 @@ Section 1.10.32 of “de Finibus Bonorum et Malorum”, written by Cicero in 45 
  
  <entry>
    <title>Как научиться абсолютно всему?</title>
-   <link href="http://localhost:4000/blogru/2018/03/26/how-to-learn/"/>
+   <link href="http://localhost:4000/blog/how-to-learn.html"/>
    <updated>2018-03-26T00:00:00+06:00</updated>
-   <id>http://localhost:4000/blogru/2018/03/26/how-to-learn</id>
+   <id>http://localhost:4000/blog/how-to-learn</id>
    <content type="html">&lt;p&gt;Впервые меня освободили от занятий в восьмом классе для подготовки к олимпиаде по математике, и с тех пор я, в основном, учусь сам. Я закончил вуз, магистратуру, поработал в разных специальностях от переводчика до веб-разработчика, и каждый раз учился (и продолжаю учиться) новым вещам. Если верить правилу 10000 часов, то я смело могу сказать, что являюсь экспертом в получении знаний. В этой серии постов, я решил поделиться своими методами.&lt;/p&gt;
 
 &lt;h2 id=&quot;1-подход-новичка&quot;&gt;1. Подход новичка&lt;/h2&gt;
@@ -1297,9 +1297,9 @@ Section 1.10.32 of “de Finibus Bonorum et Malorum”, written by Cicero in 45 
  
  <entry>
    <title>Nocomment Blogs_md</title>
-   <link href="http://localhost:4000/doc/blog/2018/03/22/nocomment-blogs_md/"/>
+   <link href="http://localhost:4000/doc/blog/nocomment-blogs_md.html"/>
    <updated>2018-03-22T00:00:00+06:00</updated>
-   <id>http://localhost:4000/doc/blog/2018/03/22/nocomment-blogs_md</id>
+   <id>http://localhost:4000/doc/blog/nocomment-blogs_md</id>
    <content type="html">&lt;!DOCTYPE html&gt;
 
 &lt;html&gt;
@@ -1575,9 +1575,9 @@ without you asking to &lt;em&gt;“please share your thoughts”&lt;/em&gt;&lt;/
  
  <entry>
    <title>This is how you should never end your blog posts</title>
-   <link href="http://localhost:4000/blog/2018/03/22/nocomment-blogs/"/>
+   <link href="http://localhost:4000/blog/nocomment-blogs.html"/>
    <updated>2018-03-22T00:00:00+06:00</updated>
-   <id>http://localhost:4000/blog/2018/03/22/nocomment-blogs</id>
+   <id>http://localhost:4000/blog/nocomment-blogs</id>
    <content type="html">&lt;p&gt;Almost every blogging tutorial suggests you to end your posts with the so-called CTAs (call-to-action). They say that encouraging your readers to comment will help to promote your blog. Most bloggers seem to miss the point and use phrases like &lt;em&gt;“and what do you think?”, “share your thoughts in comments”&lt;/em&gt;. For sure, commenting increases indexation of your page and solidifies your audience, but this only happens if comments come organically. I will now elaborate on my claim.&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -1604,9 +1604,9 @@ without you asking to &lt;em&gt;“please share your thoughts”&lt;/em&gt;&lt;/
  
  <entry>
    <title>Telegramblog_md</title>
-   <link href="http://localhost:4000/doc/blogru/2018/02/20/telegramblog_md/"/>
+   <link href="http://localhost:4000/doc/blogru/telegramblog_md.html"/>
    <updated>2018-02-20T00:00:00+06:00</updated>
-   <id>http://localhost:4000/doc/blogru/2018/02/20/telegramblog_md</id>
+   <id>http://localhost:4000/doc/blogru/telegramblog_md</id>
    <content type="html">&lt;!DOCTYPE html&gt;
 
 &lt;html&gt;
@@ -1823,9 +1823,9 @@ without you asking to &lt;em&gt;“please share your thoughts”&lt;/em&gt;&lt;/
  
  <entry>
    <title>Pessimism In Bba_md</title>
-   <link href="http://localhost:4000/doc/blog/2018/02/07/pessimism-in-bba_md/"/>
+   <link href="http://localhost:4000/doc/blog/pessimism-in-bba_md.html"/>
    <updated>2018-02-07T00:00:00+06:00</updated>
-   <id>http://localhost:4000/doc/blog/2018/02/07/pessimism-in-bba_md</id>
+   <id>http://localhost:4000/doc/blog/pessimism-in-bba_md</id>
    <content type="html">&lt;!DOCTYPE html&gt;
 
 &lt;html&gt;
@@ -2111,9 +2111,9 @@ a dose of pessimism/conflict into the courses to keep students engaged.&lt;/p&gt
  
  <entry>
    <title>Business education needs a dose of pessimism</title>
-   <link href="http://localhost:4000/blog/2018/02/07/pessimism-in-bba/"/>
+   <link href="http://localhost:4000/blog/pessimism-in-bba.html"/>
    <updated>2018-02-07T00:00:00+06:00</updated>
-   <id>http://localhost:4000/blog/2018/02/07/pessimism-in-bba</id>
+   <id>http://localhost:4000/blog/pessimism-in-bba</id>
    <content type="html">&lt;p&gt;Undergraduate business education faces a lot of criticism spanning from lack of practical training to philosophical arguments that management shouldn’t be taught at undergraduate level at all. I cannot change the status quo and won’t try to repeat these statements - I will try to give a constructive feedback. What I propose in this article is very easy to implement: it will just require change in the attitude.&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -2156,9 +2156,9 @@ a dose of pessimism/conflict into the courses to keep students engaged.&lt;/p&gt
  
  <entry>
    <title>Xtcointreg_md</title>
-   <link href="http://localhost:4000/doc/blog/2018/01/01/xtcointreg_md/"/>
+   <link href="http://localhost:4000/doc/blog/xtcointreg_md.html"/>
    <updated>2018-01-01T00:00:00+06:00</updated>
-   <id>http://localhost:4000/doc/blog/2018/01/01/xtcointreg_md</id>
+   <id>http://localhost:4000/doc/blog/xtcointreg_md</id>
    <content type="html">&lt;!DOCTYPE html&gt;
 
 &lt;html&gt;
@@ -2413,9 +2413,9 @@ install xtcointreg&lt;/code&gt; to download it.&lt;/p&gt;
  
  <entry>
    <title>Introducing Panel FMOLS/DOLS command for Stata</title>
-   <link href="http://localhost:4000/blog/2018/01/01/xtcointreg/"/>
+   <link href="http://localhost:4000/articles/xtcointreg.html"/>
    <updated>2018-01-01T00:00:00+06:00</updated>
-   <id>http://localhost:4000/blog/2018/01/01/xtcointreg</id>
+   <id>http://localhost:4000/articles/xtcointreg</id>
    <content type="html">&lt;p&gt;Last week I was hired to perform a thorough analysis of a panel dataset for export dynamics of different sectors in a country. I had never done panel econometrics before or even read it in a textbook. But since I am good at cross-section and time-series, I believed I could handle the task. And I wasn’t wrong.&lt;/p&gt;
 
 &lt;p&gt;Since this task was single time with no generalizations/automations required, my tool of choice was of course Stata. It doesn’t have a scalability like R but has a very comfortable syntax. You ask me what about E-views? E-views sucks.&lt;/p&gt;
@@ -2441,9 +2441,9 @@ install xtcointreg&lt;/code&gt; to download it.&lt;/p&gt;
  
  <entry>
    <title>Irf Ann_md</title>
-   <link href="http://localhost:4000/doc/blog/2017/12/12/irf-ann_md/"/>
+   <link href="http://localhost:4000/doc/blog/irf-ann_md.html"/>
    <updated>2017-12-12T00:00:00+06:00</updated>
-   <id>http://localhost:4000/doc/blog/2017/12/12/irf-ann_md</id>
+   <id>http://localhost:4000/doc/blog/irf-ann_md</id>
    <content type="html">&lt;!DOCTYPE html&gt;
 
 &lt;html&gt;
@@ -2677,9 +2677,9 @@ workaround is an important contribution to the economic analysis.&lt;/p&gt;
  
  <entry>
    <title>Using impulse response functions to interpret partial effects in neural networks</title>
-   <link href="http://localhost:4000/blog/2017/12/12/irf-ann/"/>
+   <link href="http://localhost:4000/articles/irf-ann.html"/>
    <updated>2017-12-12T00:00:00+06:00</updated>
-   <id>http://localhost:4000/blog/2017/12/12/irf-ann</id>
+   <id>http://localhost:4000/articles/irf-ann</id>
    <content type="html">&lt;p&gt;This week I’ve been working on a research paper based on a very simple idea which, hopefully, can solve an important problem in applying machine learning techniques in economics — the interpretability. So, if you recall, the neural networks is the generalization of a logit model where sigmoid of a linear combination of inputs is used iteratively.&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;

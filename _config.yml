@@ -1,7 +1,7 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+permalink:			/:categories/:title:output_ext
 
 # Setup
 title:               Ravshan S.K. 
@@ -9,7 +9,7 @@ tagline:             'Statistical and Economic Consultancy'
 description:         'economic analysis, statistical algorithms, economic consulting, statistical consulting, econometrics, statistics, economics'
 url:                 ''
 baseurl:             ''
-plugins: [jekyll-seo-tag, jekyll-sitemap]
+plugins: [jekyll-seo-tag, jekyll-sitemap, jekyll-redirect-from]
 
 # About/contact
 author:

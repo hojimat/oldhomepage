@@ -1,17 +1,21 @@
 ---
-layout: default
-title: Blog
-lang: english
+layout: default 
+title: Блог 
+lang: russian 
 ---
 <div class="posts">
-  {% for post in site.posts%}
-		{% if post.lang contains 'english' %}
-		  <div class="listpost">
-   			<h1 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+  {% for post in site.posts %}
+		{% if post.lang contains 'russian' %}
+		  <div class="post">
+   			<h1 class="post-title">
+      	<a href="{{ site.baseurl }}{{ post.url }}">
+        	{{ post.title }}
+      	</a>
+    		</h1>
 		    <span class="post-date">{{ post.date | date_to_string }}</span>
     		{{ post.excerpt }}
 				{% if post.excerpt != post.content %}
-    			<a href="{{ site.baseurl }}{{ post.url }}">Read more...</a>
+    			<a href="{{ site.baseurl }}{{ post.url }}">Читать полностью...</a>
 				{% endif %}
 			</div>
 		{% endif %}
