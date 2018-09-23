@@ -17,7 +17,7 @@ I claim that undergraduate business education does not focus enough on the negat
 * Kotler and Keller in their _"Marketing Management"_ book introduce different marketing strategies and instead of discussing the tradeoffs, they propose "Holistic Marketing" which captures all of the strategies - there are no dilemmas. 
 
 <figure class="blog">
-	<img src="/assets/img/holistic.png" alt="Holistic Marketing">
+	<img src="/assets/img/bbaeduc/holistic.png" alt="Holistic Marketing">
 	<figcaption>Source: Kotler and Keller "Marketing Management"</figcaption>
 </figure>
 
@@ -28,7 +28,7 @@ I claim that undergraduate business education does not focus enough on the negat
 * Rainer and Cegielski's _"Information Systems for Business"_ textbook endorses its tech optimism throughout the book. So, for example it doesn't mention a single disadvantage of Web 2.0 or failure of Moore's Law or the ["JavaScript trap"](https://www.gnu.org/philosophy/javascript-trap.html). It spends only __4 sentences discussing drawbacks of e-learning in a whole chapter__:  
 
 <figure class="blog">
-	<img src="/assets/img/elearn.png" alt="Drawbacks of E-learning">
+	<img src="/assets/img/bbaeduc/elearn.png" alt="Drawbacks of E-learning">
 	<figcaption>Source: Rainer and Cegielski "Information Systems for Business"</figcaption>
 </figure>
 

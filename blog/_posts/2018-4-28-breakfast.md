@@ -5,7 +5,7 @@ lang: russian
 ---
 
 <figure class="blog">
-	<img src="/assets/img/breakfastclub.jpg" alt="movie still">
+	<img src="/assets/img/breakfast/breakfastclub.jpg" alt="movie still">
 	<figcaption>Фильм "Клуб Завтрак"</figcaption>
 </figure>
 
