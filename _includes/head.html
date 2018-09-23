@@ -11,6 +11,17 @@
  <meta name="keywords" content="statistics,econometrics,economics,consultant,hire" />
  {% endif %}
 
+ <meta name="twitter:site"    content="@{{ site.twitter_username }}">
+ <meta name="twitter:title"   content="{{ page.title }}">
+ <meta name="twitter:card"  content="summary_large_image">
+ <meta property="fb:admins" content="ravshanskh">
+ {% if page.image %}
+ <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+ {% else %}
+ <meta property="og:image" content="http://ravshansk.com/assets/img/thumb.jpg">
+ <meta name="twitter:image" content="http://ravshansk.com/assets/img/thumb.jpg">
+ {% endif %}
+
   <title>
     {% if page.title == "Home" %}
       {{ site.title }} &middot; {{ site.tagline }}
