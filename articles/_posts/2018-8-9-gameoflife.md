@@ -5,6 +5,7 @@ lang: english
 keywords: object-oriented, game of life, agent-based model
 tags: economics complexity
 redirect_from: /blog/2018/08/09/gameoflife/
+image: /assets/img/gameoflife/time0.png
 ---
 
 ### Intro
@@ -126,7 +127,7 @@ for j in range(t):
 For presentation purposes I animated the resulting graphs:
 
 <figure class="blog">
-	<img src="/assets/img/abm/game.gif" alt="Game of life dynamics">
+	<img src="/assets/img/gameoflife/game.gif" alt="Game of life dynamics">
 	<figcaption>"Game of life" dynamics</figcaption>
 </figure>
 

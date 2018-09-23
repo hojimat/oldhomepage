@@ -6,6 +6,7 @@ description: Product of which distributions is uniform, square root of uniform d
 keywords: uniform distribution, beta distribution, decomposition 
 tags: statistics
 redirect_from: /blog/2018/03/27/factoranalysis/
+image: /assets/img/factoranalysis/beta21.png
 ---
 
 [**To learn about product decomposition of uniform distribution click here or keep on reading**](#unifrand)
