@@ -334,8 +334,9 @@ div.titlehead {
   position: fixed;
   top: 0;
   width: 100%;
-  padding-top:    0.2rem;
-  padding-bottom: 0.2rem;
+  padding-top:    0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 0.9em;
   z-index: 1;
 }
 
@@ -387,6 +388,10 @@ div.titlemain {
 	padding-left: 1em;
 	margin-left: -1em;
 	margin-right: -1em;
+}
+
+div.titlemain a {
+	text-decoration: none !important;
 }
 
 div.row::after {
@@ -468,6 +473,7 @@ nav {
 	overflow: hidden;
   	font-family: "PT Sans", sans-serif;
 	display: inline;
+	text-transform: uppercase;
 	color: #fff;	
 }
 
