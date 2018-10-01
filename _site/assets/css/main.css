@@ -336,7 +336,6 @@ div.titlehead {
   width: 100%;
   padding-top:    0.5rem;
   padding-bottom: 0.5rem;
-  font-size: 0.9em;
   z-index: 1;
 }
 
@@ -473,7 +472,6 @@ nav {
 	overflow: hidden;
   	font-family: "PT Sans", sans-serif;
 	display: inline;
-	text-transform: uppercase;
 	color: #fff;	
 }
 
