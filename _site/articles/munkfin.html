@@ -122,47 +122,118 @@
 
 <p>In the first half of the 20th century, <em>Teachers Insurance and Annuity Association</em> (TIAA) provided a <em>fixed annuity</em> pension plan for professors. However post-war economic instabilities made it risky to pay out fixed pensions — in a possible crisis the revenues could decline significantly, but they still would have to pay promised amounts. Thus, in 1952 <em>TIAA</em> created <em>College Retirement Equities Fund</em> (CREF) which offered <em>variable annuities</em>, <em>i.e.</em> let people decide on their investment portfolios and link the earnings to the state of economy. So, should markets collapse and earnings decline, CREF would pay out less to investors. If, on the other hand, people would invest successfully, they would earn more money than promised fixed amount.</p>
 
-<p>Among all the academics whom this news touched directly, there were inevitably many economists as well, and it made them actively think about this investment decision. <a href="https://en.wikipedia.org/wiki/Harry_Markowitz"><em>Harry Markowitz</em></a></p>
-
 <figure class="blog">
-	<img src="/assets/img/munkfin/tiaa-shiller.jpeg" alt="TIAA Shiller" />
-	<figcaption>TIAA Einstein commercial</figcaption>
+	<a href="https://www.tiaa.org/public" target="_blank">
+		<img src="/assets/img/munkfin/tiaa-shiller.jpeg" alt="TIAA Shiller" />
+		<figcaption>TIAA-CREF commercial featuring their client economist Robert Shiller</figcaption>
+	</a>
 </figure>
 
-<p>Markowitz did 50 50 MVA CAPM TOBIN</p>
+<p>Among all the academics whom this news touched directly, there were inevitably many economists as well, and it made them actively think about this investment decision. <a href="https://en.wikipedia.org/wiki/Harry_Markowitz"><em>Harry Markowitz</em></a>, then a 25 years old economics graduate student at University of Chicago, chose to split his funds 50-50 between TIAA and CREF. His reasoning was simple — if stocks would fail, he would have half of his funds paid in safe fixed annuities, and if stocks would perform very well, the other half would bring high returns.</p>
 
-<ul>
-  <li>1952 Markowitz first paper (fixed ratio)</li>
-  <li>1958 Tobin mutual funds (mutual funds)</li>
-</ul>
+<div class="highlighted">
+	If people care not only about returns, but also about risks, then they should diversify their investments.
+</div>
+<div class="highlighted" align="right">
+	H. Markowitz (1952)
+</div>
 
-<p>The introduction of <a href="https://en.wikipedia.org/wiki/Defined_contribution_plan"><em>defined contribution</em></a> pension plan made it possible for individuals to independently manage their retirement savings. However this caused a lot of confusion among people, as they now had to learn how to properly invest their funds, as opposed to a more comfortable <a href="https://en.wikipedia.org/wiki/Defined_benefit_pension_plan"><em>defined benefit</em></a> plan, in which they delegated their investment decision to their employers.</p>
-
-<p>This caused people to seek financial advice from investment consultants, who were usually vague about the models they used, and implied that the only good way to manage finances was to hire them.</p>
-
-<p>During that time economists reemerged with their old findings by <em>Markowitz</em>, <em>Merton</em> and <em>Samuelson</em>, which gave closed-form solutions to optimal portfolio allocation problem.</p>
+<p>In hindsight, this was not an optimal choice, however it planted an idea in Markowitz’s head that a theory of investments should exist. Not long after, he published his famous paper in <em>The Journal of Finance</em> called simply <em>Portfolio Selection</em>, where he used the idea that <em>people not only want to maximize profits, but also to minimize risks</em>. This approach came to be known as <em>“mean-variance analysis”</em>, where “mean” and “variance” corresponded to returns and risks respectively. In the paper, he provided a graphical argument and didn’t use any math. The resulting allocation brought better returns than naive 50-50, but, at the same time, supported the idea that it is better to diversify portfolio than to invest everything in one fund.</p>
 
 <figure class="blog">
-	<img src="/assets/img/munkfin/markowitz.png" alt="naive markowitz" />
-	<figcaption>Markowitz's mean-variance formula</figcaption>
+	<img src="/assets/img/munkfin/hmgraph.png" alt="markowitz" />
+	<figcaption>Markowitz's graphical argument (figure from the original paper)</figcaption>
 </figure>
 
-<p>where α is the share of stocks in the portfolio and <em>1-α</em> is the share of bonds, <em>μ</em> and <em>R<sub>f</sub></em> are stock and bond rates of return respectively, σ is volatility and γ is a risk-aversion coefficient.</p>
+<p>It is important to notice that the model used 6 assumptions including <em>risk-averse individuals</em> and <em>efficient markets</em>. These assumptions would come into question decades later.</p>
 
-<p>The above formula was very clear and could be understood by everyone. It also promised <em>optimal</em> returns. Opinion started to spread that financial advisors were not neccessary anymore. However they quickly pointed out that these formulas returned fixed ratios and did not account for age of an investor. They claimed (correctly) that optimal investments could not be fixed throughout the lifetime, and younger people must take more risks to increase the investment returns and older people had to be more conservative.</p>
+<p>As things in academia move slower than anywhere else, the next milestone in portfolio theory was reached only four years later by <a href="https://en.wikipedia.org/wiki/James_Tobin"><em>James Tobin</em></a>, a researcher from the <a href="https://en.wikipedia.org/wiki/Cowles_Foundation"><em>Cowles Commission</em></a>. He claimed that if Markowitz is right, and people care about both returns and risks, then <em>there is a single optimal ratio of stocks to bonds in the portfolio</em>. In other words, risk-averse people should hold cash and don’t invest much, risk-loving people should even borrow cash to invest, but <em>neither should change the components of the portfolio</em>.</p>
 
-<p>This caused economists to rethink their models and incorporate behavioral changes throughout the lifetime. This was when life-cycle investment models were born in economics.</p>
+<p>Continuing the theme of slowness in academia, Tobin’s paper was published in <em>The Review of Economic Studies</em> in 1958, two years after he wrote it.</p>
 
-<div class="highlighted">Life-cycle investment is investment that changes by age EDIT HERE</div>
+<div class="highlighted">
+	There is a single optimal allocation of stocks to bonds in a portfolio.
+</div>
+<div class="highlighted" align="right">
+	J. Tobin (1956)
+</div>
+
+<p>This proposition turned out to be very controversial in the industry, as, for years to come, most financial consultants would suggest conservative/old investors to invest more in bonds and aggressive/young investors to invest more in stocks, implying that Tobin is wrong and there is no single optimal portfolio allocation for everyone.</p>
+
+<p>But <em>Tobin-Markowitz approach</em> (aka <em>Mean-Variance Analysis</em>) was so well received in academic circles that no significant improvements were proposed for almost a decade.</p>
+
+<figure class="blog">
+	<img src="/assets/img/munkfin/markowitz.png" alt="markowitz" />
+	<figcaption>Mean-variance formula uses middle school level algebra</figcaption>
+</figure>
 
 <p><a name="dark"></a><br /></p>
 <h2 id="3-dark-ages">3. Dark ages</h2>
 
+<p>The Sixties passed without any interesting new insights on portfolio theory.</p>
+
+<p>Meanwhile, the field of macroeconomics was slowly incorporating <a href="https://en.wikipedia.org/wiki/Richard_E._Bellman"><em>Richard E. Bellman’s</em></a> <a href="https://en.wikipedia.org/wiki/Dynamic_programming"><em>dynamic programming</em></a> methods. By the end of the decade, dynamic programming became so popular in economics that most models were revisited using this brand new toolbox.</p>
+
+<div class="highlighted">
+	Dynamic model &mdash; a model that captures changes through time.
+</div>
+
+<p>Thus, it came as no surprise that in 1970 <em>Journal of Economic Theory</em> published <a href="https://en.wikipedia.org/wiki/Robert_C._Merton"><em>Robert C. Merton’s</em></a> <em>dynamic</em> formulation of the portfolio allocation problem.</p>
+
+<p>Merton’s paper was complicated, unintuitive and couldn’t be solved without a computer. Moreover, it seemingly didn’t provide a new information — the optimal lifetime investment strategy he proposed was to repeat Markowitz’s fixed solution forever.</p>
+
+<p>However it addressed an important issue — it tackled the problem of <em>planning future investments in a long horizon</em>, as opposed to Markowitz’s one-period (so-called <em>“myopic”</em>) choice. Moreover, it found the same answer with fewer questionable assumptions than Markowitz.</p>
+
+<div class="highlighted">
+	Optimal lifetime strategy is to repeat Markowitz's fixed solution forever.
+</div>
+<div class="highlighted" align="right">
+	R.C. Merton (1970)
+</div>
+
+<p>With the rise in popularity of <em>401(k)</em> plans in late seventies, more and more people started hiring financial consultants to manage their portfolios.</p>
+
+<p>Perhaps, this was one of the reasons why the consultants didn’t like the ideas of Markowitz/Merton — they justified their fees by emphasizing the need to tailor invesment portfolio to every person individually, of course, they wouldn’t want their clients to solve that easy fraction — this would kill their business.</p>
+
+<p><a href="https://en.wikipedia.org/wiki/Peter_L._Bernstein"><em>Peter Bernstein</em></a> called this an <em>interior decorator fallacy</em>, where people were told that their portfolio should be uniquely determined, when in reality it didn’t have to.</p>
+
+<p>However, this is a huge oversimplification. Financial advisers really did have a point, when they were suggesting younger people to risk more than older people — only economists couldn’t formulate this yet.</p>
+
+<p>Eighties also didn’t bring any new breakthroughs to the field. The new models either didn’t align with real-life investment strategies, or were very complicated and unintuitive, or both. The crisis of ideas was felt acutely.</p>
+
+<p>Fortunately, in 1990 Harry Markowitz was awarded a Nobel prize in economics for his mean-variance paper. This ignited a new interest in portfolio theory among brightest economists and this ended the dark ages.</p>
+
+<figure class="blog">
+	<img src="/assets/img/munkfin/nobel.jpg" alt="markowitz nobel" />
+	<figcaption>Harry Markowitz receives a Nobel Prize in Economics</figcaption>
+</figure>
+
 <p><a name="wave"></a><br /></p>
 <h2 id="4-new-wave">4. New wave</h2>
 
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Bodie et al solved Merton for variable wage numerically 
+</code></pre></div></div>
+
+<p>nobel to markowitz ; absense of ideas 1990</p>
+
+<div class="highlighted">Life-cycle investment is investment that changes by age EDIT HERE</div>
+<p>merton and samuelson
+NEW WAVE (Revisited by Mankiws, no good models created)</p>
+<ul>
+  <li>1997 Mankiw - asset allocation puzzle</li>
+  <li>1998 Campbell and Viceira - again provide only numerical solution</li>
+  <li>2002 Flavin and Yamashita added housing capital (if preexisting, then more aggressive)</li>
+  <li>2005 Cocco et al added a new heuristic simplifying numerical solution 100 till 40 ; 200-2.5 till 60; 50 after 60</li>
+</ul>
+
 <p><a name="end"></a><br /></p>
 <h2 id="5-end-of-history">5. End of history</h2>
+<p>END OF HISTORY</p>
+<ul>
+  <li>2016 Munk reinvented and, man, he nailed it</li>
+  <li>2018 Khodzhimatov provided a simulation</li>
+  <li></li>
+</ul>
 
 <p><a name="references"></a><br /></p>
 <h2 id="6-references">6. References</h2>
@@ -202,32 +273,6 @@
 	<figcaption>Welfare comparison for different investment types (the closer to zero, the better)</figcaption>
 </figure>
 
-<h2 id="lsdkjflaskjdf">lsdkjf;laskjdf</h2>
-
-<p>DARK AGES (no advances whatsoever, only difficult models if any, finance advisers rejoice)</p>
-<ul>
-  <li>1971 Merton added human capital which captured lifecycle effect</li>
-  <li>1978 401(k) was introduced</li>
-  <li>1992
-  Peter Bernstein “Capital Ideas” “fins justify their fees by emphasizing tailoring” (interior decorator fallacy)
-  Fins have patterns though: young risk more, and asset allocation puzzle - riskier have more stocks and vice versa
-  Bodie et al solved Merton for variable wage numerically</li>
-</ul>
-
-<p>NEW WAVE (Revisited by Mankiws, no good models created)</p>
-<ul>
-  <li>1997 Mankiw - asset allocation puzzle</li>
-  <li>1998 Campbell and Viceira - again provide only numerical solution</li>
-  <li>2002 Flavin and Yamashita added housing capital (if preexisting, then more aggressive)</li>
-  <li>2005 Cocco et al added a new heuristic simplifying numerical solution 100 till 40 ; 200-2.5 till 60; 50 after 60</li>
-</ul>
-
-<p>END OF HISTORY</p>
-<ul>
-  <li>2016 Munk reinvented and, man, he nailed it</li>
-  <li>2018 Khodzhimatov provided a simulation</li>
-  <li></li>
-</ul>
 
 </div>
 
