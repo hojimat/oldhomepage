@@ -4,7 +4,7 @@
  <title>Ravshan S.K.</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-10-25T17:49:32+06:00</updated>
+ <updated>2018-10-26T23:23:32+06:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Ravshanbek Khodzhimatov</name>
@@ -13,7 +13,7 @@
 
  
  <entry>
-   <title>In quest of the ultimate investment advice.</title>
+   <title>In quest of the ultimate investment advice</title>
    <link href="http://localhost:4000/articles/munkfin.html"/>
    <updated>2018-10-21T00:00:00+06:00</updated>
    <id>http://localhost:4000/articles/munkfin</id>
@@ -24,7 +24,6 @@
 &lt;li&gt;&lt;a href=&quot;#dark&quot;&gt;3. Dark ages&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;#wave&quot;&gt;4. New wave&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;#end&quot;&gt;5. End of history&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#refs&quot;&gt;6. References&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;a name=&quot;intro&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
@@ -36,12 +35,12 @@
 	A good investment advice is simple to grasp, easy to manage, and brings highest returns.
 &lt;/div&gt;
 
-&lt;p&gt;In this article you will learn how multiple generations of economists tried to find the formula for perfect lifetime investment. They had to face competitive pressure from financial consultants, get knocked off course by methodological fads, completely abandon the field for years, before they could return and find the ultimate answer.&lt;/p&gt;
+&lt;p&gt;In this article you will learn how multiple generations of economists tried to find the formula for perfect lifetime investment. They had to face competitive pressure from financial consultants, get knocked off course by methodological fads, and even completely abandon the field for years, before they could return and find the ultimate answer.&lt;/p&gt;
 
 &lt;p&gt;&lt;a name=&quot;early&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h2 id=&quot;2-early-days-of-financial-economics&quot;&gt;2. Early days of financial economics&lt;/h2&gt;
 
-&lt;p&gt;In the first half of the 20th century, &lt;em&gt;Teachers Insurance and Annuity Association&lt;/em&gt; (TIAA) provided a &lt;em&gt;fixed annuity&lt;/em&gt; pension plan for professors. However post-war economic instabilities made it risky to pay out fixed pensions — in a possible crisis the revenues could decline significantly, but they still would have to pay promised amounts. Thus, in 1952 &lt;em&gt;TIAA&lt;/em&gt; created &lt;em&gt;College Retirement Equities Fund&lt;/em&gt; (CREF) which offered &lt;em&gt;variable annuities&lt;/em&gt;, &lt;em&gt;i.e.&lt;/em&gt; let people decide on their investment portfolios and link the earnings to the state of economy. So, should markets collapse and earnings decline, CREF would pay out less to investors. If, on the other hand, people would invest successfully, they would earn more money than promised fixed amount.&lt;/p&gt;
+&lt;p&gt;In the first half of the 20th century, &lt;em&gt;Teachers Insurance and Annuity Association&lt;/em&gt; (TIAA) provided a &lt;em&gt;fixed annuity&lt;/em&gt; pension plan for professors. However post-war economic instabilities made it risky to pay out fixed pensions — in a possible crisis the revenues could decline significantly, but they still would have to pay promised amounts. Thus, in 1952 &lt;em&gt;TIAA&lt;/em&gt; created &lt;em&gt;College Retirement Equities Fund&lt;/em&gt; (CREF) which offered &lt;em&gt;variable annuities&lt;/em&gt;, &lt;em&gt;i.e.&lt;/em&gt; let people decide on their investment portfolios and link their earnings to the state of economy. So, should markets collapse and earnings decline, CREF would pay out less to investors. If, on the other hand, people would invest successfully, they would earn more money than promised fixed amount.&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
 	&lt;a href=&quot;https://www.tiaa.org/public&quot; target=&quot;_blank&quot;&gt;
@@ -124,16 +123,16 @@
 
 &lt;p&gt;However, this is a huge oversimplification. Financial advisers &lt;em&gt;did have a point&lt;/em&gt;, when they were suggesting younger people to risk more than older people — it was economists who couldn’t yet formulate a theory to explain this. It was called &lt;em&gt;life-cycle investment strategy&lt;/em&gt; — different portfolio allocations for different ages throughout one’s life. No economist could find a plausible life-cycle theory.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Paul_Samuelson&quot;&gt;&lt;em&gt;Paul Samuelson&lt;/em&gt;&lt;/a&gt; actually tried to tackle life-cycle theory. In his 1969 paper, published in &lt;em&gt;The Review of Economics and Statistics&lt;/em&gt;, he used the dynamic programming to find the following solution:&lt;/p&gt;
+&lt;p&gt;A famous economist &lt;a href=&quot;https://en.wikipedia.org/wiki/Paul_Samuelson&quot;&gt;&lt;em&gt;Paul Samuelson&lt;/em&gt;&lt;/a&gt; actually tried to tackle life-cycle theory. In his 1969 paper, published in &lt;em&gt;The Review of Economics and Statistics&lt;/em&gt;, he used the dynamic programming to find the following solution:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
 	&lt;img src=&quot;/assets/img/munkfin/samuelson.png&quot; alt=&quot;samuelson 1969 solution&quot; /&gt;
 	&lt;figcaption&gt;Samuelson's 1969 life-cycle advice&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;This paper was representative of the dark ages — it was complicated, ugly, and did not find anything interesting or new. Even a simple heuristic to invest &lt;em&gt;(100 - age)%&lt;/em&gt; of total portfolio in stocks (meaning that a 30-year-old should invest &lt;em&gt;100 - 30 = 70%&lt;/em&gt; in stocks) was more useful than these complex models.&lt;/p&gt;
+&lt;p&gt;This paper was representative of the dark ages — it was complicated, ugly, and did not find anything interesting or new. Even a simple heuristic to invest &lt;em&gt;(100 - age)%&lt;/em&gt; of total portfolio in stocks (i.e. a 36-year-old should invest &lt;em&gt;100 - 36 = 64%&lt;/em&gt; in stocks and the rest in bonds) (so called, &lt;em&gt;Malkiel’s rule&lt;/em&gt;) was more useful than these complex models.&lt;/p&gt;
 
-&lt;p&gt;Eighties also didn’t bring any new breakthroughs to the field as well. The new models either didn’t align with real-life investment strategies, or were very complicated and unintuitive, or sometimes both. The crisis of ideas was felt acutely.&lt;/p&gt;
+&lt;p&gt;Eighties also didn’t bring any new breakthroughs to the field as well. The new models either didn’t align with real-life investment strategies, or were very complicated and unintuitive, and sometimes both. The crisis of ideas was felt acutely.&lt;/p&gt;
 
 &lt;p&gt;Fortunately, in 1990 Harry Markowitz was awarded a Nobel prize in economics for his mean-variance paper. This reignited an interest in portfolio theory among brightest economists and ended the dark ages.&lt;/p&gt;
 
@@ -153,7 +152,7 @@
 
 &lt;p&gt;Put simply, the human capital means the &lt;em&gt;total wage income, a person is expected to earn from now on until retirement&lt;/em&gt;. If we don’t consider traffic accidents, lethal illnesses or possible imprisonment, on average &lt;em&gt;younger people have more human capital than older ones&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;At the same time, younger people tend to have no finacial wealth at all, while older people have accumulated their wealth throughout their lifetime. The real graphs of&lt;/p&gt;
+&lt;p&gt;At the same time, younger people tend to have no finacial wealth at all, while older people have accumulated their wealth throughout their lifetime.&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
 	&lt;img src=&quot;/assets/img/munkfin/capital.png&quot; alt=&quot;capitals&quot; /&gt;
@@ -178,57 +177,51 @@
 
 &lt;p&gt;And just like that, one of the biggest problems of financial economics was solved. One must acknowledge the power of the Nobel Prize.&lt;/p&gt;
 
+&lt;div class=&quot;highlighted&quot;&gt;
+	Adding human capital into the model explained different investment decisions throughout life
+&lt;/div&gt;
+
+&lt;p&gt;An interesting ending to this chapter would be reached in 2005, when a group of young researchers &lt;em&gt;J. Cocco&lt;/em&gt;, &lt;em&gt;F. Gomes&lt;/em&gt; and &lt;em&gt;P. Maenhout&lt;/em&gt; co-wrote a paper calibrating and validating the &lt;em&gt;mean-variance analysis with human capital&lt;/em&gt; and proposing a policy rule. The anonymous referee of their submitted paper came up with an easy heuristic to summarize their slightly complicated result. They included this suggestion in the final version of their paper, which turned out to be much more influential than their original finding.&lt;/p&gt;
+
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img src=&quot;/assets/img/munkfin/cocco.png&quot; alt=&quot;cocco et al&quot; /&gt;
+	&lt;figcaption&gt;Heuristic from Cocco et al. (2005): t is age, alpha is share of stocks in a portfolio&lt;/figcaption&gt;
+&lt;/figure&gt;
+
 &lt;p&gt;There were other issues like &lt;em&gt;“asset allocation puzzle”&lt;/em&gt; raised by &lt;a href=&quot;https://en.wikipedia.org/wiki/Greg_Mankiw&quot;&gt;&lt;em&gt;Greg Mankiw&lt;/em&gt;&lt;/a&gt; and his colleagues in 1997, but they are outside of the scope of this article.&lt;/p&gt;
 
 &lt;p&gt;The portfolio theory was now a mature field and not many unanswered questions remained — one of them was that despite all the advices, young people didn’t invest in stocks at all. The intuitive answer was not yet to come for years.&lt;/p&gt;
 
 &lt;p&gt;&lt;a name=&quot;end&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h2 id=&quot;5-end-of-history&quot;&gt;5. End of history&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;2002 Flavin and Yamashita added housing capital (if preexisting, then more aggressive)&lt;/li&gt;
-  &lt;li&gt;2005 Cocco et al added a new heuristic simplifying numerical solution 100 till 40 ; 200-2.5 till 60; 50 after 60&lt;/li&gt;
-&lt;/ul&gt;
 
-&lt;p&gt;END OF HISTORY&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;2016 Munk reinvented and, man, he nailed it&lt;/li&gt;
-  &lt;li&gt;2018 Khodzhimatov provided a simulation&lt;/li&gt;
-  &lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;In 2002, &lt;em&gt;Flavin&lt;/em&gt; and &lt;em&gt;Yamashita&lt;/em&gt; published a paper where they incorporate housing into the classical mean-variance model. They showed that, since mortgage payments are close to the rent payments, it was rational that people would want to buy a house — it would work both as an investment and a consumption good. They concluded that house owners would invest more aggressively than those who are actively paying mortgages.&lt;/p&gt;
 
-&lt;p&gt;&lt;a name=&quot;refs&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h2 id=&quot;6-references&quot;&gt;6. References&lt;/h2&gt;
+&lt;p&gt;They didn’t do any arguments about the life-cycle investments, but their idea was brilliant — it had the potential to answer the question of &lt;em&gt;why young people do not invest in stocks, despite being strongly advised to do so&lt;/em&gt;. Surprisingly, no one elaborated on this idea for fourteen years.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;N. Canner, N.G. Mankiw, D.N. Weil American Economic Review (1997) https://www.nber.org/papers/w4857.pdf&lt;/li&gt;
-  &lt;li&gt;Munk, Claus, A Mean-Variance Benchmark for Household Portfolios Over the Life Cycle (June 13, 2018). Available at SSRN: https://ssrn.com/abstract=2783276 or http://dx.doi.org/10.2139/ssrn.2783276&lt;/li&gt;
-  &lt;li&gt;R.S. Khodzhimatov Bogazici University Department of Economics https://github.com/ravshansk/mathesis/blob/master/tex/article.pdf&lt;/li&gt;
-  &lt;li&gt;1992 Peter Bernstein “Capital Ideas”&lt;/li&gt;
-  &lt;li&gt;TIAA wikipedia page about 1952 cref introduction&lt;/li&gt;
-&lt;/ul&gt;
+&lt;div class=&quot;highlighted&quot;&gt;
+	Adding housing capital into the model explained why young don't invest more aggressively
+&lt;/div&gt;
 
-&lt;p&gt;Investment consultants won this round — after incorporating life-cycle effects all economic models became very complicated and couldn’t be solved analytically. People started going back to consultants to manage their savings, as it was easier than trying to learn &lt;em&gt;dynamic programming&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In 2016, &lt;em&gt;Claus Munk&lt;/em&gt; published his working paper, where he incorporated both housing and human capital into the mean-variance model. The solution was very easy — it did not involve any dynamic stochastic modeling, it was solved using just two derivatives. The result explained that young people would invest more aggressively (as financial consultants advise), but they were dealing with paying their mortgage debts and therefore weren’t spending any money in stocks. Taking these results into consideration, he created a formula that would both be optimal and realistic.&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/munkfin/naive.png&quot; alt=&quot;naive&quot; /&gt;
-	&lt;figcaption&gt;Common rules of thumb and heuristics&lt;/figcaption&gt;
+	&lt;img src=&quot;/assets/img/munkfin/munk.png&quot; alt=&quot;munk&quot; /&gt;
+	&lt;figcaption&gt;Munk's ultimate formula: still a middle school level algebra&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/munkfin/mertonmunk.png&quot; alt=&quot;merton&quot; /&gt;
-	&lt;figcaption&gt;Merton and Munk's complex formula&lt;/figcaption&gt;
-&lt;/figure&gt;
+&lt;p&gt;The result still uses middle school level algebra, but for those who are confused, &lt;a href=&quot;http://phenance.com/static/solvemodel.html&quot;&gt;&lt;em&gt;phenance.com&lt;/em&gt; created an easy calculator&lt;/a&gt;. The beauty of this academic finding is that the knowledge is &lt;em&gt;open-source&lt;/em&gt; and nobody will charge you hourly for the financial advice which incidentally is optimal — better than anything a paid consultant will suggest you.&lt;/p&gt;
 
-&lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/munkfin/munkhouse.png&quot; alt=&quot;munkhouse&quot; /&gt;
-	&lt;figcaption&gt;Munk's asset allocation with housing&lt;/figcaption&gt;
-&lt;/figure&gt;
+&lt;p&gt;In 2018 I finished my thesis, where I performed multiple simulations of different investment models for 12 types of people. I have found that using &lt;em&gt;Munk’s formula would significantly improve welfare for people with at least a college degree&lt;/em&gt; compared to other investment strategies. More generally, though, &lt;em&gt;Cocco’s heuristic&lt;/em&gt; performs better than any fixed (even complicated) model for investors of all backgrounds.&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
 	&lt;img src=&quot;/assets/img/munkfin/utils.png&quot; alt=&quot;utils&quot; /&gt;
 	&lt;figcaption&gt;Welfare comparison for different investment types (the closer to zero, the better)&lt;/figcaption&gt;
 &lt;/figure&gt;
 
+&lt;p&gt;In this article, I told a story about how it took seven decades, three generations of brightest economists, and numerous approaches to see today’s mature and intuitive portfolio theory. Most of the essential questions are answered today. This free and accessible knowledge has the ability to transform lives of many people. Hopefully, in the future everybody will invest optimally and accumulate enough wealth to support them in their retirement.&lt;/p&gt;
+
+&lt;p&gt;Please share your thoughts in the comments below and share this article if you liked it — I would be very happy if more people read it.&lt;/p&gt;
 </content>
  </entry>
  
