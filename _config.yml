@@ -10,7 +10,6 @@ description:         'I help researchers, data scientists and growth hackers in 
 url:                 'http://ravshansk.com'
 baseurl:             ''
 plugins: [jekyll-seo-tag, jekyll-sitemap, jekyll-redirect-from]
-future:				 true
 
 # About/contact
 author:
