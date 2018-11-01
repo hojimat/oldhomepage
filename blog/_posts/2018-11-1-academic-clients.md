@@ -6,6 +6,7 @@ categ: blog
 description: As an economic and statistical consultant I noticed that academics don't want to hire consultants for data analytics or predictive analytics or any other task.
 keywords: statistical consulting, economic consulting, data analytics, stata, r studio
 tags: management
+image: /assets/img/academic-clients/bounlib.JPG
 ---
 <figure class="blog">
 	<img src="/assets/img/academic-clients/bounlib.JPG">
