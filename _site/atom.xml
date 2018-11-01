@@ -4,13 +4,42 @@
  <title>Ravshan S.K.</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-11-01T07:42:33+06:00</updated>
+ <updated>2018-11-01T13:40:52+06:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Ravshanbek Khodzhimatov</name>
    <email>rsk@ravshansk.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Why academics won't hire consultants</title>
+   <link href="http://localhost:4000/blog/academic-clients.html"/>
+   <updated>2018-11-01T00:00:00+06:00</updated>
+   <id>http://localhost:4000/blog/academic-clients</id>
+   <content type="html">&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img src=&quot;/assets/img/academic-clients/bounlib.JPG&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I am an economic and statistical consultant. What I do is help my clients to take valuable insights from their data, develop statistical algorithms and design frameworks to get most of their data analytics, write a software to automate their data analysis routine.&lt;/p&gt;
+
+&lt;p&gt;So, why would firms and individuals hire me? It’s because of &lt;em&gt;comparative advantage&lt;/em&gt; — they want to outsource their data analytics needs to an expert and not worry about it themselves. Because that’s what rational people do.&lt;/p&gt;
+
+&lt;p&gt;But, perhaps, academic aren’t — they just won’t hire a consultant, even in cases when it would significantly improve their productivity. They contact me, they ask questions about my services and right when it comes to seal the deal, they pull back and stop responding. I do not observe this behavior in my clients from industry, so this pattern really exists.&lt;/p&gt;
+
+&lt;p&gt;Coming from academia myself, I think there are several reasons:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;After spending two decades in an &lt;em&gt;education system, where outside help is strongly discouraged&lt;/em&gt;, academics have never developed a habit to outsource their tasks and focus on their area of specialization.&lt;/li&gt;
+  &lt;li&gt;Academics have been on top of their classes throughout their education and &lt;em&gt;they are confident that they can learn and master everything themselves&lt;/em&gt;. It’s not surprising to see a literature professor who manages her own website on Github.&lt;/li&gt;
+  &lt;li&gt;Academics are surrounded by the &lt;em&gt;brightest students who do a lot of work for free&lt;/em&gt;, and thus they can’t even start to comprehend the &lt;em&gt;“very high”&lt;/em&gt; price tags in the industry. They usually end up &lt;em&gt;leaving a difficult work for their Research Assistants to figure out&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;There isn’t much money in academia, so &lt;em&gt;no one is ever rushing to finish their research&lt;/em&gt;. I’ve seen profs whom it took two weeks (even month) to respond to e-mails. After working in a startup for two years, I still cannot understand this pacing — you can lose your business in two weeks! I figured that &lt;em&gt;whenever there is no real money involved, people tend to keep a slower tempo&lt;/em&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;On a quick look, I could come up with these reasons. Have you had a similar experience with academic clients? Do you know other reasons? Please share you knowledge in the comments.&lt;/p&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Simulating Likert scale data in R</title>
