@@ -2,6 +2,7 @@
 layout: post
 title: Как научиться абсолютно всему?
 lang: russian 
+categ: blog
 keywords: самообучение, саморазвитие
 ---
 

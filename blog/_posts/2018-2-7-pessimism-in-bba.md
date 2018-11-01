@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Business education needs a dose of pessimism
-lang: russian
+lang: english
+categ: blog
 description: how to reform business education and make it compelling
 keywords: business education, curriculum, reform, education
 tags: management

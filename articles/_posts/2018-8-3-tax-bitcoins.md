@@ -2,6 +2,7 @@
 layout: post
 title: Bitcoin forgot its roots. Should we tax it?
 lang: english
+categ: article
 description: how and why to regulate bitcoin
 keywords: bitcoin, tax, regulation, cryptocurrency, decentralization, anarchy
 tags: economics crypto

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: This is how you should never end your blog posts
-lang: russian 
+lang: english 
+categ: blog
 keywords: cta, blog, writing
 tags: management
 ---

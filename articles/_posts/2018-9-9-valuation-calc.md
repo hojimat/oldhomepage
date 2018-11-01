@@ -2,6 +2,7 @@
 layout: post
 title: Valuation Calculator for Subscription-Based Businesses
 lang: english
+categ: article
 description: R reimplementation of Daniel McCarthy's valuation model
 keywords: mccarthy, netflix, R, economics, management, stock, valuation, IPO, public data, subscription
 tags: economics management finance
