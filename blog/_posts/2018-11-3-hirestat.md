@@ -6,24 +6,30 @@ categ: blog
 description: Data science, AI, Big Data and machine learning --- are the temporary buzzwords, while statistical analysis was, is, and will be the source of the best knowledge and breakthroughs related to data. 
 keywords: statistical consulting, economic consulting, data analytics, econometrics
 tags: management statistics
-image: /assets/img/academic-clients/bounlib.JPG
+image: /assets/img/hirestat/modernbook.JPG
+published: false
 ---
 <figure class="blog">
-	<img src="/assets/img/academic-clients/bounlib.JPG">
+	<img src="/assets/img/hirestat/modernbook.JPG">
 </figure>
 
-I am an economic and statistical consultant. What I do is help my clients to take valuable insights from their data, develop statistical algorithms and design frameworks to get most of their data analytics, write a software to automate their data analysis routine.  
+### When I was a kid, it was called statistics
 
-So, why would firms and individuals hire me? It's because of _comparative advantage_ --- they want to outsource their data analytics needs to an expert and not worry about it themselves. Because that's what rational people do.  
+	- just buzzwords
+	- df
 
-But, perhaps, academic aren't --- they just won't hire a consultant, even in cases when it would significantly improve their productivity. They contact me, they ask questions about my services and right when it comes to seal the deal, they pull back and stop responding. I do not observe this behavior in my clients from industry, so this pattern really exists.  
+	your data is never big, if it is, don't read this post
 
-Coming from academia myself, I think there are several reasons:
+### No theory
 
-1. After spending two decades in an _education system, where outside help is strongly discouraged_, academics have never developed a habit to outsource their tasks and focus on their area of specialization.
-2. Academics have been on top of their classes throughout their education and _they are confident that they can learn and master everything themselves_. It's not surprising to see a literature professor who manages her own website on Github.
-3. Academics are surrounded by the _brightest students who do a lot of work for free_, and thus they can't even start to comprehend the _"very high"_ price tags in the industry. They usually end up _leaving a difficult work for their Research Assistants to figure out_.
-4. There isn't much money in academia, so _no one is ever rushing to finish their research_. I've seen profs whom it took two weeks (even month) to respond to e-mails. After working in a startup for two years, I still cannot understand this pacing --- you can lose your business in two weeks! I figured that _whenever there is no real money involved, people tend to keep a slower tempo_.
+	- many have only taken one course
+		- many can't develop algorithms - my clients are data scientists
+	- actually, there is no theory - models are atheoretical
 
-On a quick look, I could come up with these reasons. Have you had a similar experience with academic clients? Do you know other reasons? Please share you knowledge in the comments.
+### Statisticians can do it
 
+	- everybody non-dumb can apply theory to real world
+
+ENough of criticism. Now, what can stats propose you?
+
+n
