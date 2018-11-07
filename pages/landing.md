@@ -7,6 +7,10 @@ permalink: /
 <a name="about"></a><br>
 # About
 
+<figure style="width:15em;float:right;">
+	<img src="/assets/myphoto.jpg"/>
+</figure>
+
 My name is Ravshan S.K. (Ravshanbek Khodzhimatov). I hold a [Master's Degree in Economics](http://econ.boun.edu.tr) from [Bogazici University](http://boun.edu.tr), [Istanbul, Turkey](https://en.wikipedia.org/wiki/Istanbul). My research interests are _agent-based modeling, macroeconometrics and forecasting_. Aside from my expertise in economics, I have an experience working as _financial analyst, customer service assistant, marketing assistant, interpreter, data scientist and web developer_.  
 
 ## What services do I provide?
