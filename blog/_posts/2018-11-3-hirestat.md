@@ -7,27 +7,11 @@ description: Data science, AI, Big Data and machine learning --- are the tempora
 keywords: statistical consulting, economic consulting, data analytics, econometrics
 tags: management statistics
 image: /assets/img/hirestat/modernbook.JPG
-published: false
 ---
 <figure class="blog">
 	<img src="/assets/img/hirestat/modernbook.JPG">
 </figure>
 
-## what's wrong with data science
-### When I was a kid, it was called statistics
-- just buzzwords
-- df
-your data is never big, if it is, don't read this post
-overhyped
-### No theory
-- many have only taken one course
-- many can't develop algorithms - my clients are data scientists
-- actually, there is no theory - models are atheoretical
-### Statisticians can do it
-- everybody non-dumb can apply theory to real world
-ENough of criticism. Now, what can stats propose you?
+I was planning to write an article for a long time but hesitated because this topic had been discussed so much in the last years, that it became redundant. But my thoughts didn't leave me alone, and the great thing happened --- I came across a related question on Quora. So, I wrote all my thoughts there as an answer --- I hope this will clear my mind for new thoughts and articles.  
 
-## why statisticians are better
-- rememeber black scholes being misused as a black box
-
-
+[To read the answer click here.](https://www.quora.com/Why-do-economics-graduates-hardly-get-hired-as-data-analysts-They-study-econometrics-which-is-basically-real-life-economics-analyzed-in-statistical-manner/answer/Ravshan-K?srid=ikzK9)
