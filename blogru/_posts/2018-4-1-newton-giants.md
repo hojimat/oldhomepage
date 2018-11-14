@@ -2,7 +2,7 @@
 layout: post
 title: Доверять или проверять? 
 lang: russian 
-categ: blog
+categ: blogru
 ---
 
 **А:** Ты слишком усложняешь себе жизнь.  

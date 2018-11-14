@@ -2,7 +2,7 @@
 layout: post
 title: The Breakfast club. Наверстывая культуру.
 lang: russian
-categ: blog
+categ: blogru
 image: /assets/img/breakfast/breakfastclub.jpg
 ---
 
