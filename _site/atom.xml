@@ -4,7 +4,7 @@
  <title>Ravshan S.K.</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-11-09T20:57:47+06:00</updated>
+ <updated>2018-11-15T03:08:00+06:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Ravshanbek Khodzhimatov</name>
@@ -315,9 +315,9 @@
  
  <entry>
    <title>Мысли о религии</title>
-   <link href="http://localhost:4000/blog/thoughts-on-religion.html"/>
+   <link href="http://localhost:4000/blogru/thoughts-on-religion.html"/>
    <updated>2018-08-27T00:00:00+06:00</updated>
-   <id>http://localhost:4000/blog/thoughts-on-religion</id>
+   <id>http://localhost:4000/blogru/thoughts-on-religion</id>
    <content type="html">&lt;p&gt;В этой статье я собрал мысли, которые мне приходили во время или после (чаще после) споров со знакомыми на тему религии.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Дисклеймер:&lt;/strong&gt; Я - не эксперт ни в религии, ни в праве.&lt;/p&gt;
@@ -431,9 +431,9 @@
  
  <entry>
    <title>Ты не прав</title>
-   <link href="http://localhost:4000/blog/urwrong.html"/>
+   <link href="http://localhost:4000/blogru/urwrong.html"/>
    <updated>2018-08-17T00:00:00+06:00</updated>
-   <id>http://localhost:4000/blog/urwrong</id>
+   <id>http://localhost:4000/blogru/urwrong</id>
    <content type="html">&lt;p&gt;&lt;strong&gt;А:&lt;/strong&gt; А ты знал, что Солнечная система плоская?&lt;br /&gt;
 &lt;strong&gt;Б:&lt;/strong&gt; Кто сказал? Это неправдоподобно. Ты, наверняка, не прав.&lt;br /&gt;
 &lt;strong&gt;А:&lt;/strong&gt; (негодует) Зачем мне тебе врать? Или гнать чепуху? Я прочёл это в книге. &lt;br /&gt;
@@ -958,9 +958,9 @@
  
  <entry>
    <title>Как написать диссертацию? Мой опыт.</title>
-   <link href="http://localhost:4000/blog/disser.html"/>
+   <link href="http://localhost:4000/blogru/disser.html"/>
    <updated>2018-06-07T00:00:00+06:00</updated>
-   <id>http://localhost:4000/blog/disser</id>
+   <id>http://localhost:4000/blogru/disser</id>
    <content type="html">&lt;h3 id=&quot;содержание&quot;&gt;Содержание&lt;/h3&gt;
 &lt;ul class=&quot;index&quot;&gt;
 &lt;li&gt;&lt;a href=&quot;#intro&quot;&gt;1. С чем едят диссертацию?&lt;/a&gt;&lt;/li&gt;
@@ -1197,9 +1197,9 @@
  
  <entry>
    <title>Что такое LaTeX и почему вы должны его внедрить в вашу фирму.</title>
-   <link href="http://localhost:4000/blog/latex.html"/>
+   <link href="http://localhost:4000/blogru/latex.html"/>
    <updated>2018-05-17T00:00:00+06:00</updated>
-   <id>http://localhost:4000/blog/latex</id>
+   <id>http://localhost:4000/blogru/latex</id>
    <content type="html">&lt;h2 id=&quot;о-минусах-текстовых-редакторов&quot;&gt;О минусах текстовых редакторов&lt;/h2&gt;
 &lt;p&gt;На протяжении всей истории, письменность занимала очень важное место. Настолько, что каллиграфия была целой наукой, а письмо было отдельным ремеслом. Все важные документы, книги писали специально обученные люди, которые, по сути, являлись дизайнерами.&lt;/p&gt;
 
@@ -1303,9 +1303,9 @@
  
  <entry>
    <title>The Breakfast club. Наверстывая культуру.</title>
-   <link href="http://localhost:4000/blog/breakfast.html"/>
+   <link href="http://localhost:4000/blogru/breakfast.html"/>
    <updated>2018-04-28T00:00:00+06:00</updated>
-   <id>http://localhost:4000/blog/breakfast</id>
+   <id>http://localhost:4000/blogru/breakfast</id>
    <content type="html">&lt;figure class=&quot;blog&quot;&gt;
 	&lt;img src=&quot;/assets/img/breakfast/breakfastclub.jpg&quot; alt=&quot;movie still&quot; /&gt;
 	&lt;figcaption&gt;Фильм &quot;Клуб Завтрак&quot;&lt;/figcaption&gt;
@@ -1331,9 +1331,9 @@
  
  <entry>
    <title>Опровержение статьи РИА о рейтинге российских вузов</title>
-   <link href="http://localhost:4000/blog/ria-fake.html"/>
+   <link href="http://localhost:4000/blogru/ria-fake.html"/>
    <updated>2018-04-12T00:00:00+06:00</updated>
-   <id>http://localhost:4000/blog/ria-fake</id>
+   <id>http://localhost:4000/blogru/ria-fake</id>
    <content type="html">&lt;p&gt;Сегодня прочёл статью РИА о том, что 11 российских вузов вошли в сотню лучших вузов мира в 2017-м году. Это - больная для меня тема - я слежу за высшим образованием в мире уже около восьми лет и часто натыкаюсь на то, что многие вузы обвиняют систему рейтингов в предвзятости в пользу западной системы обучения (см. &lt;a href=&quot;https://youtu.be/4nG1qYwSCHc?t=5m22s&quot;&gt;интервью Садовничего Познеру&lt;/a&gt; с 5-й минуты). Я не согласен с этим, но забудем обо мне, взгляните лучше на статью (&lt;a href=&quot;https://ria.ru/society/20180412/1518459066.html&quot;&gt;ссылка&lt;/a&gt;):&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
@@ -1436,9 +1436,9 @@
  
  <entry>
    <title>Доверять или проверять?</title>
-   <link href="http://localhost:4000/blog/newton-giants.html"/>
+   <link href="http://localhost:4000/blogru/newton-giants.html"/>
    <updated>2018-04-01T00:00:00+06:00</updated>
-   <id>http://localhost:4000/blog/newton-giants</id>
+   <id>http://localhost:4000/blogru/newton-giants</id>
    <content type="html">&lt;p&gt;&lt;strong&gt;А:&lt;/strong&gt; Ты слишком усложняешь себе жизнь.&lt;br /&gt;
 &lt;strong&gt;Б:&lt;/strong&gt; Почему?&lt;br /&gt;
 &lt;strong&gt;А:&lt;/strong&gt; Ты не доверяешь ничему, что слышишь.&lt;br /&gt;
@@ -1522,9 +1522,9 @@
  
  <entry>
    <title>Как научиться абсолютно всему?</title>
-   <link href="http://localhost:4000/blog/how-to-learn.html"/>
+   <link href="http://localhost:4000/blogru/how-to-learn.html"/>
    <updated>2018-03-26T00:00:00+06:00</updated>
-   <id>http://localhost:4000/blog/how-to-learn</id>
+   <id>http://localhost:4000/blogru/how-to-learn</id>
    <content type="html">&lt;p&gt;Впервые меня освободили от занятий в восьмом классе для подготовки к олимпиаде по математике, и с тех пор я, в основном, учусь сам. Я закончил вуз, магистратуру, поработал в разных специальностях от переводчика до веб-разработчика, и каждый раз учился (и продолжаю учиться) новым вещам. Если верить правилу 10000 часов, то я смело могу сказать, что являюсь экспертом в получении знаний. В этой серии постов, я решил поделиться своими методами.&lt;/p&gt;
 
 &lt;h2 id=&quot;1-подход-новичка&quot;&gt;1. Подход новичка&lt;/h2&gt;
