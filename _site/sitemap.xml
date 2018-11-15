@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://localhost:4000/blogru/whygold.html</loc>
+<lastmod>2015-06-01T00:00:00+06:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blogru/the-big-short-crisis.html</loc>
+<lastmod>2015-11-03T00:00:00+06:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blogru/teleport-economy.html</loc>
+<lastmod>2016-07-01T00:00:00+06:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blogru/how-to-win-corruption.html</loc>
+<lastmod>2016-09-03T00:00:00+06:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blogru/invest-riskless-now.html</loc>
+<lastmod>2017-04-12T00:00:00+06:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blogru/whygdp.html</loc>
+<lastmod>2017-08-01T00:00:00+06:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blogru/how-to-trade.html</loc>
+<lastmod>2017-09-01T00:00:00+06:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/articles/irf-ann.html</loc>
 <lastmod>2017-12-12T00:00:00+06:00</lastmod>
 </url>
@@ -45,6 +73,10 @@
 <lastmod>2018-03-27T00:00:00+06:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/blogru/econcommunism.html</loc>
+<lastmod>2018-04-01T00:00:00+06:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/blogru/newton-giants.html</loc>
 <lastmod>2018-04-01T00:00:00+06:00</lastmod>
 </url>
@@ -59,6 +91,10 @@
 <url>
 <loc>http://localhost:4000/blogru/breakfast.html</loc>
 <lastmod>2018-04-28T00:00:00+06:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blogru/exterror.html</loc>
+<lastmod>2018-05-01T00:00:00+06:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/blogru/latex.html</loc>
@@ -87,6 +123,10 @@
 <url>
 <loc>http://localhost:4000/blogru/thoughts-on-religion.html</loc>
 <lastmod>2018-08-27T00:00:00+06:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blogru/are-lotos-legit.html</loc>
+<lastmod>2018-09-19T00:00:00+06:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/articles/munkfin.html</loc>
