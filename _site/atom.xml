@@ -4,7 +4,7 @@
  <title>Ravshan S.K.</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-11-15T15:19:25+06:00</updated>
+ <updated>2018-11-15T15:57:40+06:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Ravshanbek Khodzhimatov</name>
@@ -13,7 +13,7 @@
 
  
  <entry>
-   <title>Why you should hire a statistician</title>
+   <title>Why don't more economists get hired as data analysts?</title>
    <link href="http://localhost:4000/blog/hirestat.html"/>
    <updated>2018-11-03T00:00:00+06:00</updated>
    <id>http://localhost:4000/blog/hirestat</id>
@@ -21,9 +21,35 @@
 	&lt;img src=&quot;/assets/img/hirestat/modernbook.JPG&quot; /&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;I was planning to write an article for a long time but hesitated because this topic had been discussed so much in the last years, that it became redundant. But my thoughts didn’t leave me alone, and the great thing happened — I came across a related question on Quora. So, I wrote all my thoughts there as an answer — I hope this will clear my mind for new thoughts and articles.&lt;/p&gt;
+&lt;p&gt;There are multiple reasons why econometrics experts don’t get hired as data analysts on a routine basis.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.quora.com/Why-do-economics-graduates-hardly-get-hired-as-data-analysts-They-study-econometrics-which-is-basically-real-life-economics-analyzed-in-statistical-manner/answer/Ravshan-K?srid=ikzK9&quot;&gt;To read the answer click here.&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;econometrics-is-not-about-data&quot;&gt;Econometrics is not about data&lt;/h4&gt;
+
+&lt;p&gt;Econometrics is, first and foremost, a statistics applied to economic theory.&lt;/p&gt;
+
+&lt;p&gt;1) So, its main goal is not a “real life economics”, but the way to numerically test the theory. Econometrics’ unique expertise is causal analysis, time series, experimental design. All of these skills are great for academia or fields somehow related to academia — R&amp;amp;D departments, Public Policy, Urban Development, Environmental Policies.&lt;/p&gt;
+
+&lt;p&gt;And economists do get hired in these fields, but there are a lot less such organizations than commercial businesses. So, no one sees these economists working as de-facto data analysts.&lt;/p&gt;
+
+&lt;p&gt;2) Econometrics experts are still economists at heart. So, the economic problems like matching, game theory, real business cycles, history of economic thought etc., are why they chose their field in the first place. And data analysis is just a tool to study economics.&lt;/p&gt;
+
+&lt;p&gt;If you listen to two econometricians talk for a few hours, you will see how their conversation starts with “variances” and “biases”, but soon converges to “The Theory of Moral Sentiments” by Adam Smith.&lt;/p&gt;
+
+&lt;h4 id=&quot;businesses-are-unaware-of-economists-potential&quot;&gt;Businesses are unaware of economists’ potential&lt;/h4&gt;
+
+&lt;p&gt;1) Econometrics does not focus on predictive accuracy, it focuses on ideas and rigor. And self-learned data analysts have no problem with ignoring theory to reach more precision. So, firms hire the latter.&lt;/p&gt;
+
+&lt;p&gt;2) Economists are rational and don’t want to waste their resources — therefore, they only learn those programming languages and statistical packages, that are absolutely necessary. So, they rarely keep up to date with stuff like SQL, Hadoop etc. and make do with Stata/R. A rare economist would even bother to learn Excel macros, because “I can do it in Stata”, and if the team is using Excel, they won’t like someone to preach them how they are using the wrong tools.&lt;/p&gt;
+
+&lt;p&gt;3) Self-named “data scientists” (whatever they mean by “science”) were historically the guys, who developed the data cleaning/normalizing libraries for R/Stata. Economists would consider it a menial task, and charge their Research Assistants with it.&lt;/p&gt;
+
+&lt;p&gt;Outsiders might mistakenly think that the economists themselves did not know how hard this task was etc., which is obviously wrong, because these economists had been Research Assistants themselves and knew how to do it themselves.&lt;/p&gt;
+
+&lt;p&gt;So, these guys decided to tell the world that their work is a separate field in on itself and spread the word that the firms need data scientists and not economists/statisticians. The latter didn’t react to that, because they had their full-time jobs in academia, and with time, the data science hype overgrew economists/statisticians.&lt;/p&gt;
+
+&lt;p&gt;Now, firms are prejudiced against economists in a hiring process.&lt;/p&gt;
+
+&lt;p&gt;In conclusion, economists can easily learn to become data analysts, but they either are lazy or uninterested. At the same time, firms don’t really like to hire economists because of data science hype and prejudices.&lt;/p&gt;
 </content>
  </entry>
  
@@ -3058,6 +3084,19 @@ workaround is an important contribution to the economic analysis.&lt;/p&gt;
  </entry>
  
  <entry>
+   <title>Why is econometrics focused on linear models?</title>
+   <link href="http://localhost:4000/blog/why-so-linear.html"/>
+   <updated>2017-12-01T00:00:00+06:00</updated>
+   <id>http://localhost:4000/blog/why-so-linear</id>
+   <content type="html">&lt;p&gt;Econometrics is a separate discipline from statistics/probability/machine learning for a reason. The primary aim of econometrics and economics in general is interpretability. Economists could easily build very realistic models with hundreds of moving parts/variables, but they don’t do it, because they aim to make models as simple as possible.&lt;/p&gt;
+
+&lt;p&gt;In this sense, econometrics does not pursue precision, it serves as the best demonstration of economic theory. It doesn’t answer the question “How close?”, it answers the question “Why?”&lt;/p&gt;
+
+&lt;p&gt;Actually, econometrics does use nonlinear models a lot, but it always remarks that these models are “atheoretical”, i.e. not based on economic theory, which is the cornerstone of econometrics - to serve economic theory.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Какими знаниями нужно обладать, чтобы торговать на бирже?</title>
    <link href="http://localhost:4000/blogru/how-to-trade.html"/>
    <updated>2017-09-01T00:00:00+06:00</updated>
@@ -3289,6 +3328,21 @@ workaround is an important contribution to the economic analysis.&lt;/p&gt;
 
 &lt;p&gt;И последнее: почему золото дороже серебра? Потому что, золота меньше в природе и области применения шире - украшения, посуда, имплантация вместо костей, проводка и т.д. А чем больше спрос, тем больше цена.&lt;/p&gt;
 
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Undergraduate business degree is a waste of time</title>
+   <link href="http://localhost:4000/blog/bba-noneed.html"/>
+   <updated>2015-05-04T00:00:00+06:00</updated>
+   <id>http://localhost:4000/blog/bba-noneed</id>
+   <content type="html">&lt;p&gt;I believe that undergraduate business education is the most useless degree. Having received one myself, I can tell you that every single topic they teach can easily be learned by reading a textbook or googling.&lt;/p&gt;
+
+&lt;p&gt;Of course, they teach soft skills like report writing, doing presentations in teams, but having to give up 4 years to learn that, doesn’t pass my cost-benefit criteria.&lt;/p&gt;
+
+&lt;p&gt;Everything they teach you in undergraduate business school in 4 years is also taught to MBA students in 1 year of coursework + 1 year of preparing an MBA project. Most even manage to work full-time during MBA.&lt;/p&gt;
+
+&lt;p&gt;I sincerely believe that some day people will understand this and all the Bachelor’s programs in business will shut down in favor of 1–2 year crash courses, or cease entirely in favor of MBAs. It is a lot better to obtain Bachelor’s degree in some speicalized field and to be expert in it, and then quickly obtain an MBA and learn everything business majors learned in 4 years of not working.&lt;/p&gt;
 </content>
  </entry>
  
