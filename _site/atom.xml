@@ -4,13 +4,44 @@
  <title>Ravshan S.K.</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-11-15T15:57:40+06:00</updated>
+ <updated>2018-11-22T15:16:51+06:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Ravshanbek Khodzhimatov</name>
    <email>rsk@ravshansk.com</email>
  </author>
 
+ 
+ <entry>
+   <title>The future of economic publishing</title>
+   <link href="http://localhost:4000/blog/treconcrisis.html"/>
+   <updated>2018-11-22T00:00:00+06:00</updated>
+   <id>http://localhost:4000/blog/treconcrisis</id>
+   <content type="html">&lt;p&gt;I finished my thesis on Financial Economics at the beginning of this summer. I performed simulations for different investment strategies for Turkish households, to see which investment option is the best.&lt;/p&gt;
+
+&lt;p&gt;Of course, I used in my study the main economic indicators for Turkey, like inflation and 10-year Treasury yields.&lt;/p&gt;
+
+&lt;p&gt;Then I went on a summer break to visit &lt;a href=&quot;https://en.wikipedia.org/wiki/Kyrgyzstan&quot;&gt;&lt;em&gt;Kyrgyzstan&lt;/em&gt;&lt;/a&gt; and my supervisor spent the summer planning for his wedding.&lt;/p&gt;
+
+&lt;p&gt;Meanwhile, I didn’t read a single article about Turkey, as I was busy swimming in the river and having fun, trying to forget everything related to my grad school experience.&lt;/p&gt;
+
+&lt;p&gt;I didn’t return to Turkey, but in October, I got in touch with my advisor via email, and he suggested that we publish the thesis in a journal. I happily agreed and started editing my thesis to satisfy the journal’s guideline.&lt;/p&gt;
+
+&lt;p&gt;But then I decided to check the numbers, and realized that I missed the &lt;a href=&quot;https://en.wikipedia.org/wiki/Turkish_currency_and_debt_crisis,_2018&quot;&gt;&lt;em&gt;Turkish currency and debt crisis of summer, 2018&lt;/em&gt;&lt;/a&gt; altogether. The numbers changed by hundreds of percentage points!&lt;/p&gt;
+
+&lt;p&gt;I am still incorporating all the changes, because I didn’t keep my &lt;em&gt;R&lt;/em&gt;-codes organized, and had to work my way through half-forgotten chaos. But even if I had clean R-codes, I still would have spent time, incorporating changes into the LaTeX file.&lt;/p&gt;
+
+&lt;p&gt;And then I thought, how many more articles and journal issues that have already been printed, are like mine. Their data is obsolete, their conclusions are wrong. I’ve always known that economics is not physics, but I have never experienced this first-hand. This thought never left me since — printing economic papers seems useless. But what can we do?&lt;/p&gt;
+
+&lt;p&gt;The only answer that I could come up with is to force the empirical works to have a web-based dynamic pages, which would change the resulting numbers by automatically updating the input data every month. This is not too hard to execute, but it will be very expensive — the journals will have to rent a lot of cloud storage with virtual machines running on them (to run RStudio and LaTeX).&lt;/p&gt;
+
+&lt;p&gt;Also, the archive of publications should be created, where everyone can keep track of historical versions of the paper.&lt;/p&gt;
+
+&lt;p&gt;And, of course, the article authors should think about all the possibililites beforehand, and write their text with “if-then” conditionals. The text will change together with the data. There is no need to do comprehensive text changes — just  2-3 versions of text, linked to critical values.&lt;/p&gt;
+
+&lt;p&gt;This all seems overly complicated, and it really is inconvenient, if your only incentive is to graduate/publish/whatever. However, if you really care about economic research, you should understand that there is no other way to ensure the survival of the empirical economics in the future.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Why don't more economists get hired as data analysts?</title>
@@ -1466,63 +1497,75 @@
  </entry>
  
  <entry>
-   <title>Библиотека Босфорского Университета</title>
+   <title>Library of Bogazici University</title>
    <link href="http://localhost:4000/blog/bounlib.html"/>
    <updated>2018-04-12T00:00:00+06:00</updated>
    <id>http://localhost:4000/blog/bounlib</id>
-   <content type="html">&lt;p&gt;Сколько учусь в Босфорском университете (Bogazici University), никогда не приходило в голову снять библиотеку и опубликовать. Наверстываю.&lt;/p&gt;
-
-&lt;p&gt;Библиотека находится в &lt;em&gt;Северном кампусе&lt;/em&gt; универа и была построена в семидесятых, отсюда и стиль архитектуры:&lt;/p&gt;
+   <content type="html">&lt;p&gt;Library is located in North Campus:&lt;/p&gt;
 &lt;figure class=&quot;blog&quot;&gt;
 	&lt;img src=&quot;/assets/img/bounlib/lib1.JPG&quot; alt=&quot;libphoto&quot; /&gt;
 	&lt;figcaption&gt;Фасад Библиотеки&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;Имя ректора, который построил её.&lt;/p&gt;
+
+&lt;p&gt;and named after the rector who built it:&lt;/p&gt;
 &lt;figure class=&quot;blog&quot;&gt;
 	&lt;img src=&quot;/assets/img/bounlib/lib2.JPG&quot; alt=&quot;libphoto&quot; /&gt;
 	&lt;figcaption&gt;Библиотека им. Абдуллаха Курана&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;В библиотеке четыре этажа (один этаж в подвале, здесь его не видно).&lt;/p&gt;
+
+&lt;p&gt;it has 4 floors:&lt;/p&gt;
+
 &lt;figure class=&quot;blog&quot;&gt;
 	&lt;img src=&quot;/assets/img/bounlib/lib3.JPG&quot; alt=&quot;libphoto&quot; /&gt;
 	&lt;figcaption&gt;Вид с третьего этажа&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;Везде приклеены различные вариации просьбы не шуметь.&lt;/p&gt;
+
+&lt;p&gt;A random note:&lt;/p&gt;
+
 &lt;figure class=&quot;blog&quot;&gt;
 	&lt;img src=&quot;/assets/img/bounlib/lib4.JPG&quot; alt=&quot;libphoto&quot; /&gt;
 	&lt;figcaption&gt;Не шуметь!&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;Схема каталогизации книг:&lt;/p&gt;
+
+&lt;p&gt;Classification of books:&lt;/p&gt;
+
 &lt;figure class=&quot;blog&quot;&gt;
 	&lt;img src=&quot;/assets/img/bounlib/lib5.JPG&quot; alt=&quot;libphoto&quot; /&gt;
 	&lt;figcaption&gt;Как найти нужную книгу?&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;За окном виден свет. Он символизирует знание.&lt;/p&gt;
+
+&lt;p&gt;another shot:&lt;/p&gt;
+
 &lt;figure class=&quot;blog&quot;&gt;
 	&lt;img src=&quot;/assets/img/bounlib/lib6.JPG&quot; alt=&quot;libphoto&quot; /&gt;
 	&lt;figcaption&gt;Книжные полки ведут к просвещению&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;Еще один ракурс:&lt;/p&gt;
+
+&lt;p&gt;and another:&lt;/p&gt;
+
 &lt;figure class=&quot;blog&quot;&gt;
 	&lt;img src=&quot;/assets/img/bounlib/lib7.JPG&quot; alt=&quot;libphoto&quot; /&gt;
 &lt;/figure&gt;
-&lt;p&gt;А так выглядит нумеровка книг:&lt;/p&gt;
+
+&lt;p&gt;Book numeration:&lt;/p&gt;
+
 &lt;figure class=&quot;blog&quot;&gt;
 	&lt;img src=&quot;/assets/img/bounlib/lib8.JPG&quot; alt=&quot;libphoto&quot; /&gt;
 &lt;/figure&gt;
-&lt;p&gt;А благодаря этой книге я стал экономистом:&lt;/p&gt;
+
+&lt;p&gt;After reading this book I decided to become an economist:&lt;/p&gt;
+
 &lt;figure class=&quot;blog&quot;&gt;
 	&lt;img src=&quot;/assets/img/bounlib/colander.JPG&quot; alt=&quot;libphoto&quot; /&gt;
 	&lt;figcaption&gt;David Colander _&quot;The Making of an Economist, Redux&quot;_&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;А эта книга опустила мою самооценку до минус тысячи:&lt;/p&gt;
+
+&lt;p&gt;And this book lowered my self esteem to minus million points.&lt;/p&gt;
+
 &lt;figure class=&quot;blog&quot;&gt;
 	&lt;img src=&quot;/assets/img/bounlib/stokey.JPG&quot; alt=&quot;libphoto&quot; /&gt;
 	&lt;figcaption&gt;Самый сложный в мире учебник по экономике&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;Те, кто хочет попытать свои шансы с этой книгой, вбейте в поисковик &lt;em&gt;“Stokey, Lucas, Prescott”&lt;/em&gt; и скачайте/купите. Если эта книга вам дастся легко, то я вас сразу найму на работу.&lt;/p&gt;
-
-&lt;p&gt;Я пропустил стеклянную пирамиду, комнату для просмотра фильмов и прослушивания пластинок, одиночные комнаты для аспирантов и еще некоторые места, их можно найти в интернете.&lt;/p&gt;
 </content>
  </entry>
  
