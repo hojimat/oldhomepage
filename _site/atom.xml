@@ -4,7 +4,7 @@
  <title>Ravshan S.K.</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-11-22T15:16:51+06:00</updated>
+ <updated>2018-11-25T16:02:09+06:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Ravshanbek Khodzhimatov</name>
@@ -17,7 +17,8 @@
    <link href="http://localhost:4000/blog/treconcrisis.html"/>
    <updated>2018-11-22T00:00:00+06:00</updated>
    <id>http://localhost:4000/blog/treconcrisis</id>
-   <content type="html">&lt;p&gt;I finished my thesis on Financial Economics at the beginning of this summer. I performed simulations for different investment strategies for Turkish households, to see which investment option is the best.&lt;/p&gt;
+   <content type="html">&lt;audio src=&quot;/assets/hel.ogg&quot; controls=&quot;&quot;&gt;&lt;/audio&gt;
+&lt;p&gt;I finished my thesis on Financial Economics at the beginning of this summer. I performed simulations for different investment strategies for Turkish households, to see which investment option is the best.&lt;/p&gt;
 
 &lt;p&gt;Of course, I used in my study the main economic indicators for Turkey, like inflation and 10-year Treasury yields.&lt;/p&gt;
 
