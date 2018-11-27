@@ -19,9 +19,9 @@ Their model features a lot of series, vectors, matrices, intertwined recursive d
 	<figcaption>McCarthy et al.'s Customer behavior model</figcaption>
 </figure>
 
-In the summer gig, I mentioned, I had to use an Excel-based optimization kindly provided by Dan Mccarthy, due to time constraints. But now I found time to replicate their model in R.
+In the summer gig, I mentioned, I had to use an Excel-based optimization kindly provided by Dan Mccarthy, due to time constraints. But now I finally found time to replicate their model in R.
 
-It's in an earliest alpha version now, and does not optimize consistently. Moreover, I haven't built a Shiny user interface due to a workload on my other projects.
+It's in an earliest alpha version now, and does not optimize consistently. Moreover, I haven't built a Shiny user interface due to my workload on other projects.
 
 However, if you are interested, you can find the code in the [Github repo that I created specifically for that](https://github.com/ravshansk/danmccarthy). You are welcome to contribute to the project. I will welcome your pull requests.
 

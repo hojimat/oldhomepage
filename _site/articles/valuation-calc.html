@@ -8,22 +8,22 @@
 
   <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3">
-  <meta name="description" content="I help researchers, data scientists and growth hackers in performing economic analyses, developing statistical algorithms and research methods. My two-edits policy guarantees the quality of my work and your satisfaction. Read on.">
+  <meta name="description" content="R reimplementation of Daniel McCarthy and Peter Fader's valuation model">
   
- <meta name="keywords" content="neural network, impulse response function, irf, econometrics" />
+ <meta name="keywords" content="peter fader, R, economics, management, stock, valuation, IPO, public data, subscription" />
   
 
  <meta name="twitter:site"    content="@ravshansk">
- <meta name="twitter:title"   content="Using impulse response functions to interpret partial effects in neural networks">
+ <meta name="twitter:title"   content="Valuation Calculator for Subscription-Based Businesses">
  <meta name="twitter:card"  content="summary_large_image">
  <meta property="fb:admins" content="ravshanskh">
  
- <meta name="twitter:image" content="http://localhost:4000/assets/img/irfann/ann.png">
+ <meta name="twitter:image" content="http://localhost:4000/assets/img/churn/diag.png">
  
 
   <title>
     
-      Using impulse response functions to interpret partial effects in neural networks &middot; Ravshan S.K.
+      Valuation Calculator for Subscription-Based Businesses &middot; Ravshan S.K.
     
   </title>
 
@@ -54,20 +54,20 @@
 </head>
 
 <!-- Begin Jekyll SEO tag v2.3.0 -->
-<title>Using impulse response functions to interpret partial effects in neural networks | Ravshan S.K.</title>
-<meta property="og:title" content="Using impulse response functions to interpret partial effects in neural networks" />
+<title>Valuation Calculator for Subscription-Based Businesses | Ravshan S.K.</title>
+<meta property="og:title" content="Valuation Calculator for Subscription-Based Businesses" />
 <meta name="author" content="Ravshanbek Khodzhimatov" />
 <meta property="og:locale" content="english" />
-<meta name="description" content="This week I’ve been working on a research paper based on a very simple idea which, hopefully, can solve an important problem in applying machine learning techniques in economics — the interpretability. So, if you recall, the neural networks is the generalization of a logit model where sigmoid of a linear combination of inputs is used iteratively." />
-<meta property="og:description" content="This week I’ve been working on a research paper based on a very simple idea which, hopefully, can solve an important problem in applying machine learning techniques in economics — the interpretability. So, if you recall, the neural networks is the generalization of a logit model where sigmoid of a linear combination of inputs is used iteratively." />
-<link rel="canonical" href="http://localhost:4000/articles/irf-ann.html" />
-<meta property="og:url" content="http://localhost:4000/articles/irf-ann.html" />
+<meta name="description" content="R reimplementation of Daniel McCarthy and Peter Fader’s valuation model" />
+<meta property="og:description" content="R reimplementation of Daniel McCarthy and Peter Fader’s valuation model" />
+<link rel="canonical" href="http://localhost:4000/articles/valuation-calc.html" />
+<meta property="og:url" content="http://localhost:4000/articles/valuation-calc.html" />
 <meta property="og:site_name" content="Ravshan S.K." />
-<meta property="og:image" content="http://localhost:4000/assets/img/irfann/ann.png" />
+<meta property="og:image" content="http://localhost:4000/assets/img/churn/diag.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2017-12-12T00:00:00+06:00" />
+<meta property="article:published_time" content="2018-11-27T00:00:00+06:00" />
 <script type="application/ld+json">
-{"description":"This week I’ve been working on a research paper based on a very simple idea which, hopefully, can solve an important problem in applying machine learning techniques in economics — the interpretability. So, if you recall, the neural networks is the generalization of a logit model where sigmoid of a linear combination of inputs is used iteratively.","@type":"BlogPosting","headline":"Using impulse response functions to interpret partial effects in neural networks","dateModified":"2017-12-12T00:00:00+06:00","url":"http://localhost:4000/articles/irf-ann.html","datePublished":"2017-12-12T00:00:00+06:00","name":null,"publisher":null,"sameAs":null,"image":"http://localhost:4000/assets/img/irfann/ann.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/articles/irf-ann.html"},"author":{"@type":"Person","name":"Ravshanbek Khodzhimatov"},"@context":"http://schema.org"}</script>
+{"description":"R reimplementation of Daniel McCarthy and Peter Fader’s valuation model","@type":"BlogPosting","headline":"Valuation Calculator for Subscription-Based Businesses","dateModified":"2018-11-27T00:00:00+06:00","url":"http://localhost:4000/articles/valuation-calc.html","datePublished":"2018-11-27T00:00:00+06:00","name":null,"publisher":null,"sameAs":null,"image":"http://localhost:4000/assets/img/churn/diag.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/articles/valuation-calc.html"},"author":{"@type":"Person","name":"Ravshanbek Khodzhimatov"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <body>
@@ -94,46 +94,53 @@
 
     <div class="container content">
       <div class="post">
-  <h1 class="post-title">Using impulse response functions to interpret partial effects in neural networks</h1>
-  <span class="post-date">12 Dec 2017</span>
-  <p>This week I’ve been working on a research paper based on a very simple idea which, hopefully, can solve an important problem in applying machine learning techniques in economics — the interpretability. So, if you recall, the neural networks is the generalization of a logit model where sigmoid of a linear combination of inputs is used iteratively.</p>
+  <h1 class="post-title">Valuation Calculator for Subscription-Based Businesses</h1>
+  <span class="post-date">27 Nov 2018</span>
+  <p>Last summer I worked on a project that used Daniel McCarthy, Peter Fader and Bruce Hardie’s valuation model, described in their paper “Valuing Subscription-Based Businesses Using Publicly Disclosed Customer Data” available at <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2701093#maincontent">SSRN</a>.</p>
+
+<p>Their model features a lot of series, vectors, matrices, intertwined recursive definitions, that it was very difficult to comprehend at first. So, if you are going to read their paper, here is the diagram that I have drawn to make it easier for you to understand it.</p>
 
 <figure class="blog">
-	<img src="/assets/img/irfann/ann.png" alt="Generalization of Logit" />
-	<figcaption>ANN as a generalization of logit</figcaption>
+	<img src="/assets/img/churn/diag.png" height="300%" />
+	<figcaption>McCarthy et al.'s Customer behavior model</figcaption>
 </figure>
 
-<p>So, the problem with applying this model to economics problems is that the information is distributed among neurons and one cannot tell the causal effect of any given input variable on the variable of interest. So, I proposed a very simple solution: after having computed all of the weights using backpropagation, we need to do the following: use sparce vectors [1,0,0,0,…,0], [0,1,0,0,0,…,0],….,[0,0,0,0,…,1] and feed them to the network. The output will give the effects of any individual input variable to the output variable. This method is called Impulse Response Function Analysis in Economics and has much use in VAR models.</p>
+<p>In the summer gig, I mentioned, I had to use an Excel-based optimization kindly provided by Dan Mccarthy, due to time constraints. But now I found time to replicate their model in R.</p>
 
-<p>In conclusion, since simple doesn’t mean trivial, I believe this simple workaround is an important contribution to the economic analysis.</p>
+<p>It’s in an earliest alpha version now, and does not optimize consistently. Moreover, I haven’t built a Shiny user interface due to a workload on my other projects.</p>
 
+<p>However, if you are interested, you can find the code in the <a href="https://github.com/ravshansk/danmccarthy">Github repo that I created specifically for that</a>. You are welcome to contribute to the project. I will welcome your pull requests.</p>
+
+<p>Ideally, the project will constitute an open-source user-friendly valuation calculator for subscription-based businesses.</p>
+
+<p>Let’s combine our codes to make life easier for laymen!</p>
 
 </div>
 
 <div class="share-page">
 	<a href="https://twitter.com/share?
 		text=[enter%20text]&
-		url=http://localhost:4000/articles/irf-ann.html&
+		url=http://localhost:4000/articles/valuation-calc.html&
 		via=ravshansk"
 	   target="_blank"
 	>Tweet it</a>
 
 	<a href="https://www.linkedin.com/shareArticle?
 		mini=true&
-		url=http://localhost:4000/articles/irf-ann.html&
-		title=Using impulse response functions to interpret partial effects in neural networks
-		summary=&
+		url=http://localhost:4000/articles/valuation-calc.html&
+		title=Valuation Calculator for Subscription-Based Businesses
+		summary=R reimplementation of Daniel McCarthy and Peter Fader's valuation model&
 		source=Ravshan S.K."
 	   target="_blank"
 	>Share on Linkedin</a>
 
     <a href="https://facebook.com/sharer.php?
-		u=http://localhost:4000/articles/irf-ann.html"
+		u=http://localhost:4000/articles/valuation-calc.html"
 	   target="_blank"
 	>Share on Facebook</a>
     
 	<a href="https://plus.google.com/share?
-		url=http://localhost:4000/articles/irf-ann.html"
+		url=http://localhost:4000/articles/valuation-calc.html"
 	   target="_blank"
 	>Share on Google+</a>
 
@@ -151,13 +158,13 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <div class="fb-comments"
-	data-href="http://localhost:4000/articles/irf-ann.html"
+	data-href="http://localhost:4000/articles/valuation-calc.html"
 	data-numposts="5"
 	data-width="642">
 </div>
  
 <div class="g-comments"
-     data-href="http://localhost:4000/articles/irf-ann.html"
+     data-href="http://localhost:4000/articles/valuation-calc.html"
      data-width="642"
      data-first_party_property="BLOGGER"
      data-view_type="FILTERED_POSTMOD">
