@@ -35,4 +35,4 @@ I claim that undergraduate business education does not focus enough on the negat
 
 In contrast to the above, _Commercial Law_, for example, is very engaging to business students despite being a law course because it illustrates the incompatibilities between GATT's MFN and FTA principles, it focuses on court cases which are intrinsically conflict stories.  
 
-In conclusion, since freshman/sophomore undergraduate business students lack experience to relate with the curriculum, it will be healthy to inject a dose of pessimism/conflict into the courses to keep students engaged. 
+To sum up, since freshman/sophomore undergraduate business students lack experience to relate with the curriculum, it will be healthy to inject a dose of pessimism/conflict into the courses to keep students engaged. 

@@ -135,4 +135,4 @@ For presentation purposes I animated the resulting graphs:
 ### Conclusion
 Here we go, I have built and shared the very basic object-oriented implementation of the very basic game in the most popular language, and somehow I ended up being the first one to do it. So, I will just leave it here as a starting point for future learners.  
 
-Be sure to check my other posts in [_ravshansk.com/blog_](/blog) and to [_subscribe to my Twitter @ravshansk_](http://twitter.com/ravshansk).
+Be sure to check my other posts in [_ravshansk.com/articles_](/articles) and to [_follow me on Twitter @ravshansk_](http://twitter.com/ravshansk).

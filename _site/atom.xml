@@ -4,13 +4,92 @@
  <title>Ravshan S.K.</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-11-27T23:40:26+06:00</updated>
+ <updated>2018-11-28T16:52:33+06:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Ravshanbek Khodzhimatov</name>
    <email>rsk@ravshansk.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Типичный диалог с клиентом</title>
+   <link href="http://localhost:4000/blogru/consultant-dialogue-1.html"/>
+   <updated>2018-11-28T00:00:00+06:00</updated>
+   <id>http://localhost:4000/blogru/consultant-dialogue-1</id>
+   <content type="html">&lt;p&gt;-Ты консультант?&lt;br /&gt;
+-Да&lt;br /&gt;
+-У меня есть проект, сделаешь?&lt;br /&gt;
+-А что нужно сделать?&lt;br /&gt;
+-Вот дополнительные файлы&lt;br /&gt;
+-А что конкретно нужно сделать?&lt;br /&gt;
+-Дедлайн 2 недели&lt;br /&gt;
+-А что от меня требуется конкретно?&lt;br /&gt;
+-Я отправил аванс.&lt;br /&gt;
+-… Хорошо, приступаю&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Using matching with quotas to solve Hajj visa problem</title>
+   <link href="http://localhost:4000/articles/saudi-visa.html"/>
+   <updated>2018-11-28T00:00:00+06:00</updated>
+   <id>http://localhost:4000/articles/saudi-visa</id>
+   <content type="html">&lt;h3 id=&quot;contents&quot;&gt;Contents&lt;/h3&gt;
+&lt;ul class=&quot;index&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;#intro&quot;&gt;1. Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#problem&quot;&gt;2. The problem&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#solution&quot;&gt;3. Solution&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a name=&quot;intro&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;1-introduction&quot;&gt;1. Introduction&lt;/h2&gt;
+
+&lt;p&gt;Hajj is the annual event in Mecca, Saudi Arabia, where 1-2 million pilgrims are hosted. This creates an enormous logistic challenge both to the kingdom of Saudi Arabia and to all countries with Muslim population. The former have to host people and determine the annual capacity of the city of Mecca, and the latter have to allocate people in their countries to assigned lots/quotas.&lt;/p&gt;
+
+&lt;p&gt;The Foreign Policy journal &lt;a href=&quot;http://foreignpolicy.com/2015/09/23/how-to-score-a-ticket-to-the-hottest-event-in-saudi-the-hajj/&quot;&gt;discusses the visa allocation in detail&lt;/a&gt;. The rule of thumb, Saudi Kingdom uses today, is to give 1000 visa quotas for every 1 million Muslim Population.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;problem&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;2-the-problem&quot;&gt;2. The problem&lt;/h2&gt;
+
+&lt;p&gt;The importance of Hajj (&lt;em&gt;promised complete indulgence from all the previous sins&lt;/em&gt;) makes the trip very desirable to a lot of people. This creates a huge supply-demand misallocation.&lt;/p&gt;
+
+&lt;p&gt;The basic economic method (&lt;em&gt;increasing visa fees until supply meets demand&lt;/em&gt;) is forbidden by religion, as it would create unfairness in the society and leave out non-rich people.&lt;/p&gt;
+
+&lt;p&gt;Moreover, the visa allocation within countries is completely left to their respective governments. This creates different methods of visa allocation on site, like bribing officials (until supply meets demand), doing weighted lotteries, creating special commissions deciding who &lt;em&gt;“deserves”&lt;/em&gt; to go to Hajj.&lt;/p&gt;
+
+&lt;p&gt;The problem with this two-step procedure is (i) inefficiency, due to strict quotas and (ii) no mechanism to punish local bribes.&lt;/p&gt;
+
+&lt;p&gt;The inefficiencies include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Wasted unfilled quotas &lt;a href=&quot;https://realnoevremya.com/articles/696&quot;&gt;in some countries&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Difficulty to determine the actual size of Muslim population (especially in secular states)&lt;/li&gt;
+  &lt;li&gt;Failure to differentiate between federal and unitary governments (e.g. two separate quotas for Tatarstan and Dagestan, both parts of Russian Federation with citizens holding identical passports making it imposible to differentiate them.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a name=&quot;solution&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;3-solution&quot;&gt;3. Solution&lt;/h2&gt;
+
+&lt;p&gt;I propose to use method, proposed by Kamada and Kojima’s in their 2015 &lt;a href=&quot;https://econpapers.repec.org/article/aeaaecrev/v_3a105_3ay_3a2015_3ai_3a1_3ap_3a67-99.htm&quot;&gt;paper on “Efficient matching under distributional constraints”&lt;/a&gt;, to solve this problem. They used the algorithm to improve UK’s two-step medical student admission procedure.&lt;/p&gt;
+
+&lt;p&gt;The first step is to revoke the authority of the local governments in visa allocation, since they are either inefficient, corrupt or don’t care (e.g. secular countries).&lt;/p&gt;
+
+&lt;p&gt;Next we use a &lt;em&gt;Flexible Deferred Acceptance Mechanism (FDA)&lt;/em&gt; to allocate visas directly to the global population. This will require a new &lt;em&gt;“Meccan preference set”&lt;/em&gt; which will favor first-timers and older pilgrims (a lot of preference criteria can be included in this step).&lt;/p&gt;
+
+&lt;p&gt;In order to mimic Kojima’s paper we introduce &lt;em&gt;“Umrah”&lt;/em&gt; variable. Umrah is the same ritual as Hajj but which happens any other time throughout the year except for the Hajj season.&lt;/p&gt;
+
+&lt;p&gt;Umrah alse has a quota problem, though not that big. So, we introduce 11 variables for 11 months of Umrah to mimic the different “hospitals” to which pilgrims are applying to. The potential pilgrims will give their preference lists of month at which they want to go to Mecca. So, we will obtain “12
+hospitals(months)” with “doctor allocation” with regional caps. As a reminder, below is the FDA
+mechanism from Kojima’s paper:&lt;/p&gt;
+
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img src=&quot;/assets/img/kojima/fda.png&quot; /&gt;
+	&lt;figcaption&gt;Flexible Deferred Acceptance Mechanism by Kamada and Kojima (2015)&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Valuation Calculator for Subscription-Based Businesses</title>
@@ -26,9 +105,9 @@
 	&lt;figcaption&gt;McCarthy et al.'s Customer behavior model&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;In the summer gig, I mentioned, I had to use an Excel-based optimization kindly provided by Dan Mccarthy, due to time constraints. But now I found time to replicate their model in R.&lt;/p&gt;
+&lt;p&gt;In the summer gig, I mentioned, I had to use an Excel-based optimization kindly provided by Dan Mccarthy, due to time constraints. But now I finally found time to replicate their model in R.&lt;/p&gt;
 
-&lt;p&gt;It’s in an earliest alpha version now, and does not optimize consistently. Moreover, I haven’t built a Shiny user interface due to a workload on my other projects.&lt;/p&gt;
+&lt;p&gt;It’s in an earliest alpha version now, and does not optimize consistently. Moreover, I haven’t built a Shiny user interface due to my workload on other projects.&lt;/p&gt;
 
 &lt;p&gt;However, if you are interested, you can find the code in the &lt;a href=&quot;https://github.com/ravshansk/danmccarthy&quot;&gt;Github repo that I created specifically for that&lt;/a&gt;. You are welcome to contribute to the project. I will welcome your pull requests.&lt;/p&gt;
 
@@ -392,8 +471,6 @@
 &lt;/figure&gt;
 
 &lt;p&gt;In this article, I told a story about how it took seven decades, three generations of brightest economists, and numerous approaches to see today’s mature and intuitive portfolio theory. Most of the essential questions are answered today. This free and accessible knowledge has the ability to transform lives of many people. Hopefully, in the future everybody will invest optimally and accumulate enough wealth to support them in their retirement.&lt;/p&gt;
-
-&lt;p&gt;Please share your thoughts in the comments below and share this article if you liked it — I would be very happy if more people read it.&lt;/p&gt;
 </content>
  </entry>
  
@@ -569,16 +646,16 @@
    <link href="http://localhost:4000/blogru/urwrong.html"/>
    <updated>2018-08-17T00:00:00+06:00</updated>
    <id>http://localhost:4000/blogru/urwrong</id>
-   <content type="html">&lt;p&gt;&lt;strong&gt;А:&lt;/strong&gt; А ты знал, что Солнечная система плоская?&lt;br /&gt;
-&lt;strong&gt;Б:&lt;/strong&gt; Кто сказал? Это неправдоподобно. Ты, наверняка, не прав.&lt;br /&gt;
-&lt;strong&gt;А:&lt;/strong&gt; (негодует) Зачем мне тебе врать? Или гнать чепуху? Я прочёл это в книге. &lt;br /&gt;
-&lt;strong&gt;Б:&lt;/strong&gt; В какой еще книге? Ты не прав.&lt;br /&gt;
-&lt;strong&gt;А:&lt;/strong&gt; В научно-популярной книге. Да, я не физик, но эта книга очень растиражированная, и наверняка там только факты.&lt;br /&gt;
-&lt;strong&gt;Б:&lt;/strong&gt; А, ерунда.&lt;br /&gt;
-&lt;strong&gt;А:&lt;/strong&gt; (протягивает телефон) Вот в Ютубе посмотри — наша Солнечная Система плоская из-за того, что она крутится, вроде бы, из-за центробежной силы. &lt;br /&gt;
-&lt;strong&gt;Б:&lt;/strong&gt; (смотрит видео) Тут сказано, что она плоская из-за &lt;em&gt;импульсного момента&lt;/em&gt;, а не из-за центробежной силы. Видишь, ты не прав.&lt;br /&gt;
-&lt;strong&gt;А:&lt;/strong&gt; Погоди, давай вернёмся чуточку назад, ты убедился, что она плоская? Насчет того, почему она плоская, я ничего не утверждал, просто предположил.&lt;br /&gt;
-&lt;strong&gt;Б:&lt;/strong&gt; Всё равно, ты не прав.&lt;/p&gt;
+   <content type="html">&lt;p&gt;-А ты знал, что Солнечная система плоская?&lt;br /&gt;
+-Кто сказал? Это неправдоподобно. Ты, наверняка, не прав.&lt;br /&gt;
+-(негодует) Зачем мне тебе врать? Или гнать чепуху? Я прочёл это в книге. &lt;br /&gt;
+-В какой еще книге? Ты не прав.&lt;br /&gt;
+-В научно-популярной книге. Да, я не физик, но эта книга очень растиражированная, и наверняка там только факты.&lt;br /&gt;
+-А, ерунда.&lt;br /&gt;
+-(протягивает телефон) Вот в Ютубе посмотри — наша Солнечная Система плоская из-за того, что она крутится, вроде бы, из-за центробежной силы. &lt;br /&gt;
+-(смотрит видео) Тут сказано, что она плоская из-за &lt;em&gt;импульсного момента&lt;/em&gt;, а не из-за центробежной силы. Видишь, ты не прав.&lt;br /&gt;
+-Погоди, давай вернёмся чуточку назад, ты убедился, что она плоская? Насчет того, почему она плоская, я ничего не утверждал, просто предположил.&lt;br /&gt;
+-Всё равно, ты не прав.&lt;/p&gt;
 </content>
  </entry>
  
@@ -709,7 +786,7 @@
 &lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
 &lt;p&gt;Here we go, I have built and shared the very basic object-oriented implementation of the very basic game in the most popular language, and somehow I ended up being the first one to do it. So, I will just leave it here as a starting point for future learners.&lt;/p&gt;
 
-&lt;p&gt;Be sure to check my other posts in &lt;a href=&quot;/blog&quot;&gt;&lt;em&gt;ravshansk.com/blog&lt;/em&gt;&lt;/a&gt; and to &lt;a href=&quot;http://twitter.com/ravshansk&quot;&gt;&lt;em&gt;subscribe to my Twitter @ravshansk&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Be sure to check my other posts in &lt;a href=&quot;/articles&quot;&gt;&lt;em&gt;ravshansk.com/articles&lt;/em&gt;&lt;/a&gt; and to &lt;a href=&quot;http://twitter.com/ravshansk&quot;&gt;&lt;em&gt;follow me on Twitter @ravshansk&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
 </content>
  </entry>
  
@@ -1601,14 +1678,14 @@
    <link href="http://localhost:4000/blogru/newton-giants.html"/>
    <updated>2018-04-01T00:00:00+06:00</updated>
    <id>http://localhost:4000/blogru/newton-giants</id>
-   <content type="html">&lt;p&gt;&lt;strong&gt;А:&lt;/strong&gt; Ты слишком усложняешь себе жизнь.&lt;br /&gt;
-&lt;strong&gt;Б:&lt;/strong&gt; Почему?&lt;br /&gt;
-&lt;strong&gt;А:&lt;/strong&gt; Ты не доверяешь ничему, что слышишь.&lt;br /&gt;
-&lt;strong&gt;Б:&lt;/strong&gt; Ну, да, надо все проверять, нельзя слепо верить.&lt;br /&gt;
-&lt;strong&gt;А:&lt;/strong&gt; Но ты даже и не проверяешь потом - тебе лень. Так ты ничему не научишься.&lt;br /&gt;
-&lt;strong&gt;Б:&lt;/strong&gt; Зато, я буду уверен, что всё, что я знаю - это достоверно. Это - научный подход.&lt;br /&gt;
-&lt;strong&gt;А:&lt;/strong&gt; Поэтому наука очень медленно расширяется, а жить так - просто трата времени. Даже Ньютон, будучи ученым, сказал, что в своих открытиях опирался “на плечи гигантов”, подразумевая всех ученых до него. &lt;br /&gt;
-&lt;strong&gt;Б:&lt;/strong&gt; Откуда ты знаешь, что Ньютон так сказал? Я не поверю, пока сам не прочитаю.&lt;/p&gt;
+   <content type="html">&lt;p&gt;-Ты слишком усложняешь себе жизнь.&lt;br /&gt;
+-Почему?&lt;br /&gt;
+-Ты не доверяешь ничему, что слышишь.&lt;br /&gt;
+-Ну, да, надо все проверять, нельзя слепо верить.&lt;br /&gt;
+-Но ты даже и не проверяешь потом - тебе лень. Так ты ничему не научишься.&lt;br /&gt;
+-Зато, я буду уверен, что всё, что я знаю - это достоверно. Это - научный подход.&lt;br /&gt;
+-Поэтому наука очень медленно расширяется, а жить так - просто трата времени. Даже Ньютон, будучи ученым, сказал, что в своих открытиях опирался “на плечи гигантов”, подразумевая всех ученых до него. &lt;br /&gt;
+-Откуда ты знаешь, что Ньютон так сказал? Я не поверю, пока сам не прочитаю.&lt;/p&gt;
 </content>
  </entry>
  
@@ -2609,7 +2686,7 @@ a dose of pessimism/conflict into the courses to keep students engaged.&lt;/p&gt
 
 &lt;p&gt;In contrast to the above, &lt;em&gt;Commercial Law&lt;/em&gt;, for example, is very engaging to business students despite being a law course because it illustrates the incompatibilities between GATT’s MFN and FTA principles, it focuses on court cases which are intrinsically conflict stories.&lt;/p&gt;
 
-&lt;p&gt;In conclusion, since freshman/sophomore undergraduate business students lack experience to relate with the curriculum, it will be healthy to inject a dose of pessimism/conflict into the courses to keep students engaged.&lt;/p&gt;
+&lt;p&gt;To sum up, since freshman/sophomore undergraduate business students lack experience to relate with the curriculum, it will be healthy to inject a dose of pessimism/conflict into the courses to keep students engaged.&lt;/p&gt;
 </content>
  </entry>
  
