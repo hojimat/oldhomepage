@@ -7,7 +7,7 @@ description: R reimplementation of Daniel McCarthy and Peter Fader's valuation m
 keywords: peter fader, R, economics, management, stock, valuation, IPO, public data, subscription
 tags: economics management finance
 redirect_from: /blog/2018/09/09/subvalue/
-image: /assets/img/churn/diag.png
+image: /assets/img/churn/diag2.png
 ---
 
 Last summer I worked on a project that used Daniel McCarthy, Peter Fader and Bruce Hardie's valuation model, described in their paper "Valuing Subscription-Based Businesses Using Publicly Disclosed Customer Data" available at [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2701093#maincontent).
