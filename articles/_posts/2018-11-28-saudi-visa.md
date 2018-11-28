@@ -6,9 +6,8 @@ categ: article
 description: This matching mechanism solves the problem of unfair visa allocation to Saudi Arabia during Hajj season. 
 keywords:  economic consultant, hire economist
 tags: economics management
-image: /assets/img/
+image: /assets/img/kojima/hajj.jpg
 ---
-
 
 ### Contents
 <ul class="index">
@@ -50,7 +49,7 @@ I propose to use method, proposed by Kamada and Kojima’s in their 2015 [paper 
 
 The first step is to revoke the authority of the local governments in visa allocation, since they are either inefficient, corrupt or don’t care (e.g. secular countries). 
 
-Next we use a _Flexible Deferred Acceptance Mechanism (FDA)_ to allocate visas directly to the global population. This will require a new _“Meccan preference set”_ which will favor first-timers and older pilgrims (a lot of preference criteria can be included in this step).
+Next we use a _Flexible Deferred Acceptance Mechanism (FDA)_ to allocate visas directly to the global population. This will require a new _“Meccan preference set”_ which will favor first-timers and older pilgrims, will not separate family members (a lot of preference criteria can be included in this step).
 
 In order to mimic Kojima’s paper we introduce _“Umrah”_ variable. Umrah is the same ritual as Hajj but which happens any other time throughout the year except for the Hajj season.
 
