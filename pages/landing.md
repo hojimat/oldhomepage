@@ -28,6 +28,7 @@ I provide **data analysis** and **statistical and economic consulting** services
 - developing statistical algorithms
 - consulting in statistical and economic theory
 - simulating economic markets (including token-based markets)
+- preparing business plans and financial projections
 
 
 In the blog of this website I give a generic picture of works done and publish on related auxilliary topics, but not the work itself. 
