@@ -25,6 +25,10 @@
 <lastmod>2016-09-03T00:00:00+06:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/articles/irf-ann.html</loc>
+<lastmod>2017-01-12T00:00:00+06:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/blogru/invest-riskless-now.html</loc>
 <lastmod>2017-04-12T00:00:00+06:00</lastmod>
 </url>
@@ -39,10 +43,6 @@
 <url>
 <loc>http://localhost:4000/blog/why-so-linear.html</loc>
 <lastmod>2017-12-01T00:00:00+06:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/articles/irf-ann.html</loc>
-<lastmod>2017-12-12T00:00:00+06:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/doc/blog/irf-ann_md.html</loc>
@@ -171,6 +171,10 @@
 <url>
 <loc>http://localhost:4000/blogru/consultant-dialogue-1.html</loc>
 <lastmod>2018-11-28T00:00:00+06:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blogru/excel-not-dead.html</loc>
+<lastmod>2018-12-09T00:00:00+06:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/hire</loc>

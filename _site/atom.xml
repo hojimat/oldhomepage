@@ -4,13 +4,65 @@
  <title>Ravshan S.K.</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-12-02T21:22:41+06:00</updated>
+ <updated>2018-12-09T11:54:40+06:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Ravshanbek Khodzhimatov</name>
    <email>rsk@ravshansk.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Excel - это "прошлый век"?</title>
+   <link href="http://localhost:4000/blogru/excel-not-dead.html"/>
+   <updated>2018-12-09T00:00:00+06:00</updated>
+   <id>http://localhost:4000/blogru/excel-not-dead</id>
+   <content type="html">&lt;h3 id=&quot;excel-жив&quot;&gt;Excel жив&lt;/h3&gt;
+&lt;p&gt;Excel - это, в принципе, не прошлый век. Он очень удобный. Он научил нас всех когда-то соображать в таблицах, формулах. С помощью нативной поддержки Visual Basic, в Excel можно до сих пор делать автоматизации, которые не все представляют, особенно те, кто считают, что Excel устарел.&lt;/p&gt;
+
+&lt;p&gt;А вообще, Excel - это пик функциональности, все программы бы хотели такого функционала - это и база данных (вместо SQL/Access), и таблица-spreadsheet, где ко всей информации есть прямой доступ, и дата-манипулятор с помощью формул и макросов, и инструмент статистического и финансового анализа с помощью плагинов Solver, Regression и т.п., и родная поддержка графиков и чартов.&lt;/p&gt;
+
+&lt;p&gt;Если бы Excel устарел — Microsoft бы его перестал разрабатывать, как MS Office Groove, Internet Explorer и т.д., которые новое руководство выбросило на фиг.&lt;/p&gt;
+
+&lt;h3 id=&quot;проблемы-excel&quot;&gt;Проблемы Excel&lt;/h3&gt;
+&lt;p&gt;Основной проблемой Excel является скорость и вместимость. В Экселе всего можно вместить 70 тысяч строк, а зависать начинает с 5 тысяч строк. Сегодня данных так много (весь этот хайп с Big Data), что Excel не вывозит.&lt;/p&gt;
+
+&lt;p&gt;Но тут может возникнуть вопрос: &lt;em&gt;почему нельзя ввести в Excel поддержку больших данных?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Ответ: &lt;em&gt;Потому что он не для этого предназначен.
+В программах, которые поддерживают большие данные, действует следующая философия: “раз уж у нас тысячи строк и сотни столбиков, то от просмотра этой огромной таблицы никто всё равно ничего не поймёт. Поэтому мы сделаем такой дизайн, где таблицу мы сохраним на компьютере, но не будем её показывать. Потому что показывать данные занимает огромную память ОЗУ. А покажем только сколько в ней строк, сколько столбиков, среднее значение, максимум и минимум в каждом столбике, и т.п. Если нужно будет пользователю, он может просматривать отдельные части отдельных строк.А также уберем все кнопки и графическое меню, потому что они тоже занимают память. Пусть пользователи учатся программировать.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Вот пример такой программы:&lt;/p&gt;
+
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img src=&quot;/assets/img/excel/dataframe.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;В базе данных 100 тысяч строк и 40 столбиков. Программа так суммирует данные. А если мне хочется посмотреть, например, на данные всех людей, кому за 100 лет, я должен буду написать код вроде &lt;code class=&quot;highlighter-rouge&quot;&gt;SELECT * FROM data WHERE age&amp;gt;100;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;А Excel по своему дизайну и философии решил, что они - не программа, которая требует абстракного мышления и программирования. Они - программа-таблица, где данных обычно не так много (~200 строчек и 10 столбиков), а также все данные можно видеть перед собой.&lt;/p&gt;
+
+&lt;h3 id=&quot;excel-будет-жить&quot;&gt;Excel будет жить&lt;/h3&gt;
+&lt;p&gt;Обычной фирме на фиг не нужны большие данные. А для месячного отчета не нужно воображать таблицу, нужно её создать (мышкой, а не ERP кодом!), исправить её NumPadом, свернуть и открыть Пасьянс Паук (или где сейчас зависают? в ютубе? не суть.)&lt;/p&gt;
+
+&lt;p&gt;Конечно, большие фирмы будут внедрять SAP и т.п., но всегда будут стартапы, всегда будут средние фирмы, будут детсады и школы, где надо приготовить быстрый отчёт, написать список учащихся и т.п.&lt;/p&gt;
+
+&lt;p&gt;Адекватный человек, если ему нужно написать любой список (покупок, прейскурант, каталог), откроет Excel, а не Emacs Org-Mode (лично я не адекватный, но это неважно).&lt;/p&gt;
+
+&lt;p&gt;Или представьте, что вы строите себе пристройку на дачу и хотите расчитать примерную стоимость, а рядом только компьютер. Какую программу вы откроете? Excel! Конечно, есть те, кто откроет и Word :), но никто не откроет MATLAB.&lt;/p&gt;
+
+&lt;h3 id=&quot;в-заключении&quot;&gt;В заключении&lt;/h3&gt;
+&lt;p&gt;Те, кто говорит, что Excel - прошлый век, не знают о чём они говорят. У Excel есть своя ниша - таблицы. До тех пор, пока люди будут мыслить в прямоугольных таблицах, будет нужда в них. Это не изменилось с Древнего Египта:&lt;/p&gt;
+
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img src=&quot;/assets/img/excel/egypt.jpg&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Однако, в какой-то момент жизни, в начале 2000-х, люди начали использовать Excel не как таблицу, а как панацея для всего, что связано с анализом данных, даже вместо Access, который по идее не был его конкурентом и входил в пакет Microsoft Office - это была проблема людей, а не Excel.&lt;/p&gt;
+
+&lt;p&gt;Сейчас, из-за роста данных, появились более удобные системы для анализа данных, и Excel принял мудрое решение - не стараться бегать за хайпом, а продолжить делать то, что у них лучше всего получается - таблицы. И в этом плане, я не вижу причины Экселу умирать.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Типичный диалог с клиентом</title>
@@ -3212,25 +3264,6 @@ workaround is an important contribution to the economic analysis.&lt;/p&gt;
  </entry>
  
  <entry>
-   <title>Using impulse response functions to interpret partial effects in neural networks</title>
-   <link href="http://localhost:4000/articles/irf-ann.html"/>
-   <updated>2017-12-12T00:00:00+06:00</updated>
-   <id>http://localhost:4000/articles/irf-ann</id>
-   <content type="html">&lt;p&gt;This week I’ve been working on a research paper based on a very simple idea which, hopefully, can solve an important problem in applying machine learning techniques in economics — the interpretability. So, if you recall, the neural networks is the generalization of a logit model where sigmoid of a linear combination of inputs is used iteratively.&lt;/p&gt;
-
-&lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/irfann/ann.png&quot; alt=&quot;Generalization of Logit&quot; /&gt;
-	&lt;figcaption&gt;ANN as a generalization of logit&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;So, the problem with applying this model to economics problems is that the information is distributed among neurons and one cannot tell the causal effect of any given input variable on the variable of interest. So, I proposed a very simple solution: after having computed all of the weights using backpropagation, we need to do the following: use sparce vectors [1,0,0,0,…,0], [0,1,0,0,0,…,0],….,[0,0,0,0,…,1] and feed them to the network. The output will give the effects of any individual input variable to the output variable. This method is called Impulse Response Function Analysis in Economics and has much use in VAR models.&lt;/p&gt;
-
-&lt;p&gt;In conclusion, since simple doesn’t mean trivial, I believe this simple workaround is an important contribution to the economic analysis.&lt;/p&gt;
-
-</content>
- </entry>
- 
- <entry>
    <title>Why is econometrics focused on linear models?</title>
    <link href="http://localhost:4000/blog/why-so-linear.html"/>
    <updated>2017-12-01T00:00:00+06:00</updated>
@@ -3343,6 +3376,25 @@ workaround is an important contribution to the economic analysis.&lt;/p&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;Как-то так… Спрашивайте или ругайте в комментах.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Using impulse response functions to interpret partial effects in neural networks</title>
+   <link href="http://localhost:4000/articles/irf-ann.html"/>
+   <updated>2017-01-12T00:00:00+06:00</updated>
+   <id>http://localhost:4000/articles/irf-ann</id>
+   <content type="html">&lt;p&gt;This week I’ve been working on a research paper based on a very simple idea which, hopefully, can solve an important problem in applying machine learning techniques in economics — the interpretability. So, if you recall, the neural networks is the generalization of a logit model where sigmoid of a linear combination of inputs is used iteratively.&lt;/p&gt;
+
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img src=&quot;/assets/img/irfann/ann.png&quot; alt=&quot;Generalization of Logit&quot; /&gt;
+	&lt;figcaption&gt;ANN as a generalization of logit&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;So, the problem with applying this model to economics problems is that the information is distributed among neurons and one cannot tell the causal effect of any given input variable on the variable of interest. So, I proposed a very simple solution: after having computed all of the weights using backpropagation, we need to do the following: use sparce vectors [1,0,0,0,…,0], [0,1,0,0,0,…,0],….,[0,0,0,0,…,1] and feed them to the network. The output will give the effects of any individual input variable to the output variable. This method is called Impulse Response Function Analysis in Economics and has much use in VAR models.&lt;/p&gt;
+
+&lt;p&gt;In conclusion, since simple doesn’t mean trivial, I believe this simple workaround is an important contribution to the economic analysis.&lt;/p&gt;
+
 </content>
  </entry>
  
