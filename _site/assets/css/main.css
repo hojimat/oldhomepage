@@ -352,7 +352,7 @@ div.footer {
 div.titleleft {
 	padding-left: 5%;
 	color: #fff;
-  	font-family: "PT Sans", sans-serif;
+  	font-family: "PT Serif", serif;
 	font-size: 1.2em;
 	float: left;
 	width: 50%;
@@ -391,6 +391,10 @@ div.titlemain {
 
 div.titlemain a {
 	text-decoration: none !important;
+}
+
+div.titlemain h1{
+	font-family: "PT Serif", serif;
 }
 
 div.row::after {
