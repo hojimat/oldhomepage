@@ -78,43 +78,29 @@ We tried to look at adults only (age>=18), because usually mothers (female=1) go
 Thus, we ignore gender in further discussion.
 
 ### Geographic factor
-Looking at no-show rates by neighbourhood shows relative balance, with only a few outliers, which do not round to 20\%.
+Looking at no-show rates by neighbourhood, shows relative balance, with only a few outliers, which do not round to 20\%.
 
-```r
-rayonXnoshow <- table(df$rayon, df$noshow)
-plot(unique(df$rayon),rayonXnoshow[,2]/(rayonXnoshow[,1]+rayonXnoshow[,2]),type = "n", ylab="probability of showing up", xlab="Vitoria neighbourhoods")
-rect(par("usr")[1], par("usr")[3], par("usr")[2], par("usr")[4], col = "#e5e5e5")
-grid(col="white", lwd=2)
-lines(unique(df$rayon), rayonXnoshow[,2]/(rayonXnoshow[,1]+rayonXnoshow[,2]), type="h", lwd=5, col="#f8766d")
-```
+<figure class="blog">
+	<img src="/assets/img/brazil/geo1.png">
+	<figcaption>Show-up probability by neighbourhood</figcaption>
+</figure>
 
-We see that most (not all) of the outliers come from neighbourhoods with little data:
+Inspecting frequency tables, shows that most (not all) of the outliers come from neighbourhoods with little data:
 
-```r
-plot(df$rayon,type = "n", ylab="number of data points", xlab="Vitoria neighbourhoods")
-```
+<figure class="blog">
+	<img src="/assets/img/brazil/geo2.png">
+	<figcaption>Frequency of data points by neighbourhood</figcaption>
+</figure>
 
-Therefore, we ignore neighbourhoods with less than 40 data points to avoid wrong statistics (e.g. in Parque Industrial there is only one registered appointment and it shows 100% show-up rate, which is incomparable with neighbourhoods with thousands of observations.) So, we ignore neigbourhoods _Aeroporto, Ilha do Boi, Ilha do Frade, Ilhas Oceanicas de Trinade, and Parque Industrial_.
+To avoid this, we ignore neighbourhoods with less than 40 data points, namely, _Aeroporto, Ilha do Boi, Ilha do Frade, Ilhas Oceanicas de Trinade, and Parque Industrial_.
 
-Now, we still have outliers (we considered 3% to be a significant deviation from the average, 20%) in percentage of no-shows, which have sufficient observations not to ignore them. They are: _Solon Borges, Santos Dumont, Santa Clara, Santa Cecilia, Itarare, De Lourdes, Do Cabral, Do Quadro, Horto, Jardim Da Penha, Jesus de Nazareth, Mario Cypreste, and Santa Martha_. 
+Apart from them, there are still outliers (we considered 3% to be a significant deviation from the average, 20%) in percentage of no-shows: _Solon Borges, Santos Dumont, Santa Clara, Santa Cecilia, Itarare, De Lourdes, Do Cabral, Do Quadro, Horto, Jardim Da Penha, Jesus de Nazareth, Mario Cypreste, and Santa Martha_. 
 
 We will add dummy variables for these 13 neighbourhoods as our geographic predictors. Other neighborhoods will be assumed to contribute no new information to the expected value.
 
-```r
-df$solbor <- ifelse(df$rayon=="SOLON BORGES",1,0)
-df$sandum <- ifelse(df$rayon=="SANTOS DUMONT",1,0)
-df$sancla <- ifelse(df$rayon=="SANTA CLARA",1,0)
-df$sancec <- ifelse(df$rayon=="SANTA CECÍLIA",1,0)
-df$itarar <- ifelse(df$rayon=="ITARARÉ",1,0)
-df$lourde <- ifelse(df$rayon=="DE LOURDES",1,0)
-df$cabral <- ifelse(df$rayon=="DO CABRAL",1,0)
-df$quadro <- ifelse(df$rayon=="DO QUADRO",1,0)
-df$horto  <- ifelse(df$rayon=="HORTO",1,0)
-df$penha  <- ifelse(df$rayon=="JARDIM DA PENHA",1,0)
-df$jesus  <- ifelse(df$rayon=="JESUS DE NAZARETH",1,0)
-df$cypres <- ifelse(df$rayon=="MÁRIO CYPRESTE",1,0)
-df$sanmar <- ifelse(df$rayon=="SANTA MARTHA",1,0)
-```
+<figure class="blog">
+	<img src="/assets/img/brazil/geo3.png">
+</figure>
 
 ### Temporal factor
 Temporal data brings the crucial information about the appointment no-shows, starting from the weekday of the appointment, and ending with the wait time. Since we don't have at least a year-long data, we cannot speak of seasonality patterns, and will have to get by with what we have.
@@ -123,21 +109,15 @@ Temporal data brings the crucial information about the appointment no-shows, sta
 #### Weekdays
 The day of the week is the first thing that comes to mind - during the weekdays, patients might have emergencies at school or at work, and this could cause them to miss the appointment. However, the analysis shows no significant difference through week, except for Saturdays:
 
-```r
-plot(table(df$wdaysc, df$noshow)[,2],type='n',ylim=c(0,0.25), xlab="days of week", ylab="probability of no-show")
-rect(par("usr")[1], par("usr")[3], par("usr")[2], par("usr")[4], col = "#e5e5e5")
-grid(col="white", lwd=2)
-lines(prop.table(table(df$wdayap,df$noshow),1)[,2], type="o", col="blue", lwd=5)
-lines(prop.table(table(df$wdaysc,df$noshow),1)[,2], type="o", col="#f8766d", lwd=5)
-legend(x="bottomleft", legend = c("weekday of schedule", "weekday of appointment"), fill = c("blue", "#f8766d") )
-```
+<figure class="blog">
+	<img src="/assets/img/brazil/wday.png">
+</figure>
 
 But further analysis shows that this happens because of the lack of enough data for Saturday:
 
-```r
-table(df$wdayap,df$noshow)
-table(df$wdaysc,df$noshow)
-```
+<figure class="blog">
+	<img src="/assets/img/brazil/wdaytab.png">
+</figure>
 
 So, we ignore the weekdays and assume that they don't affect the no-show rate.
 
@@ -152,31 +132,21 @@ df$daybw <- as.numeric(df$dayap - df$daysc)
 
 The plot below shows that when appointments are scheduled in that same day (wait time = 0), the patient almost never misses it (just 4\% no-show rate). There is sufficient data (34\% of all observations) to support this claim.
 
-```r
-daybwXnoshow <- table(df$daybw, df$noshow)
-plot(prop.table(daybwXnoshow,1)[,2], type="n", xlab="# wait days", ylab="probability of no-show")
-rect(par("usr")[1], par("usr")[3], par("usr")[2], par("usr")[4], col = "#e5e5e5")
-grid(col="white", lwd=2)
-lines(prop.table(daybwXnoshow,1)[,2], type="h", col="#f8766d", lwd=3)
-```
+<figure class="blog">
+	<img src="/assets/img/brazil/wait1.png">
+</figure>
 
 In the next days, the no-show rate is very volatile. To avoid weekly seasonality, we aggregate the data by weeks. Also, for two reasons: _(i)_ since the longer wait times have small data points and _(ii)_ since (assuming time discounting --- a weak economic assumption) people perceive recent past clearer than distant past, we aggregated first month as 4 weeks, and aggregated the next data points by month:
 
-```r
-daybwXnoshow <- table(df$daybw, df$noshow)
-waitsex <- rowsum(daybwXnoshow,c(0, rep(1:4,each=7), rep(5:7,each=30), rep(7,10)))
-dimnames(waitsex) <- list(c("0 days", "1 week", "2 weeks", "3 weeks", "4 weeks", "2 months", "3 months", "4 months"),c("show", "no show"))
-prop.table(waitsex,1)
-```
+<figure class="blog">
+	<img src="/assets/img/brazil/wait2.png">
+</figure>
 
 Note that _4 months_ wait is an outlier due to small dataset. Otherwise, all probabilities after 1 week fall into &plusmn;3\% interval. Taking this and _(ii)_ into consideration, suggests an even wilder (yet still plausible) aggregation: _0 days, 1 week, and >1 week_:
 
-```r
-daybwXnoshow <- table(df$daybw, df$noshow)
-waitsex <- rowsum(daybwXnoshow,c(0, rep(1,7), rep(2,121)))
-dimnames(waitsex) <- list(c("0 days", "1 week", ">1 week"),c("show", "no show"))
-prop.table(waitsex,1)
-```
+<figure class="blog">
+	<img src="/assets/img/brazil/wait3.png">
+</figure>
 
 Thus, we will use three-valued categorical variables to denote wait times.
 
@@ -184,11 +154,9 @@ Thus, we will use three-valued categorical variables to denote wait times.
 #### Hour of the day
 Lifestyle of people potentially reflects their degree of responsibility --- _"night owls"_ tend to sleep during days and maybe miss deadlines, while _"early birds"_ may take their appointments more seriously. We take a look at the data of time o'clock when the appointment was scheduled. The online appointment system opens at 6AM and closes at 10PM. We divide these 16-hour days into 4 groups of 4, and find that _"early bird effect"_ actually exists, and people who scheduled appointments between 6AM and 10AM are significantly less likely to miss their appointments, while any other time slot does not change the no-show probability significantly:
 
-```r
-hourshow <- rowsum(table(df$hoursc, df$noshow), rep(1:4,each=4))
-dimnames(hourshow) <- list(c("6AM-10AM:", "10AM-2PM:", "2PM-6PM:", "6PM-10PM:"), c("show", "no show"))
-prop.table(hourshow,1)
-```
+<figure class="blog">
+	<img src="/assets/img/brazil/hour.png">
+</figure>
 
 Thus, we use a binary dummy variable --- _6AM-10AM_ or _10AM-10PM_ --- to incorporate time.
 
@@ -197,49 +165,31 @@ Thus, we use a binary dummy variable --- _6AM-10AM_ or _10AM-10PM_ --- to incorp
 #### Appointment history
 To incorporate the idiosyncracies of patients, we use the history of their previous appointments, and whether they missed them before. The table below shows the repeat patients' allocation.
 
-```r
-table(df$prev)
-```
+<figure class="blog">
+	<img src="/assets/img/brazil/repeat.png">
+</figure>
 
 For every patient, we found the modes (most frequent observations) of previous no-show stats. For patients that appear in the dataset only once, this value will be 0 (performing sensitivity checks we learned that leaving out one-time patients entirely, returns no significant difference (<0.5%) but complicates the dataset, so we chose to set the average previous no-show rate for first-time patients at 0). We observe that such modes greatly contribute to predicting the next no-show:
 
-```r
-noprevtable <- table(ifelse(df$noprevpct>=0.5,1,0),df$noshow)
-dimnames(noprevtable) <- list(c("mode0:", "mode1:"), c("show", "noshow"))
-prop.table(noprevtable,1)
-```
+<figure class="blog">
+	<img src="/assets/img/brazil/modeprev.png">
+</figure>
 
 #### Patient condition
 Patient's medical history can influence the no-show behavior. The tables below show differences in percentage of no-shows for patients with alcoholism, diabetes, hipertension, medical financial assitance (so-called "scholarship"), and handicaps:
 
-```r
-burstab <- prop.table(table(df$burs, df$noshow),1)
-dimnames(burstab) = list(c("no scholarship", "scholarship"), c("show", "no show"))
-burstab
-hipertab <- prop.table(table(df$hiper, df$noshow),1)
-dimnames(hipertab) = list(c("no hipertension", "hipertension"), c("show", "no show"))
-hipertab
-diabettab <- prop.table(table(df$diabet, df$noshow),1)
-dimnames(diabettab) = list(c("no diabetes", "diabetes"), c("show", "no show"))
-diabettab
-alcoholtab <- prop.table(table(df$alcohol, df$noshow),1)
-dimnames(alcoholtab) = list(c("no alcohol", "alcohol"), c("show", "no show"))
-alcoholtab
-handcaptab <- prop.table(table(df$handcap, df$noshow),1)
-dimnames(handcaptab) = list(c("handicap0:", "handicap1:", "handicap2:", "handicap3:", "handicap4:"), c("show", "no show"))
-handcaptab
-```
+<figure class="blog">
+	<img src="/assets/img/brazil/conditions.png">
+</figure>
 
 Strangely, alcoholism is the only condition which turned out to not have an effect on no-show probability. The probable reason is that alcoholism is not immediately lethal, and people tend to treat is less seriously than any other _"more serious"_ illness like diabetes. So, we include all of the above conditions, except alcoholism, in our classification.
 
 #### SMS
 One can justifiably argue that patients may simply forget their appointment date and time. Hospitals tried to send SMS-reminders to their patients, but does this practice worth the cost? A simple frequency table shows that yes, patients, who received SMS-reminders, were less likely to miss the appointment:
 
-```r
-smsnoshow <- prop.table(table(df$sms, df$noshow))
-dimnames(smsnoshow) <- list(c("no sms", "sms"), c("show", "no show"))
-smsnoshow
-```
+<figure class="blog">
+	<img src="/assets/img/brazil/sms.png">
+</figure>
  
 #### Overall no-show stata
 Finally, we decided to include the general historical average of noshows till the moment by all patients. However, this complicated the random sampling, and, most importantly, didn't affect the final result much (because it had little variation over time). So, we did not include this variable. 
@@ -273,6 +223,11 @@ logit <- glm(formula =
 summary(logit)
 ```
 
+<figure class="blog">
+	<img src="/assets/img/brazil/logit.png">
+</figure>
+
+
 We found that the wait time, previous no-show history, and geographical location were the most important predictors. Also, alcohol turned out to be statistically significant, while hipertension had to be removed from the final model. Strangely, eligibility to financial assistance increased the likelihood of no-show (but this was discussed in the previous section).
 
 To check the accuracy of the model, we predict the no-show for the test data and use measures called _accuracy_ and _AUR_:
@@ -292,19 +247,13 @@ So, we have 81\% accuracy, but this is not a very desirable result because of da
 So, we decide to take a look at decision trees:
 
 ### Decision trees
-The decision tree returns 79\% accuracy and 50.6\% _AUR_ on average. Different tree specifications give different resulting trees, but the average accuracy doesn't change. Here is just one of the trees. Notice that we used age as decades here, and not as a continuous variable:
+Before doing the decision trees, we will undersample our majority set (noshow==0). The resulting tree returns 60\% accuracy and 69\% _AUR_ on average. Different tree specifications give different resulting trees, but the average accuracy doesn't change. The _recall_ is 80\% on average, though. Here is just one of the trees. Notice that we used age as decades here, and not as a continuous variable:
 
-```r
-dtree <- rpart(formula=noshow ~ age_decade + 
-                 burs + diabet + handcap + alcohol + hiper + 
-                 solbor + sandum + itarar + lourde + cabral + quadro + penha + jesus + sanmar + 
-                 sms + morning + waittime + mode_previous,
-               data = df,
-               method = "class",
-               control = rpart.control(xval = 5, cp=0.0000001, minsplit=100)
-               )
-rpart.plot(dtree)
-```
+<figure class="blog">
+	<img src="/assets/img/brazil/tree.png">
+</figure>
+
+The above tree is not the one I ended up using, the other ones just didn't fit the page.
 
 <a name="end"></a><br>
 ## 4. Conclusion
@@ -312,4 +261,6 @@ We have analyzed the data and tried to do a classification analysis. The results
 
 As an economist, I believe that having a higher accuracy would be impossible without additional data, like weather that day (was it rainy or not), the traffic situation, the diagnosis, the local news etc.
 
-And here, we conclude.
+You can see my code in the following repo: [github.com/ravshansk/kaggle](https://github.com/ravshansk/kaggle).
+
+I believe my approach is wrong in many ways, so I welcome your feedback.
