@@ -347,14 +347,36 @@ div.footer {
   padding-bottom: 0.7rem;
   font-size: 1em;
   font-family: "PT Serif", serif;
+  color: #fff;
 }
 
 div.footer a, div.footer a:link, div.footer a:visited {
 	text-decoration: none;
 	color: #fff;
 }
-div.subfooter {
+
+div.footer form{
   background-color: rgb(47,75,108,1);
+  padding: 1em 2em;
+  margin-right: 20%;
+  margin-left: 5%;
+}
+
+div.footer h2{
+	color: #fff;
+}
+div.footer form button{
+  	background-color: rgb(33,55,82,1);
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+div.subfooter {
+  background-color: rgb(33,55,82,1);
   top: 0;
   width: 100%;
   padding-top:    0.7rem;
