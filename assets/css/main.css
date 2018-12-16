@@ -349,6 +349,21 @@ div.footer {
   font-family: "PT Serif", serif;
 }
 
+div.footer a, div.footer a:link, div.footer a:visited {
+	text-decoration: none;
+	color: #fff;
+}
+div.subfooter {
+  background-color: rgb(47,75,108,1);
+  top: 0;
+  width: 100%;
+  padding-top:    0.7rem;
+  padding-bottom: 0.7rem;
+  font-size: 1em;
+  font-family: "PT Serif", serif;
+  color: #fff;
+}
+
 div.titleleft {
 	padding-left: 5%;
 	color: #fff;
