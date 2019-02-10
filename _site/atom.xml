@@ -4,7 +4,7 @@
  <title>Ravshan S.K.</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-12-16T23:26:50+06:00</updated>
+ <updated>2019-02-10T15:00:09+03:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Ravshanbek Khodzhimatov</name>
@@ -15,7 +15,7 @@
  <entry>
    <title>My take on the famous medical appointment no-show problem</title>
    <link href="http://localhost:4000/articles/brazil-noshow.html"/>
-   <updated>2018-12-10T00:00:00+06:00</updated>
+   <updated>2018-12-10T00:00:00+03:00</updated>
    <id>http://localhost:4000/articles/brazil-noshow</id>
    <content type="html">&lt;h3 id=&quot;contents&quot;&gt;Contents&lt;/h3&gt;
 &lt;ul class=&quot;index&quot;&gt;
@@ -37,7 +37,7 @@
 &lt;p&gt;First of all, we explore the dataset. We immediately notice that some age values are negative, and very old patients don’t exhibit variation having too few observations:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/brazil/tableage.png&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/brazil/tableage.png&quot; /&gt;
 	&lt;figcaption&gt;Frequency table of age data points&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -52,7 +52,7 @@
 &lt;p&gt;Observing the no-show dynamics throughout lifetime, gives important insights to our analysis:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/brazil/agenoshow.png&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/brazil/agenoshow.png&quot; /&gt;
 	&lt;figcaption&gt;Percentage of patients who showed up, by age&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -68,14 +68,14 @@
 &lt;p&gt;Another demographic factor is gender. The probability distribution shows that gender does not play a significant role in no-show rate:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/brazil/sexnoshow.png&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/brazil/sexnoshow.png&quot; /&gt;
 	&lt;figcaption&gt;Show-up probability, by gender&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;We tried to look at adults only (age&amp;gt;=18), because usually mothers (female=1) go to doctors with their children, irrespective of the kid’s registered gender, but this procedure returned no significant difference either:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/brazil/sexnoshow18.png&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/brazil/sexnoshow18.png&quot; /&gt;
 	&lt;figcaption&gt;Show-up probability for grown-ups only, by gender&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -85,14 +85,14 @@
 &lt;p&gt;Looking at no-show rates by neighbourhood, shows relative balance, with only a few outliers, which do not round to 20\%.&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/brazil/geo1.png&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/brazil/geo1.png&quot; /&gt;
 	&lt;figcaption&gt;Show-up probability by neighbourhood&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Inspecting frequency tables, shows that most (not all) of the outliers come from neighbourhoods with little data:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/brazil/geo2.png&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/brazil/geo2.png&quot; /&gt;
 	&lt;figcaption&gt;Frequency of data points by neighbourhood&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -103,7 +103,7 @@
 &lt;p&gt;We will add dummy variables for these 13 neighbourhoods as our geographic predictors. Other neighborhoods will be assumed to contribute no new information to the expected value.&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/brazil/geo3.png&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/brazil/geo3.png&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&quot;temporal-factor&quot;&gt;Temporal factor&lt;/h3&gt;
@@ -113,13 +113,13 @@
 &lt;p&gt;The day of the week is the first thing that comes to mind - during the weekdays, patients might have emergencies at school or at work, and this could cause them to miss the appointment. However, the analysis shows no significant difference through week, except for Saturdays:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/brazil/wday.png&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/brazil/wday.png&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;But further analysis shows that this happens because of the lack of enough data for Saturday:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/brazil/wdaytab.png&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/brazil/wdaytab.png&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;So, we ignore the weekdays and assume that they don’t affect the no-show rate.&lt;/p&gt;
@@ -135,19 +135,19 @@
 &lt;p&gt;The plot below shows that when appointments are scheduled in that same day (wait time = 0), the patient almost never misses it (just 4\% no-show rate). There is sufficient data (34\% of all observations) to support this claim.&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/brazil/wait1.png&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/brazil/wait1.png&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;In the next days, the no-show rate is very volatile. To avoid weekly seasonality, we aggregate the data by weeks. Also, for two reasons: &lt;em&gt;(i)&lt;/em&gt; since the longer wait times have small data points and &lt;em&gt;(ii)&lt;/em&gt; since (assuming time discounting — a weak economic assumption) people perceive recent past clearer than distant past, we aggregated first month as 4 weeks, and aggregated the next data points by month:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/brazil/wait2.png&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/brazil/wait2.png&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Note that &lt;em&gt;4 months&lt;/em&gt; wait is an outlier due to small dataset. Otherwise, all probabilities after 1 week fall into ±3\% interval. Taking this and &lt;em&gt;(ii)&lt;/em&gt; into consideration, suggests an even wilder (yet still plausible) aggregation: &lt;em&gt;0 days, 1 week, and &amp;gt;1 week&lt;/em&gt;:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/brazil/wait3.png&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/brazil/wait3.png&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Thus, we will use three-valued categorical variables to denote wait times.&lt;/p&gt;
@@ -156,7 +156,7 @@
 &lt;p&gt;Lifestyle of people potentially reflects their degree of responsibility — &lt;em&gt;“night owls”&lt;/em&gt; tend to sleep during days and maybe miss deadlines, while &lt;em&gt;“early birds”&lt;/em&gt; may take their appointments more seriously. We take a look at the data of time o’clock when the appointment was scheduled. The online appointment system opens at 6AM and closes at 10PM. We divide these 16-hour days into 4 groups of 4, and find that &lt;em&gt;“early bird effect”&lt;/em&gt; actually exists, and people who scheduled appointments between 6AM and 10AM are significantly less likely to miss their appointments, while any other time slot does not change the no-show probability significantly:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/brazil/hour.png&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/brazil/hour.png&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Thus, we use a binary dummy variable — &lt;em&gt;6AM-10AM&lt;/em&gt; or &lt;em&gt;10AM-10PM&lt;/em&gt; — to incorporate time.&lt;/p&gt;
@@ -167,20 +167,20 @@
 &lt;p&gt;To incorporate the idiosyncracies of patients, we use the history of their previous appointments, and whether they missed them before. The table below shows the repeat patients’ allocation.&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/brazil/repeat.png&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/brazil/repeat.png&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;For every patient, we found the modes (most frequent observations) of previous no-show stats. For patients that appear in the dataset only once, this value will be 0 (performing sensitivity checks we learned that leaving out one-time patients entirely, returns no significant difference (&amp;lt;0.5%) but complicates the dataset, so we chose to set the average previous no-show rate for first-time patients at 0). We observe that such modes greatly contribute to predicting the next no-show:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/brazil/modeprev.png&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/brazil/modeprev.png&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;h4 id=&quot;patient-condition&quot;&gt;Patient condition&lt;/h4&gt;
 &lt;p&gt;Patient’s medical history can influence the no-show behavior. The tables below show differences in percentage of no-shows for patients with alcoholism, diabetes, hipertension, medical financial assitance (so-called “scholarship”), and handicaps:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/brazil/conditions.png&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/brazil/conditions.png&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Strangely, alcoholism is the only condition which turned out to not have an effect on no-show probability. The probable reason is that alcoholism is not immediately lethal, and people tend to treat is less seriously than any other &lt;em&gt;“more serious”&lt;/em&gt; illness like diabetes. So, we include all of the above conditions, except alcoholism, in our classification.&lt;/p&gt;
@@ -189,7 +189,7 @@
 &lt;p&gt;One can justifiably argue that patients may simply forget their appointment date and time. Hospitals tried to send SMS-reminders to their patients, but does this practice worth the cost? A simple frequency table shows that yes, patients, who received SMS-reminders, were less likely to miss the appointment:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/brazil/sms.png&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/brazil/sms.png&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;h4 id=&quot;overall-no-show-stata&quot;&gt;Overall no-show stata&lt;/h4&gt;
@@ -223,7 +223,7 @@
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/brazil/logit.png&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/brazil/logit.png&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;We found that the wait time, previous no-show history, and geographical location were the most important predictors. Also, alcohol turned out to be statistically significant, while hipertension had to be removed from the final model. Strangely, eligibility to financial assistance increased the likelihood of no-show (but this was discussed in the previous section).&lt;/p&gt;
@@ -247,7 +247,7 @@
 &lt;p&gt;Before doing the decision trees, we will undersample our majority set (noshow==0). The resulting tree returns 60\% accuracy and 69\% &lt;em&gt;AUR&lt;/em&gt; on average. Different tree specifications give different resulting trees, but the average accuracy doesn’t change. The &lt;em&gt;recall&lt;/em&gt; is 80\% on average, though. Here is just one of the trees. Notice that we used age as decades here, and not as a continuous variable:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/brazil/tree.png&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/brazil/tree.png&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;The above tree is not the one I ended up using, the other ones just didn’t fit the page.&lt;/p&gt;
@@ -267,7 +267,7 @@
  <entry>
    <title>Excel - это "прошлый век"?</title>
    <link href="http://localhost:4000/blogru/excel-not-dead.html"/>
-   <updated>2018-12-09T00:00:00+06:00</updated>
+   <updated>2018-12-09T00:00:00+03:00</updated>
    <id>http://localhost:4000/blogru/excel-not-dead</id>
    <content type="html">&lt;h3 id=&quot;excel-жив&quot;&gt;Excel жив&lt;/h3&gt;
 &lt;p&gt;Excel - это, в принципе, не прошлый век. Он очень удобный. Он научил нас всех когда-то соображать в таблицах, формулах. С помощью нативной поддержки Visual Basic, в Excel можно до сих пор делать автоматизации, которые не все представляют, особенно те, кто считают, что Excel устарел.&lt;/p&gt;
@@ -287,7 +287,7 @@
 &lt;p&gt;Вот пример такой программы:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/excel/dataframe.png&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/excel/dataframe.png&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;В базе данных 100 тысяч строк и 40 столбиков. Программа так суммирует данные. А если мне хочется посмотреть, например, на данные всех людей, кому за 100 лет, я должен буду написать код вроде &lt;code class=&quot;highlighter-rouge&quot;&gt;SELECT * FROM data WHERE age&amp;gt;100;&lt;/code&gt;&lt;/p&gt;
@@ -307,7 +307,7 @@
 &lt;p&gt;Те, кто говорит, что Excel - прошлый век, не знают о чём они говорят. У Excel есть своя ниша - таблицы. До тех пор, пока люди будут мыслить в прямоугольных таблицах, будет нужда в них. Это не изменилось с Древнего Египта:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/excel/egypt.jpg&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/excel/egypt.jpg&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Однако, в какой-то момент жизни, в начале 2000-х, люди начали использовать Excel не как таблицу, а как панацея для всего, что связано с анализом данных, даже вместо Access, который по идее не был его конкурентом и входил в пакет Microsoft Office - это была проблема людей, а не Excel.&lt;/p&gt;
@@ -319,7 +319,7 @@
  <entry>
    <title>Типичный диалог с клиентом</title>
    <link href="http://localhost:4000/blogru/consultant-dialogue-1.html"/>
-   <updated>2018-11-28T00:00:00+06:00</updated>
+   <updated>2018-11-28T00:00:00+03:00</updated>
    <id>http://localhost:4000/blogru/consultant-dialogue-1</id>
    <content type="html">&lt;p&gt;-Ты консультант?&lt;br /&gt;
 -Да&lt;br /&gt;
@@ -337,7 +337,7 @@
  <entry>
    <title>Using matching with quotas to solve Hajj visa problem</title>
    <link href="http://localhost:4000/articles/saudi-visa.html"/>
-   <updated>2018-11-28T00:00:00+06:00</updated>
+   <updated>2018-11-28T00:00:00+03:00</updated>
    <id>http://localhost:4000/articles/saudi-visa</id>
    <content type="html">&lt;h3 id=&quot;contents&quot;&gt;Contents&lt;/h3&gt;
 &lt;ul class=&quot;index&quot;&gt;
@@ -388,7 +388,7 @@ hospitals(months)” with “doctor allocation” with regional caps. As a remin
 mechanism from Kojima’s paper:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/kojima/fda.png&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/kojima/fda.png&quot; /&gt;
 	&lt;figcaption&gt;Flexible Deferred Acceptance Mechanism by Kamada and Kojima (2015)&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -398,14 +398,14 @@ mechanism from Kojima’s paper:&lt;/p&gt;
  <entry>
    <title>Valuation Calculator for Subscription-Based Businesses</title>
    <link href="http://localhost:4000/articles/valuation-calc.html"/>
-   <updated>2018-11-27T00:00:00+06:00</updated>
+   <updated>2018-11-27T00:00:00+03:00</updated>
    <id>http://localhost:4000/articles/valuation-calc</id>
    <content type="html">&lt;p&gt;Last summer I worked on a project that used Daniel McCarthy, Peter Fader and Bruce Hardie’s valuation model, described in their paper “Valuing Subscription-Based Businesses Using Publicly Disclosed Customer Data” available at &lt;a href=&quot;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2701093#maincontent&quot;&gt;SSRN&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Their model features a lot of series, vectors, matrices, intertwined recursive definitions, that it was very difficult to comprehend at first. So, if you are going to read their paper, here is the diagram that I have drawn to make it easier for you to understand it.&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/churn/diag.png&quot; height=&quot;300%&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/churn/diag.png&quot; height=&quot;300%&quot; /&gt;
 	&lt;figcaption&gt;McCarthy et al.'s Customer behavior model&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -424,10 +424,9 @@ mechanism from Kojima’s paper:&lt;/p&gt;
  <entry>
    <title>The future of economic publishing</title>
    <link href="http://localhost:4000/blog/treconcrisis.html"/>
-   <updated>2018-11-22T00:00:00+06:00</updated>
+   <updated>2018-11-22T00:00:00+03:00</updated>
    <id>http://localhost:4000/blog/treconcrisis</id>
-   <content type="html">&lt;audio src=&quot;/assets/hel.ogg&quot; controls=&quot;&quot;&gt;&lt;/audio&gt;
-&lt;p&gt;I finished my thesis on Financial Economics at the beginning of this summer. I performed simulations for different investment strategies for Turkish households, to see which investment option is the best.&lt;/p&gt;
+   <content type="html">&lt;p&gt;I finished my thesis on Financial Economics at the beginning of this summer. I performed simulations for different investment strategies for Turkish households, to see which investment option is the best.&lt;/p&gt;
 
 &lt;p&gt;Of course, I used in my study the main economic indicators for Turkey, like inflation and 10-year Treasury yields.&lt;/p&gt;
 
@@ -456,10 +455,10 @@ mechanism from Kojima’s paper:&lt;/p&gt;
  <entry>
    <title>Why don't more economists get hired as data analysts?</title>
    <link href="http://localhost:4000/blog/hirestat.html"/>
-   <updated>2018-11-03T00:00:00+06:00</updated>
+   <updated>2018-11-03T00:00:00+03:00</updated>
    <id>http://localhost:4000/blog/hirestat</id>
-   <content type="html">&lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/hirestat/modernbook.JPG&quot; /&gt;
+   <content type="html">&lt;figure class=&quot;&quot;&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/hirestat/modernbook.JPG&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;There are multiple reasons why econometrics experts don’t get hired as data analysts on a routine basis.&lt;/p&gt;
@@ -497,10 +496,10 @@ mechanism from Kojima’s paper:&lt;/p&gt;
  <entry>
    <title>Why academics won't hire consultants</title>
    <link href="http://localhost:4000/blog/academic-clients.html"/>
-   <updated>2018-11-01T00:00:00+06:00</updated>
+   <updated>2018-11-01T00:00:00+03:00</updated>
    <id>http://localhost:4000/blog/academic-clients</id>
    <content type="html">&lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/academic-clients/bounlib.JPG&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/academic-clients/bounlib.JPG&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;I am an economic and statistical consultant. What I do is help my clients to take valuable insights from their data, develop statistical algorithms and design frameworks to get most of their data analytics, write a software to automate their data analysis routine.&lt;/p&gt;
@@ -526,7 +525,7 @@ mechanism from Kojima’s paper:&lt;/p&gt;
  <entry>
    <title>Simulating Likert scale data in R</title>
    <link href="http://localhost:4000/articles/likert.html"/>
-   <updated>2018-10-31T00:00:00+06:00</updated>
+   <updated>2018-10-31T00:00:00+03:00</updated>
    <id>http://localhost:4000/articles/likert</id>
    <content type="html">&lt;p&gt;In my last project I had to find theoretical limits for a &lt;em&gt;psychometric&lt;/em&gt; index involving &lt;em&gt;Likert scale data&lt;/em&gt; (aka &lt;em&gt;categorical data&lt;/em&gt;). After successfully finding it, I decided to test the results in a simple &lt;em&gt;Monte-Carlo simulation&lt;/em&gt;.&lt;/p&gt;
 
@@ -553,7 +552,7 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 &lt;p&gt;Notice that &lt;code class=&quot;highlighter-rouge&quot;&gt;distribution&lt;/code&gt; sets the probabilities, &lt;code class=&quot;highlighter-rouge&quot;&gt;potential&lt;/code&gt; repeats this &lt;em&gt;M&lt;/em&gt; times (where &lt;em&gt;M&lt;/em&gt; is any number greater than or equal to &lt;em&gt;N&lt;/em&gt; — I personally used &lt;em&gt;M = N&lt;/em&gt;), and &lt;code class=&quot;highlighter-rouge&quot;&gt;likert_data&lt;/code&gt; (&lt;em&gt;uniformly&lt;/em&gt;) randomly picks &lt;em&gt;N&lt;/em&gt; elements and returns the required vector.&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/likert/likert.png&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/likert/likert.png&quot; /&gt;
 	&lt;figcaption&gt;A frequency table of likert_data&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -570,7 +569,7 @@ mechanism from Kojima’s paper:&lt;/p&gt;
  <entry>
    <title>In quest of the ultimate investment advice</title>
    <link href="http://localhost:4000/articles/munkfin.html"/>
-   <updated>2018-10-21T00:00:00+06:00</updated>
+   <updated>2018-10-21T00:00:00+03:00</updated>
    <id>http://localhost:4000/articles/munkfin</id>
    <content type="html">&lt;h3 id=&quot;contents&quot;&gt;Contents&lt;/h3&gt;
 &lt;ul class=&quot;index&quot;&gt;
@@ -586,9 +585,9 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 
 &lt;p&gt;What constitutes a good investment advice? First of all, and most importantly, it should bring highest returns. This is its &lt;em&gt;raison d’être&lt;/em&gt; after all. Provided that, it should also be as simple and intuitive as possible without compromising much in profits. And flowing from this, it should be cheap to manage — be adjustable without help of paid consultants.&lt;/p&gt;
 
-&lt;div class=&quot;highlighted&quot;&gt;
-	A good investment advice is simple to grasp, easy to manage, and brings highest returns.
-&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;A good investment advice is simple to grasp, easy to manage, and brings highest returns.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;In this article you will learn how multiple generations of economists tried to find the formula for perfect lifetime investment. They had to face competitive pressure from financial consultants, get knocked off course by methodological fads, and even completely abandon the field for years, before they could return and find the ultimate answer.&lt;/p&gt;
 
@@ -599,24 +598,23 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
 	&lt;a href=&quot;https://www.tiaa.org/public&quot; target=&quot;_blank&quot;&gt;
-		&lt;img src=&quot;/assets/img/munkfin/tiaa-shiller.jpeg&quot; alt=&quot;TIAA Shiller&quot; /&gt;
+		&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/munkfin/tiaa-shiller.jpeg&quot; alt=&quot;TIAA Shiller&quot; /&gt;
 		&lt;figcaption&gt;TIAA-CREF commercial featuring their client economist Robert Shiller&lt;/figcaption&gt;
 	&lt;/a&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Among all the academics whom this news touched directly, there were inevitably many economists as well, and it made them actively think about this investment decision. &lt;a href=&quot;https://en.wikipedia.org/wiki/Harry_Markowitz&quot;&gt;&lt;em&gt;Harry Markowitz&lt;/em&gt;&lt;/a&gt;, then a 25 years old economics graduate student at University of Chicago, chose to split his funds 50-50 between TIAA and CREF. His reasoning was simple — if stocks would fail, he would have half of his funds paid in safe fixed annuities, and if stocks would perform very well, the other half would bring high returns.&lt;/p&gt;
 
-&lt;div class=&quot;highlighted&quot;&gt;
-	If people care not only about returns, but also about risks, then they should diversify their investments.
-&lt;/div&gt;
-&lt;div class=&quot;highlighted&quot; align=&quot;right&quot;&gt;
-	H. Markowitz (1952)
-&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;If people care not only about returns, but also about risks, then they should diversify their investments.&lt;/em&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;em&gt;— H. Markowitz (1952)&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;In hindsight, this was not an optimal choice, however it planted an idea in Markowitz’s head that a theory of investments should exist. Not long after, he published his famous paper in &lt;em&gt;The Journal of Finance&lt;/em&gt; called simply &lt;em&gt;Portfolio Selection&lt;/em&gt;, where he used the idea that &lt;em&gt;people not only want to maximize profits, but also to minimize risks&lt;/em&gt;. This approach came to be known as &lt;em&gt;“mean-variance analysis”&lt;/em&gt;, where “mean” and “variance” corresponded to expected (average) returns and risks respectively. In the paper, he provided a graphical argument and didn’t use any math. The resulting allocation brought better returns than naive 50-50, but, at the same time, supported the idea that it is better to diversify portfolio than to invest everything in one fund.&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/munkfin/hmgraph.png&quot; alt=&quot;markowitz&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/munkfin/hmgraph.png&quot; alt=&quot;markowitz&quot; /&gt;
 	&lt;figcaption&gt;Markowitz's graphical argument (figure from the original paper)&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -626,19 +624,18 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 
 &lt;p&gt;Continuing the theme of slowness in academia, Tobin’s paper was published in &lt;em&gt;The Review of Economic Studies&lt;/em&gt; in 1958, two years after he wrote it.&lt;/p&gt;
 
-&lt;div class=&quot;highlighted&quot;&gt;
-	There is a single optimal allocation of stocks to bonds in a portfolio.
-&lt;/div&gt;
-&lt;div class=&quot;highlighted&quot; align=&quot;right&quot;&gt;
-	J. Tobin (1956)
-&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;There is a single optimal allocation of stocks to bonds in a portfolio.&lt;/em&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;em&gt;— J. Tobin (1956)&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;This proposition turned out to be very controversial in the industry, as, for years to come, most financial consultants would suggest conservative/old investors to invest more in bonds and aggressive/young investors to invest more in stocks, implying that Tobin is wrong and there is no single optimal portfolio allocation for everyone.&lt;/p&gt;
 
 &lt;p&gt;But &lt;em&gt;Tobin-Markowitz approach&lt;/em&gt; (aka &lt;em&gt;Mean-Variance Analysis&lt;/em&gt;) was so well received in academic circles that no significant improvements were proposed for almost a decade.&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/munkfin/markowitz.png&quot; alt=&quot;markowitz&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/munkfin/markowitz.png&quot; alt=&quot;markowitz&quot; /&gt;
 	&lt;figcaption&gt;Mean-variance formula uses middle school level algebra&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -649,9 +646,9 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 
 &lt;p&gt;Meanwhile, the field of macroeconomics was slowly incorporating &lt;a href=&quot;https://en.wikipedia.org/wiki/Richard_E._Bellman&quot;&gt;&lt;em&gt;Richard E. Bellman’s&lt;/em&gt;&lt;/a&gt; &lt;a href=&quot;https://en.wikipedia.org/wiki/Dynamic_programming&quot;&gt;&lt;em&gt;dynamic programming&lt;/em&gt;&lt;/a&gt; methods. By the end of the decade, dynamic programming became so popular in economics that most models were revisited using this brand new toolbox.&lt;/p&gt;
 
-&lt;div class=&quot;highlighted&quot;&gt;
-	Dynamic model &amp;mdash; a model that captures changes through time.
-&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Dynamic model — a model that captures changes through time.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;Thus, it came as no surprise that in 1970 &lt;em&gt;Journal of Economic Theory&lt;/em&gt; published &lt;a href=&quot;https://en.wikipedia.org/wiki/Robert_C._Merton&quot;&gt;&lt;em&gt;Robert C. Merton’s&lt;/em&gt;&lt;/a&gt; &lt;em&gt;dynamic&lt;/em&gt; formulation of the portfolio allocation problem.&lt;/p&gt;
 
@@ -659,12 +656,11 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 
 &lt;p&gt;However it addressed an important issue — it tackled the problem of planning &lt;em&gt;future investments&lt;/em&gt;, as opposed to Markowitz’s one-period (so-called &lt;em&gt;“myopic”&lt;/em&gt;) choice. Moreover, it found the same answer with fewer questionable assumptions than Markowitz.&lt;/p&gt;
 
-&lt;div class=&quot;highlighted&quot;&gt;
-	Optimal lifetime strategy is to repeat Markowitz's fixed solution forever.
-&lt;/div&gt;
-&lt;div class=&quot;highlighted&quot; align=&quot;right&quot;&gt;
-	R.C. Merton (1970)
-&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Optimal lifetime strategy is to repeat Markowitz’s fixed solution forever.&lt;/em&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;em&gt;— R.C. Merton (1970)&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;With the rise in popularity of &lt;em&gt;401(k)&lt;/em&gt; plans in late seventies, more and more people started hiring financial consultants to manage their portfolios.&lt;/p&gt;
 
@@ -672,16 +668,16 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Peter_L._Bernstein&quot;&gt;&lt;em&gt;Peter Bernstein&lt;/em&gt;&lt;/a&gt; called this an &lt;em&gt;interior decorator fallacy&lt;/em&gt;, where people were told that their portfolio should be uniquely determined according to their personality, just like an &lt;em&gt;interior design&lt;/em&gt;, when in reality it didn’t have to.&lt;/p&gt;
 
-&lt;div class=&quot;highlighted&quot;&gt;
-	Life-cycle investment &amp;mdash; when portfolio allocations change with age.
-&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Life-cycle investment — when portfolio allocations change with age.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;However, this is a huge oversimplification. Financial advisers &lt;em&gt;did have a point&lt;/em&gt;, when they were suggesting younger people to risk more than older people — it was economists who couldn’t yet formulate a theory to explain this. It was called &lt;em&gt;life-cycle investment strategy&lt;/em&gt; — different portfolio allocations for different ages throughout one’s life. No economist could find a plausible life-cycle theory.&lt;/p&gt;
 
 &lt;p&gt;A famous economist &lt;a href=&quot;https://en.wikipedia.org/wiki/Paul_Samuelson&quot;&gt;&lt;em&gt;Paul Samuelson&lt;/em&gt;&lt;/a&gt; actually tried to tackle life-cycle theory. In his 1969 paper, published in &lt;em&gt;The Review of Economics and Statistics&lt;/em&gt;, he used the dynamic programming to find the following solution:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/munkfin/samuelson.png&quot; alt=&quot;samuelson 1969 solution&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/munkfin/samuelson.png&quot; alt=&quot;samuelson 1969 solution&quot; /&gt;
 	&lt;figcaption&gt;Samuelson's 1969 life-cycle advice&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -692,7 +688,7 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 &lt;p&gt;Fortunately, in 1990 Harry Markowitz was awarded a Nobel prize in economics for his mean-variance paper. This reignited an interest in portfolio theory among brightest economists and ended the dark ages.&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/munkfin/nobel.jpg&quot; alt=&quot;markowitz nobel&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/munkfin/nobel.jpg&quot; alt=&quot;markowitz nobel&quot; /&gt;
 	&lt;figcaption&gt;Harry Markowitz receives a Nobel Prize in Economics&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -701,30 +697,30 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 
 &lt;p&gt;In 1992, &lt;em&gt;Bodie, Merton and Samuelson&lt;/em&gt; came together to make a breakthrough. They finally managed to bring in a simple idea that would transform the portfolio theory. It was called &lt;em&gt;Human Capital&lt;/em&gt;.&lt;/p&gt;
 
-&lt;div class=&quot;highlighted&quot;&gt;
-	Human capital is the total wage income, a person is expected to earn from now on until retirement.
-&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Human capital is the total wage income, a person is expected to earn from now on until retirement.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;Put simply, the human capital means the &lt;em&gt;total wage income, a person is expected to earn from now on until retirement&lt;/em&gt;. If we don’t consider traffic accidents, lethal illnesses or possible imprisonment, on average &lt;em&gt;younger people have more human capital than older ones&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;At the same time, younger people tend to have no finacial wealth at all, while older people have accumulated their wealth throughout their lifetime.&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/munkfin/capital.png&quot; alt=&quot;capitals&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/munkfin/capital.png&quot; alt=&quot;capitals&quot; /&gt;
 	&lt;figcaption&gt;Human capital declines with age. Financial wealth accumulates with age.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;What they proposed in their &lt;a href=&quot;https://www.nber.org/&quot;&gt;&lt;em&gt;NBER&lt;/em&gt;&lt;/a&gt; paper was to solve a &lt;em&gt;mean-variance problem&lt;/em&gt; for a &lt;em&gt;total wealth&lt;/em&gt;, which is the sum of &lt;em&gt;financial wealth&lt;/em&gt; and &lt;em&gt;human capital&lt;/em&gt; (&lt;em&gt;W = F + H&lt;/em&gt;). Then, even if the ratio of risky to riskless assets in the portfolio would stay fixed, since human capital would decline with time, the younger would invest more in risky assets.&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/munkfin/bms.png&quot; alt=&quot;bodie merton samuelson&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/munkfin/bms.png&quot; alt=&quot;bodie merton samuelson&quot; /&gt;
 	&lt;figcaption&gt;Nostalgically typewritten Bodie-Merton-Samuelson paper&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Previous researchers could not explain this allocation change among different ages because they didn’t consider human capital a part of the model. Although the paper used dynamic programming, the resulting formula was very simple and elegantly extended Markowitz’ mean-variance formula:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/munkfin/bmsformula.png&quot; alt=&quot;bodie merton samuelson&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/munkfin/bmsformula.png&quot; alt=&quot;bodie merton samuelson&quot; /&gt;
 	&lt;figcaption&gt;Mean-Variance formula with human capital&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -732,14 +728,14 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 
 &lt;p&gt;And just like that, one of the biggest problems of financial economics was solved. One must acknowledge the power of the Nobel Prize.&lt;/p&gt;
 
-&lt;div class=&quot;highlighted&quot;&gt;
-	Adding human capital into the model explained different investment decisions throughout life
-&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Adding human capital into the model explained different investment decisions throughout life&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;An interesting ending to this chapter would be reached in 2005, when a group of young researchers &lt;em&gt;J. Cocco&lt;/em&gt;, &lt;em&gt;F. Gomes&lt;/em&gt; and &lt;em&gt;P. Maenhout&lt;/em&gt; co-wrote a paper calibrating and validating the &lt;em&gt;mean-variance analysis with human capital&lt;/em&gt; and proposing a policy rule. The anonymous referee of their submitted paper came up with an easy heuristic to summarize their slightly complicated result. They included this suggestion in the final version of their paper, which turned out to be much more influential than their original finding.&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/munkfin/cocco.png&quot; alt=&quot;cocco et al&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/munkfin/cocco.png&quot; alt=&quot;cocco et al&quot; /&gt;
 	&lt;figcaption&gt;Heuristic from Cocco et al. (2005): t is age, alpha is share of stocks in a portfolio&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -754,14 +750,14 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 
 &lt;p&gt;They didn’t do any arguments about the life-cycle investments, but their idea was brilliant — it had the potential to answer the question of &lt;em&gt;why young people do not invest in stocks, despite being strongly advised to do so&lt;/em&gt;. Surprisingly, no one elaborated on this idea for fourteen years.&lt;/p&gt;
 
-&lt;div class=&quot;highlighted&quot;&gt;
-	Adding housing capital into the model explained why young don't invest more aggressively
-&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Adding housing capital into the model explained why young don’t invest more aggressively&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;In 2016, &lt;em&gt;Claus Munk&lt;/em&gt; published his working paper, where he incorporated both housing and human capital into the mean-variance model. The solution was very easy — it did not involve any dynamic stochastic modeling, it was solved using just two derivatives. The result explained that young people would invest more aggressively (as financial consultants advise), but they were dealing with paying their mortgage debts and therefore weren’t spending any money in stocks. Taking these results into consideration, he created a formula that would both be optimal and realistic.&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/munkfin/munk.png&quot; alt=&quot;munk&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/munkfin/munk.png&quot; alt=&quot;munk&quot; /&gt;
 	&lt;figcaption&gt;Munk's ultimate formula: still a middle school level algebra&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -770,7 +766,7 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 &lt;p&gt;In 2018 I finished my thesis, where I performed multiple simulations of different investment models for 12 types of people. I have found that using &lt;em&gt;Munk’s formula would significantly improve welfare for people with at least a college degree&lt;/em&gt; compared to other investment strategies. More generally, though, &lt;em&gt;Cocco’s heuristic&lt;/em&gt; performs better than any fixed (even complicated) model for investors of all backgrounds.&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/munkfin/utils.png&quot; alt=&quot;utils&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/munkfin/utils.png&quot; alt=&quot;utils&quot; /&gt;
 	&lt;figcaption&gt;Welfare comparison for different investment types (the closer to zero, the better)&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -781,7 +777,7 @@ mechanism from Kojima’s paper:&lt;/p&gt;
  <entry>
    <title>Можно ли реально выиграть автомобиль по акциям на пачках сигарет?</title>
    <link href="http://localhost:4000/blogru/are-lotos-legit.html"/>
-   <updated>2018-09-19T00:00:00+06:00</updated>
+   <updated>2018-09-19T00:00:00+03:00</updated>
    <id>http://localhost:4000/blogru/are-lotos-legit</id>
    <content type="html">&lt;p&gt;Да, конечно, можно. Люди же выигрывают.&lt;/p&gt;
 
@@ -832,7 +828,7 @@ mechanism from Kojima’s paper:&lt;/p&gt;
  <entry>
    <title>Мысли о религии</title>
    <link href="http://localhost:4000/blogru/thoughts-on-religion.html"/>
-   <updated>2018-08-27T00:00:00+06:00</updated>
+   <updated>2018-08-27T00:00:00+03:00</updated>
    <id>http://localhost:4000/blogru/thoughts-on-religion</id>
    <content type="html">&lt;p&gt;В этой статье я собрал мысли, которые мне приходили во время или после (чаще после) споров со знакомыми на тему религии.&lt;/p&gt;
 
@@ -948,7 +944,7 @@ mechanism from Kojima’s paper:&lt;/p&gt;
  <entry>
    <title>Ты не прав</title>
    <link href="http://localhost:4000/blogru/urwrong.html"/>
-   <updated>2018-08-17T00:00:00+06:00</updated>
+   <updated>2018-08-17T00:00:00+03:00</updated>
    <id>http://localhost:4000/blogru/urwrong</id>
    <content type="html">&lt;p&gt;-А ты знал, что Солнечная система плоская?&lt;br /&gt;
 -Кто сказал? Это неправдоподобно. Ты, наверняка, не прав.&lt;br /&gt;
@@ -966,7 +962,7 @@ mechanism from Kojima’s paper:&lt;/p&gt;
  <entry>
    <title>Object-oriented Game of Life in Python</title>
    <link href="http://localhost:4000/articles/gameoflife.html"/>
-   <updated>2018-08-09T00:00:00+06:00</updated>
+   <updated>2018-08-09T00:00:00+03:00</updated>
    <id>http://localhost:4000/articles/gameoflife</id>
    <content type="html">&lt;h3 id=&quot;intro&quot;&gt;Intro&lt;/h3&gt;
 &lt;p&gt;I have been planning to build a superior GUI alternative to &lt;em&gt;NetLogo&lt;/em&gt; for a long time. When I finally started working on a project, I decided to test the basic implementations in Python. Sure enough, the first app was &lt;em&gt;Conway’s Game of Life&lt;/em&gt; - a great special case of &lt;em&gt;cellular automata&lt;/em&gt;.&lt;/p&gt;
@@ -1083,7 +1079,7 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 &lt;p&gt;For presentation purposes I animated the resulting graphs:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/gameoflife/game.gif&quot; alt=&quot;Game of life dynamics&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/gameoflife/game.gif&quot; alt=&quot;Game of life dynamics&quot; /&gt;
 	&lt;figcaption&gt;&quot;Game of life&quot; dynamics&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -1097,13 +1093,15 @@ mechanism from Kojima’s paper:&lt;/p&gt;
  <entry>
    <title>Bitcoin forgot its roots. Should we tax it?</title>
    <link href="http://localhost:4000/articles/tax-bitcoins.html"/>
-   <updated>2018-08-03T00:00:00+06:00</updated>
+   <updated>2018-08-03T00:00:00+03:00</updated>
    <id>http://localhost:4000/articles/tax-bitcoins</id>
    <content type="html">&lt;p&gt;Bitcoin was invented and became popular first within a crypto community whose members were predominantly influenced by the so-called “hacker culture”.&lt;/p&gt;
 
 &lt;p&gt;The culture was all about anarchy, decentralization, open source, denouncement of Wall Street. And even though the blockchain was called a “trustless structure”, where no one had incentive to cheat on the system, it was totally based on trust in the beginning. Think about times when there were only 10 computers in the Bitcoin system – why wouldn’t anyone do a 51% attack then? Mined bitcoins were worthless back then, why would nobody break the system? Actually, there is no game theoretic equilibrium that would explain early days of any new decentralized currency. Everybody in the crypto community actually contributed to decentralization &lt;em&gt;altruistically&lt;/em&gt;.&lt;/p&gt;
 
-&lt;div class=&quot;highlighted&quot;&gt;There is no game theoretic equilibrium that would explain early days of any new decentralized currency.&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;There is no game theoretic equilibrium that would explain early days of any new decentralized currency.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;How did this ideological movement turn into one of the greatest bubbles in history? The answer is obvious – when &lt;em&gt;the very “Wall Street people”&lt;/em&gt; realized that cryptocurrencies are the new investment instruments. Needless to say, this caused great volatility and is continuing to drive away its initial intended users. A person will not buy bitcoins to pay for bread because the price is so volatile that it is more profitable to speculate on the currency rather than use it, as it was originally intended. Likewise, it is easier to pay 30$ wire transfer fee to send cash abroad, than to send bitcoins without commission but lose 100$ from price changes.&lt;/p&gt;
 
@@ -1111,7 +1109,9 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 
 &lt;p&gt;All of these arguments bring the natural point – should bitcoins be taxed? They are not following their &lt;em&gt;“anarchy” mission&lt;/em&gt; anyway, so taxing them would not mean that governments are overreaching. Ethereum is already moving to a Casper project, which will slowly get rid of “proof-of-work” completely and make Ethereum mining completely green. So, taxing Bitcoin would also improve the environment by saving electricity and punish it for forgetting its original purpose.&lt;/p&gt;
 
-&lt;div class=&quot;highlighted&quot;&gt;Bitcoin is not following its original mission, so anarchists should be cool with its taxation.&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Bitcoin is not following its original mission, so anarchists should be cool with its taxation.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;So, how should the bitcoins be taxed? By taxing the Bitcoin mining farms. Since the only source of new bitcoins is by mining, governments can easily identify the farms using electricity bills, inspections and similar usual tools. This should not be more difficult than for IRS to find tax evaders.&lt;/p&gt;
 
@@ -1121,7 +1121,9 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 
 &lt;p&gt;This will discourage speculators from participating in volatile transactions, this will force Bitcoin community to think about switching from “proof-of-work” to “proof-of-stake” structure, this will shrink the shadow economy, this will allow a room for decreasing taxes to the population which does not use Bitcoins. This will also promote green tokens. Last but not least, this will cause Bitcoin community to remember its original purpose of overthrowing financial institutions and not creating them.&lt;/p&gt;
 
-&lt;div class=&quot;highlighted&quot;&gt;Maybe Bitcoin community will remember its original purpose of overthrowing financial institutions and not creating them.&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Maybe Bitcoin community will remember its original purpose of overthrowing financial institutions and not creating them.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;To sum up, Bitcoin is not doing the job of alternative currency it was supposed to do, and it is not planning to go green. Therefore, &lt;em&gt;governments have every moral right to tax them without regulating the system itself&lt;/em&gt;. Because of Bitcoin’s own problems, this will not be considered as government overreaching.&lt;/p&gt;
 </content>
@@ -1130,7 +1132,7 @@ mechanism from Kojima’s paper:&lt;/p&gt;
  <entry>
    <title>Utility tokens&#58; discussion, economic model and simulation in R</title>
    <link href="http://localhost:4000/articles/token-economics.html"/>
-   <updated>2018-08-01T00:00:00+06:00</updated>
+   <updated>2018-08-01T00:00:00+03:00</updated>
    <id>http://localhost:4000/articles/token-economics</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://hackernoon.com/utility-tokens-discussion-economic-model-and-simulation-in-r-798c0ff3d26c&quot;&gt;&lt;em&gt;This post has been originally published in HackerNoon. Click here to read the original.&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -1159,7 +1161,9 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 
 &lt;p&gt;Being an economist myself, I believe that this thinking is terribly wrong. I understand where it comes from — everybody took  &lt;em&gt;Econ 101&lt;/em&gt; at some point and was inspired by elegance of &lt;em&gt;invisible hand&lt;/em&gt; models. But I also know that &lt;em&gt;free market&lt;/em&gt; is not the only mechanism out there. &lt;em&gt;Centralized matching mechanisms&lt;/em&gt;, &lt;em&gt;social planner’s problem&lt;/em&gt;, &lt;em&gt;lotteries&lt;/em&gt; all exist for a reason. Not every &lt;em&gt;equilibrium&lt;/em&gt; is &lt;em&gt;efficient&lt;/em&gt;. Sadly, not everybody takes advanced econ courses, while almost everybody wants to profit from &lt;em&gt;ICO&lt;/em&gt;’s.&lt;/p&gt;
 
-&lt;div class=&quot;highlighted&quot;&gt;Not every equilibrium is efficient&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Not every equilibrium is efficient&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;Of course, tokens can be justified in appropriate cases. Actually, the great working area for tokens is online games, where every crystal is given a price and has an obvious value to players. In general, whenever any kind of labor is involved, a money making procedure is good. Otherwise, it is some kind of &lt;em&gt;rent seeking&lt;/em&gt;.&lt;/p&gt;
 
@@ -1181,13 +1185,17 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 
 &lt;p&gt;This is exactly what I meant above, when I said that monetary relationships are not always efficient. And finally, these people hypocritically encourage openness and decentralization while using proprietary algorithms.&lt;/p&gt;
 
-&lt;div class=&quot;highlighted&quot;&gt;The right decision is to only decentralize those services that actually support the decentralization.&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;The right decision is to only decentralize those services that actually support the decentralization.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;Another issue with &lt;em&gt;token-backed decentralization&lt;/em&gt; is that historically every decentralization was tightly related to &lt;em&gt;disruption, hippie philosophy, anarchy&lt;/em&gt;. All examples of successful decentralization used to be altruistic and didn’t involve monetary goals. Decentralized apps (DAPPs) I care for are &lt;em&gt;BitTorrent, Wikipedia, Linux, GNU Project, OpenStreetMap&lt;/em&gt; etc.&lt;/p&gt;
 
 &lt;p&gt;Decentralized projects used to be the very definitions of &lt;em&gt;trust-based systems&lt;/em&gt;, where corporations like &lt;em&gt;Apple&lt;/em&gt; would be put to shame by the community for not contributing code back to &lt;em&gt;BSD&lt;/em&gt; but still get away with it, and nobody would attempt to financially incentivize them to do so.&lt;/p&gt;
 
-&lt;div class=&quot;highlighted&quot;&gt;These old days, which most of us still remember, should raise everyone's concerns about the longevity of trustless structures.&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;These old days, which most of us still remember, should raise everyone’s concerns about the longevity of trustless structures.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;There are, however, appropriate use cases for tokens and some developers get this.&lt;/p&gt;
 
@@ -1202,13 +1210,17 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 
 &lt;p&gt;This economic model of tokens is very generic, so that it can work as a blueprint for future token creators and as a reasonable abstraction for applied economists.&lt;/p&gt;
 
-&lt;div class=&quot;highlighted&quot;&gt;Ideally, this model can also serve as a guideline for writing whitepapers.&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Ideally, this model can also serve as a guideline for writing whitepapers.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;In case you have skipped the previous section, let me remind you that &lt;em&gt;utility tokens&lt;/em&gt; are any tokens that produce a legit service for consumers and are not &lt;em&gt;primarily&lt;/em&gt; tools for middlemen or speculators (although such agents do exist in our model).&lt;/p&gt;
 
 &lt;p&gt;Since tokens aim at &lt;em&gt;trustless&lt;/em&gt; structures, we will need some kind of proof that every &lt;em&gt;node&lt;/em&gt; corresponds to a single person instead of some &lt;em&gt;botnet&lt;/em&gt;. Since I am a huge &lt;a href=&quot;https://en.wikipedia.org/wiki/Proof-of-work_system&quot;&gt;&lt;em&gt;proof-of-work&lt;/em&gt;&lt;/a&gt; opposer and since most of the tokens are built on Ethereum platform, which is &lt;a href=&quot;https://cointelegraph.com/news/first-version-of-ethereums-casper-update-has-been-released&quot;&gt;moving towards &lt;em&gt;proof-of-stake&lt;/em&gt;&lt;/a&gt; anyway, I will use the latter in the model.&lt;/p&gt;
 
-&lt;div class=&quot;highlighted&quot;&gt;The service is paid for in fixed number of tokens, not in cash.&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;The service is paid for in fixed number of tokens, not in cash.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;Pricing service in a fixed token rate will correctly capture the proportionate relationship between demand and price — the greater the demand for the service, the more people will buy tokens, the price of tokens will increase, and so will the cash equivalent of the service; and vice versa.&lt;/p&gt;
 
@@ -1226,7 +1238,9 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 
 &lt;p&gt;They do not play any &lt;em&gt;strategies&lt;/em&gt;, &lt;em&gt;i.e.&lt;/em&gt; they naively vote for the correct version in every quorum. They earn (mine) rewards as long as malicious miners don’t take over, and at the same time they provide a utility to customers. Therefore the main quantitative feature of honest miners is their proportion among all miners.&lt;/p&gt;
 
-&lt;div class=&quot;highlighted&quot;&gt;Main quantitative feature of honest miners is their number.&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Main quantitative feature of honest miners is their number.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;The corresponding issue is that it is impossible to tell for certain which miners are honest and which are not. Therefore customers and investors choose their strategies based on the expectations. The prior probabilities which form these expectations are exogeneous in this model but can be endogenized. If you are a researcher interested in extending the model in this area, please &lt;a href=&quot;/#contact&quot;&gt;contact me&lt;/a&gt;, so that we can discuss and share the ideas on that topic.&lt;/p&gt;
 
@@ -1236,7 +1250,7 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 &lt;p&gt;As mentioned in the introduction, utility tokens only work good in peculiar services like job referencing or ads ranking. Therefore, customers not only care about the quality of service, but also about its popularity/public acceptance. This can be modelled using the following version of &lt;em&gt;Cobb-Douglas utility function&lt;/em&gt;:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/token/cust_util.png&quot; width=&quot;50%&quot; alt=&quot;Customer's utility function&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/token/cust_util.png&quot; width=&quot;50%&quot; alt=&quot;Customer's utility function&quot; /&gt;
 	&lt;figcaption&gt;Customer's utility function&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -1244,14 +1258,16 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 
 &lt;p&gt;Note that even when there is zero demand but nonzero number of experts (&lt;em&gt;E[x]=0; E[z]&amp;gt;0&lt;/em&gt;) the customer still receives a non-zero utility from the service. Conversely, when the service is very popular and has high demand but zero expert knowledge (&lt;em&gt;E[x]&amp;gt;0; E[z]=0&lt;/em&gt;) the utility from the service is zero despite its popularity.&lt;/p&gt;
 
-&lt;div class=&quot;highlighted&quot;&gt;The demand for tokens is equal to the expected total number of customers&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;The demand for tokens is equal to the expected total number of customers&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;The customers are not uniform though — there are &lt;em&gt;early adopters&lt;/em&gt;, &lt;em&gt;late majority&lt;/em&gt; and &lt;em&gt;laggards&lt;/em&gt;. They differ in reservation utility levels — each type of customer will only subscribe to the service if the utility &lt;em&gt;U(x,z)&lt;/em&gt; will exceed &lt;em&gt;U&lt;sub&gt;early&lt;/sub&gt;, U&lt;sub&gt;late&lt;/sub&gt;, U&lt;sub&gt;lag&lt;/sub&gt;&lt;/em&gt; respectively, where &lt;em&gt;U&lt;sub&gt;early&lt;/sub&gt; ≤ U&lt;sub&gt;late&lt;/sub&gt; ≤ U&lt;sub&gt;lag&lt;/sub&gt;&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;According to &lt;a href=&quot;https://en.wikipedia.org/wiki/Technology_adoption_life_cycle&quot;&gt;&lt;em&gt;product adoption life cycle&lt;/em&gt;&lt;/a&gt;, the consumer types are distributed as &lt;em&gt;16%&lt;/em&gt; early adopters, &lt;em&gt;68%&lt;/em&gt; late majority and &lt;em&gt;16%&lt;/em&gt; laggards:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/token/cust_dist.png&quot; width=&quot;60%&quot; alt=&quot;Customer type allocation&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/token/cust_dist.png&quot; width=&quot;60%&quot; alt=&quot;Customer type allocation&quot; /&gt;
 	&lt;figcaption&gt;Modified Roger's curve&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -1261,7 +1277,7 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 &lt;p&gt;Investors are people who buy tokens for &lt;em&gt;ICO&lt;/em&gt;/market value and hold them in expectation of value appreciation. We will assume that there are &lt;em&gt;N&lt;/em&gt; identical investors with equal wealth level &lt;em&gt;w&lt;/em&gt;, who are using a version of &lt;em&gt;Markowitz’s mean-variance formula&lt;/em&gt; to choose between investing in stocks and our tokens.&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/token/markowitz.png&quot; width=&quot;30%&quot; alt=&quot;Markowitz formula&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/token/markowitz.png&quot; width=&quot;30%&quot; alt=&quot;Markowitz formula&quot; /&gt;
 	&lt;figcaption&gt;Modified Markowitz's mean-variance formula&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -1273,7 +1289,9 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 
 &lt;p&gt;For further simplicity, we will omit &lt;em&gt;gamblers&lt;/em&gt; from our model — the investors who will strategically predict the quorum outcome and vote in that direction to mine extra tokens. Those, who are interested in that, can enhance on this model themselves and/or &lt;a href=&quot;/#contact&quot;&gt;contact me&lt;/a&gt; for ideas and suggestions.&lt;/p&gt;
 
-&lt;div class=&quot;highlighted&quot;&gt;The more investors a system has, the more cash is in the system.&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;The more investors a system has, the more cash is in the system.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;h3 id=&quot;malicious-miners&quot;&gt;Malicious miners&lt;/h3&gt;
 &lt;p&gt;Malicious miners are people who buy tokens for &lt;em&gt;ICO&lt;/em&gt;/market value and vote at quorum to force their version of blockchain.&lt;/p&gt;
@@ -1281,13 +1299,15 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 &lt;p&gt;In this model we don’t consider hypothetical &lt;em&gt;Jokers&lt;/em&gt; (&lt;em&gt;i.e.&lt;/em&gt; system trolls who want to sabotage the honest blockchain just for the sake of it), so all malicious miners have a rational agenda — it’s almost always the profit maximization outside of the system.&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/token/malprofit.png&quot; width=&quot;90%&quot; alt=&quot;Malicious miner's profit&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/token/malprofit.png&quot; width=&quot;90%&quot; alt=&quot;Malicious miner's profit&quot; /&gt;
 	&lt;figcaption&gt;Malicious miner's profit&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;where the first term is the initial profit a company makes by selling their good or service at price &lt;em&gt;f&lt;/em&gt; to their initial consumers plus a share of total demand that comes from the token vote with probability  &lt;em&gt;α&lt;/em&gt; of winning the vote. The second term is the &lt;em&gt;interference term&lt;/em&gt; which completes probability of demand from tokens to &lt;em&gt;1&lt;/em&gt; at the cost of buying tokens necessary to win the majority vote at price &lt;em&gt;p&lt;sub&gt;c&lt;/sub&gt;&lt;/em&gt; per token. The second term is equal to zero in case of non-interference, &lt;em&gt;i.e.&lt;/em&gt; no malicious token activity.&lt;/p&gt;
 
-&lt;div class=&quot;highlighted&quot;&gt;The more malicious miners a system has, the easier it is for them to influence the votes.&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;The more malicious miners a system has, the easier it is for them to influence the votes.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;Malicious miners participate in the token economy only if spending cash on tokens and winning the votes will increase their outside profit. Otherwise, they won’t have any incentive to meddle with the blockchain.&lt;/p&gt;
 
@@ -1301,7 +1321,7 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 &lt;p&gt;At any point in time, the agents solve their corresponding utility maximization problems from the previous section. The generalized static interactions can be visualized as follows:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/token/tokenomy.png&quot; width=&quot;70%&quot; alt=&quot;Token economy system statics&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/token/tokenomy.png&quot; width=&quot;70%&quot; alt=&quot;Token economy system statics&quot; /&gt;
 	&lt;figcaption&gt;System statics in a utility token economy&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -1310,7 +1330,7 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 &lt;p&gt;To model the price formation of a token we use a simplified version of &lt;em&gt;quantity theory of money&lt;/em&gt; with money market equilibrium modelled in &lt;a href=&quot;https://arxiv.org/pdf/1405.4498.pdf&quot;&gt;&lt;em&gt;“Economics of Bitcoin Price Formation”&lt;/em&gt;&lt;/a&gt; (Ciaian et al. (2014)).&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/token/price.png&quot; width=&quot;30%&quot; alt=&quot;Price of token formula&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/token/price.png&quot; width=&quot;30%&quot; alt=&quot;Price of token formula&quot; /&gt;
 	&lt;figcaption&gt;Price formula of token&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -1453,7 +1473,7 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 &lt;p&gt;This basic implementation gives &lt;em&gt;rudimentary&lt;/em&gt; results, like price and demand dynamics etc.&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/token/numcustomers.png&quot; width=&quot;50%&quot; alt=&quot;Demand dynamics&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/token/numcustomers.png&quot; width=&quot;50%&quot; alt=&quot;Demand dynamics&quot; /&gt;
 	&lt;img src=&quot;/assets/img/token/tokenprice.png&quot; width=&quot;50%&quot; alt=&quot;Token price&quot; /&gt;
 	&lt;figcaption&gt;Token price and demand dynamics&lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -1475,7 +1495,7 @@ mechanism from Kojima’s paper:&lt;/p&gt;
  <entry>
    <title>Как написать диссертацию? Мой опыт.</title>
    <link href="http://localhost:4000/blogru/disser.html"/>
-   <updated>2018-06-07T00:00:00+06:00</updated>
+   <updated>2018-06-07T00:00:00+03:00</updated>
    <id>http://localhost:4000/blogru/disser</id>
    <content type="html">&lt;h3 id=&quot;содержание&quot;&gt;Содержание&lt;/h3&gt;
 &lt;ul class=&quot;index&quot;&gt;
@@ -1496,7 +1516,9 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 
 &lt;p&gt;Диссертация — это первая самостоятельная исследовательская работа в жизни академика, и последняя — если вы решите работать вне академии. Именно по этой причине, диссертацию, в шутку, называют &lt;em&gt;“самой плохой из сложных научных работ”&lt;/em&gt; — писать её сложнее из-за отсутствия опыта, а выхлоп часто бывает скромнее, чем последующие научные статьи, которые будут написаны более профессионально.&lt;/p&gt;
 
-&lt;div class=&quot;highlighted&quot;&gt;Диссертация - это первое самостоятельное исследование в жизни академика&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Диссертация - это первое самостоятельное исследование в жизни академика&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;h3 id=&quot;научная-публикация&quot;&gt;Научная публикация&lt;/h3&gt;
 
@@ -1506,7 +1528,7 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 
 &lt;p&gt;Де-факто стандартом для диссертаций является:&lt;/p&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Магистрская диссерстация (Master’s Thesis) равна одной научной статье, а кандидатская (PhD thesis) – трём.&lt;/strong&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;em&gt;Магистрская диссерстация (Master’s Thesis) равна одной научной статье, а кандидатская (PhD thesis) – трём.&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h3 id=&quot;вклад&quot;&gt;Вклад&lt;/h3&gt;
@@ -1530,7 +1552,9 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 
 &lt;p&gt;Если вы прочли первый раздел или пропустили его, потому что и так знаете как устроена академия, то самое время поделиться моим опытом.&lt;/p&gt;
 
-&lt;div class=&quot;highlighted&quot;&gt;Идеальная тема нравится вам и интересна всем&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Идеальная тема нравится вам и интересна всем&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;Для начала нужно определиться с темой. Этот процесс является самой рекламируемой фишкой академии — &lt;em&gt;“в академии занимаешься тем, что нравится, а не чем заставляет начальство”&lt;/em&gt;.&lt;/p&gt;
 
@@ -1539,13 +1563,13 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 &lt;p&gt;Но если вы маргинал или боретесь с системой, то вы можете пожертвовать бонусами за идею.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Если ваша экспертиза маргинальная, вы не получите гранты, будете публиковаться только в маленьких журналах и будете жить на зарплату.&lt;/strong&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;em&gt;Если ваша экспертиза маргинальная, вы не получите гранты, будете публиковаться только в маленьких журналах и будете жить на зарплату.&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Поэтому для хорошей жизни лучше выбирать более мейнстримную тему (&lt;em&gt;Экономический эффект внедрения блокчейна в двадцати крупных фирмах&lt;/em&gt;). Тогда будут и деньги, и почёт, и слава. Может, счастья не будет — решайте сами.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Если же вы мейнстримный эксперт, то у вас будут гранты, вас будут звать на конференции и ваши книги будут покупать многие.&lt;/strong&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;em&gt;Если же вы мейнстримный эксперт, то у вас будут гранты, вас будут звать на конференции и ваши книги будут покупать многие.&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Лично я не смог написать диссертацию по теме, которая меня интересует (&lt;em&gt;Теория хаоса и комплексные адаптивные системы в экономике&lt;/em&gt;) — в нашем институте не было профессоров, специализирующихся в этих темах, кто мог бы стать моим научным руководителем. И каждый раз когда я хотел её изучить, я останавливал себя и заставлял тратить энергию на написание диссертации на другую тему (&lt;em&gt;Финансовая экономика динамических инвестиций&lt;/em&gt;).&lt;/p&gt;
@@ -1553,8 +1577,8 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 &lt;p&gt;Но одно могу сказать точно — нравится или нет, но я стал экспертом финансовой экономики за всё время написания научной статьи. Всё же, первым делом после завершения диссертации (даже до защиты) я отправился в библиотеку наверстывать год — изучать по-настоящему интересную мне тему. Надеюсь, это подчеркивает важность правильного выбора темы.&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/thesis/complexity.JPG&quot; alt=&quot;Books recap&quot; /&gt;
-	&lt;figcaption&gt;Фото сделано через день после завершения диссертации. Я приступил к изучению темы, которая мне действительно нравится, но на которую ранее не было времени.&lt;/figcaption&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/thesis/complexity.JPG&quot; alt=&quot;Books recap&quot; /&gt;
+	&lt;figcaption class=&quot;text-muted small pt-3 text-center&quot;&gt;Фото сделано через день после завершения диссертации. Я приступил к изучению темы, которая мне действительно нравится, но на которую ранее не было времени.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Еще один аргумент против конформизма — это тот факт, что на мейнстримные темы пишут все, а значит и конкуренция будет повыше, придётся писать более качественный научный труд, чем остальные, чтобы опубликоваться в известном журнале.&lt;/p&gt;
@@ -1562,15 +1586,15 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 &lt;p&gt;И в конце, в идеале, ваша тема должна быть активно исследуемой, чтобы на нее можно было написать длинную статью. Конечно, история знает примеры статей из одного абзаца:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/thesis/shortest.png&quot; alt=&quot;shortest paper&quot; /&gt;
-	&lt;figcaption&gt;Очень короткая научная статья с важным вкладом - она доказывает что одно утверждение Эйлера ошибочно.&lt;/figcaption&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/thesis/shortest.png&quot; alt=&quot;shortest paper&quot; /&gt;
+	&lt;figcaption class=&quot;text-muted small pt-3 text-center&quot;&gt;Очень короткая научная статья с важным вкладом - она доказывает что одно утверждение Эйлера ошибочно.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;или фундаментальной диссертации &lt;a href=&quot;https://ru.wikipedia.org/wiki/%D0%9D%D1%8D%D1%88,_%D0%94%D0%B6%D0%BE%D0%BD_%D0%A4%D0%BE%D1%80%D0%B1%D1%81&quot;&gt;&lt;em&gt;Джона Нэша&lt;/em&gt;&lt;/a&gt; всего с двумя ссылками к другим работам, одна из которых — это его собственная:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/thesis/nash.jpg&quot; alt=&quot;nash bib&quot; /&gt;
-	&lt;figcaption&gt;Ссылки Джона Нэша&lt;/figcaption&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/thesis/nash.jpg&quot; alt=&quot;nash bib&quot; /&gt;
+	&lt;figcaption class=&quot;text-muted small pt-3 text-center&quot;&gt;Ссылки Джона Нэша&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;но, если вы не гений, то лучше писать длинные труды.&lt;/p&gt;
@@ -1584,7 +1608,9 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 
 &lt;p&gt;До того, как начать исследование, необходимо прошерстить всю литературу по интересующей вас теме. Таким образом, ещё до написания диссертации, вам необходимо сначала стать экспертом в вашей области. В процессе обзора литературы вы узнаете обо всех открытиях и направлениях, и обо всех учёных в области.&lt;/p&gt;
 
-&lt;div class=&quot;highlighted&quot;&gt;К концу процесса вы должны знать о теме больше, чем все, даже больше, чем ваш научный руководитель&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;К концу процесса вы должны знать о теме больше, чем все, даже больше, чем ваш научный руководитель&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;В принципе, самостоятельно обучиться новой теме не легко, но от студентов магистратуры/аспирантуры этот навык воспринимают как должное.&lt;/p&gt;
 
@@ -1593,7 +1619,7 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 &lt;p&gt;Обзор литературы также поможет с выбором темы — вы узнаете, что уже исследовано, а что нет. Моя первоначальная тема была &lt;em&gt;“экономическое моделирование коррупции”&lt;/em&gt;, но, прочитав первую же книгу — &lt;a href=&quot;https://www.amazon.com/Corruption-political-economy-Susan-Rose-Ackerman/dp/0125963505&quot;&gt;&lt;em&gt;“Corruption: A Study in Political Economy”&lt;/em&gt;&lt;/a&gt; Сьюзан Роуз-Акерман, я понял, что всё что мне было интересно в этой теме, уже было идеально изучено около полувека назад.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Отличная новость: обзор литературы - это целая глава в диссертации&lt;/strong&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;em&gt;Отличная новость: обзор литературы - это целая глава в диссертации&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Всё время, которое вы потратили на прочтение книг и научных статей по теме, ушло не на абстрактное знание — обзор литературы занимает одну из основных глав вашей диссертации, а значит и прибавляет общее количество страниц, делая вашу работу более объёмной и солидной.&lt;/p&gt;
@@ -1603,14 +1629,16 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 
 &lt;p&gt;Одной из самых больших сложностей в написании диссертации является отсутствие осязаемых точек прогресса. Вы знаете, что вам надо исследовать &lt;em&gt;перформанс разных финансовых инструментов&lt;/em&gt;, у вас есть готовые данные, вы написали скрипт в &lt;em&gt;R&lt;/em&gt;, но у вас в руках нет индикатора того, что вы всё это сделали — вы же не будете показывать людям ваши таблицы и коды в ответ на вопрос &lt;em&gt;“Как твоя диссертация?”&lt;/em&gt;.&lt;/p&gt;
 
-&lt;div class=&quot;highlighted&quot;&gt;Текст диссертации &amp;mdash; это единственный показатель состояния вашего исследования&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Текст диссертации — это единственный показатель состояния вашего исследования&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;Отсутствие осязаемого доказательства вашего прогресса является, по моему мнению, самой главной причиной &lt;a href=&quot;https://ru.wikipedia.org/wiki/%D0%A1%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC_%D1%81%D0%B0%D0%BC%D0%BE%D0%B7%D0%B2%D0%B0%D0%BD%D1%86%D0%B0&quot;&gt;&lt;em&gt;синдрома самозванца&lt;/em&gt;&lt;/a&gt; и депрессии в аспирантуре. Каждый раз, когда кто-то будет говорить, что вы учитесь, вам будет казаться, что вы их обманываете, потому что вы не написали ни одной страницы.&lt;/p&gt;
 
 &lt;p&gt;Решение этой проблемы, на удивление, простое — надо начать писать основной текст сразу же. Вы не поверите, сколько всего можно написать, даже не приступая к самому исследованию.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;&lt;em&gt;Аннотация&lt;/em&gt;, &lt;em&gt;Введение&lt;/em&gt;, &lt;em&gt;Обзор литературы&lt;/em&gt;, &lt;em&gt;Вложения&lt;/em&gt;, &lt;em&gt;Благодарности&lt;/em&gt;, &lt;em&gt;Библиография&lt;/em&gt;  — все эти главы можно написать, не начиная само исследование.&lt;/strong&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;em&gt;Аннотация, Введение, Обзор литературы, Вложения, Благодарности, Библиография  — все эти главы можно написать, не начиная само исследование.&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Обзор литературы и библиографию (список использованной литературы) можно заполнять по мере чтения статей по теме.&lt;/p&gt;
@@ -1620,8 +1648,8 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 &lt;p&gt;Аннотацию и благодарности можете написать хоть сейчас. Главное — постоянно продолжайте писать.&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/thesis/biblio.png&quot; alt=&quot;biblio&quot; /&gt;
-	&lt;figcaption&gt;Пример библиографии&lt;/figcaption&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/thesis/biblio.png&quot; alt=&quot;biblio&quot; /&gt;
+	&lt;figcaption class=&quot;text-muted small pt-3 text-center&quot;&gt;Пример библиографии&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;&lt;a name=&quot;contribution&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
@@ -1631,7 +1659,9 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 
 &lt;p&gt;Тот факт, что вы учитесь на аспирантуре/магистратуре, означает, что у вас всю вашу жизнь были хорошие оценки. А значит, вы лучше всех умеете поглощать знание. Но теперь от вас требуется совершенно другой навык — создавать знание.&lt;/p&gt;
 
-&lt;div class=&quot;highlighted&quot;&gt;Вы всю жизнь поглощали знание, поэтому вам очень сложно начать создавать его.&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Вы всю жизнь поглощали знание, поэтому вам очень сложно начать создавать его.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;Этот процесс очень сложный — от вас практически требуется перепрошить мозг. Здесь &lt;em&gt;“на помощь”&lt;/em&gt; приходит &lt;em&gt;прокрастинация&lt;/em&gt;. Мозгу легче заняться другими полезными и бесполезными делами, чем переформатироваться.&lt;/p&gt;
 
@@ -1642,7 +1672,7 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 &lt;p&gt;Почему-то, это состояние у меня всегда ассоциировалось с домом со стеклянной стеной — вы видите, что впереди вас, вы можете разбить стекло и выйти, но вы периодически стучите кулаком по стеклу, но боитесь его разбить и заходите обратно вглубь дома.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Знание - как дом со стеклянными стенами. Чтобы создать новое знание, надо найти смелость разбить стекло и выйти.&lt;/strong&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;em&gt;Знание - как дом со стеклянными стенами. Чтобы создать новое знание, надо найти смелость разбить стекло и выйти.&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Разные блогеры называют это состояние &lt;a href=&quot;https://thesiswhisperer.com/2012/05/08/the-valley-of-shit/&quot;&gt;&lt;em&gt;по-разному&lt;/em&gt;&lt;/a&gt;. Я не знаю, как справиться с этим состоянием — я сам попал в него и не мог выйти несколько месяцев. Надеюсь, описание ситуации даст вам контроль над ней. Я был бы рад, если бы те, кто сталкивался с этим, рассказали в комментариях, как они справились.&lt;/p&gt;
@@ -1656,7 +1686,9 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 
 &lt;p&gt;Может быть, так оно и есть, и поэтому я не пропагандирую импульсивно менять методологию. Но я советую просто подумать над мыслью, что ваша модель может быть неверна.&lt;/p&gt;
 
-&lt;div class=&quot;highlighted&quot;&gt;Если модель не работает, меняйте её и не жалейте потраченного времени&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Если модель не работает, меняйте её и не жалейте потраченного времени&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;Для тех, кто не в курсе, хотел уточнить, что модель — это ядро исследования, это подход к анализу данных. Менять её очень серьёзно и рискованно — а вдруг старая модель была изначально верной?&lt;/p&gt;
 
@@ -1673,7 +1705,9 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 
 &lt;p&gt;Представьте себе, что вы побороли все проблемы и защитились. Вы идёте заполнять обходные листы и подавать документы на получение диплома, но через неделю вам приходит уведомление от редактора вашего института с просьбой отредактировать форматные и стилистические ошибки. Вы отправляете ей отредактированную версию вашей статьи, но ответ приходит ещё через неделю с новой порцией исправлений. Вы не ожидали этого, и ваш билет домой приходится сдать обратно.&lt;/p&gt;
 
-&lt;div class=&quot;highlighted&quot;&gt;Внимательно прочитайте ваш дизайн-код и следуйте ему с самого начала&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Внимательно прочитайте ваш дизайн-код и следуйте ему с самого начала&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;Вам нужно знать, что у каждого института (даже внутри одного вуза) есть свой дизайн-код. Оформление абзацев, заголовков, библиографий — всё это чётко закреплено правилами, доступными на сайте вашего университета.&lt;/p&gt;
 
@@ -1690,7 +1724,10 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 
 &lt;p&gt;При отсутствии идей, он может помочь определиться с темой. У меня было так — после трёх неудачно выбранных тем я выбрал нового руководителя и он мне дал тему и необходимый минимум литературы для старта. Дальше я всё делал сам.&lt;/p&gt;
 
-&lt;div class=&quot;highlighted&quot;&gt;Относитесь к профессору, как к начальству&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Относитесь к профессору, как к начальству&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
 &lt;p&gt;Надо знать, что у профессора много других забот — два-три активных научных исследований в коавторстве с кем-то, четыре-пять предметов, где надо давать лекции и проверять экзамены, а также еще пять таких же аспирантов, как и вы. Я не включил семейные обязанности и консалтинговые проекты на стороне. Поэтому за внимание профессора необходимо бороться, переотправлять e-mail письма если нет ответа, ждать его у кабинета и т.д.&lt;/p&gt;
 
 &lt;p&gt;После нескольких сообщений, оставшихся без ответа, может показаться, что профессору всё равно, однако если вы напишите всю диссертацию без его ведома, то он всё же обидится, мол почему не посовещался, и может не допустить до защиты и заставит переделывать. Поэтому к профессору нужно относиться как к начальству, со всеми вытекающими особенностями.&lt;/p&gt;
@@ -1706,7 +1743,9 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 
 &lt;p&gt;Не забудьте поблагодарить вашего научного руководителя. Если он сильно вас мучал, то поблагодарите за &lt;em&gt;вовлеченность&lt;/em&gt;, если он вас игнорировал, то — за &lt;em&gt;свободу&lt;/em&gt;. Это очень важно, потому что он увидит ваш черновой вариант и будет решать допустить вас к защите или нет.&lt;/p&gt;
 
-&lt;div class=&quot;highlighted&quot;&gt;Мы не живём в вакууме, мы не стоим на сегодняшнем месте только благодаря себе. Поблагодарите ваших родителей, вашу семью, ваших учителей и профессоров за весь вклад в вашем становлении, как личности и за бесконечное терпение.&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Мы не живём в вакууме, мы не стоим на сегодняшнем месте только благодаря себе. Поблагодарите ваших родителей, вашу семью, ваших учителей и профессоров за весь вклад в вашем становлении, как личности и за бесконечное терпение.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 </content>
  </entry>
@@ -1714,7 +1753,7 @@ mechanism from Kojima’s paper:&lt;/p&gt;
  <entry>
    <title>Что такое LaTeX и почему вы должны его внедрить в вашу фирму.</title>
    <link href="http://localhost:4000/blogru/latex.html"/>
-   <updated>2018-05-17T00:00:00+06:00</updated>
+   <updated>2018-05-17T00:00:00+03:00</updated>
    <id>http://localhost:4000/blogru/latex</id>
    <content type="html">&lt;h2 id=&quot;о-минусах-текстовых-редакторов&quot;&gt;О минусах текстовых редакторов&lt;/h2&gt;
 &lt;p&gt;На протяжении всей истории, письменность занимала очень важное место. Настолько, что каллиграфия была целой наукой, а письмо было отдельным ремеслом. Все важные документы, книги писали специально обученные люди, которые, по сути, являлись дизайнерами.&lt;/p&gt;
@@ -1820,7 +1859,7 @@ mechanism from Kojima’s paper:&lt;/p&gt;
  <entry>
    <title>Экстремизм и терроризм.</title>
    <link href="http://localhost:4000/blogru/exterror.html"/>
-   <updated>2018-05-01T00:00:00+06:00</updated>
+   <updated>2018-05-01T00:00:00+03:00</updated>
    <id>http://localhost:4000/blogru/exterror</id>
    <content type="html">&lt;p&gt;&lt;strong&gt;Дисклеймер: Это мои теоретические размышления.&lt;/strong&gt;&lt;/p&gt;
 
@@ -1835,7 +1874,7 @@ mechanism from Kojima’s paper:&lt;/p&gt;
  <entry>
    <title>The Breakfast club. Наверстывая культуру.</title>
    <link href="http://localhost:4000/blogru/breakfast.html"/>
-   <updated>2018-04-28T00:00:00+06:00</updated>
+   <updated>2018-04-28T00:00:00+03:00</updated>
    <id>http://localhost:4000/blogru/breakfast</id>
    <content type="html">&lt;figure class=&quot;blog&quot;&gt;
 	&lt;img src=&quot;/assets/img/breakfast/breakfastclub.jpg&quot; alt=&quot;movie still&quot; /&gt;
@@ -1863,7 +1902,7 @@ mechanism from Kojima’s paper:&lt;/p&gt;
  <entry>
    <title>Опровержение статьи РИА о рейтинге российских вузов</title>
    <link href="http://localhost:4000/blogru/ria-fake.html"/>
-   <updated>2018-04-12T00:00:00+06:00</updated>
+   <updated>2018-04-12T00:00:00+03:00</updated>
    <id>http://localhost:4000/blogru/ria-fake</id>
    <content type="html">&lt;p&gt;Сегодня прочёл статью РИА о том, что 11 российских вузов вошли в сотню лучших вузов мира в 2017-м году. Это - больная для меня тема - я слежу за высшим образованием в мире уже около восьми лет и часто натыкаюсь на то, что многие вузы обвиняют систему рейтингов в предвзятости в пользу западной системы обучения (см. &lt;a href=&quot;https://youtu.be/4nG1qYwSCHc?t=5m22s&quot;&gt;интервью Садовничего Познеру&lt;/a&gt; с 5-й минуты). Я не согласен с этим, но забудем обо мне, взгляните лучше на статью (&lt;a href=&quot;https://ria.ru/society/20180412/1518459066.html&quot;&gt;ссылка&lt;/a&gt;):&lt;/p&gt;
 
@@ -1907,71 +1946,71 @@ mechanism from Kojima’s paper:&lt;/p&gt;
  <entry>
    <title>Library of Bogazici University</title>
    <link href="http://localhost:4000/blog/bounlib.html"/>
-   <updated>2018-04-12T00:00:00+06:00</updated>
+   <updated>2018-04-12T00:00:00+03:00</updated>
    <id>http://localhost:4000/blog/bounlib</id>
    <content type="html">&lt;p&gt;Library is located in North Campus:&lt;/p&gt;
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/bounlib/lib1.JPG&quot; alt=&quot;libphoto&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/bounlib/lib1.JPG&quot; alt=&quot;libphoto&quot; /&gt;
 	&lt;figcaption&gt;Фасад Библиотеки&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;and named after the rector who built it:&lt;/p&gt;
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/bounlib/lib2.JPG&quot; alt=&quot;libphoto&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/bounlib/lib2.JPG&quot; alt=&quot;libphoto&quot; /&gt;
 	&lt;figcaption&gt;Библиотека им. Абдуллаха Курана&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;it has 4 floors:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/bounlib/lib3.JPG&quot; alt=&quot;libphoto&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/bounlib/lib3.JPG&quot; alt=&quot;libphoto&quot; /&gt;
 	&lt;figcaption&gt;Вид с третьего этажа&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;A random note:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/bounlib/lib4.JPG&quot; alt=&quot;libphoto&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/bounlib/lib4.JPG&quot; alt=&quot;libphoto&quot; /&gt;
 	&lt;figcaption&gt;Не шуметь!&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Classification of books:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/bounlib/lib5.JPG&quot; alt=&quot;libphoto&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/bounlib/lib5.JPG&quot; alt=&quot;libphoto&quot; /&gt;
 	&lt;figcaption&gt;Как найти нужную книгу?&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;another shot:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/bounlib/lib6.JPG&quot; alt=&quot;libphoto&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/bounlib/lib6.JPG&quot; alt=&quot;libphoto&quot; /&gt;
 	&lt;figcaption&gt;Книжные полки ведут к просвещению&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;and another:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/bounlib/lib7.JPG&quot; alt=&quot;libphoto&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/bounlib/lib7.JPG&quot; alt=&quot;libphoto&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Book numeration:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/bounlib/lib8.JPG&quot; alt=&quot;libphoto&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/bounlib/lib8.JPG&quot; alt=&quot;libphoto&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;After reading this book I decided to become an economist:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/bounlib/colander.JPG&quot; alt=&quot;libphoto&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/bounlib/colander.JPG&quot; alt=&quot;libphoto&quot; /&gt;
 	&lt;figcaption&gt;David Colander _&quot;The Making of an Economist, Redux&quot;_&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;And this book lowered my self esteem to minus million points.&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/bounlib/stokey.JPG&quot; alt=&quot;libphoto&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/bounlib/stokey.JPG&quot; alt=&quot;libphoto&quot; /&gt;
 	&lt;figcaption&gt;Самый сложный в мире учебник по экономике&lt;/figcaption&gt;
 &lt;/figure&gt;
 </content>
@@ -1980,7 +2019,7 @@ mechanism from Kojima’s paper:&lt;/p&gt;
  <entry>
    <title>Доверять или проверять?</title>
    <link href="http://localhost:4000/blogru/newton-giants.html"/>
-   <updated>2018-04-01T00:00:00+06:00</updated>
+   <updated>2018-04-01T00:00:00+03:00</updated>
    <id>http://localhost:4000/blogru/newton-giants</id>
    <content type="html">&lt;p&gt;-Ты слишком усложняешь себе жизнь.&lt;br /&gt;
 -Почему?&lt;br /&gt;
@@ -1996,7 +2035,7 @@ mechanism from Kojima’s paper:&lt;/p&gt;
  <entry>
    <title>Почему среди экономистов мало коммунистов</title>
    <link href="http://localhost:4000/blogru/econcommunism.html"/>
-   <updated>2018-04-01T00:00:00+06:00</updated>
+   <updated>2018-04-01T00:00:00+03:00</updated>
    <id>http://localhost:4000/blogru/econcommunism</id>
    <content type="html">&lt;p&gt;Потому что все экономические модели подразумевают обмен товарами, а для правильного обмена нужно различать ценность.&lt;/p&gt;
 
@@ -2011,7 +2050,7 @@ mechanism from Kojima’s paper:&lt;/p&gt;
  <entry>
    <title>Factor Analysis and Uniform distributions</title>
    <link href="http://localhost:4000/articles/uniform-distribution.html"/>
-   <updated>2018-03-27T00:00:00+06:00</updated>
+   <updated>2018-03-27T00:00:00+03:00</updated>
    <id>http://localhost:4000/articles/uniform-distribution</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;#unifrand&quot;&gt;&lt;strong&gt;To learn about product decomposition of uniform distribution click here or keep on reading&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -2030,45 +2069,51 @@ mechanism from Kojima’s paper:&lt;/p&gt;
 &lt;p&gt;First of all, let’s recall the density plot of a &lt;em&gt;uniform distribution&lt;/em&gt;:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/factoranalysis/unif.png&quot; alt=&quot;Uniform distribution&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/factoranalysis/unif.png&quot; alt=&quot;Uniform distribution&quot; /&gt;
 	&lt;figcaption&gt;Uniform Distribution&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Unfortunately, the product of uniform distributions is not uniform and is skewed towards origin. So, I decided to find the square root of a uniform distribution. After long inquiries I found a &lt;a href=&quot;http://www.sci.csueastbay.edu/~esuess/classes/Statistics_6401/Handouts/trans/TransUnif.pdf&quot;&gt;great proof&lt;/a&gt; that square root of the uniform distribution is Beta(2,1) distribution.&lt;/p&gt;
 
-&lt;div class=&quot;highlighted&quot;&gt;Square of a Beta(2,1) distributed variable is uniformly distributed&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Square of a Beta(2,1) distributed variable is uniformly distributed&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/factoranalysis/beta21.png&quot; alt=&quot;Beta(2,1) distribution&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/factoranalysis/beta21.png&quot; alt=&quot;Beta(2,1) distribution&quot; /&gt;
 	&lt;figcaption&gt;Beta(2,1) Distribution&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/factoranalysis/beta21sq.png&quot; alt=&quot;Square of Beta(2,1) distribution&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/factoranalysis/beta21sq.png&quot; alt=&quot;Square of Beta(2,1) distribution&quot; /&gt;
 	&lt;figcaption&gt;Square of Beta(2,1) is Uniform&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Unfortunately, the product of two distinct &lt;em&gt;i.i.d.&lt;/em&gt; Beta(2,1)-distributed variables was not uniform. So, the above property wasn’t useful for the project. But I was inspired now — I discovered the beta distribution and wasn’t going to let it go — I googled “the product of beta distributions” and found a great deal of related literature (please look it up if you are interested).&lt;/p&gt;
 
-&lt;div class=&quot;highlighted&quot;&gt;Uniform distribution can be expressed as Beta(1,1) distribution&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Uniform distribution can be expressed as Beta(1,1) distribution&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;I discovered that the product formula for two beta-distributed variables was really complex and I decided that the &lt;em&gt;rigor could be compensated for intuitiveness in this case&lt;/em&gt;, after all this was statistics and not a real analysis.&lt;/p&gt;
 
 &lt;p&gt;After trying to solve for the free parameters and combining this with trial-and-error, I have finally discovered the answer — the distribution was &lt;em&gt;Beta(1.2, 0.5)&lt;/em&gt;!&lt;/p&gt;
 
-&lt;div class=&quot;highlighted&quot;&gt;Product of two Beta(1.2, 0.5)-distributed variables is approximately uniform&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Product of two Beta(1.2, 0.5)-distributed variables is approximately uniform&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;The density plot for Beta(1.2, 0.5) looks as follows:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/factoranalysis/beta1205.png&quot; alt=&quot;Beta(1.2,0.5) distribution&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/factoranalysis/beta1205.png&quot; alt=&quot;Beta(1.2,0.5) distribution&quot; /&gt;
 	&lt;figcaption&gt;Beta(1.2, 0.5) distribution&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;The product of two &lt;em&gt;i.i.d.&lt;/em&gt; variables from this distribution is approximately uniformly distributed, as can be seen below:&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/factoranalysis/beta1205prod.png&quot; alt=&quot;Product of Beta(1.2,0.5) variables&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/factoranalysis/beta1205prod.png&quot; alt=&quot;Product of Beta(1.2,0.5) variables&quot; /&gt;
 	&lt;figcaption&gt;Product of two Beta(1.2, 0.5)-distributed variables is approximately uniform&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -2081,7 +2126,7 @@ mechanism from Kojima’s paper:&lt;/p&gt;
  <entry>
    <title>Как научиться абсолютно всему?</title>
    <link href="http://localhost:4000/blogru/how-to-learn.html"/>
-   <updated>2018-03-26T00:00:00+06:00</updated>
+   <updated>2018-03-26T00:00:00+03:00</updated>
    <id>http://localhost:4000/blogru/how-to-learn</id>
    <content type="html">&lt;p&gt;Впервые меня освободили от занятий в восьмом классе для подготовки к олимпиаде по математике, и с тех пор я, в основном, учусь сам. Я закончил вуз, магистратуру, поработал в разных специальностях от переводчика до веб-разработчика, и каждый раз учился (и продолжаю учиться) новым вещам. Если верить правилу 10000 часов, то я смело могу сказать, что являюсь экспертом в получении знаний. В этой серии постов, я решил поделиться своими методами.&lt;/p&gt;
 
@@ -2138,7 +2183,7 @@ mechanism from Kojima’s paper:&lt;/p&gt;
  <entry>
    <title>Nocomment Blogs_md</title>
    <link href="http://localhost:4000/doc/blog/nocomment-blogs_md.html"/>
-   <updated>2018-03-22T00:00:00+06:00</updated>
+   <updated>2018-03-22T00:00:00+03:00</updated>
    <id>http://localhost:4000/doc/blog/nocomment-blogs_md</id>
    <content type="html">&lt;!DOCTYPE html&gt;
 
@@ -2416,7 +2461,7 @@ without you asking to &lt;em&gt;“please share your thoughts”&lt;/em&gt;&lt;/
  <entry>
    <title>This is how you should never end your blog posts</title>
    <link href="http://localhost:4000/blog/nocomment-blogs.html"/>
-   <updated>2018-03-22T00:00:00+06:00</updated>
+   <updated>2018-03-22T00:00:00+03:00</updated>
    <id>http://localhost:4000/blog/nocomment-blogs</id>
    <content type="html">&lt;p&gt;Almost every blogging tutorial suggests you to end your posts with the so-called CTAs (call-to-action). They say that encouraging your readers to comment will help to promote your blog. Most bloggers seem to miss the point and use phrases like &lt;em&gt;“and what do you think?”, “share your thoughts in comments”&lt;/em&gt;. For sure, commenting increases indexation of your page and solidifies your audience, but this only happens if comments come organically. I will now elaborate on my claim.&lt;/p&gt;
 
@@ -2445,7 +2490,7 @@ without you asking to &lt;em&gt;“please share your thoughts”&lt;/em&gt;&lt;/
  <entry>
    <title>Telegramblog_md</title>
    <link href="http://localhost:4000/doc/blogru/telegramblog_md.html"/>
-   <updated>2018-02-20T00:00:00+06:00</updated>
+   <updated>2018-02-20T00:00:00+03:00</updated>
    <id>http://localhost:4000/doc/blogru/telegramblog_md</id>
    <content type="html">&lt;!DOCTYPE html&gt;
 
@@ -2664,7 +2709,7 @@ without you asking to &lt;em&gt;“please share your thoughts”&lt;/em&gt;&lt;/
  <entry>
    <title>Pessimism In Bba_md</title>
    <link href="http://localhost:4000/doc/blog/pessimism-in-bba_md.html"/>
-   <updated>2018-02-07T00:00:00+06:00</updated>
+   <updated>2018-02-07T00:00:00+03:00</updated>
    <id>http://localhost:4000/doc/blog/pessimism-in-bba_md</id>
    <content type="html">&lt;!DOCTYPE html&gt;
 
@@ -2952,7 +2997,7 @@ a dose of pessimism/conflict into the courses to keep students engaged.&lt;/p&gt
  <entry>
    <title>Business education needs a dose of pessimism</title>
    <link href="http://localhost:4000/blog/pessimism-in-bba.html"/>
-   <updated>2018-02-07T00:00:00+06:00</updated>
+   <updated>2018-02-07T00:00:00+03:00</updated>
    <id>http://localhost:4000/blog/pessimism-in-bba</id>
    <content type="html">&lt;p&gt;Undergraduate business education faces a lot of criticism spanning from lack of practical training to philosophical arguments that management shouldn’t be taught at undergraduate level at all. I cannot change the status quo and won’t try to repeat these statements - I will try to give a constructive feedback. What I propose in this article is very easy to implement: it will just require change in the attitude.&lt;/p&gt;
 
@@ -2967,7 +3012,7 @@ a dose of pessimism/conflict into the courses to keep students engaged.&lt;/p&gt
 &lt;/ul&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/bbaeduc/holistic.png&quot; alt=&quot;Holistic Marketing&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/bbaeduc/holistic.png&quot; alt=&quot;Holistic Marketing&quot; /&gt;
 	&lt;figcaption&gt;Source: Kotler and Keller &quot;Marketing Management&quot;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -2984,7 +3029,7 @@ a dose of pessimism/conflict into the courses to keep students engaged.&lt;/p&gt
 &lt;/ul&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/bbaeduc/elearn.png&quot; alt=&quot;Drawbacks of E-learning&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/bbaeduc/elearn.png&quot; alt=&quot;Drawbacks of E-learning&quot; /&gt;
 	&lt;figcaption&gt;Source: Rainer and Cegielski &quot;Information Systems for Business&quot;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -2997,7 +3042,7 @@ a dose of pessimism/conflict into the courses to keep students engaged.&lt;/p&gt
  <entry>
    <title>Xtcointreg_md</title>
    <link href="http://localhost:4000/doc/blog/xtcointreg_md.html"/>
-   <updated>2018-01-01T00:00:00+06:00</updated>
+   <updated>2018-01-01T00:00:00+03:00</updated>
    <id>http://localhost:4000/doc/blog/xtcointreg_md</id>
    <content type="html">&lt;!DOCTYPE html&gt;
 
@@ -3254,7 +3299,7 @@ install xtcointreg&lt;/code&gt; to download it.&lt;/p&gt;
  <entry>
    <title>Introducing Panel FMOLS/DOLS command for Stata</title>
    <link href="http://localhost:4000/articles/xtcointreg.html"/>
-   <updated>2018-01-01T00:00:00+06:00</updated>
+   <updated>2018-01-01T00:00:00+03:00</updated>
    <id>http://localhost:4000/articles/xtcointreg</id>
    <content type="html">&lt;p&gt;Last week I was hired to perform a thorough analysis of a panel dataset for export dynamics of different sectors in a country. I had never done panel econometrics before or even read it in a textbook. But since I am good at cross-section and time-series, I believed I could handle the task. And I wasn’t wrong.&lt;/p&gt;
 
@@ -3282,7 +3327,7 @@ install xtcointreg&lt;/code&gt; to download it.&lt;/p&gt;
  <entry>
    <title>Irf Ann_md</title>
    <link href="http://localhost:4000/doc/blog/irf-ann_md.html"/>
-   <updated>2017-12-12T00:00:00+06:00</updated>
+   <updated>2017-12-12T00:00:00+03:00</updated>
    <id>http://localhost:4000/doc/blog/irf-ann_md</id>
    <content type="html">&lt;!DOCTYPE html&gt;
 
@@ -3518,7 +3563,7 @@ workaround is an important contribution to the economic analysis.&lt;/p&gt;
  <entry>
    <title>Why is econometrics focused on linear models?</title>
    <link href="http://localhost:4000/blog/why-so-linear.html"/>
-   <updated>2017-12-01T00:00:00+06:00</updated>
+   <updated>2017-12-01T00:00:00+03:00</updated>
    <id>http://localhost:4000/blog/why-so-linear</id>
    <content type="html">&lt;p&gt;Econometrics is a separate discipline from statistics/probability/machine learning for a reason. The primary aim of econometrics and economics in general is interpretability. Economists could easily build very realistic models with hundreds of moving parts/variables, but they don’t do it, because they aim to make models as simple as possible.&lt;/p&gt;
 
@@ -3531,7 +3576,7 @@ workaround is an important contribution to the economic analysis.&lt;/p&gt;
  <entry>
    <title>Какими знаниями нужно обладать, чтобы торговать на бирже?</title>
    <link href="http://localhost:4000/blogru/how-to-trade.html"/>
-   <updated>2017-09-01T00:00:00+06:00</updated>
+   <updated>2017-09-01T00:00:00+03:00</updated>
    <id>http://localhost:4000/blogru/how-to-trade</id>
    <content type="html">&lt;h3 id=&quot;минимальные-навыки---это-следующее&quot;&gt;Минимальные навыки - это следующее:&lt;/h3&gt;
 
@@ -3567,7 +3612,7 @@ workaround is an important contribution to the economic analysis.&lt;/p&gt;
  <entry>
    <title>Почему ВВП так важен?</title>
    <link href="http://localhost:4000/blogru/whygdp.html"/>
-   <updated>2017-08-01T00:00:00+06:00</updated>
+   <updated>2017-08-01T00:00:00+03:00</updated>
    <id>http://localhost:4000/blogru/whygdp</id>
    <content type="html">&lt;p&gt;Потому что есть реальная статистическая связь между уровнем ВВП и процентом бедных, процентом младенцев, умерших от болезни, преступностью. ВВП означает сколько государство произвело в этом году, а значит, чем выше ВВП, тем меньше безработица (ведь все больше людей работает, чтобы производство держалось на высоком уровне), значит меньше преступности (когда есть работа, не хочется грабить и убивать). А чем меньше безработица, тем больше люди тратят, а значит, покупают себе что-нибудь, мебель, телефон, компьютер, машину.&lt;/p&gt;
 
@@ -3580,7 +3625,7 @@ workaround is an important contribution to the economic analysis.&lt;/p&gt;
  <entry>
    <title>Как инвестировать без риска в 2017-м году</title>
    <link href="http://localhost:4000/blogru/invest-riskless-now.html"/>
-   <updated>2017-04-12T00:00:00+06:00</updated>
+   <updated>2017-04-12T00:00:00+03:00</updated>
    <id>http://localhost:4000/blogru/invest-riskless-now</id>
    <content type="html">&lt;p&gt;С минимальным риском можно:&lt;/p&gt;
 
@@ -3634,12 +3679,12 @@ workaround is an important contribution to the economic analysis.&lt;/p&gt;
  <entry>
    <title>Using impulse response functions to interpret partial effects in neural networks</title>
    <link href="http://localhost:4000/articles/irf-ann.html"/>
-   <updated>2017-01-12T00:00:00+06:00</updated>
+   <updated>2017-01-12T00:00:00+03:00</updated>
    <id>http://localhost:4000/articles/irf-ann</id>
    <content type="html">&lt;p&gt;This week I’ve been working on a research paper based on a very simple idea which, hopefully, can solve an important problem in applying machine learning techniques in economics — the interpretability. So, if you recall, the neural networks is the generalization of a logit model where sigmoid of a linear combination of inputs is used iteratively.&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/irfann/ann.png&quot; alt=&quot;Generalization of Logit&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/irfann/ann.png&quot; alt=&quot;Generalization of Logit&quot; /&gt;
 	&lt;figcaption&gt;ANN as a generalization of logit&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -3653,7 +3698,7 @@ workaround is an important contribution to the economic analysis.&lt;/p&gt;
  <entry>
    <title>Как победить коррупцию?</title>
    <link href="http://localhost:4000/blogru/how-to-win-corruption.html"/>
-   <updated>2016-09-03T00:00:00+06:00</updated>
+   <updated>2016-09-03T00:00:00+03:00</updated>
    <id>http://localhost:4000/blogru/how-to-win-corruption</id>
    <content type="html">&lt;p&gt;Будучи студентом-экономистом я всегда мечтал изобрести модель, где будет невыгодно брать взятки. Даже дипломную писал по коррупции. Спустя годы прочёл книгу-исследование “Коррупция” Сьюзан Роуз-Акерман (https://www.amazon.com/Corruption-political-economy-Susan-Rose-Ackerman/dp/0125963505). Оказалось, коррупцию исследуют экономически, как минимум, семьдесят лет. И все модели сводятся к тому, что единственным решением является воспитание/образование. Во всех сконструированных экономических моделях всегда выгодно воровать. Вердикт экономисты уже вынесли - нельзя построить систему, где будет невыгодно воровать - можно только поменять предпочтения (утилиту) людей, чтобы им самим не хотелось воровать.&lt;/p&gt;
 
@@ -3670,7 +3715,7 @@ workaround is an important contribution to the economic analysis.&lt;/p&gt;
  <entry>
    <title>Что произойдёт с экономикой, если изобретут телепорт?</title>
    <link href="http://localhost:4000/blogru/teleport-economy.html"/>
-   <updated>2016-07-01T00:00:00+06:00</updated>
+   <updated>2016-07-01T00:00:00+03:00</updated>
    <id>http://localhost:4000/blogru/teleport-economy</id>
    <content type="html">&lt;p&gt;Во-первых, все физические валюты потеряют смысл. Потому что невозможно охранять ни купюры, ни слитки золота от телепорта. Но покупать-продавать всё же придётся - мы же не мастера на все руки, мы не можем сами печь хлеб, растить фрукты, шить себе одежду и т.д. Поэтому нужен какой-то обмен вещами. Я вижу два варианта:&lt;/p&gt;
 
@@ -3696,7 +3741,7 @@ workaround is an important contribution to the economic analysis.&lt;/p&gt;
  <entry>
    <title>Что случилось в фильме "Игра на понижение"?</title>
    <link href="http://localhost:4000/blogru/the-big-short-crisis.html"/>
-   <updated>2015-11-03T00:00:00+06:00</updated>
+   <updated>2015-11-03T00:00:00+03:00</updated>
    <id>http://localhost:4000/blogru/the-big-short-crisis</id>
    <content type="html">&lt;p&gt;Произошло следующее:&lt;/p&gt;
 
@@ -3760,7 +3805,7 @@ workaround is an important contribution to the economic analysis.&lt;/p&gt;
  <entry>
    <title>Что особенного в золоте?</title>
    <link href="http://localhost:4000/blogru/whygold.html"/>
-   <updated>2015-06-01T00:00:00+06:00</updated>
+   <updated>2015-06-01T00:00:00+03:00</updated>
    <id>http://localhost:4000/blogru/whygold</id>
    <content type="html">&lt;p&gt;Исторически, пробовали очень много видов “товарных” денег (то есть, денег, которые несут сами по себе цену, в отличие от бумажных денег, которые сами ничего не стоят) - огромные камни, перец, консервы, сигареты (в концлагерях, куда поступала гумпомощь Красного Креста, заключенные обменивались сигаретами).&lt;/p&gt;
 
@@ -3785,7 +3830,7 @@ workaround is an important contribution to the economic analysis.&lt;/p&gt;
  <entry>
    <title>Undergraduate business degree is a waste of time</title>
    <link href="http://localhost:4000/blog/bba-noneed.html"/>
-   <updated>2015-05-04T00:00:00+06:00</updated>
+   <updated>2015-05-04T00:00:00+03:00</updated>
    <id>http://localhost:4000/blog/bba-noneed</id>
    <content type="html">&lt;p&gt;I believe that undergraduate business education is the most useless degree. Having received one myself, I can tell you that every single topic they teach can easily be learned by reading a textbook or googling.&lt;/p&gt;
 
@@ -3800,7 +3845,7 @@ workaround is an important contribution to the economic analysis.&lt;/p&gt;
  <entry>
    <title>Transform Excel into a translation tool using this VBA macro</title>
    <link href="http://localhost:4000/articles/vba-translate.html"/>
-   <updated>2014-08-20T00:00:00+06:00</updated>
+   <updated>2014-08-20T00:00:00+03:00</updated>
    <id>http://localhost:4000/articles/vba-translate</id>
    <content type="html">&lt;h2 id=&quot;a-brief-preface&quot;&gt;A brief preface&lt;/h2&gt;
 &lt;p&gt;This summer I did an internship at &lt;a href=&quot;https://en.wikipedia.org/wiki/BSH_Hausger%C3%A4te&quot;&gt;&lt;em&gt;BSH Hausgeräte&lt;/em&gt;&lt;/a&gt; (aka &lt;em&gt;Bosch and Siemens Home Appliances&lt;/em&gt;), where I built a lot of amazing tools on &lt;em&gt;Excel&lt;/em&gt; using &lt;em&gt;VBA (Visual Basic for Applications)&lt;/em&gt;. I helped them automate monthly reports, which now take just a few seconds to complete. I would’ve contribute a lot more to the company if not for the corporate restrictions, according to which I wasn’t authorized to access code from other departments.&lt;/p&gt;
@@ -3814,7 +3859,7 @@ workaround is an important contribution to the economic analysis.&lt;/p&gt;
 &lt;p&gt;My VBA macro automates this process as follows: you create an Excel document with original phrase in the first column and its translation in the corresponding cell in the second one, and save it. No column names, no anything else. This file will work as your translation database — you can always add a new phrase as a new row.&lt;/p&gt;
 
 &lt;figure class=&quot;blog&quot;&gt;
-	&lt;img src=&quot;/assets/img/bsh/translate.png&quot; /&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/bsh/translate.png&quot; /&gt;
 	&lt;figcaption&gt;Example translation database&lt;/figcaption&gt;
 &lt;/figure&gt;
 

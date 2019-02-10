@@ -58,7 +58,7 @@ hospitals(months)” with “doctor allocation” with regional caps. As a remin
 mechanism from Kojima’s paper:
 
 <figure class="blog">
-	<img src="/assets/img/kojima/fda.png"/>
+	<img class="img-fluid" src="/assets/img/kojima/fda.png"/>
 	<figcaption>Flexible Deferred Acceptance Mechanism by Kamada and Kojima (2015)</figcaption>
 </figure>
 

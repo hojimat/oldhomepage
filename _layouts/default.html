@@ -1,73 +1,88 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
 
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 {% include head.html %}
 {% seo %}
-  <body>
+<body>
 
-    <div class="titlehead">
-        <div class="titleleft">
-          <a href="/#" title="Home">{{ site.title }}</a>
-        </div>
-		<nav class="topnav" id="myTopNav">
-  			<div class="nav-container">
-  	    			<a href="/#about" title="About">About</a>
-  	    			<a href="/#works" title="Works">Works</a>
-  	    			<a href="/#hire" title="Hire">Hire now</a>
-  	    			<a href="/#contact" title="Contact">Contact</a>
-  	    			<a href="/articles" title="Articles">Articles</a>
-  	    			<a href="/blog" title="Blog">Blog</a>
-					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-						<i class="fa fa-bars"></i>
-					</a>
-  			</div>
-		</nav>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <a class="navbar-brand" href="/#">Ravshan S.K.</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="navbarNavDropdown" class="navbar-collapse collapse">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/articles">Articles</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Side projects
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="/blog">Blog</a>
+                    <a class="dropdown-item" href="/blogru">Blog in Russian</a>
+                    <a class="dropdown-item" href="/podcast">Podcast</a>
+                </div>
+            </li>
+        </ul>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/#works">Works</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/#hire">Hire now</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/#contact">Contact</a>
+            </li>
+        </ul>
     </div>
+</nav>
 
-
-    <div class="container content">
+<div class="row col-md-12">
+    <div class="container content col-md-7 offset-1 py-5">
       {{ content }}
     </div>
 
-	<div class="sidebar">
-		<div class="categories">
+	<div class="col-md-4 blog-sidebar py-5">
+		<div class="categories pb-5">
 			<h3>Read categories</h3>
-				<a class="categs" href="/economics">economics</a>
-				<a class="categs" href="/statistics">statistics</a>
-				<a class="categs" href="/finance">finance</a>
-				<a class="categs" href="/management">management</a>
-				<a class="categs" href="/complexity">complexity</a>
-				<a class="categs" href="/crypto">crypto</a>
+				<a class="badge badge-light p-2" href="/economics">Economics</a>
+				<a class="badge badge-light p-2" href="/statistics">Statistics</a>
+				<a class="badge badge-light p-2" href="/finance">Finance</a>
+				<a class="badge badge-light p-2" href="/management">Management</a>
+				<a class="badge badge-light p-2" href="/complexity">Complexity</a>
+				<a class="badge badge-light p-2" href="/crypto">Crypto</a>
 		</div>
 		<div class="recent">
 			<h3>Recent articles</h3>
-				<ul>
+				<ul class="list-unstyled">
 					{% for post in site.posts limit:5%}
 						{% if post.lang contains 'english' %}
-   	   						<li class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | truncate:60}}</a></li>
+   	   						<li><a class="text-dark small" href="{{ site.baseurl }}{{ post.url }}">{{ post.title | truncate:60}}</a></li>
 						{% endif %}
 					{% endfor %}
 				</ul>
 		</div>
 	</div>
-
-	<div class="footer">
-		<div class="titlecenter">
-			Copyright 2018. All rights reserved
-		</div>
+</div>
+<footer class="footer mt-auto py-5 bg-dark text-light">
+	<div class="pb-4">
+			</a><h3 class="text-center">Contact me:</h3>
 	</div>
+	       <div class="text-center">
+        <a href="mailto:rsk@ravshansk.com" class="btn" target="_blank"><i class="fas fa-3x fa-envelope fa-inverse"></i></a>
+        <a href="http://twitter.com/ravshansk" class="btn" target="_blank"><i class="fab fa-3x fa-twitter fa-inverse"></i></a>
+        <a href="http://linkedin.com/in/ravshansk" class="btn" target="_blank"><i class="fab fa-3x fa-linkedin fa-inverse"></i></a>
+        <a href="http://facebook.com/ravshanskh" class="btn" target="_blank"><i class="fab fa-3x fa-facebook fa-inverse"></i></a>
+    </div>
 
-	<script>
-	function myFunction() {
-		var x = document.getElementById("myTopNav");
-		if (x.className === "topnav") {
-			x.className += " responsive";
-		} else {
-			x.className = "topnav";
-		}
-	}
-	</script>
+</footer>
+	{% include scripts.html %}
 
   </body>
 </html>

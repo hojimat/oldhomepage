@@ -8,8 +8,8 @@ keywords: statistical consulting, economic consulting, data analytics, econometr
 tags: management statistics
 image: /assets/img/hirestat/modernbook.JPG
 ---
-<figure class="blog">
-	<img src="/assets/img/hirestat/modernbook.JPG">
+<figure class="">
+	<img class="img-fluid" src="/assets/img/hirestat/modernbook.JPG">
 </figure>
 
 There are multiple reasons why econometrics experts don’t get hired as data analysts on a routine basis.

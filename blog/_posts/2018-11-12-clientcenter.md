@@ -12,7 +12,7 @@ published: false
 
 <figure class="blog">
 	<a href="https://en.wikipedia.org/wiki/We_Can%27t_Live_Without_Cosmos" target="_blank">
-		<img src="/assets/img/clientcenter/cosmos.jpg">
+		<img class="img-fluid" src="/assets/img/clientcenter/cosmos.jpg">
 		<figcaption>Author: Konstantin Bronzit</figcaption>	
 	</a>
 </figure>

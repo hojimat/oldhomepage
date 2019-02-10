@@ -1,46 +1,39 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
 
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <head>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
 
-  <!-- Enable responsiveness on mobile devices-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3">
-  <meta name="description" content="economic model of utility tokens in R">
-  
- <meta name="keywords" content="cryptocurrency, token, ethereum, proof-of-stake, hackernoon, economics, token economics, tokenomics" />
-  
+<!-- Enable responsiveness on mobile devices-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3">
+<meta name="description" content="economic model of utility tokens in R">
 
- <meta name="twitter:site"    content="@ravshansk">
- <meta name="twitter:title"   content="Utility tokens&#58; discussion, economic model and simulation in R">
- <meta name="twitter:card"  content="summary_large_image">
- <meta property="fb:admins" content="ravshanskh">
- 
- <meta name="twitter:image" content="http://localhost:4000/assets/img/token/tokenomy.png">
- 
+<meta name="keywords" content="cryptocurrency, token, ethereum, proof-of-stake, hackernoon, economics, token economics, tokenomics" />
 
-  <title>
-    
-      Utility tokens&#58; discussion, economic model and simulation in R &middot; Ravshan S.K.
-    
-  </title>
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="/assets/css/syntax.css">
-  <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="stylesheet" media='screen and (max-width: 850px)' href='/assets/css/mobile.css' />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext">
+<meta name="twitter:site"    content="@ravshansk">
+<meta name="twitter:title"   content="Utility tokens&#58; discussion, economic model and simulation in R">
+<meta name="twitter:card"  content="summary_large_image">
+<meta property="fb:admins" content="ravshanskh">
 
-  <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/apple-touch-icon-precomposed.png">
-  <link rel="shortcut icon" href="/assets/favicon.ico">
+<meta name="twitter:image" content="http://localhost:4000/assets/img/token/tokenomy.png">
 
-  <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
-	<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<!-- CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+<!-- Icons -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/apple-touch-icon-precomposed.png">
+<link rel="shortcut icon" href="/assets/favicon.ico">
+
+<!-- RSS -->
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111922010-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -51,7 +44,7 @@
 </script>
 
 
-	<!-- Yandex.Metrika counter -->
+<!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
@@ -82,37 +75,57 @@
 <meta property="og:site_name" content="Ravshan S.K." />
 <meta property="og:image" content="http://localhost:4000/assets/img/token/tokenomy.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2018-08-01T00:00:00+06:00" />
+<meta property="article:published_time" content="2018-08-01T00:00:00+03:00" />
 <script type="application/ld+json">
-{"description":"economic model of utility tokens in R","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/articles/token-economics.html"},"@type":"BlogPosting","url":"http://localhost:4000/articles/token-economics.html","name":null,"headline":"Utility tokens: discussion, economic model and simulation in R","dateModified":"2018-08-01T00:00:00+06:00","datePublished":"2018-08-01T00:00:00+06:00","sameAs":null,"publisher":null,"image":"http://localhost:4000/assets/img/token/tokenomy.png","author":{"@type":"Person","name":"Ravshanbek Khodzhimatov"},"@context":"http://schema.org"}</script>
+{"description":"economic model of utility tokens in R","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/articles/token-economics.html"},"@type":"BlogPosting","url":"http://localhost:4000/articles/token-economics.html","name":null,"headline":"Utility tokens: discussion, economic model and simulation in R","dateModified":"2018-08-01T00:00:00+03:00","datePublished":"2018-08-01T00:00:00+03:00","sameAs":null,"publisher":null,"image":"http://localhost:4000/assets/img/token/tokenomy.png","author":{"@type":"Person","name":"Ravshanbek Khodzhimatov"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
-  <body>
+<body>
 
-    <div class="titlehead">
-        <div class="titleleft">
-          <a href="/#" title="Home">Ravshan S.K.</a>
-        </div>
-		<nav class="topnav" id="myTopNav">
-  			<div class="nav-container">
-  	    			<a href="/#about" title="About">About</a>
-  	    			<a href="/#works" title="Works">Works</a>
-  	    			<a href="/#hire" title="Hire">Hire now</a>
-  	    			<a href="/#contact" title="Contact">Contact</a>
-  	    			<a href="/articles" title="Articles">Articles</a>
-  	    			<a href="/blog" title="Blog">Blog</a>
-					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-						<i class="fa fa-bars"></i>
-					</a>
-  			</div>
-		</nav>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <a class="navbar-brand" href="/#">Ravshan S.K.</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="navbarNavDropdown" class="navbar-collapse collapse">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/articles">Articles</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Side projects
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="/blog">Blog</a>
+                    <a class="dropdown-item" href="/blogru">Blog in Russian</a>
+                    <a class="dropdown-item" href="/podcast">Podcast</a>
+                </div>
+            </li>
+        </ul>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/#works">Works</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/#hire">Hire now</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/#contact">Contact</a>
+            </li>
+        </ul>
     </div>
+</nav>
 
-
-    <div class="container content">
+<div class="row col-md-12">
+    <div class="container content col-md-7 offset-1 py-5">
       <div class="post">
   <h1 class="post-title">Utility tokens&#58; discussion, economic model and simulation in R</h1>
   <span class="post-date">01 Aug 2018</span>
+  <div class="py-4">
   <p><a href="https://hackernoon.com/utility-tokens-discussion-economic-model-and-simulation-in-r-798c0ff3d26c"><em>This post has been originally published in HackerNoon. Click here to read the original.</em></a></p>
 
 <p>Last fall I was hired to build an economic model for <em>token-curated registries</em> as part of my <a href="/#hire">consulting job</a>. Since then, I encountered many people who expressed interest in this model, so I decided to share the basic theory and implementation.</p>
@@ -140,7 +153,9 @@
 
 <p>Being an economist myself, I believe that this thinking is terribly wrong. I understand where it comes from — everybody took  <em>Econ 101</em> at some point and was inspired by elegance of <em>invisible hand</em> models. But I also know that <em>free market</em> is not the only mechanism out there. <em>Centralized matching mechanisms</em>, <em>social planner’s problem</em>, <em>lotteries</em> all exist for a reason. Not every <em>equilibrium</em> is <em>efficient</em>. Sadly, not everybody takes advanced econ courses, while almost everybody wants to profit from <em>ICO</em>’s.</p>
 
-<div class="highlighted">Not every equilibrium is efficient</div>
+<blockquote>
+  <p><em>Not every equilibrium is efficient</em></p>
+</blockquote>
 
 <p>Of course, tokens can be justified in appropriate cases. Actually, the great working area for tokens is online games, where every crystal is given a price and has an obvious value to players. In general, whenever any kind of labor is involved, a money making procedure is good. Otherwise, it is some kind of <em>rent seeking</em>.</p>
 
@@ -162,13 +177,17 @@
 
 <p>This is exactly what I meant above, when I said that monetary relationships are not always efficient. And finally, these people hypocritically encourage openness and decentralization while using proprietary algorithms.</p>
 
-<div class="highlighted">The right decision is to only decentralize those services that actually support the decentralization.</div>
+<blockquote>
+  <p><em>The right decision is to only decentralize those services that actually support the decentralization.</em></p>
+</blockquote>
 
 <p>Another issue with <em>token-backed decentralization</em> is that historically every decentralization was tightly related to <em>disruption, hippie philosophy, anarchy</em>. All examples of successful decentralization used to be altruistic and didn’t involve monetary goals. Decentralized apps (DAPPs) I care for are <em>BitTorrent, Wikipedia, Linux, GNU Project, OpenStreetMap</em> etc.</p>
 
 <p>Decentralized projects used to be the very definitions of <em>trust-based systems</em>, where corporations like <em>Apple</em> would be put to shame by the community for not contributing code back to <em>BSD</em> but still get away with it, and nobody would attempt to financially incentivize them to do so.</p>
 
-<div class="highlighted">These old days, which most of us still remember, should raise everyone's concerns about the longevity of trustless structures.</div>
+<blockquote>
+  <p><em>These old days, which most of us still remember, should raise everyone’s concerns about the longevity of trustless structures.</em></p>
+</blockquote>
 
 <p>There are, however, appropriate use cases for tokens and some developers get this.</p>
 
@@ -183,13 +202,17 @@
 
 <p>This economic model of tokens is very generic, so that it can work as a blueprint for future token creators and as a reasonable abstraction for applied economists.</p>
 
-<div class="highlighted">Ideally, this model can also serve as a guideline for writing whitepapers.</div>
+<blockquote>
+  <p><em>Ideally, this model can also serve as a guideline for writing whitepapers.</em></p>
+</blockquote>
 
 <p>In case you have skipped the previous section, let me remind you that <em>utility tokens</em> are any tokens that produce a legit service for consumers and are not <em>primarily</em> tools for middlemen or speculators (although such agents do exist in our model).</p>
 
 <p>Since tokens aim at <em>trustless</em> structures, we will need some kind of proof that every <em>node</em> corresponds to a single person instead of some <em>botnet</em>. Since I am a huge <a href="https://en.wikipedia.org/wiki/Proof-of-work_system"><em>proof-of-work</em></a> opposer and since most of the tokens are built on Ethereum platform, which is <a href="https://cointelegraph.com/news/first-version-of-ethereums-casper-update-has-been-released">moving towards <em>proof-of-stake</em></a> anyway, I will use the latter in the model.</p>
 
-<div class="highlighted">The service is paid for in fixed number of tokens, not in cash.</div>
+<blockquote>
+  <p><em>The service is paid for in fixed number of tokens, not in cash.</em></p>
+</blockquote>
 
 <p>Pricing service in a fixed token rate will correctly capture the proportionate relationship between demand and price — the greater the demand for the service, the more people will buy tokens, the price of tokens will increase, and so will the cash equivalent of the service; and vice versa.</p>
 
@@ -207,7 +230,9 @@
 
 <p>They do not play any <em>strategies</em>, <em>i.e.</em> they naively vote for the correct version in every quorum. They earn (mine) rewards as long as malicious miners don’t take over, and at the same time they provide a utility to customers. Therefore the main quantitative feature of honest miners is their proportion among all miners.</p>
 
-<div class="highlighted">Main quantitative feature of honest miners is their number.</div>
+<blockquote>
+  <p><em>Main quantitative feature of honest miners is their number.</em></p>
+</blockquote>
 
 <p>The corresponding issue is that it is impossible to tell for certain which miners are honest and which are not. Therefore customers and investors choose their strategies based on the expectations. The prior probabilities which form these expectations are exogeneous in this model but can be endogenized. If you are a researcher interested in extending the model in this area, please <a href="/#contact">contact me</a>, so that we can discuss and share the ideas on that topic.</p>
 
@@ -217,7 +242,7 @@
 <p>As mentioned in the introduction, utility tokens only work good in peculiar services like job referencing or ads ranking. Therefore, customers not only care about the quality of service, but also about its popularity/public acceptance. This can be modelled using the following version of <em>Cobb-Douglas utility function</em>:</p>
 
 <figure class="blog">
-	<img src="/assets/img/token/cust_util.png" width="50%" alt="Customer's utility function" />
+	<img class="img-fluid" src="/assets/img/token/cust_util.png" width="50%" alt="Customer's utility function" />
 	<figcaption>Customer's utility function</figcaption>
 </figure>
 
@@ -225,14 +250,16 @@
 
 <p>Note that even when there is zero demand but nonzero number of experts (<em>E[x]=0; E[z]&gt;0</em>) the customer still receives a non-zero utility from the service. Conversely, when the service is very popular and has high demand but zero expert knowledge (<em>E[x]&gt;0; E[z]=0</em>) the utility from the service is zero despite its popularity.</p>
 
-<div class="highlighted">The demand for tokens is equal to the expected total number of customers</div>
+<blockquote>
+  <p><em>The demand for tokens is equal to the expected total number of customers</em></p>
+</blockquote>
 
 <p>The customers are not uniform though — there are <em>early adopters</em>, <em>late majority</em> and <em>laggards</em>. They differ in reservation utility levels — each type of customer will only subscribe to the service if the utility <em>U(x,z)</em> will exceed <em>U<sub>early</sub>, U<sub>late</sub>, U<sub>lag</sub></em> respectively, where <em>U<sub>early</sub> ≤ U<sub>late</sub> ≤ U<sub>lag</sub></em>.</p>
 
 <p>According to <a href="https://en.wikipedia.org/wiki/Technology_adoption_life_cycle"><em>product adoption life cycle</em></a>, the consumer types are distributed as <em>16%</em> early adopters, <em>68%</em> late majority and <em>16%</em> laggards:</p>
 
 <figure class="blog">
-	<img src="/assets/img/token/cust_dist.png" width="60%" alt="Customer type allocation" />
+	<img class="img-fluid" src="/assets/img/token/cust_dist.png" width="60%" alt="Customer type allocation" />
 	<figcaption>Modified Roger's curve</figcaption>
 </figure>
 
@@ -242,7 +269,7 @@
 <p>Investors are people who buy tokens for <em>ICO</em>/market value and hold them in expectation of value appreciation. We will assume that there are <em>N</em> identical investors with equal wealth level <em>w</em>, who are using a version of <em>Markowitz’s mean-variance formula</em> to choose between investing in stocks and our tokens.</p>
 
 <figure class="blog">
-	<img src="/assets/img/token/markowitz.png" width="30%" alt="Markowitz formula" />
+	<img class="img-fluid" src="/assets/img/token/markowitz.png" width="30%" alt="Markowitz formula" />
 	<figcaption>Modified Markowitz's mean-variance formula</figcaption>
 </figure>
 
@@ -254,7 +281,9 @@
 
 <p>For further simplicity, we will omit <em>gamblers</em> from our model — the investors who will strategically predict the quorum outcome and vote in that direction to mine extra tokens. Those, who are interested in that, can enhance on this model themselves and/or <a href="/#contact">contact me</a> for ideas and suggestions.</p>
 
-<div class="highlighted">The more investors a system has, the more cash is in the system.</div>
+<blockquote>
+  <p><em>The more investors a system has, the more cash is in the system.</em></p>
+</blockquote>
 
 <h3 id="malicious-miners">Malicious miners</h3>
 <p>Malicious miners are people who buy tokens for <em>ICO</em>/market value and vote at quorum to force their version of blockchain.</p>
@@ -262,13 +291,15 @@
 <p>In this model we don’t consider hypothetical <em>Jokers</em> (<em>i.e.</em> system trolls who want to sabotage the honest blockchain just for the sake of it), so all malicious miners have a rational agenda — it’s almost always the profit maximization outside of the system.</p>
 
 <figure class="blog">
-	<img src="/assets/img/token/malprofit.png" width="90%" alt="Malicious miner's profit" />
+	<img class="img-fluid" src="/assets/img/token/malprofit.png" width="90%" alt="Malicious miner's profit" />
 	<figcaption>Malicious miner's profit</figcaption>
 </figure>
 
 <p>where the first term is the initial profit a company makes by selling their good or service at price <em>f</em> to their initial consumers plus a share of total demand that comes from the token vote with probability  <em>α</em> of winning the vote. The second term is the <em>interference term</em> which completes probability of demand from tokens to <em>1</em> at the cost of buying tokens necessary to win the majority vote at price <em>p<sub>c</sub></em> per token. The second term is equal to zero in case of non-interference, <em>i.e.</em> no malicious token activity.</p>
 
-<div class="highlighted">The more malicious miners a system has, the easier it is for them to influence the votes.</div>
+<blockquote>
+  <p><em>The more malicious miners a system has, the easier it is for them to influence the votes.</em></p>
+</blockquote>
 
 <p>Malicious miners participate in the token economy only if spending cash on tokens and winning the votes will increase their outside profit. Otherwise, they won’t have any incentive to meddle with the blockchain.</p>
 
@@ -282,7 +313,7 @@
 <p>At any point in time, the agents solve their corresponding utility maximization problems from the previous section. The generalized static interactions can be visualized as follows:</p>
 
 <figure class="blog">
-	<img src="/assets/img/token/tokenomy.png" width="70%" alt="Token economy system statics" />
+	<img class="img-fluid" src="/assets/img/token/tokenomy.png" width="70%" alt="Token economy system statics" />
 	<figcaption>System statics in a utility token economy</figcaption>
 </figure>
 
@@ -291,7 +322,7 @@
 <p>To model the price formation of a token we use a simplified version of <em>quantity theory of money</em> with money market equilibrium modelled in <a href="https://arxiv.org/pdf/1405.4498.pdf"><em>“Economics of Bitcoin Price Formation”</em></a> (Ciaian et al. (2014)).</p>
 
 <figure class="blog">
-	<img src="/assets/img/token/price.png" width="30%" alt="Price of token formula" />
+	<img class="img-fluid" src="/assets/img/token/price.png" width="30%" alt="Price of token formula" />
 	<figcaption>Price formula of token</figcaption>
 </figure>
 
@@ -434,7 +465,7 @@
 <p>This basic implementation gives <em>rudimentary</em> results, like price and demand dynamics etc.</p>
 
 <figure class="blog">
-	<img src="/assets/img/token/numcustomers.png" width="50%" alt="Demand dynamics" />
+	<img class="img-fluid" src="/assets/img/token/numcustomers.png" width="50%" alt="Demand dynamics" />
 	<img src="/assets/img/token/tokenprice.png" width="50%" alt="Token price" />
 	<figcaption>Token price and demand dynamics</figcaption>
 </figure>
@@ -451,6 +482,7 @@
 <p>I kindly want to remind that economic consulting <a href="/#hire">is my job</a>, so I can provide any help with tailoring the model to your needs, but this will be a <a href="/#hire">paid service</a>. You can hire me via <a href="mailto:rsk@ravshansk.com">email</a> or by <a href="/#hire">filling the Hire Me form</a>. Please be sure to include the estimated budget, the scope and the deadlines.</p>
 
 
+  </div>
 </div>
 
 <div class="share-page">
@@ -510,56 +542,56 @@
 
     </div>
 
-	<div class="sidebar">
-		<div class="categories">
+	<div class="col-md-4 blog-sidebar py-5">
+		<div class="categories pb-5">
 			<h3>Read categories</h3>
-				<a class="categs" href="/economics">economics</a>
-				<a class="categs" href="/statistics">statistics</a>
-				<a class="categs" href="/finance">finance</a>
-				<a class="categs" href="/management">management</a>
-				<a class="categs" href="/complexity">complexity</a>
-				<a class="categs" href="/crypto">crypto</a>
+				<a class="badge badge-light p-2" href="/economics">Economics</a>
+				<a class="badge badge-light p-2" href="/statistics">Statistics</a>
+				<a class="badge badge-light p-2" href="/finance">Finance</a>
+				<a class="badge badge-light p-2" href="/management">Management</a>
+				<a class="badge badge-light p-2" href="/complexity">Complexity</a>
+				<a class="badge badge-light p-2" href="/crypto">Crypto</a>
 		</div>
 		<div class="recent">
 			<h3>Recent articles</h3>
-				<ul>
+				<ul class="list-unstyled">
 					
 						
-   	   						<li class="post-title"><a href="/articles/brazil-noshow.html">My take on the famous medical appointment no-show problem</a></li>
-						
-					
-						
-					
+   	   						<li><a class="text-dark small" href="/articles/brazil-noshow.html">My take on the famous medical appointment no-show problem</a></li>
 						
 					
 						
-   	   						<li class="post-title"><a href="/articles/saudi-visa.html">Using matching with quotas to solve Hajj visa problem</a></li>
+					
 						
 					
 						
-   	   						<li class="post-title"><a href="/articles/valuation-calc.html">Valuation Calculator for Subscription-Based Businesses</a></li>
+   	   						<li><a class="text-dark small" href="/articles/saudi-visa.html">Using matching with quotas to solve Hajj visa problem</a></li>
+						
+					
+						
+   	   						<li><a class="text-dark small" href="/articles/valuation-calc.html">Valuation Calculator for Subscription-Based Businesses</a></li>
 						
 					
 				</ul>
 		</div>
 	</div>
-
-	<div class="footer">
-		<div class="titlecenter">
-			Copyright 2018. All rights reserved
-		</div>
+</div>
+<footer class="footer mt-auto py-5 bg-dark text-light">
+	<div class="pb-4">
+			</a><h3 class="text-center">Contact me:</h3>
 	</div>
+	       <div class="text-center">
+        <a href="mailto:rsk@ravshansk.com" class="btn" target="_blank"><i class="fas fa-3x fa-envelope fa-inverse"></i></a>
+        <a href="http://twitter.com/ravshansk" class="btn" target="_blank"><i class="fab fa-3x fa-twitter fa-inverse"></i></a>
+        <a href="http://linkedin.com/in/ravshansk" class="btn" target="_blank"><i class="fab fa-3x fa-linkedin fa-inverse"></i></a>
+        <a href="http://facebook.com/ravshanskh" class="btn" target="_blank"><i class="fab fa-3x fa-facebook fa-inverse"></i></a>
+    </div>
 
-	<script>
-	function myFunction() {
-		var x = document.getElementById("myTopNav");
-		if (x.className === "topnav") {
-			x.className += " responsive";
-		} else {
-			x.className = "topnav";
-		}
-	}
-	</script>
+</footer>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
 
   </body>
 </html>

@@ -32,7 +32,7 @@ This is a [famous problem from Kaggle website](https://www.kaggle.com/joniarroba
 First of all, we explore the dataset. We immediately notice that some age values are negative, and very old patients don't exhibit variation having too few observations:
 
 <figure class="blog">
-	<img src="/assets/img/brazil/tableage.png">
+	<img class="img-fluid" src="/assets/img/brazil/tableage.png">
 	<figcaption>Frequency table of age data points</figcaption>
 </figure>
 
@@ -48,7 +48,7 @@ df <- df[ (df$age >= 0) & (df$dayap >= df$daysc),]
 Observing the no-show dynamics throughout lifetime, gives important insights to our analysis:
 
 <figure class="blog">
-	<img src="/assets/img/brazil/agenoshow.png">
+	<img class="img-fluid" src="/assets/img/brazil/agenoshow.png">
 	<figcaption>Percentage of patients who showed up, by age</figcaption>
 </figure>
 
@@ -64,14 +64,14 @@ So, we use two possible age variables: a continuous one with two dummies for 18 
 Another demographic factor is gender. The probability distribution shows that gender does not play a significant role in no-show rate:
 
 <figure class="blog">
-	<img src="/assets/img/brazil/sexnoshow.png">
+	<img class="img-fluid" src="/assets/img/brazil/sexnoshow.png">
 	<figcaption>Show-up probability, by gender</figcaption>
 </figure>
 
 We tried to look at adults only (age>=18), because usually mothers (female=1) go to doctors with their children, irrespective of the kid's registered gender, but this procedure returned no significant difference either:
 
 <figure class="blog">
-	<img src="/assets/img/brazil/sexnoshow18.png">
+	<img class="img-fluid" src="/assets/img/brazil/sexnoshow18.png">
 	<figcaption>Show-up probability for grown-ups only, by gender</figcaption>
 </figure>
 
@@ -81,14 +81,14 @@ Thus, we ignore gender in further discussion.
 Looking at no-show rates by neighbourhood, shows relative balance, with only a few outliers, which do not round to 20\%.
 
 <figure class="blog">
-	<img src="/assets/img/brazil/geo1.png">
+	<img class="img-fluid" src="/assets/img/brazil/geo1.png">
 	<figcaption>Show-up probability by neighbourhood</figcaption>
 </figure>
 
 Inspecting frequency tables, shows that most (not all) of the outliers come from neighbourhoods with little data:
 
 <figure class="blog">
-	<img src="/assets/img/brazil/geo2.png">
+	<img class="img-fluid" src="/assets/img/brazil/geo2.png">
 	<figcaption>Frequency of data points by neighbourhood</figcaption>
 </figure>
 
@@ -99,7 +99,7 @@ Apart from them, there are still outliers (we considered 3% to be a significant 
 We will add dummy variables for these 13 neighbourhoods as our geographic predictors. Other neighborhoods will be assumed to contribute no new information to the expected value.
 
 <figure class="blog">
-	<img src="/assets/img/brazil/geo3.png">
+	<img class="img-fluid" src="/assets/img/brazil/geo3.png">
 </figure>
 
 ### Temporal factor
@@ -110,13 +110,13 @@ Temporal data brings the crucial information about the appointment no-shows, sta
 The day of the week is the first thing that comes to mind - during the weekdays, patients might have emergencies at school or at work, and this could cause them to miss the appointment. However, the analysis shows no significant difference through week, except for Saturdays:
 
 <figure class="blog">
-	<img src="/assets/img/brazil/wday.png">
+	<img class="img-fluid" src="/assets/img/brazil/wday.png">
 </figure>
 
 But further analysis shows that this happens because of the lack of enough data for Saturday:
 
 <figure class="blog">
-	<img src="/assets/img/brazil/wdaytab.png">
+	<img class="img-fluid" src="/assets/img/brazil/wdaytab.png">
 </figure>
 
 So, we ignore the weekdays and assume that they don't affect the no-show rate.
@@ -133,19 +133,19 @@ df$daybw <- as.numeric(df$dayap - df$daysc)
 The plot below shows that when appointments are scheduled in that same day (wait time = 0), the patient almost never misses it (just 4\% no-show rate). There is sufficient data (34\% of all observations) to support this claim.
 
 <figure class="blog">
-	<img src="/assets/img/brazil/wait1.png">
+	<img class="img-fluid" src="/assets/img/brazil/wait1.png">
 </figure>
 
 In the next days, the no-show rate is very volatile. To avoid weekly seasonality, we aggregate the data by weeks. Also, for two reasons: _(i)_ since the longer wait times have small data points and _(ii)_ since (assuming time discounting --- a weak economic assumption) people perceive recent past clearer than distant past, we aggregated first month as 4 weeks, and aggregated the next data points by month:
 
 <figure class="blog">
-	<img src="/assets/img/brazil/wait2.png">
+	<img class="img-fluid" src="/assets/img/brazil/wait2.png">
 </figure>
 
 Note that _4 months_ wait is an outlier due to small dataset. Otherwise, all probabilities after 1 week fall into &plusmn;3\% interval. Taking this and _(ii)_ into consideration, suggests an even wilder (yet still plausible) aggregation: _0 days, 1 week, and >1 week_:
 
 <figure class="blog">
-	<img src="/assets/img/brazil/wait3.png">
+	<img class="img-fluid" src="/assets/img/brazil/wait3.png">
 </figure>
 
 Thus, we will use three-valued categorical variables to denote wait times.
@@ -155,7 +155,7 @@ Thus, we will use three-valued categorical variables to denote wait times.
 Lifestyle of people potentially reflects their degree of responsibility --- _"night owls"_ tend to sleep during days and maybe miss deadlines, while _"early birds"_ may take their appointments more seriously. We take a look at the data of time o'clock when the appointment was scheduled. The online appointment system opens at 6AM and closes at 10PM. We divide these 16-hour days into 4 groups of 4, and find that _"early bird effect"_ actually exists, and people who scheduled appointments between 6AM and 10AM are significantly less likely to miss their appointments, while any other time slot does not change the no-show probability significantly:
 
 <figure class="blog">
-	<img src="/assets/img/brazil/hour.png">
+	<img class="img-fluid" src="/assets/img/brazil/hour.png">
 </figure>
 
 Thus, we use a binary dummy variable --- _6AM-10AM_ or _10AM-10PM_ --- to incorporate time.
@@ -166,20 +166,20 @@ Thus, we use a binary dummy variable --- _6AM-10AM_ or _10AM-10PM_ --- to incorp
 To incorporate the idiosyncracies of patients, we use the history of their previous appointments, and whether they missed them before. The table below shows the repeat patients' allocation.
 
 <figure class="blog">
-	<img src="/assets/img/brazil/repeat.png">
+	<img class="img-fluid" src="/assets/img/brazil/repeat.png">
 </figure>
 
 For every patient, we found the modes (most frequent observations) of previous no-show stats. For patients that appear in the dataset only once, this value will be 0 (performing sensitivity checks we learned that leaving out one-time patients entirely, returns no significant difference (<0.5%) but complicates the dataset, so we chose to set the average previous no-show rate for first-time patients at 0). We observe that such modes greatly contribute to predicting the next no-show:
 
 <figure class="blog">
-	<img src="/assets/img/brazil/modeprev.png">
+	<img class="img-fluid" src="/assets/img/brazil/modeprev.png">
 </figure>
 
 #### Patient condition
 Patient's medical history can influence the no-show behavior. The tables below show differences in percentage of no-shows for patients with alcoholism, diabetes, hipertension, medical financial assitance (so-called "scholarship"), and handicaps:
 
 <figure class="blog">
-	<img src="/assets/img/brazil/conditions.png">
+	<img class="img-fluid" src="/assets/img/brazil/conditions.png">
 </figure>
 
 Strangely, alcoholism is the only condition which turned out to not have an effect on no-show probability. The probable reason is that alcoholism is not immediately lethal, and people tend to treat is less seriously than any other _"more serious"_ illness like diabetes. So, we include all of the above conditions, except alcoholism, in our classification.
@@ -188,7 +188,7 @@ Strangely, alcoholism is the only condition which turned out to not have an effe
 One can justifiably argue that patients may simply forget their appointment date and time. Hospitals tried to send SMS-reminders to their patients, but does this practice worth the cost? A simple frequency table shows that yes, patients, who received SMS-reminders, were less likely to miss the appointment:
 
 <figure class="blog">
-	<img src="/assets/img/brazil/sms.png">
+	<img class="img-fluid" src="/assets/img/brazil/sms.png">
 </figure>
  
 #### Overall no-show stata
@@ -224,7 +224,7 @@ summary(logit)
 ```
 
 <figure class="blog">
-	<img src="/assets/img/brazil/logit.png">
+	<img class="img-fluid" src="/assets/img/brazil/logit.png">
 </figure>
 
 
@@ -250,7 +250,7 @@ So, we decide to take a look at decision trees:
 Before doing the decision trees, we will undersample our majority set (noshow==0). The resulting tree returns 60\% accuracy and 69\% _AUR_ on average. Different tree specifications give different resulting trees, but the average accuracy doesn't change. The _recall_ is 80\% on average, though. Here is just one of the trees. Notice that we used age as decades here, and not as a continuous variable:
 
 <figure class="blog">
-	<img src="/assets/img/brazil/tree.png">
+	<img class="img-fluid" src="/assets/img/brazil/tree.png">
 </figure>
 
 The above tree is not the one I ended up using, the other ones just didn't fit the page.

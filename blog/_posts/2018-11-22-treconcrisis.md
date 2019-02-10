@@ -7,7 +7,6 @@ keywords: statistical consulting, economic consulting, data analytics, econometr
 tags: economics finance
 ---
 
-<audio src="/assets/hel.ogg" controls></audio>
 I finished my thesis on Financial Economics at the beginning of this summer. I performed simulations for different investment strategies for Turkish households, to see which investment option is the best.
 
 Of course, I used in my study the main economic indicators for Turkey, like inflation and 10-year Treasury yields.

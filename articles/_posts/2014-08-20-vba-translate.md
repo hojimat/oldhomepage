@@ -19,7 +19,7 @@ If you frequently translate texts, you know that a lot of phrases within a domai
 My VBA macro automates this process as follows: you create an Excel document with original phrase in the first column and its translation in the corresponding cell in the second one, and save it. No column names, no anything else. This file will work as your translation database --- you can always add a new phrase as a new row. 
 
 <figure class="blog">
-	<img src="/assets/img/bsh/translate.png">
+	<img class="img-fluid" src="/assets/img/bsh/translate.png">
 	<figcaption>Example translation database</figcaption>
 </figure>
 

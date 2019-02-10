@@ -9,7 +9,7 @@ tags: management
 image: /assets/img/academic-clients/bounlib.JPG
 ---
 <figure class="blog">
-	<img src="/assets/img/academic-clients/bounlib.JPG">
+	<img class="img-fluid" src="/assets/img/academic-clients/bounlib.JPG">
 </figure>
 
 I am an economic and statistical consultant. What I do is help my clients to take valuable insights from their data, develop statistical algorithms and design frameworks to get most of their data analytics, write a software to automate their data analysis routine.  

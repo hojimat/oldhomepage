@@ -128,7 +128,7 @@ for j in range(t):
 For presentation purposes I animated the resulting graphs:
 
 <figure class="blog">
-	<img src="/assets/img/gameoflife/game.gif" alt="Game of life dynamics">
+	<img class="img-fluid" src="/assets/img/gameoflife/game.gif" alt="Game of life dynamics">
 	<figcaption>"Game of life" dynamics</figcaption>
 </figure>
 

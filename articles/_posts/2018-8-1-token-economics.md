@@ -37,7 +37,7 @@ Wikipedia says that tokens have been successfully used at schools and psychiatri
 
 Being an economist myself, I believe that this thinking is terribly wrong. I understand where it comes from --- everybody took  _Econ 101_ at some point and was inspired by elegance of _invisible hand_ models. But I also know that _free market_ is not the only mechanism out there. _Centralized matching mechanisms_, _social planner's problem_, _lotteries_ all exist for a reason. Not every _equilibrium_ is _efficient_. Sadly, not everybody takes advanced econ courses, while almost everybody wants to profit from _ICO_'s.  
 
-<div class="highlighted">Not every equilibrium is efficient</div>
+> _Not every equilibrium is efficient_
 
 Of course, tokens can be justified in appropriate cases. Actually, the great working area for tokens is online games, where every crystal is given a price and has an obvious value to players. In general, whenever any kind of labor is involved, a money making procedure is good. Otherwise, it is some kind of _rent seeking_.  
 
@@ -57,13 +57,13 @@ Below I reviewed a couple of examples that appear in the first results page when
 
 This is exactly what I meant above, when I said that monetary relationships are not always efficient. And finally, these people hypocritically encourage openness and decentralization while using proprietary algorithms.  
 
-<div class="highlighted">The right decision is to only decentralize those services that actually support the decentralization.</div>
+> _The right decision is to only decentralize those services that actually support the decentralization._
 
 Another issue with _token-backed decentralization_ is that historically every decentralization was tightly related to _disruption, hippie philosophy, anarchy_. All examples of successful decentralization used to be altruistic and didn't involve monetary goals. Decentralized apps (DAPPs) I care for are _BitTorrent, Wikipedia, Linux, GNU Project, OpenStreetMap_ etc.  
 
 Decentralized projects used to be the very definitions of _trust-based systems_, where corporations like _Apple_ would be put to shame by the community for not contributing code back to _BSD_ but still get away with it, and nobody would attempt to financially incentivize them to do so.  
 
-<div class="highlighted">These old days, which most of us still remember, should raise everyone's concerns about the longevity of trustless structures.</div>
+> _These old days, which most of us still remember, should raise everyone's concerns about the longevity of trustless structures._
 
 There are, however, appropriate use cases for tokens and some developers get this.  
 
@@ -78,13 +78,13 @@ In this article I will try to build an economic model for exactly those _utility
 
 This economic model of tokens is very generic, so that it can work as a blueprint for future token creators and as a reasonable abstraction for applied economists.
 
-<div class="highlighted">Ideally, this model can also serve as a guideline for writing whitepapers.</div> 
+> _Ideally, this model can also serve as a guideline for writing whitepapers._
 
 In case you have skipped the previous section, let me remind you that _utility tokens_ are any tokens that produce a legit service for consumers and are not _primarily_ tools for middlemen or speculators (although such agents do exist in our model).  
 
 Since tokens aim at _trustless_ structures, we will need some kind of proof that every _node_ corresponds to a single person instead of some _botnet_. Since I am a huge [_proof-of-work_](https://en.wikipedia.org/wiki/Proof-of-work_system) opposer and since most of the tokens are built on Ethereum platform, which is [moving towards _proof-of-stake_](https://cointelegraph.com/news/first-version-of-ethereums-casper-update-has-been-released) anyway, I will use the latter in the model.  
 
-<div class="highlighted">The service is paid for in fixed number of tokens, not in cash.</div>
+> _The service is paid for in fixed number of tokens, not in cash._
 
 Pricing service in a fixed token rate will correctly capture the proportionate relationship between demand and price --- the greater the demand for the service, the more people will buy tokens, the price of tokens will increase, and so will the cash equivalent of the service; and vice versa.  
 
@@ -102,7 +102,7 @@ Honest miners are people with domain expertise, who actually do the job and crea
 
 They do not play any _strategies_, _i.e._ they naively vote for the correct version in every quorum. They earn (mine) rewards as long as malicious miners don't take over, and at the same time they provide a utility to customers. Therefore the main quantitative feature of honest miners is their proportion among all miners. 
 
-<div class="highlighted">Main quantitative feature of honest miners is their number.</div>
+> _Main quantitative feature of honest miners is their number._
 
 The corresponding issue is that it is impossible to tell for certain which miners are honest and which are not. Therefore customers and investors choose their strategies based on the expectations. The prior probabilities which form these expectations are exogeneous in this model but can be endogenized. If you are a researcher interested in extending the model in this area, please [contact me](/#contact), so that we can discuss and share the ideas on that topic.
 
@@ -113,7 +113,7 @@ Customers are people who use and benefit from the service created by the _honest
 As mentioned in the introduction, utility tokens only work good in peculiar services like job referencing or ads ranking. Therefore, customers not only care about the quality of service, but also about its popularity/public acceptance. This can be modelled using the following version of _Cobb-Douglas utility function_:
 
 <figure class="blog">
-	<img src="/assets/img/token/cust_util.png" width="50%" alt="Customer's utility function">
+	<img class="img-fluid" src="/assets/img/token/cust_util.png" width="50%" alt="Customer's utility function">
 	<figcaption>Customer's utility function</figcaption>
 </figure>
 
@@ -121,14 +121,14 @@ where _E[x]_ is the expected demand and _E[z]_ is the expected number of experts
 
 Note that even when there is zero demand but nonzero number of experts (_E[x]=0; E[z]>0_) the customer still receives a non-zero utility from the service. Conversely, when the service is very popular and has high demand but zero expert knowledge (_E[x]>0; E[z]=0_) the utility from the service is zero despite its popularity.
 
-<div class="highlighted">The demand for tokens is equal to the expected total number of customers</div>
+> _The demand for tokens is equal to the expected total number of customers_
 
 The customers are not uniform though --- there are _early adopters_, _late majority_ and _laggards_. They differ in reservation utility levels --- each type of customer will only subscribe to the service if the utility _U(x,z)_ will exceed _U<sub>early</sub>, U<sub>late</sub>, U<sub>lag</sub>_ respectively, where _U<sub>early</sub> &le; U<sub>late</sub> &le; U<sub>lag</sub>_.  
 
 According to [_product adoption life cycle_](https://en.wikipedia.org/wiki/Technology_adoption_life_cycle), the consumer types are distributed as _16%_ early adopters, _68%_ late majority and _16%_ laggards:
 
 <figure class="blog">
-	<img src="/assets/img/token/cust_dist.png" width="60%" alt="Customer type allocation">
+	<img class="img-fluid" src="/assets/img/token/cust_dist.png" width="60%" alt="Customer type allocation">
 	<figcaption>Modified Roger's curve</figcaption>
 </figure>
 
@@ -138,7 +138,7 @@ You can see that I have simplified the actual Roger's curve. If you are interest
 Investors are people who buy tokens for _ICO_/market value and hold them in expectation of value appreciation. We will assume that there are _N_ identical investors with equal wealth level _w_, who are using a version of _Markowitz's mean-variance formula_ to choose between investing in stocks and our tokens.  
 
 <figure class="blog">
-	<img src="/assets/img/token/markowitz.png" width="30%" alt="Markowitz formula">
+	<img class="img-fluid" src="/assets/img/token/markowitz.png" width="30%" alt="Markowitz formula">
 	<figcaption>Modified Markowitz's mean-variance formula</figcaption>
 </figure>
 
@@ -150,7 +150,7 @@ We will also assume that all the investors are risk neutral.
 
 For further simplicity, we will omit _gamblers_ from our model --- the investors who will strategically predict the quorum outcome and vote in that direction to mine extra tokens. Those, who are interested in that, can enhance on this model themselves and/or [contact me](/#contact) for ideas and suggestions.    
 
-<div class="highlighted">The more investors a system has, the more cash is in the system.</div>
+> _The more investors a system has, the more cash is in the system._
 
 
 ### Malicious miners
@@ -159,13 +159,13 @@ Malicious miners are people who buy tokens for _ICO_/market value and vote at qu
 In this model we don't consider hypothetical _Jokers_ (_i.e._ system trolls who want to sabotage the honest blockchain just for the sake of it), so all malicious miners have a rational agenda --- it's almost always the profit maximization outside of the system.  
 
 <figure class="blog">
-	<img src="/assets/img/token/malprofit.png" width="90%" alt="Malicious miner's profit">
+	<img class="img-fluid" src="/assets/img/token/malprofit.png" width="90%" alt="Malicious miner's profit">
 	<figcaption>Malicious miner's profit</figcaption>
 </figure>
 
 where the first term is the initial profit a company makes by selling their good or service at price _f_ to their initial consumers plus a share of total demand that comes from the token vote with probability  _&alpha;_ of winning the vote. The second term is the _interference term_ which completes probability of demand from tokens to _1_ at the cost of buying tokens necessary to win the majority vote at price _p<sub>c</sub>_ per token. The second term is equal to zero in case of non-interference, _i.e._ no malicious token activity.   
 
-<div class="highlighted">The more malicious miners a system has, the easier it is for them to influence the votes.</div>
+> _The more malicious miners a system has, the easier it is for them to influence the votes._
 
 Malicious miners participate in the token economy only if spending cash on tokens and winning the votes will increase their outside profit. Otherwise, they won't have any incentive to meddle with the blockchain.  
 
@@ -183,7 +183,7 @@ In the next section we will quickly see how these agents interact at a fixed poi
 At any point in time, the agents solve their corresponding utility maximization problems from the previous section. The generalized static interactions can be visualized as follows:
 
 <figure class="blog">
-	<img src="/assets/img/token/tokenomy.png" width="70%" alt="Token economy system statics">
+	<img class="img-fluid" src="/assets/img/token/tokenomy.png" width="70%" alt="Token economy system statics">
 	<figcaption>System statics in a utility token economy</figcaption>
 </figure>
 
@@ -192,7 +192,7 @@ Note that we differentiate between _active_ and _passive_ tokens, where former p
 To model the price formation of a token we use a simplified version of _quantity theory of money_ with money market equilibrium modelled in [_"Economics of Bitcoin Price Formation"_](https://arxiv.org/pdf/1405.4498.pdf) (Ciaian et al. (2014)).
 
 <figure class="blog">
-	<img src="/assets/img/token/price.png" width="30%" alt="Price of token formula">
+	<img class="img-fluid" src="/assets/img/token/price.png" width="30%" alt="Price of token formula">
 	<figcaption>Price formula of token</figcaption>
 </figure>
 
@@ -331,7 +331,7 @@ for(t in 2:N){
 This basic implementation gives _rudimentary_ results, like price and demand dynamics etc.
 
 <figure class="blog">
-	<img src="/assets/img/token/numcustomers.png" width="50%" alt="Demand dynamics">
+	<img class="img-fluid" src="/assets/img/token/numcustomers.png" width="50%" alt="Demand dynamics">
 	<img src="/assets/img/token/tokenprice.png" width="50%" alt="Token price">
 	<figcaption>Token price and demand dynamics</figcaption>
 </figure>

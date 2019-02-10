@@ -7,10 +7,6 @@ permalink: /
 <a name="about"></a><br>
 # About
 
-<figure style="width:15em;float:right;">
-	<img src="/assets/myphoto.jpg"/>
-</figure>
-
 My name is Ravshan S.K. (Ravshanbek Khodzhimatov). I hold a [Master's Degree in Economics](http://econ.boun.edu.tr) from [Bogazici University](http://boun.edu.tr), [Istanbul, Turkey](https://en.wikipedia.org/wiki/Istanbul). My research interests are _agent-based modeling, macroeconometrics and forecasting_. Aside from my expertise in economics, I have an experience working as _financial analyst, customer service assistant, marketing assistant, interpreter, data scientist and web developer_.  
 
 ## What services do I provide?
@@ -36,95 +32,100 @@ In the blog of this website I give a generic picture of works done and publish o
 <a name="works"></a><br>
 # Works
 
-## Notable contributions
-<div class="row">
-	<div class="imgcolumn">
-		<figure class="blog">
-			<a href="/works#caterpillar">
-				<img src="/assets/img/landing/caterpillar.png">
-				<figcaption>Caterpillar Inc.</figcaption>
-			</a>
-		</figure>
-	</div>
-	<div class="imgcolumn">
-		<figure class="blog">
-			<a href="/works#bsh">
-				<img src="/assets/img/landing/bsh.jpg">
-				<figcaption>Bosch Siemens Hausgeräte</figcaption>
-			</a>
-		</figure>
-	</div>
-	<div class="imgcolumn">
-		<figure class="blog">
-			<a href="/works#stata">
-				<img src="/assets/img/landing/stata.jpg">
-				<figcaption>Stata</figcaption>
-			</a>
-		</figure>
-	</div>
+<div class="d-flex flex-row py-5">
+  <div class="col-md">
+	<img class="rounded-circle img-thumbnail" src="/assets/img/landing/caterpillar.png">
+  </div>
+  <div class="col-md">
+	<img class="rounded-circle img-thumbnail" src="/assets/img/landing/bsh.jpg">
+  </div>
+  <div class="col-md">
+	<img class="rounded-circle img-thumbnail" src="/assets/img/landing/stata.jpg">
+  </div>
 </div>
 
-<figure class="expand">
-	<a href="/works">
-		<img src="/assets/img/landing/expand.png"/>
-		<figcaption>Other works</figcaption>
-	</a>
-</figure>
-
-## Publications 
-
-- _[Welfare effects of individualizing lifecycle investments: a simulation](https://github.com/ravshansk/mathesis/blob/master/tex/article.pdf)_
-- _[Utility tokens: economic model and simulation in R](https://hackernoon.com/utility-tokens-discussion-economic-model-and-simulation-in-r-798c0ff3d26c)_
-- _[Using impulse-response functions in artificial neural networks (working paper)](/blog/2017/12/12/irf-ann/)_
+<div class="col-md-12 py-4">
+	<a href="/works" class="btn btn-light btn-block">Other works<br/><i class="fas fa-angle-down fa-2x"></i></a>
+</div>
 
 <a name="hire"></a><br>
 # Hire me
 
-## Let me help you with your project
+### Pricing
 
-<div class="row">
-	<form class="contactform" action="https://formspree.io/rsk@ravshansk.com" method="POST">
-		<input type="hidden" name="_subject" value="Job request from website" />
-		<div class="column">
-			<label>Name:</label>
-			<input type="text" name="name" placeholder="How should I address you?" required />
-			<label>Email:</label>
-			<input type="email" name="email" placeholder="Please enter your email" required />
-			<label>Other contact info:</label>
-			<input type="text" name="other" placeholder="Your phone, Twitter, Skype" />
-		</div>
-		<div class="column">
-			<label>Subject to consult:</label>
-			<select name="topic">
-				<option>Economic Theory</option>
-				<option>Statistical Theory</option>
-				<option>Economic Analysis</option>
-				<option>Statistical Analysis</option>
-				<option>Machine Learning</option>
-				<option>Computational Statistics</option>
-				<option>Other</option>
-			</select>
-			<label>Estimated budget:</label>
-			<select name="budget">
-				<option><500 USD</option>
-				<option>500-1000 USD</option>
-				<option>1000-2000 USD</option>
-				<option>>2000 USD</option>
-			</select>
-			<label>Describe the task:</label>
-			<textarea name="body" rows="10" cols="50" placeholder="Write the task details. I will answer within a day." required></textarea>
-			
-			<input type="submit" value="Send" />
-		</div>
-	</form>
+<div class="container py-3">
+	<div class="card-deck mb-3 text-center">
+
+	<div class="card mb-4 shadow-sm">
+	<div class="card-header">
+	<h4 class="my-0 font-weight-normal">Consulting</h4>
+	</div>
+    <div class="card-body">
+	<h1 class="card-title pricing-card-title">$40 <small class="text-muted">/ hr</small></h1>
+	<ul class="list-unstyled mt-3 mb-4">
+	<li><i>Get help with your statistical method, economic model, or financial analysis.</i></li>
+	<br/>
+    <br/>
+	<li>Free e-mail discussion</li>
+	<li>Free pre-research</li>
+	</ul>
+	</div>
+    </div>
+	
+	<div class="card mb-4 shadow-sm">
+	<div class="card-header">
+	<h4 class="my-0 font-weight-normal">Project</h4>
+    </div>
+	<div class="card-body">
+	<h1 class="card-title pricing-card-title">$500 <small class="text-muted">/ wk</small></h1>
+	<ul class="list-unstyled mt-3 mb-4">
+	<li><i>Hire an expert for your financial analysis, economic modeling, or statistical programming project.</i></li>
+    <br/>
+	<li>Full documentation on all work</li>
+	<li>2 free full-length edits</li>
+	</ul>
+	</div>
+    </div>
+	</div>
 </div>
+
+### Request a collaboration
+<form action="https://formspree.io/rsk@ravshansk.com" method="POST">
+<div class="form-row py-3">
+	<input type="hidden" name="_subject" value="Job request from website" />
+	<div class="col-md">
+		<div>
+		<input class="form-group form-control" type="text" name="name" placeholder="Name" required />
+		</div>
+		<div>
+		<input class="form-group form-control" type="email" name="email" placeholder="Email" required />
+		</div>
+		<div>
+		<input class="form-group form-control" type="text" name="other" placeholder="Phone or Skype" />
+		</div>
+	</div>
+	<div class="col-md">
+		<div>
+		<select class="form-group form-control" name="topic">
+			<option disabled selected>Choose a subject</option>
+			<option>Economic Theory</option>
+			<option>Statistical Theory</option>
+			<option>Economic Analysis</option>
+			<option>Statistical Analysis</option>
+			<option>Machine Learning</option>
+			<option>Computational Statistics</option>
+			<option>Other</option>
+		</select>
+		</div>
+		<div>
+		<textarea name="body" rows="10" class="form-control" placeholder="Write the task details. I will answer within a day." required></textarea>
+		</div>
+	</div>
+</div>
+<button type="submit" class="form-control btn btn-info">Send</button>
+</form>
+<br/>
 
 ### Don't like forms?
 You can also contact me via email or social media. The most recent info is available below. Please write the subject and description of your project and include the estimated budget. 
 
-<a name="contact"></a><br>
-# Contact
-
-The best way to contact me is via email to [rsk@ravshansk.com](mailto:rsk@ravshansk.com). I am also available on most social media, but I'm mostly active on Twitter.  
-
-I share important posts from this website's blog to Medium.  
