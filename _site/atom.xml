@@ -4,7 +4,7 @@
  <title>Ravshan S.K.</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-02-14T15:32:46+06:00</updated>
+ <updated>2019-03-13T01:35:03+06:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Ravshanbek Khodzhimatov</name>
@@ -22,7 +22,7 @@
 &lt;ul class=&quot;index&quot;&gt;
 &lt;li&gt;&lt;a href=&quot;#travel&quot;&gt;1. Путешествия&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;#work&quot;&gt;2. Работа за рубежом&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#bank&quot;&gt;2. Работа за рубежом&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#bank&quot;&gt;3. Дискримминация культура&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;#business&quot;&gt;2. Работа за рубежом&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;#remote&quot;&gt;2. Работа за рубежом&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;#salary&quot;&gt;2. Работа за рубежом&lt;/a&gt;&lt;/li&gt;
@@ -32,6 +32,10 @@
 &lt;h2 id=&quot;1-путешествия&quot;&gt;1. Путешествия&lt;/h2&gt;
 
 &lt;p&gt;С кыргызским паспортом можно без визы въезжать во все страны СНГ &lt;em&gt;(Россия, Армения, Беларусь, Казахстан, Узбекистан, Грузия, Молдова, Украина)&lt;/em&gt;, на многие Каррибские острова&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;kurdy net gosva, net diskrimminacii - person of color etc.&lt;/li&gt;
+&lt;/ol&gt;
 </content>
  </entry>
  
