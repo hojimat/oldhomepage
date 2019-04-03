@@ -19,3 +19,7 @@ blockquote {
 	font-size: 2em;
 	font-family: 'PT Sans', sans-serif;
 }
+
+a:focus {
+	outline: 0;
+}
