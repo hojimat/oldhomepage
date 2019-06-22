@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xml:lang="">
+	<channel>
+		<atom:link href="http://localhost:4000/podcast.rss" rel="self" type="application/rss+xml" />
+		<title>Ravshan S.K.</title>
+		<description>I help researchers, data scientists and growth hackers in performing economic analyses, developing statistical algorithms and research methods. My two-edits policy guarantees the quality of my work and your satisfaction. Read on.</description>
+		<link>http://localhost:4000</link>
+		<language></language>
+		<managingEditor> ({"name"=>"Ravshanbek Khodzhimatov", "url"=>"http://ravshansk.com", "email"=>"rsk@ravshansk.com"})</managingEditor>
+		<webMaster> ({"name"=>"Ravshanbek Khodzhimatov", "url"=>"http://ravshansk.com", "email"=>"rsk@ravshansk.com"})</webMaster>
+		<copyright>2017-2019 Ravshan S.K.</copyright>
+		<pubDate>Sat, 22 Jun 2019 18:59:33 +0600</pubDate>
+		<lastBuildDate>Sat, 22 Jun 2019 18:59:33 +0600</lastBuildDate>
+		<image>
+			<link>http://localhost:4000</link>
+			<url>http://localhost:4000/images/itunes.png</url>
+			<title>Ravshan S.K.</title>
+		</image>
+		<itunes:subtitle>I help researchers, data scientists and growth hackers in performing economic analyses, developing statistical algorithms and research methods. My two-edits policy guarantees the quality of my work and your satisfaction. Read on.</itunes:subtitle>
+		<itunes:author>{"name"=>"Ravshanbek Khodzhimatov", "url"=>"http://ravshansk.com", "email"=>"rsk@ravshansk.com"}</itunes:author>
+		<itunes:summary>I help researchers, data scientists and growth hackers in performing economic analyses, developing statistical algorithms and research methods. My two-edits policy guarantees the quality of my work and your satisfaction. Read on.</itunes:summary>
+		<itunes:keywords></itunes:keywords>
+		<itunes:owner>
+			<itunes:name>{"name"=>"Ravshanbek Khodzhimatov", "url"=>"http://ravshansk.com", "email"=>"rsk@ravshansk.com"}</itunes:name>
+			<itunes:email></itunes:email>
+		</itunes:owner>
+		<itunes:image href="http://localhost:4000/images/itunes.png" />
+		<itunes:category text="Music" />
+		<itunes:category text="Technology">
+			<itunes:category text="Podcasting" />
+		</itunes:category>
+		<itunes:category text="Society &amp; Culture">
+			<itunes:category text="Philosophy" />
+		</itunes:category>
+		<itunes:explicit>yes</itunes:explicit>
+		
+		 	 
+			<item>
+				<title>Бета-версия аудио</title>
+				<link>http://localhost:4000/podcast/intro.html</link>
+				<pubDate>Sat, 22 Jun 2019 00:00:00 +0600</pubDate>
+				<description>&lt;p&gt;rsk podcast — это подкаст об экономике, финансах, новостях и поп-культуре. Также будут интересные гости. Подписывайтесь.&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">http://localhost:4000/podcast/intro.html</guid>
+				<enclosure url="http:https://cf-media.sndcdn.com/wm8Z1E2X0j5F?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vd204WjFFMlgwajVGIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTYxMjA2MjE0fX19XX0 &Signature=diS9oqcC64Gx8pxqp0fEANgEoHObzJxNSYlybv5X6n8qsxuMJnOHd4Enw3X9S7RyG2h1J6Al4STZGn5NOHmItaJo6PIEr~W0UyCgmkA5XdCmadCxgxyuhNaP9MjA7SAP8-sYr3LR-St8pDjdqMdRx3c1Gymm3KA6U3zS~QPYCIuySffmF8~dV0-UnD0slx-La2QREneKByObx75slliTloRLYBquwxDSPxe9QNYh1GFGKpaxrxely9woovSMyZxzTMAl6IwORbAesGvN0kjU2AolRQXU1tlsCQVLMb0Jlv9rLXcWHFUu85dzUMx8apZsSqvsSzcY-Yyftzr1OjQ1ag  &Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ" length="" type="audio/mp3"/>
+				<itunes:author>{"name"=>"Ravshanbek Khodzhimatov", "url"=>"http://ravshansk.com", "email"=>"rsk@ravshansk.com"}</itunes:author>
+				<itunes:subtitle>Ravshan S.K.: Бета-версия аудио</itunes:subtitle>
+				<itunes:summary></itunes:summary>
+				<itunes:duration></itunes:duration>
+				<itunes:keywords></itunes:keywords>
+				<itunes:image href="http://localhost:4000/images/itunes.png" />
+				<itunes:explicit></itunes:explicit>
+				<itunes:block>no</itunes:block>
+			</item>
+			
+		
+		 	 
+			<item>
+				<title>rsk podcast artwork</title>
+				<link>http://localhost:4000/podcast/artwork.html</link>
+				<pubDate>Fri, 21 Jun 2019 00:00:00 +0600</pubDate>
+				<description>&lt;p&gt;&lt;img src=&quot;/assets/img/podcast/artwork.jpg&quot; style=&quot;width:100%;&quot; /&gt;&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">http://localhost:4000/podcast/artwork.html</guid>
+				<enclosure url="http:" length="" type="audio/mp3"/>
+				<itunes:author>{"name"=>"Ravshanbek Khodzhimatov", "url"=>"http://ravshansk.com", "email"=>"rsk@ravshansk.com"}</itunes:author>
+				<itunes:subtitle>Ravshan S.K.: rsk podcast artwork</itunes:subtitle>
+				<itunes:summary></itunes:summary>
+				<itunes:duration></itunes:duration>
+				<itunes:keywords></itunes:keywords>
+				<itunes:image href="http://localhost:4000/images/itunes.png" />
+				<itunes:explicit></itunes:explicit>
+				<itunes:block></itunes:block>
+			</item>
+			
+		
+		 	
+		
+		 	
+		
+		 	
+		
+		 	
+		
+		 	
+		
+		 	
+		
+		 	
+		
+		 	
+		
+		 	
+		
+		 	
+		
+		 	
+		
+		 	
+		
+		 	
+		
+		 	
+		
+		 	
+		
+		 	
+		
+		 	
+		
+		 	
+		
+		 	
+		
+		 	
+		
+		 	
+		
+		 	
+		
+		 	
+		
+		 	
+		
+		 	
+		
+		 	
+		
+		 	
+		
+		 	
+		
+		 	
+		
+		 	
+		
+		 	
+		
+		 	
+		
+		 	
+		
+		 	
+		
+		 	
+		
+		 	
+		
+		 	
+		
+		 	
+		
+		 	
+		
+		 	
+		
+		 	
+		
+	</channel>
+</rss>
