@@ -9,7 +9,7 @@ tagline:             'Statistical and Economic Consultancy'
 description:         'I help researchers, data scientists and growth hackers in performing economic analyses, developing statistical algorithms and research methods. My two-edits policy guarantees the quality of my work and your satisfaction. Read on.'
 url:                 'http://ravshansk.com'
 baseurl:             ''
-plugins: [jekyll-seo-tag, jekyll-sitemap, jekyll-redirect-from]
+plugins: [jekyll-seo-tag, jekyll-sitemap, jekyll-redirect-from, jekyll-feed]
 
 # About/contact
 author:

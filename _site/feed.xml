@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-06-22T17:33:39+06:00</updated><id>http://localhost:4000/</id><title type="html">Ravshan S.K.</title><subtitle>I help researchers, data scientists and growth hackers in performing economic analyses, developing statistical algorithms and research methods. My two-edits policy guarantees the quality of my work and your satisfaction. Read on.</subtitle><author><name>Ravshanbek Khodzhimatov</name><email>rsk@ravshansk.com</email></author><entry xml:lang="russian"><title type="html">Бета-версия аудио</title><link href="http://localhost:4000/podcast/intro.html" rel="alternate" type="text/html" title="Бета-версия аудио" /><published>2019-06-22T00:00:00+06:00</published><updated>2019-06-22T00:00:00+06:00</updated><id>http://localhost:4000/podcast/intro</id><content type="html" xml:base="http://localhost:4000/podcast/intro.html">&lt;p&gt;rsk podcast — это подкаст об экономике, финансах, новостях и поп-культуре. Также будут интересные гости. Подписывайтесь.&lt;/p&gt;</content><author><name>Ravshanbek Khodzhimatov</name><email>rsk@ravshansk.com</email></author><summary type="html">rsk podcast — это подкаст об экономике, финансах, новостях и поп-культуре. Также будут интересные гости. Подписывайтесь.</summary></entry><entry xml:lang="russian"><title type="html">rsk podcast artwork</title><link href="http://localhost:4000/podcast/artwork.html" rel="alternate" type="text/html" title="rsk podcast artwork" /><published>2019-06-21T00:00:00+06:00</published><updated>2019-06-21T00:00:00+06:00</updated><id>http://localhost:4000/podcast/artwork</id><content type="html" xml:base="http://localhost:4000/podcast/artwork.html">&lt;p&gt;&lt;img src=&quot;/assets/img/podcast/artwork.jpg&quot; style=&quot;width:100%;&quot; /&gt;&lt;/p&gt;</content><author><name>Ravshanbek Khodzhimatov</name><email>rsk@ravshansk.com</email></author><summary type="html"></summary></entry><entry xml:lang="russian"><title type="html">Что даёт кыргызский паспорт?</title><link href="http://localhost:4000/blogru/kg-citizen.html" rel="alternate" type="text/html" title="Что даёт кыргызский паспорт?" /><published>2019-02-14T00:00:00+06:00</published><updated>2019-02-14T00:00:00+06:00</updated><id>http://localhost:4000/blogru/kg-citizen</id><content type="html" xml:base="http://localhost:4000/blogru/kg-citizen.html">&lt;p&gt;В Кыргызстане уже никого не удивишь тем, что у тебя российский паспорт. Можно слегка удивить, показав какой-нибудь турецкий или американский паспорт. Но удивление будет выражаться вопросом “Как взял?”, а не “Зачем?”. В этой статье, я решил поразмышлять на тему того, что даёт кыргызское гражданство.&lt;/p&gt;
+
+&lt;ul class=&quot;index&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;#travel&quot;&gt;1. Путешествия&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#work&quot;&gt;2. Работа за рубежом&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#bank&quot;&gt;3. Дискримминация культура&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#business&quot;&gt;2. Работа за рубежом&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#remote&quot;&gt;2. Работа за рубежом&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#salary&quot;&gt;2. Работа за рубежом&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a name=&quot;travel&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;1-путешествия&quot;&gt;1. Путешествия&lt;/h2&gt;
+
+&lt;p&gt;С кыргызским паспортом можно без визы въезжать во все страны СНГ &lt;em&gt;(Россия, Армения, Беларусь, Казахстан, Узбекистан, Грузия, Молдова, Украина)&lt;/em&gt;, на многие Каррибские острова&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;kurdy net gosva, net diskrimminacii - person of color etc.&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Ravshanbek Khodzhimatov</name><email>rsk@ravshansk.com</email></author><summary type="html">В Кыргызстане уже никого не удивишь тем, что у тебя российский паспорт. Можно слегка удивить, показав какой-нибудь турецкий или американский паспорт. Но удивление будет выражаться вопросом “Как взял?”, а не “Зачем?”. В этой статье, я решил поразмышлять на тему того, что даёт кыргызское гражданство.</summary></entry><entry xml:lang="english"><title type="html">My take on the famous medical appointment no-show problem</title><link href="http://localhost:4000/articles/brazil-noshow.html" rel="alternate" type="text/html" title="My take on the famous medical appointment no-show problem" /><published>2018-12-10T00:00:00+06:00</published><updated>2018-12-10T00:00:00+06:00</updated><id>http://localhost:4000/articles/brazil-noshow</id><content type="html" xml:base="http://localhost:4000/articles/brazil-noshow.html">&lt;h3 id=&quot;contents&quot;&gt;Contents&lt;/h3&gt;
+&lt;ul class=&quot;index&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;#intro&quot;&gt;1. Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#data&quot;&gt;2. Data exploration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#class&quot;&gt;3. Classifier&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#class&quot;&gt;4. Conclusion&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a name=&quot;intro&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;1-introduction&quot;&gt;1. Introduction&lt;/h2&gt;
+
+&lt;p&gt;This is a &lt;a href=&quot;https://www.kaggle.com/joniarroba/noshowappointments&quot;&gt;famous problem from Kaggle website&lt;/a&gt;. We have a dataset of online medical appointments in the city of Vitória, Espírito Santo in Brazil. It turns out that in a period of three months between May and August, 2016, patients did not show up in 25% of appointments. To investigate the possible reasons behind this, we will analyze the data and make inferences.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;data&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;2-data-exploration&quot;&gt;2. Data exploration&lt;/h2&gt;
+
+&lt;h3 id=&quot;outliers&quot;&gt;Outliers&lt;/h3&gt;
+&lt;p&gt;First of all, we explore the dataset. We immediately notice that some age values are negative, and very old patients don’t exhibit variation having too few observations:&lt;/p&gt;
+
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/brazil/tableage.png&quot; /&gt;
+	&lt;figcaption&gt;Frequency table of age data points&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Moreover, some appointments have been done to the dates before it was scheduled, probably, due to some system error. We remove the obvious outliers from our data, combine all data points for households older than 80 (to balance subset size), and continue with our analysis.&lt;/p&gt;
+
+&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dayap&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;daysc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;demographic-factors&quot;&gt;Demographic factors&lt;/h3&gt;
+
+&lt;h4 id=&quot;age-factor&quot;&gt;Age factor&lt;/h4&gt;
+&lt;p&gt;Observing the no-show dynamics throughout lifetime, gives important insights to our analysis:&lt;/p&gt;
+
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/brazil/agenoshow.png&quot; /&gt;
+	&lt;figcaption&gt;Percentage of patients who showed up, by age&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;From common experience, we know that appointments for patients younger than 18, are actually done by their parents. We can see how, as kids grow older, the parents tend to miss more appointments (because new parents tend to be concerned more with infant’s health, and as kids grow, parents tend to neglect their health slightly more).&lt;/p&gt;
+
+&lt;p&gt;As kids grow into young adults, they start steadily taking their health seriously and miss less appointments.&lt;/p&gt;
+
+&lt;p&gt;Also, for patients older than 80, we don’t have many data points at particular ages, so we aggregated them into one group.&lt;/p&gt;
+
+&lt;p&gt;So, we use two possible age variables: a continuous one with two dummies for 18 and 80 year olds, and a discrete variable correpsonding to 11 decades of patients.&lt;/p&gt;
+
+&lt;h4 id=&quot;gender-factor&quot;&gt;Gender factor&lt;/h4&gt;
+&lt;p&gt;Another demographic factor is gender. The probability distribution shows that gender does not play a significant role in no-show rate:&lt;/p&gt;
+
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/brazil/sexnoshow.png&quot; /&gt;
+	&lt;figcaption&gt;Show-up probability, by gender&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We tried to look at adults only (age&amp;gt;=18), because usually mothers (female=1) go to doctors with their children, irrespective of the kid’s registered gender, but this procedure returned no significant difference either:&lt;/p&gt;
+
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/brazil/sexnoshow18.png&quot; /&gt;
+	&lt;figcaption&gt;Show-up probability for grown-ups only, by gender&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Thus, we ignore gender in further discussion.&lt;/p&gt;
+
+&lt;h3 id=&quot;geographic-factor&quot;&gt;Geographic factor&lt;/h3&gt;
+&lt;p&gt;Looking at no-show rates by neighbourhood, shows relative balance, with only a few outliers, which do not round to 20\%.&lt;/p&gt;
+
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/brazil/geo1.png&quot; /&gt;
+	&lt;figcaption&gt;Show-up probability by neighbourhood&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Inspecting frequency tables, shows that most (not all) of the outliers come from neighbourhoods with little data:&lt;/p&gt;
+
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/brazil/geo2.png&quot; /&gt;
+	&lt;figcaption&gt;Frequency of data points by neighbourhood&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;To avoid this, we ignore neighbourhoods with less than 40 data points, namely, &lt;em&gt;Aeroporto, Ilha do Boi, Ilha do Frade, Ilhas Oceanicas de Trinade, and Parque Industrial&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Apart from them, there are still outliers (we considered 3% to be a significant deviation from the average, 20%) in percentage of no-shows: &lt;em&gt;Solon Borges, Santos Dumont, Santa Clara, Santa Cecilia, Itarare, De Lourdes, Do Cabral, Do Quadro, Horto, Jardim Da Penha, Jesus de Nazareth, Mario Cypreste, and Santa Martha&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;We will add dummy variables for these 13 neighbourhoods as our geographic predictors. Other neighborhoods will be assumed to contribute no new information to the expected value.&lt;/p&gt;
+
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/brazil/geo3.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;temporal-factor&quot;&gt;Temporal factor&lt;/h3&gt;
+&lt;p&gt;Temporal data brings the crucial information about the appointment no-shows, starting from the weekday of the appointment, and ending with the wait time. Since we don’t have at least a year-long data, we cannot speak of seasonality patterns, and will have to get by with what we have.&lt;/p&gt;
+
+&lt;h4 id=&quot;weekdays&quot;&gt;Weekdays&lt;/h4&gt;
+&lt;p&gt;The day of the week is the first thing that comes to mind - during the weekdays, patients might have emergencies at school or at work, and this could cause them to miss the appointment. However, the analysis shows no significant difference through week, except for Saturdays:&lt;/p&gt;
+
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/brazil/wday.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;But further analysis shows that this happens because of the lack of enough data for Saturday:&lt;/p&gt;
+
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/brazil/wdaytab.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;So, we ignore the weekdays and assume that they don’t affect the no-show rate.&lt;/p&gt;
+
+&lt;h4 id=&quot;wait-time&quot;&gt;Wait time&lt;/h4&gt;
+&lt;p&gt;Another obvious variable is a wait time from scheduling the appointment to the appointment itself. It is plausible to assume that in longer wait times patients can get cured, book another earlier appointment, or die before the appointment.&lt;/p&gt;
+
+&lt;p&gt;We define the “days between” variable as the difference between “day of appointment” and “day of schedule”:&lt;/p&gt;
+
+&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;daybw&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;as.numeric&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dayap&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;daysc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The plot below shows that when appointments are scheduled in that same day (wait time = 0), the patient almost never misses it (just 4\% no-show rate). There is sufficient data (34\% of all observations) to support this claim.&lt;/p&gt;
+
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/brazil/wait1.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In the next days, the no-show rate is very volatile. To avoid weekly seasonality, we aggregate the data by weeks. Also, for two reasons: &lt;em&gt;(i)&lt;/em&gt; since the longer wait times have small data points and &lt;em&gt;(ii)&lt;/em&gt; since (assuming time discounting — a weak economic assumption) people perceive recent past clearer than distant past, we aggregated first month as 4 weeks, and aggregated the next data points by month:&lt;/p&gt;
+
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/brazil/wait2.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Note that &lt;em&gt;4 months&lt;/em&gt; wait is an outlier due to small dataset. Otherwise, all probabilities after 1 week fall into ±3\% interval. Taking this and &lt;em&gt;(ii)&lt;/em&gt; into consideration, suggests an even wilder (yet still plausible) aggregation: &lt;em&gt;0 days, 1 week, and &amp;gt;1 week&lt;/em&gt;:&lt;/p&gt;
+
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/brazil/wait3.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Thus, we will use three-valued categorical variables to denote wait times.&lt;/p&gt;
+
+&lt;h4 id=&quot;hour-of-the-day&quot;&gt;Hour of the day&lt;/h4&gt;
+&lt;p&gt;Lifestyle of people potentially reflects their degree of responsibility — &lt;em&gt;“night owls”&lt;/em&gt; tend to sleep during days and maybe miss deadlines, while &lt;em&gt;“early birds”&lt;/em&gt; may take their appointments more seriously. We take a look at the data of time o’clock when the appointment was scheduled. The online appointment system opens at 6AM and closes at 10PM. We divide these 16-hour days into 4 groups of 4, and find that &lt;em&gt;“early bird effect”&lt;/em&gt; actually exists, and people who scheduled appointments between 6AM and 10AM are significantly less likely to miss their appointments, while any other time slot does not change the no-show probability significantly:&lt;/p&gt;
+
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/brazil/hour.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Thus, we use a binary dummy variable — &lt;em&gt;6AM-10AM&lt;/em&gt; or &lt;em&gt;10AM-10PM&lt;/em&gt; — to incorporate time.&lt;/p&gt;
+
+&lt;h3 id=&quot;medical-factor&quot;&gt;Medical factor&lt;/h3&gt;
+
+&lt;h4 id=&quot;appointment-history&quot;&gt;Appointment history&lt;/h4&gt;
+&lt;p&gt;To incorporate the idiosyncracies of patients, we use the history of their previous appointments, and whether they missed them before. The table below shows the repeat patients’ allocation.&lt;/p&gt;
+
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/brazil/repeat.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;For every patient, we found the modes (most frequent observations) of previous no-show stats. For patients that appear in the dataset only once, this value will be 0 (performing sensitivity checks we learned that leaving out one-time patients entirely, returns no significant difference (&amp;lt;0.5%) but complicates the dataset, so we chose to set the average previous no-show rate for first-time patients at 0). We observe that such modes greatly contribute to predicting the next no-show:&lt;/p&gt;
+
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/brazil/modeprev.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;patient-condition&quot;&gt;Patient condition&lt;/h4&gt;
+&lt;p&gt;Patient’s medical history can influence the no-show behavior. The tables below show differences in percentage of no-shows for patients with alcoholism, diabetes, hipertension, medical financial assitance (so-called “scholarship”), and handicaps:&lt;/p&gt;
+
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/brazil/conditions.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Strangely, alcoholism is the only condition which turned out to not have an effect on no-show probability. The probable reason is that alcoholism is not immediately lethal, and people tend to treat is less seriously than any other &lt;em&gt;“more serious”&lt;/em&gt; illness like diabetes. So, we include all of the above conditions, except alcoholism, in our classification.&lt;/p&gt;
+
+&lt;h4 id=&quot;sms&quot;&gt;SMS&lt;/h4&gt;
+&lt;p&gt;One can justifiably argue that patients may simply forget their appointment date and time. Hospitals tried to send SMS-reminders to their patients, but does this practice worth the cost? A simple frequency table shows that yes, patients, who received SMS-reminders, were less likely to miss the appointment:&lt;/p&gt;
+
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/brazil/sms.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;overall-no-show-stata&quot;&gt;Overall no-show stata&lt;/h4&gt;
+&lt;p&gt;Finally, we decided to include the general historical average of noshows till the moment by all patients. However, this complicated the random sampling, and, most importantly, didn’t affect the final result much (because it had little variation over time). So, we did not include this variable.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;class&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;3-classifier&quot;&gt;3. CLassifier&lt;/h2&gt;
+
+&lt;p&gt;We used &lt;em&gt;logit&lt;/em&gt; (logistic regression) and &lt;em&gt;decision trees&lt;/em&gt; to classify the data.&lt;/p&gt;
+
+&lt;h3 id=&quot;logit&quot;&gt;Logit&lt;/h3&gt;
+&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;waittime&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ifelse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;daybw&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ifelse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;daybw&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;morning&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ifelse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hoursc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hoursc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;age18&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ifelse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;18&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;age80&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ifelse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;80&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;age_decade&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;floor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;trainsize&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;round&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nrow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0.8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dftrain&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;trainsize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dftest&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;trainsize&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;+1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nrow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;logit&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;glm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;formula&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
+               &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;noshow&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;age18&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;age80&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+               &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;burs&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;diabet&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;handcap&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;alcohol&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+               &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;solbor&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sandum&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;itarar&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lourde&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cabral&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;quadro&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;penha&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jesus&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sanmar&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+               &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sms&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;morning&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;waittime&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mode_previous&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+             &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;family&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;binomial&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;link&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;logit&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+             &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dftrain&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+             &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;summary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;logit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/brazil/logit.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We found that the wait time, previous no-show history, and geographical location were the most important predictors. Also, alcohol turned out to be statistically significant, while hipertension had to be removed from the final model. Strangely, eligibility to financial assistance increased the likelihood of no-show (but this was discussed in the previous section).&lt;/p&gt;
+
+&lt;p&gt;To check the accuracy of the model, we predict the no-show for the test data and use measures called &lt;em&gt;accuracy&lt;/em&gt; and &lt;em&gt;AUR&lt;/em&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;predicted_noshow&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ifelse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;predict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;logit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dftest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;response&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0.5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;actual_noshow&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dftest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;noshow&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mytab&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;abs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;predicted_noshow&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;actual_noshow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;accuracy&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mytab&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mytab&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mytab&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;accuracy&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;roc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;actual_noshow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;predicted_noshow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;So, we have 81\% accuracy, but this is not a very desirable result because of data imbalance — if we just set all “noshows” to zero, we would still get 80% accuracy. The measure &lt;em&gt;AUR&lt;/em&gt; confirms this by giving the result 52.9\% — which is slightly better than saying &lt;em&gt;“fifty-fify”&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;So, we decide to take a look at decision trees:&lt;/p&gt;
+
+&lt;h3 id=&quot;decision-trees&quot;&gt;Decision trees&lt;/h3&gt;
+&lt;p&gt;Before doing the decision trees, we will undersample our majority set (noshow==0). The resulting tree returns 60\% accuracy and 69\% &lt;em&gt;AUR&lt;/em&gt; on average. Different tree specifications give different resulting trees, but the average accuracy doesn’t change. The &lt;em&gt;recall&lt;/em&gt; is 80\% on average, though. Here is just one of the trees. Notice that we used age as decades here, and not as a continuous variable:&lt;/p&gt;
+
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/brazil/tree.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The above tree is not the one I ended up using, the other ones just didn’t fit the page.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;end&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;4-conclusion&quot;&gt;4. Conclusion&lt;/h2&gt;
+&lt;p&gt;We have analyzed the data and tried to do a classification analysis. The results are not perfectly accurate, but they are not worse than a naive “noshow=0” prediction.&lt;/p&gt;
+
+&lt;p&gt;As an economist, I believe that having a higher accuracy would be impossible without additional data, like weather that day (was it rainy or not), the traffic situation, the diagnosis, the local news etc.&lt;/p&gt;
+
+&lt;p&gt;You can see my code in the following repo: &lt;a href=&quot;https://github.com/ravshansk/kaggle&quot;&gt;github.com/ravshansk/kaggle&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I believe my approach is wrong in many ways, so I welcome your feedback.&lt;/p&gt;</content><author><name>Ravshanbek Khodzhimatov</name><email>rsk@ravshansk.com</email></author><category term="statistics" /><category term="economics" /><summary type="html">Contents 1. Introduction 2. Data exploration 3. Classifier 4. Conclusion</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/brazil/wday.png" /></entry><entry xml:lang="russian"><title type="html">Excel - это “прошлый век”?</title><link href="http://localhost:4000/blogru/excel-not-dead.html" rel="alternate" type="text/html" title="Excel - это &quot;прошлый век&quot;?" /><published>2018-12-09T00:00:00+06:00</published><updated>2018-12-09T00:00:00+06:00</updated><id>http://localhost:4000/blogru/excel-not-dead</id><content type="html" xml:base="http://localhost:4000/blogru/excel-not-dead.html">&lt;h3 id=&quot;excel-жив&quot;&gt;Excel жив&lt;/h3&gt;
+&lt;p&gt;Excel - это, в принципе, не прошлый век. Он очень удобный. Он научил нас всех когда-то соображать в таблицах, формулах. С помощью нативной поддержки Visual Basic, в Excel можно до сих пор делать автоматизации, которые не все представляют, особенно те, кто считают, что Excel устарел.&lt;/p&gt;
+
+&lt;p&gt;А вообще, Excel - это пик функциональности, все программы бы хотели такого функционала - это и база данных (вместо SQL/Access), и таблица-spreadsheet, где ко всей информации есть прямой доступ, и дата-манипулятор с помощью формул и макросов, и инструмент статистического и финансового анализа с помощью плагинов Solver, Regression и т.п., и родная поддержка графиков и чартов.&lt;/p&gt;
+
+&lt;p&gt;Если бы Excel устарел — Microsoft бы его перестал разрабатывать, как MS Office Groove, Internet Explorer и т.д., которые новое руководство выбросило на фиг.&lt;/p&gt;
+
+&lt;h3 id=&quot;проблемы-excel&quot;&gt;Проблемы Excel&lt;/h3&gt;
+&lt;p&gt;Основной проблемой Excel является скорость и вместимость. В Экселе всего можно вместить 70 тысяч строк, а зависать начинает с 5 тысяч строк. Сегодня данных так много (весь этот хайп с Big Data), что Excel не вывозит.&lt;/p&gt;
+
+&lt;p&gt;Но тут может возникнуть вопрос: &lt;em&gt;почему нельзя ввести в Excel поддержку больших данных?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Ответ: &lt;em&gt;Потому что он не для этого предназначен.
+В программах, которые поддерживают большие данные, действует следующая философия: “раз уж у нас тысячи строк и сотни столбиков, то от просмотра этой огромной таблицы никто всё равно ничего не поймёт. Поэтому мы сделаем такой дизайн, где таблицу мы сохраним на компьютере, но не будем её показывать. Потому что показывать данные занимает огромную память ОЗУ. А покажем только сколько в ней строк, сколько столбиков, среднее значение, максимум и минимум в каждом столбике, и т.п. Если нужно будет пользователю, он может просматривать отдельные части отдельных строк.А также уберем все кнопки и графическое меню, потому что они тоже занимают память. Пусть пользователи учатся программировать.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Вот пример такой программы:&lt;/p&gt;
+
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/excel/dataframe.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;В базе данных 100 тысяч строк и 40 столбиков. Программа так суммирует данные. А если мне хочется посмотреть, например, на данные всех людей, кому за 100 лет, я должен буду написать код вроде &lt;code class=&quot;highlighter-rouge&quot;&gt;SELECT * FROM data WHERE age&amp;gt;100;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;А Excel по своему дизайну и философии решил, что они - не программа, которая требует абстракного мышления и программирования. Они - программа-таблица, где данных обычно не так много (~200 строчек и 10 столбиков), а также все данные можно видеть перед собой.&lt;/p&gt;
+
+&lt;h3 id=&quot;excel-будет-жить&quot;&gt;Excel будет жить&lt;/h3&gt;
+&lt;p&gt;Обычной фирме на фиг не нужны большие данные. А для месячного отчета не нужно воображать таблицу, нужно её создать (мышкой, а не ERP кодом!), исправить её NumPadом, свернуть и открыть Пасьянс Паук (или где сейчас зависают? в ютубе? не суть.)&lt;/p&gt;
+
+&lt;p&gt;Конечно, большие фирмы будут внедрять SAP и т.п., но всегда будут стартапы, всегда будут средние фирмы, будут детсады и школы, где надо приготовить быстрый отчёт, написать список учащихся и т.п.&lt;/p&gt;
+
+&lt;p&gt;Адекватный человек, если ему нужно написать любой список (покупок, прейскурант, каталог), откроет Excel, а не Emacs Org-Mode (лично я не адекватный, но это неважно).&lt;/p&gt;
+
+&lt;p&gt;Или представьте, что вы строите себе пристройку на дачу и хотите расчитать примерную стоимость, а рядом только компьютер. Какую программу вы откроете? Excel! Конечно, есть те, кто откроет и Word :), но никто не откроет MATLAB.&lt;/p&gt;
+
+&lt;h3 id=&quot;в-заключении&quot;&gt;В заключении&lt;/h3&gt;
+&lt;p&gt;Те, кто говорит, что Excel - прошлый век, не знают о чём они говорят. У Excel есть своя ниша - таблицы. До тех пор, пока люди будут мыслить в прямоугольных таблицах, будет нужда в них. Это не изменилось с Древнего Египта:&lt;/p&gt;
+
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/excel/egypt.jpg&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Однако, в какой-то момент жизни, в начале 2000-х, люди начали использовать Excel не как таблицу, а как панацея для всего, что связано с анализом данных, даже вместо Access, который по идее не был его конкурентом и входил в пакет Microsoft Office - это была проблема людей, а не Excel.&lt;/p&gt;
+
+&lt;p&gt;Сейчас, из-за роста данных, появились более удобные системы для анализа данных, и Excel принял мудрое решение - не стараться бегать за хайпом, а продолжить делать то, что у них лучше всего получается - таблицы. И в этом плане, я не вижу причины Экселу умирать.&lt;/p&gt;</content><author><name>Ravshanbek Khodzhimatov</name><email>rsk@ravshansk.com</email></author><summary type="html">Excel жив Excel - это, в принципе, не прошлый век. Он очень удобный. Он научил нас всех когда-то соображать в таблицах, формулах. С помощью нативной поддержки Visual Basic, в Excel можно до сих пор делать автоматизации, которые не все представляют, особенно те, кто считают, что Excel устарел.</summary></entry><entry xml:lang="english"><title type="html">Using matching with quotas to solve Hajj visa problem</title><link href="http://localhost:4000/articles/saudi-visa.html" rel="alternate" type="text/html" title="Using matching with quotas to solve Hajj visa problem" /><published>2018-11-28T00:00:00+06:00</published><updated>2018-11-28T00:00:00+06:00</updated><id>http://localhost:4000/articles/saudi-visa</id><content type="html" xml:base="http://localhost:4000/articles/saudi-visa.html">&lt;h3 id=&quot;contents&quot;&gt;Contents&lt;/h3&gt;
+&lt;ul class=&quot;index&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;#intro&quot;&gt;1. Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#problem&quot;&gt;2. The problem&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#solution&quot;&gt;3. Solution&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a name=&quot;intro&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;1-introduction&quot;&gt;1. Introduction&lt;/h2&gt;
+
+&lt;p&gt;Hajj is the annual event in Mecca, Saudi Arabia, where 1-2 million pilgrims are hosted. This creates an enormous logistic challenge both to the kingdom of Saudi Arabia and to all countries with Muslim population. The former have to host people and determine the annual capacity of the city of Mecca, and the latter have to allocate people in their countries to assigned lots/quotas.&lt;/p&gt;
+
+&lt;p&gt;The Foreign Policy journal &lt;a href=&quot;http://foreignpolicy.com/2015/09/23/how-to-score-a-ticket-to-the-hottest-event-in-saudi-the-hajj/&quot;&gt;discusses the visa allocation in detail&lt;/a&gt;. The rule of thumb, Saudi Kingdom uses today, is to give 1000 visa quotas for every 1 million Muslim Population.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;problem&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;2-the-problem&quot;&gt;2. The problem&lt;/h2&gt;
+
+&lt;p&gt;The importance of Hajj (&lt;em&gt;promised complete indulgence from all the previous sins&lt;/em&gt;) makes the trip very desirable to a lot of people. This creates a huge supply-demand misallocation.&lt;/p&gt;
+
+&lt;p&gt;The basic economic method (&lt;em&gt;increasing visa fees until supply meets demand&lt;/em&gt;) is forbidden by religion, as it would create unfairness in the society and leave out non-rich people.&lt;/p&gt;
+
+&lt;p&gt;Moreover, the visa allocation within countries is completely left to their respective governments. This creates different methods of visa allocation on site, like bribing officials (until supply meets demand), doing weighted lotteries, creating special commissions deciding who &lt;em&gt;“deserves”&lt;/em&gt; to go to Hajj.&lt;/p&gt;
+
+&lt;p&gt;The problem with this two-step procedure is (i) inefficiency, due to strict quotas and (ii) no mechanism to punish local bribes.&lt;/p&gt;
+
+&lt;p&gt;The inefficiencies include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Wasted unfilled quotas &lt;a href=&quot;https://realnoevremya.com/articles/696&quot;&gt;in some countries&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Difficulty to determine the actual size of Muslim population (especially in secular states)&lt;/li&gt;
+  &lt;li&gt;Failure to differentiate between federal and unitary governments (e.g. two separate quotas for Tatarstan and Dagestan, both parts of Russian Federation with citizens holding identical passports making it imposible to differentiate them.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a name=&quot;solution&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;3-solution&quot;&gt;3. Solution&lt;/h2&gt;
+
+&lt;p&gt;I propose to use method, proposed by Kamada and Kojima’s in their 2015 &lt;a href=&quot;https://econpapers.repec.org/article/aeaaecrev/v_3a105_3ay_3a2015_3ai_3a1_3ap_3a67-99.htm&quot;&gt;paper on “Efficient matching under distributional constraints”&lt;/a&gt;, to solve this problem. They used the algorithm to improve UK’s two-step medical student admission procedure.&lt;/p&gt;
+
+&lt;p&gt;The first step is to revoke the authority of the local governments in visa allocation, since they are either inefficient, corrupt or don’t care (e.g. secular countries).&lt;/p&gt;
+
+&lt;p&gt;Next we use a &lt;em&gt;Flexible Deferred Acceptance Mechanism (FDA)&lt;/em&gt; to allocate visas directly to the global population. This will require a new &lt;em&gt;“Meccan preference set”&lt;/em&gt; which will favor first-timers and older pilgrims, will not separate family members (a lot of preference criteria can be included in this step).&lt;/p&gt;
+
+&lt;p&gt;In order to mimic Kojima’s paper we introduce &lt;em&gt;“Umrah”&lt;/em&gt; variable. Umrah is the same ritual as Hajj but which happens any other time throughout the year except for the Hajj season.&lt;/p&gt;
+
+&lt;p&gt;Umrah alse has a quota problem, though not that big. So, we introduce 11 variables for 11 months of Umrah to mimic the different “hospitals” to which pilgrims are applying to. The potential pilgrims will give their preference lists of month at which they want to go to Mecca. So, we will obtain “12
+hospitals(months)” with “doctor allocation” with regional caps. As a reminder, below is the FDA
+mechanism from Kojima’s paper:&lt;/p&gt;
+
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/kojima/fda.png&quot; /&gt;
+	&lt;figcaption&gt;Flexible Deferred Acceptance Mechanism by Kamada and Kojima (2015)&lt;/figcaption&gt;
+&lt;/figure&gt;</content><author><name>Ravshanbek Khodzhimatov</name><email>rsk@ravshansk.com</email></author><category term="economics" /><category term="management" /><summary type="html">Contents 1. Introduction 2. The problem 3. Solution</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/kojima/hajj.jpg" /></entry><entry xml:lang="english"><title type="html">Valuation Calculator for Subscription-Based Businesses</title><link href="http://localhost:4000/articles/valuation-calc.html" rel="alternate" type="text/html" title="Valuation Calculator for Subscription-Based Businesses" /><published>2018-11-27T00:00:00+06:00</published><updated>2018-11-27T00:00:00+06:00</updated><id>http://localhost:4000/articles/valuation-calc</id><content type="html" xml:base="http://localhost:4000/articles/valuation-calc.html">&lt;p&gt;Last summer I worked on a project that used Daniel McCarthy, Peter Fader and Bruce Hardie’s valuation model, described in their paper “Valuing Subscription-Based Businesses Using Publicly Disclosed Customer Data” available at &lt;a href=&quot;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2701093#maincontent&quot;&gt;SSRN&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Their model features a lot of series, vectors, matrices, intertwined recursive definitions, that it was very difficult to comprehend at first. So, if you are going to read their paper, here is the diagram that I have drawn to make it easier for you to understand it.&lt;/p&gt;
+
+&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/churn/diag.png&quot; height=&quot;300%&quot; /&gt;
+	&lt;figcaption&gt;McCarthy et al.'s Customer behavior model&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In the summer gig, I mentioned, I had to use an Excel-based optimization kindly provided by Dan Mccarthy, due to time constraints. But now I finally found time to replicate their model in R.&lt;/p&gt;
+
+&lt;p&gt;It’s in an earliest alpha version now, and does not optimize consistently. Moreover, I haven’t built a Shiny user interface due to my workload on other projects.&lt;/p&gt;
+
+&lt;p&gt;However, if you are interested, you can find the code in the &lt;a href=&quot;https://github.com/ravshansk/danmccarthy&quot;&gt;Github repo that I created specifically for that&lt;/a&gt;. You are welcome to contribute to the project. I will welcome your pull requests.&lt;/p&gt;
+
+&lt;p&gt;Ideally, the project will constitute an open-source user-friendly valuation calculator for subscription-based businesses.&lt;/p&gt;
+
+&lt;p&gt;Let’s combine our codes to make life easier for laymen!&lt;/p&gt;</content><author><name>Ravshanbek Khodzhimatov</name><email>rsk@ravshansk.com</email></author><category term="economics" /><category term="management" /><category term="finance" /><summary type="html">Last summer I worked on a project that used Daniel McCarthy, Peter Fader and Bruce Hardie’s valuation model, described in their paper “Valuing Subscription-Based Businesses Using Publicly Disclosed Customer Data” available at SSRN.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/churn/diag2.png" /></entry><entry xml:lang="english"><title type="html">The future of economic publishing</title><link href="http://localhost:4000/blog/treconcrisis.html" rel="alternate" type="text/html" title="The future of economic publishing" /><published>2018-11-22T00:00:00+06:00</published><updated>2018-11-22T00:00:00+06:00</updated><id>http://localhost:4000/blog/treconcrisis</id><content type="html" xml:base="http://localhost:4000/blog/treconcrisis.html">&lt;p&gt;I finished my thesis on Financial Economics at the beginning of this summer. I performed simulations for different investment strategies for Turkish households, to see which investment option is the best.&lt;/p&gt;
+
+&lt;p&gt;Of course, I used in my study the main economic indicators for Turkey, like inflation and 10-year Treasury yields.&lt;/p&gt;
+
+&lt;p&gt;Then I went on a summer break to visit &lt;a href=&quot;https://en.wikipedia.org/wiki/Kyrgyzstan&quot;&gt;&lt;em&gt;Kyrgyzstan&lt;/em&gt;&lt;/a&gt; and my supervisor spent the summer planning for his wedding.&lt;/p&gt;
+
+&lt;p&gt;Meanwhile, I didn’t read a single article about Turkey, as I was busy swimming in the river and having fun, trying to forget everything related to my grad school experience.&lt;/p&gt;
+
+&lt;p&gt;I didn’t return to Turkey, but in October, I got in touch with my advisor via email, and he suggested that we publish the thesis in a journal. I happily agreed and started editing my thesis to satisfy the journal’s guideline.&lt;/p&gt;
+
+&lt;p&gt;But then I decided to check the numbers, and realized that I missed the &lt;a href=&quot;https://en.wikipedia.org/wiki/Turkish_currency_and_debt_crisis,_2018&quot;&gt;&lt;em&gt;Turkish currency and debt crisis of summer, 2018&lt;/em&gt;&lt;/a&gt; altogether. The numbers changed by hundreds of percentage points!&lt;/p&gt;
+
+&lt;p&gt;I am still incorporating all the changes, because I didn’t keep my &lt;em&gt;R&lt;/em&gt;-codes organized, and had to work my way through half-forgotten chaos. But even if I had clean R-codes, I still would have spent time, incorporating changes into the LaTeX file.&lt;/p&gt;
+
+&lt;p&gt;And then I thought, how many more articles and journal issues that have already been printed, are like mine. Their data is obsolete, their conclusions are wrong. I’ve always known that economics is not physics, but I have never experienced this first-hand. This thought never left me since — printing economic papers seems useless. But what can we do?&lt;/p&gt;
+
+&lt;p&gt;The only answer that I could come up with is to force the empirical works to have a web-based dynamic pages, which would change the resulting numbers by automatically updating the input data every month. This is not too hard to execute, but it will be very expensive — the journals will have to rent a lot of cloud storage with virtual machines running on them (to run RStudio and LaTeX).&lt;/p&gt;
+
+&lt;p&gt;Also, the archive of publications should be created, where everyone can keep track of historical versions of the paper.&lt;/p&gt;
+
+&lt;p&gt;And, of course, the article authors should think about all the possibililites beforehand, and write their text with “if-then” conditionals. The text will change together with the data. There is no need to do comprehensive text changes — just  2-3 versions of text, linked to critical values.&lt;/p&gt;
+
+&lt;p&gt;This all seems overly complicated, and it really is inconvenient, if your only incentive is to graduate/publish/whatever. However, if you really care about economic research, you should understand that there is no other way to ensure the survival of the empirical economics in the future.&lt;/p&gt;</content><author><name>Ravshanbek Khodzhimatov</name><email>rsk@ravshansk.com</email></author><category term="economics" /><category term="finance" /><summary type="html">I finished my thesis on Financial Economics at the beginning of this summer. I performed simulations for different investment strategies for Turkish households, to see which investment option is the best.</summary></entry><entry xml:lang="english"><title type="html">Why don’t more economists get hired as data analysts?</title><link href="http://localhost:4000/blog/hirestat.html" rel="alternate" type="text/html" title="Why don't more economists get hired as data analysts?" /><published>2018-11-03T00:00:00+06:00</published><updated>2018-11-03T00:00:00+06:00</updated><id>http://localhost:4000/blog/hirestat</id><content type="html" xml:base="http://localhost:4000/blog/hirestat.html">&lt;figure class=&quot;&quot;&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/hirestat/modernbook.JPG&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;There are multiple reasons why econometrics experts don’t get hired as data analysts on a routine basis.&lt;/p&gt;
+
+&lt;h4 id=&quot;econometrics-is-not-about-data&quot;&gt;Econometrics is not about data&lt;/h4&gt;
+
+&lt;p&gt;Econometrics is, first and foremost, a statistics applied to economic theory.&lt;/p&gt;
+
+&lt;p&gt;1) So, its main goal is not a “real life economics”, but the way to numerically test the theory. Econometrics’ unique expertise is causal analysis, time series, experimental design. All of these skills are great for academia or fields somehow related to academia — R&amp;amp;D departments, Public Policy, Urban Development, Environmental Policies.&lt;/p&gt;
+
+&lt;p&gt;And economists do get hired in these fields, but there are a lot less such organizations than commercial businesses. So, no one sees these economists working as de-facto data analysts.&lt;/p&gt;
+
+&lt;p&gt;2) Econometrics experts are still economists at heart. So, the economic problems like matching, game theory, real business cycles, history of economic thought etc., are why they chose their field in the first place. And data analysis is just a tool to study economics.&lt;/p&gt;
+
+&lt;p&gt;If you listen to two econometricians talk for a few hours, you will see how their conversation starts with “variances” and “biases”, but soon converges to “The Theory of Moral Sentiments” by Adam Smith.&lt;/p&gt;
+
+&lt;h4 id=&quot;businesses-are-unaware-of-economists-potential&quot;&gt;Businesses are unaware of economists’ potential&lt;/h4&gt;
+
+&lt;p&gt;1) Econometrics does not focus on predictive accuracy, it focuses on ideas and rigor. And self-learned data analysts have no problem with ignoring theory to reach more precision. So, firms hire the latter.&lt;/p&gt;
+
+&lt;p&gt;2) Economists are rational and don’t want to waste their resources — therefore, they only learn those programming languages and statistical packages, that are absolutely necessary. So, they rarely keep up to date with stuff like SQL, Hadoop etc. and make do with Stata/R. A rare economist would even bother to learn Excel macros, because “I can do it in Stata”, and if the team is using Excel, they won’t like someone to preach them how they are using the wrong tools.&lt;/p&gt;
+
+&lt;p&gt;3) Self-named “data scientists” (whatever they mean by “science”) were historically the guys, who developed the data cleaning/normalizing libraries for R/Stata. Economists would consider it a menial task, and charge their Research Assistants with it.&lt;/p&gt;
+
+&lt;p&gt;Outsiders might mistakenly think that the economists themselves did not know how hard this task was etc., which is obviously wrong, because these economists had been Research Assistants themselves and knew how to do it themselves.&lt;/p&gt;
+
+&lt;p&gt;So, these guys decided to tell the world that their work is a separate field in on itself and spread the word that the firms need data scientists and not economists/statisticians. The latter didn’t react to that, because they had their full-time jobs in academia, and with time, the data science hype overgrew economists/statisticians.&lt;/p&gt;
+
+&lt;p&gt;Now, firms are prejudiced against economists in a hiring process.&lt;/p&gt;
+
+&lt;p&gt;In conclusion, economists can easily learn to become data analysts, but they either are lazy or uninterested. At the same time, firms don’t really like to hire economists because of data science hype and prejudices.&lt;/p&gt;</content><author><name>Ravshanbek Khodzhimatov</name><email>rsk@ravshansk.com</email></author><category term="management" /><category term="statistics" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/hirestat/modernbook.JPG" /></entry><entry xml:lang="english"><title type="html">Why academics won’t hire consultants</title><link href="http://localhost:4000/blog/academic-clients.html" rel="alternate" type="text/html" title="Why academics won't hire consultants" /><published>2018-11-01T00:00:00+06:00</published><updated>2018-11-01T00:00:00+06:00</updated><id>http://localhost:4000/blog/academic-clients</id><content type="html" xml:base="http://localhost:4000/blog/academic-clients.html">&lt;figure class=&quot;blog&quot;&gt;
+	&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/academic-clients/bounlib.JPG&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I am an economic and statistical consultant. What I do is help my clients to take valuable insights from their data, develop statistical algorithms and design frameworks to get most of their data analytics, write a software to automate their data analysis routine.&lt;/p&gt;
+
+&lt;p&gt;So, why would firms and individuals hire me? It’s because of &lt;em&gt;comparative advantage&lt;/em&gt; — they want to outsource their data analytics needs to an expert and not worry about it themselves. Because that’s what rational people do.&lt;/p&gt;
+
+&lt;p&gt;But, perhaps, academic aren’t — they just won’t hire a consultant, even in cases when it would significantly improve their productivity. They contact me, they ask questions about my services and right when it comes to seal the deal, they pull back and stop responding. I do not observe this behavior in my clients from industry, so this pattern really exists.&lt;/p&gt;
+
+&lt;p&gt;Coming from academia myself, I think there are several reasons:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;After spending two decades in an &lt;em&gt;education system, where outside help is strongly discouraged&lt;/em&gt;, academics have never developed a habit to outsource their tasks and focus on their area of specialization.&lt;/li&gt;
+  &lt;li&gt;Academics have been on top of their classes throughout their education and &lt;em&gt;they are confident that they can learn and master everything themselves&lt;/em&gt;. It’s not surprising to see a literature professor who manages her own website on Github.&lt;/li&gt;
+  &lt;li&gt;Academics are surrounded by the &lt;em&gt;brightest students who do a lot of work for free&lt;/em&gt;, and thus they can’t even start to comprehend the &lt;em&gt;“very high”&lt;/em&gt; price tags in the industry. They usually end up &lt;em&gt;leaving a difficult work for their Research Assistants to figure out&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;There isn’t much money in academia, so &lt;em&gt;no one is ever rushing to finish their research&lt;/em&gt;. I’ve seen profs whom it took two weeks (even month) to respond to e-mails. After working in a startup for two years, I still cannot understand this pacing — you can lose your business in two weeks! I figured that &lt;em&gt;whenever there is no real money involved, people tend to keep a slower tempo&lt;/em&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;On a quick look, I could come up with these reasons. Have you had a similar experience with academic clients? Do you know other reasons? Please share you knowledge in the comments.&lt;/p&gt;</content><author><name>Ravshanbek Khodzhimatov</name><email>rsk@ravshansk.com</email></author><category term="management" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/academic-clients/bounlib.JPG" /></entry></feed>
