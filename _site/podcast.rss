@@ -9,8 +9,8 @@
 		<managingEditor> (Ravshanbek Khodzhimatov)</managingEditor>
 		<webMaster> (Ravshanbek Khodzhimatov)</webMaster>
 		<copyright>2017-2019 Ravshan S.K.</copyright>
-		<pubDate>Sat, 21 Sep 2019 18:22:14 +0600</pubDate>
-		<lastBuildDate>Sat, 21 Sep 2019 18:22:14 +0600</lastBuildDate>
+		<pubDate>Thu, 07 Nov 2019 13:07:34 +0100</pubDate>
+		<lastBuildDate>Thu, 07 Nov 2019 13:07:34 +0100</lastBuildDate>
 		<image>
 			<link>http://localhost:4000</link>
 			<url>http://localhost:4000/images/itunes.png</url>
@@ -42,7 +42,7 @@
 			<item>
 				<title>Бета-версия аудио</title>
 				<link>http://localhost:4000/podcast/intro.html</link>
-				<pubDate>Sat, 22 Jun 2019 00:00:00 +0600</pubDate>
+				<pubDate>Sat, 22 Jun 2019 00:00:00 +0200</pubDate>
 				<description>&lt;p&gt;rsk podcast — это подкаст об экономике, финансах, новостях и поп-культуре. Также будут интересные гости. Подписывайтесь.&lt;/p&gt;
 </description>
 				<guid isPermaLink="true">http://localhost:4000/podcast/intro.html</guid>
@@ -57,8 +57,6 @@
 				<itunes:block>no</itunes:block>
 			</item>
 			
-		
-		 	
 		
 		 	
 		

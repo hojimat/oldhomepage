@@ -6,6 +6,7 @@ categ: article
 keywords: ramadan, weather, climate, meteorology
 tags: economics
 image: /assets/img/ramadan/thumb.png
+published: false
 ---
 
 ### Intro
