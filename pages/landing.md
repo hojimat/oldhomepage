@@ -51,44 +51,6 @@ In the blog of this website I give a generic picture of works done and publish o
 <a name="hire"></a><br>
 # Hire me
 
-### Pricing
-
-<div class="container py-3">
-	<div class="card-deck mb-3 text-center">
-
-	<div class="card mb-4 shadow-sm">
-	<div class="card-header">
-	<h4 class="my-0 font-weight-normal">Consulting</h4>
-	</div>
-    <div class="card-body">
-	<h1 class="card-title pricing-card-title">$40 <small class="text-muted">/ hr</small></h1>
-	<ul class="list-unstyled mt-3 mb-4">
-	<li><i>Get help with your statistical method, economic model, or financial analysis.</i></li>
-	<br/>
-    <br/>
-	<li>Free e-mail discussion</li>
-	<li>Free pre-research</li>
-	</ul>
-	</div>
-    </div>
-	
-	<div class="card mb-4 shadow-sm">
-	<div class="card-header">
-	<h4 class="my-0 font-weight-normal">Project</h4>
-    </div>
-	<div class="card-body">
-	<h1 class="card-title pricing-card-title">$500 <small class="text-muted">/ wk</small></h1>
-	<ul class="list-unstyled mt-3 mb-4">
-	<li><i>Hire an expert for your financial analysis, economic modeling, or statistical programming project.</i></li>
-    <br/>
-	<li>Full documentation on all work</li>
-	<li>2 free full-length edits</li>
-	</ul>
-	</div>
-    </div>
-	</div>
-</div>
-
 ### Request a collaboration
 <form action="https://formspree.io/rsk@ravshansk.com" method="POST">
 <div class="form-row py-3">
