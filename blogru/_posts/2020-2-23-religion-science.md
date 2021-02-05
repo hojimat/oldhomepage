@@ -3,6 +3,7 @@ layout: post
 title: О науке и религии 
 lang: russian
 categ: blogru
+published: false
 ---
 
 Давно не писал. Накопились мысли на тему науки и тему религии. Дисклеймер: я не теолог и не ученый.
