@@ -3,7 +3,7 @@ layout: post
 title: Simulations in economics
 lang: english
 categ: article
-description: This article talks about simulations as a research tool for the economists, how they allow for weaker assumptions, bounded rationality and high complexity.
+description: This article talks about simulation as a research tool for the economists, how it allows for weaker assumptions, bounded rationality and high complexity.
 keywords: simulation, economics, agent-based modeling, abm 
 tags: economics
 image: /assets/img/simulation/simulation.png
@@ -39,7 +39,7 @@ Imagine a chessboard with a king on the cell `a1`. Every minute, the king moves 
 Plugging in _t=1+5=6_ into the equation gives the location of the king after 5 minutes as `f6`.
 
 
-- Empirical solution observes the king for the first 3 minutes and observes a pattern.
+- Empirical solution observes the king for the first 3 minutes and extrapolates a pattern.
 
 <img class="img-fluid mx-auto d-block w-50" src="/assets/img/simulation/curve.png"/>
 
@@ -52,11 +52,11 @@ Fitting the curve, it forecasts the location of the king after 5 minutes as `f6`
 <figcaption>Research interest: location of a white king given a starting position and a movement rule</figcaption>
 </figure>
 
-The advantage of simulations becomes clearer when we complicate the problem. Imagine a chessboard with the following pieces and movement rules:
+The advantage of simulations becomes clearer when we consider more complex problems. Imagine a chessboard with the following pieces and movement rules:
 
 1. white king on `a1`: moves 1-up if it is on a black cell and 1-right if it is on a white cell
-2. white knight on `h1`: moves 2-left-1-down if it is on a black cell and 2-up-1-left if it is on a white cell
-3. black bishop  on `c8`: moves 1-right-1-down 
+2. black bishop  on `c8`: moves 1-right-1-down 
+3. white knight on `h1`: moves 2-left-1-down if it is on a black cell and 2-up-1-left if it is on a white cell
 4. black bishop  on `f8`: moves 1-left-1-down 
 5. capture is required if possible
 6. each piece performs one move per period
@@ -65,14 +65,14 @@ What is the state of the chessboard after 3 periods?
 
 <figure class="figure text-center">
 <img class="figure-img img-fluid w-50" src="/assets/img/simulation/chess2.svg"/>
-<figcaption>Research interest: state of the world given a population, starting positions, and movement rules</figcaption>
+<figcaption>Research interest: state of the world given population, starting positions, and movement rules</figcaption>
 </figure>
 
-Analytical model gets complicated even at this very simplified special case of a chess game. Empirical models can help only in presence of the relevant data. Simulation comes handy in this type of problems because it does not look for a solution or estimation --- it simply runs the game and sees what happens.
+Analytical model gets complicated even at this very simplified special case of a chess game. Empirical models can help only in presence of the relevant data. Simulation comes handy in this type of problems because it does not look for a solution or estimation --- it simply runs the game and sees what happens. In fact, this is how chess engines work.
 
 --- 
 
-A similar example is Rubik's cube --- it is possible to provide an analytical explanation of what a 3-move combination does, but it is very difficult to grasp what a 12-move combination does --- that's why the usual way to understand the combinations is by starting from a completed cube and actually performing the moves and see the results after the fact, which is exactly what simulation does. Let's take a look at another example, this time from economics.
+A similar example is Rubik's cube --- it is possible to provide an analytical explanation of what a 3-move combination does, but it is very difficult to grasp what a 12-move combination does --- that's why the usual way to understand the combinations is by starting from a completed cube and actually performing the moves and seeing the results after the fact, which is exactly what simulation does. Let's take a look at another example, this time from economics.
 
 ### 2 b. One-time investment
 
@@ -87,11 +87,9 @@ Imagine a stylized scenario, when you are 25 years old and have 1,000$ and want 
 
 <img class="img-fluid mx-auto d-block w-50" src="/assets/img/simulation/investment.png"/>
 
-Simulation focuses on the evolution of portfolio through time as much as it focuses on its value at retirement. In the above example we can see that the first investment option is better until 60 years and worse after age 60.
+Simulation focuses on the evolution of portfolio through time as much as it focuses on its value at retirement. In the above example we can see that the first investment option is better until 60 years and worse after age 60. However, the real advantage of using simulations can be realized when analyzing a more realistic situation, when you make investment contributions every month of your life and the portfolio values change with the economy and stock markets. In this situation, analytical solution gets extremely complicated, and the portfolio choice is better analyzed using simulations. Below is one example of how simulations make life-cycle investment analysis easier in case of multiple stocks changing at the same time.
 
 ---
-
-Finally, let's consider a more technical example.
 
 ### 2 c. Confidence interval
 
@@ -101,11 +99,11 @@ We can get into joint distributions or use theorems to solve the problem, but th
 
 <img class="img-fluid mx-auto d-block w-100" src="/assets/img/simulation/confint.png"/>
 
-Using simulations, we have obtained a new variable _A+B_ with one mean and one variance instead of original two. Thus, we can calculate the confidence interval from the resulting data, without having to use multivariate probability theory.
+Using simulations, we have obtained a new variable _A+B_ with one mean and one variance instead of original two. Thus, we can calculate the confidence interval from the resulting data, without having to use multivariate probability theory. The advantage becomes clearer when we want products or other nonlinear combinations of the two random variables. 
 
 ---
 
-The examples above illustrate two important characteristics of simulations: _(a)_ they allow to study not only the results, but also the evolution of states leading to the results and _(b)_ they allow for higher complexity in problem formulations. The latter comes from the fact that simulations do not require a solution, and simply implement the process given the initial parameters and the rules. Before we proceed to the discussion of the methodology, let's take a look at the actual research that employs simulations.
+The examples above illustrate two important characteristics of simulations: _(a)_ they allow to study not only the results, but also the evolution of states leading to the results, and _(b)_ they allow for higher complexity in problem formulations. The latter comes from the fact that simulations do not require a solution, and simply implement the process given the initial parameters and the rules. Before we proceed to the discussion of the methodology, let's take a look at the actual research that employs simulations.
 
 <a name="applications"></a><br>
 ## 3. Applications
@@ -146,22 +144,19 @@ This model contains too many moving parts to try to solve it analytically. Even 
 
 Simulation is very useful for this type of problems. We can approach the solution as follows:
 
-1. Consider 9 different types of agents (3 types of risk aversion, steepness of the earnings curve, and the industry of work).
-2. Randomly generate stock prices for the whole investment timespan (40 years in this example) from the given distribution (calibrated from the historical data).
-3. Let 9 25-year-old agents invest in 3 portfolios and observe their funds until age 65.
-4. Calculate utilities these agents get from different portfolio decisions.
+1. Consider an 25-year-old agent that wants to invest in a pension fund.
+2. Randomly generate prices for all assets in a portfolio for the whole investment timespan (40 years in this example) from the given distributions (calibrated from the historical data).
+3. Calculate portfolio values according to the generated state.
+3. Let the agent invest in 3 portfolios and observe the funds until age 65.
 5. Repeat the above steps _N=10,000_ times.
 
 The resulting data can be used to test different insights --- from observing mean and variation across scenarios to comparing the relative frequency of preferences. Below we present just one of the possible results of the simulation --- how frequent one portfolio is better than the other:
 
 <img class="img-fluid mx-auto d-block w-75" src="/assets/img/simulation/results.png"/>
  
-asdkljasldfjaslkdjfas
+As you can see, simulations work really well for comparing different scenarios, as the values themselves are not informative.
 
 ---
-
-if you want you can focus on the evolution instead of the results
-
 
 ### 3 b. Battle of the sexes 
 laksjdflkj allows for modeling agents one to one or whatever.
@@ -196,6 +191,8 @@ you can make it as difficult as you want.
 In relationship to data, analytical uses calibration, empirical uses estimation, and simulation generates data.
 simulation is complementary to analytical and empirical approaches. we can use munk formula with calibrated parameters and simulate the results.
 put codes somewhere
+
+Simulation is useless in presence of data or a good analytical model; simulation is a form of escapism and does not solve any problem , just observes; it is best for the comparison of scenarios and to learn newinsights
 <a name="conclusion"></a><br>
 ## 5. Conclusion
 

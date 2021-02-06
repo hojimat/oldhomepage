@@ -1,5 +1,5 @@
 ---
-layout: landing2
+layout: landing
 title: Home
 permalink: /test
 ---
