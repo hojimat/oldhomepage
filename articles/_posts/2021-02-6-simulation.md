@@ -113,7 +113,7 @@ Using simulations, we have obtained a new variable _A+B_ with one mean and one v
 
 ---
 
-The examples above illustrate two important characteristics of simulations: _(a)_ they allow to study not only the results, but also the evolution of states leading to the results, and _(b)_ they allow for higher complexity in problem formulations. The latter comes from the fact that simulations do not require a solution, and simply implement the process given the initial parameters and the rules. Before we proceed to the discussion of the methodology, let's take a look at the actual research that employs simulations.
+The examples above illustrate two important characteristics of simulations: _(a)_ they allow us to study not only the results, but also the evolution of states leading to the results, and _(b)_ they allow for higher complexity in problem formulations. The latter comes from the fact that simulations do not require a solution, and simply implement the process given the initial parameters and the rules. Before we proceed to the discussion of the methodology, let's take a look at the actual research that employs simulations.
 
 <a name="applications"></a><br>
 ## 3. Applications
@@ -124,13 +124,13 @@ Reading the previous section might give a false impression of a strict choice am
 
 An individual wants to choose among different [life-cycle investment](https://www.investopedia.com/terms/l/life_cycle_funds.asp) strategies for the retirement. The decision is to allocate funds to stocks and bonds. The candidates are listed below:
 
-1) Markowitz : a classical investment rule in financial economics --- to invest the following percentage of the funds in stocks:
+1) Markowitz : a classical investment rule in financial economics --- to invest the following percentage of the funds in stocks (and the rest in bonds):
 
 <figure class="blog text-center">
     <img class="img-fluid mx-auto d-block w-25" src="/assets/img/simulation/markowitz.png"/>
 </figure>
 
-2) _(100-age)%_ : invest _(100 - age)%_ of the funds in stocks, and the rest of funds in bonds --- this has been a usual (empirically obtained) advice by financial consultants of the second half of the 20th century.
+2) _&alpha;=(100-age)%_ : invest _(100 - age)%_ of the funds in stocks, and the rest of funds in bonds --- this has been a usual (empirically obtained) advice by financial consultants of the second half of the 20th century.
 
 3) Cocco et al. : an upgrade to the previous rule --- a rule to invest the following ratio of funds in stocks:
 
@@ -162,7 +162,7 @@ This model contains too many moving parts to try to solve it analytically. Even 
 
 Simulation is very useful for this type of problems. We can approach the solution as follows:
 
-1. Consider an 25-year-old agent that wants to invest in a pension fund.
+1. Consider a 25-year-old agent that wants to invest in a pension fund.
 2. Randomly generate prices for all assets in a portfolio for the whole investment timespan (40 years in this example) from the given distributions (calibrated from the historical data).
 3. Calculate portfolio values according to the generated state.
 3. Let the agent invest in 3 portfolios and observe the funds until age 65.
@@ -180,13 +180,13 @@ As you can see, simulations work really well for comparing different scenarios, 
 
 ### 3 b. Prisoner's Dilemma
 
-Simulations also come in handy for observing the behavior of agents in game theoretic concepts. Consider a standard Prisoner's dilemma with two agents and the following payoff matrix:
+Simulations also come in handy for observing the behavior of agents in game theoretic contexts. Consider a standard Prisoner's dilemma with two agents and the following payoff matrix:
 
 <figure class="blog text-center">
     <img class="img-fluid w-50" src="/assets/img/simulation/payoffs.png"/>
 </figure>
 
-We can model a so-called _agent-based_ simulation where each agents decides to deviate or not, and, sure enough, they converge in a Nash equilibrium:
+We can model a so-called _agent-based_ simulation where each agent decides to deviate or not, and, sure enough, they converge in a Nash equilibrium:
 
 
 <figure class="blog text-center">
@@ -196,7 +196,7 @@ We can model a so-called _agent-based_ simulation where each agents decides to d
     <figcaption>Starting position (C,N)</figcaption>
 </figure>
 
-As mentioned above, you can see the advantages of the simulation when the problem gets more complicated, e.g. multi-player Prisoner's dilemma. An even more interesting application can be to play with the behavioral stuff. For example, we can simulated a repeated game, however the agents are bounded-rational, i.e. they can only see a few periods in the future --- this can help to find new insights and new equilibria.
+As mentioned above, you can see the advantages of the simulation when the problem gets more complicated, e.g. multi-player Prisoner's dilemma. An even more interesting application can be to play with the behavioral stuff. For example, we can simulate a repeated game, however the agents are bounded-rational, i.e. they can only see a few periods in the future --- this can help to find new insights and new equilibria.
 
 <a name="discussion"></a><br>
 ## 4. Discussion
