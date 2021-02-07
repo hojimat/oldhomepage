@@ -79,9 +79,9 @@
 <meta property="og:site_name" content="Ravshan S.K." />
 <meta property="og:image" content="http://localhost:4000/assets/img/simulation/simulation.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-07-25T00:00:00+02:00" />
+<meta property="article:published_time" content="2021-02-06T00:00:00+01:00" />
 <script type="application/ld+json">
-{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/articles/simulation.html"},"description":"This article talks about simulation as a research tool for the economists, how it allows for weaker assumptions, bounded rationality and high complexity.","publisher":null,"url":"http://localhost:4000/articles/simulation.html","image":"http://localhost:4000/assets/img/simulation/simulation.png","@type":"BlogPosting","headline":"Simulations in economics","dateModified":"2020-07-25T00:00:00+02:00","datePublished":"2020-07-25T00:00:00+02:00","sameAs":null,"name":null,"author":{"@type":"Person","name":"Ravshanbek Khodzhimatov"},"@context":"http://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/articles/simulation.html"},"description":"This article talks about simulation as a research tool for the economists, how it allows for weaker assumptions, bounded rationality and high complexity.","publisher":null,"url":"http://localhost:4000/articles/simulation.html","image":"http://localhost:4000/assets/img/simulation/simulation.png","@type":"BlogPosting","headline":"Simulations in economics","dateModified":"2021-02-06T00:00:00+01:00","datePublished":"2021-02-06T00:00:00+01:00","sameAs":null,"name":null,"author":{"@type":"Person","name":"Ravshanbek Khodzhimatov"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 <body>
@@ -128,7 +128,7 @@
     <div class="container content col-md-7 offset-1 py-5">
       <div class="post">
   <h1 class="post-title">Simulations in economics</h1>
-  <span class="post-date">25 Jul 2020</span>
+  <span class="post-date">06 Feb 2021</span>
   <div class="py-4">
   <h3 id="contents">Contents</h3>
 <ul class="index">
@@ -156,7 +156,9 @@
   <li>Analytical solution identifies that at minute <em>t</em>, the king is on the cell denoted by <em>t</em>‘th letter of the alphabet and number <em>t</em>:</li>
 </ul>
 
-<p><img class="img-fluid mx-auto d-block w-50" src="/assets/img/simulation/formula.png" /></p>
+<figure class="blog text-center">
+    <img class="img-fluid mx-auto d-block w-50" src="/assets/img/simulation/formula.png" />
+</figure>
 
 <p>Plugging in <em>t=1+5=6</em> into the equation gives the location of the king after 5 minutes as <code class="highlighter-rouge">f6</code>.</p>
 
@@ -164,7 +166,9 @@
   <li>Empirical solution observes the king for the first 3 minutes and extrapolates a pattern.</li>
 </ul>
 
-<p><img class="img-fluid mx-auto d-block w-50" src="/assets/img/simulation/curve.png" /></p>
+<figure class="blog text-center">
+    <img class="img-fluid mx-auto d-block w-50" src="/assets/img/simulation/curve.png" />
+</figure>
 
 <p>Fitting the curve, it forecasts the location of the king after 5 minutes as <code class="highlighter-rouge">f6</code>.</p>
 
@@ -173,8 +177,8 @@
 </ul>
 
 <figure class="figure text-center">
-<img class="figure-img img-fluid w-50" src="/assets/img/simulation/chess1.svg" />
-<figcaption>Research interest: location of a white king given a starting position and a movement rule</figcaption>
+    <img class="figure-img img-fluid w-50" src="/assets/img/simulation/chess1.svg" />
+    <figcaption>Research interest: location of a white king given a starting position and a movement rule</figcaption>
 </figure>
 
 <p>The advantage of simulations becomes clearer when we consider more complex problems. Imagine a chessboard with the following pieces and movement rules:</p>
@@ -191,8 +195,8 @@
 <p>What is the state of the chessboard after 3 periods?</p>
 
 <figure class="figure text-center">
-<img class="figure-img img-fluid w-50" src="/assets/img/simulation/chess2.svg" />
-<figcaption>Research interest: state of the world given population, starting positions, and movement rules</figcaption>
+    <img class="figure-img img-fluid w-50" src="/assets/img/simulation/chess2.svg" />
+    <figcaption>Research interest: state of the world given population, starting positions, and movement rules</figcaption>
 </figure>
 
 <p>Analytical model gets complicated even at this very simplified special case of a chess game. Empirical models can help only in presence of the relevant data. Simulation comes handy in this type of problems because it does not look for a solution or estimation — it simply runs the game and sees what happens. In fact, this is how chess engines work.</p>
@@ -209,14 +213,18 @@
   <li>Analytical solution uses a compound interest rate formula to compare the values:</li>
 </ul>
 
-<p><img class="img-fluid mx-auto d-block w-50" src="/assets/img/simulation/compound.png" /></p>
+<figure class="blog text-center">
+    <img class="img-fluid mx-auto d-block w-50" src="/assets/img/simulation/compound.png" />
+</figure>
 
 <ul>
   <li>Empirical approach surveys 100 people who invested in either option and asks their wealth at retirement.</li>
   <li>Simulation codes a program, where two hypothetical scenarios take place and compares the results:</li>
 </ul>
 
-<p><img class="img-fluid mx-auto d-block w-50" src="/assets/img/simulation/investment.png" /></p>
+<figure class="blog text-center">
+    <img class="img-fluid mx-auto d-block w-50" src="/assets/img/simulation/investment.png" />
+</figure>
 
 <p>Simulation focuses on the evolution of portfolio through time as much as it focuses on its value at retirement. In the above example we can see that the first investment option is better until 60 years and worse after age 60. However, the real advantage of using simulations can be realized when analyzing a more realistic situation, when you make investment contributions every month of your life and the portfolio values change with the economy and stock markets. In this situation, analytical solution gets extremely complicated, and the portfolio choice is better analyzed using simulations. Below is one example of how simulations make life-cycle investment analysis easier in case of multiple stocks changing at the same time.</p>
 
@@ -228,7 +236,9 @@
 
 <p>We can get into joint distributions or use theorems to solve the problem, but there is another way — to perform a simulation with 10,000 scenarios, where in each scenario we draw values from the distributions of <em>A</em> and <em>B</em> and sum them:</p>
 
-<p><img class="img-fluid mx-auto d-block w-100" src="/assets/img/simulation/confint.png" /></p>
+<figure class="blog text-center">
+    <img class="img-fluid mx-auto d-block w-75" src="/assets/img/simulation/confint.png" />
+</figure>
 
 <p>Using simulations, we have obtained a new variable <em>A+B</em> with one mean and one variance instead of original two. Thus, we can calculate the confidence interval from the resulting data, without having to use multivariate probability theory. The advantage becomes clearer when we want products or other nonlinear combinations of the two random variables.</p>
 
@@ -247,23 +257,31 @@
 
 <p>1) Markowitz : a classical investment rule in financial economics — to invest the following percentage of the funds in stocks:</p>
 
-<p><img class="img-fluid mx-auto d-block w-25" src="/assets/img/simulation/markowitz.png" /></p>
+<figure class="blog text-center">
+    <img class="img-fluid mx-auto d-block w-25" src="/assets/img/simulation/markowitz.png" />
+</figure>
 
 <p>2) <em>(100-age)%</em> : invest <em>(100 - age)%</em> of the funds in stocks, and the rest of funds in bonds — this has been a usual (empirically obtained) advice by financial consultants of the second half of the 20th century.</p>
 
 <p>3) Cocco et al. : an upgrade to the previous rule — a rule to invest the following ratio of funds in stocks:</p>
 
-<p><img class="img-fluid mx-auto d-block w-50" src="/assets/img/simulation/cocco.png" /></p>
+<figure class="blog text-center">
+    <img class="img-fluid mx-auto d-block w-50" src="/assets/img/simulation/cocco.png" />
+</figure>
 
 <p>where <em>t</em> is age of an investor. This heuristic has been obtained from series of dynamic optimizations (speaking of analytical aspects of a simulation study).</p>
 
 <p>The following graph illustrates the ratio of funds to be invested in stocks for different ages:</p>
 
-<p><img class="img-fluid mx-auto d-block w-50" src="/assets/img/simulation/strategies.png" /></p>
+<figure class="blog text-center">
+    <img class="img-fluid mx-auto d-block w-50" src="/assets/img/simulation/strategies.png" />
+</figure>
 
 <p>The law of motion of the capital follows the following dynamic:</p>
 
-<p><img class="img-fluid mx-auto d-block w-100" src="/assets/img/simulation/motion.png" /></p>
+<figure class="blog text-center">
+    <img class="img-fluid mx-auto d-block w-100" src="/assets/img/simulation/motion.png" />
+</figure>
 
 <p>where <em>w<sub>t</sub></em> is the wage of the individual at time <em>t</em>, <em>c</em> is the portion of the wage allocated for investment, and <em>r<sub>p</sub></em> is the rate of return of the portfolio of choice.</p>
 
@@ -285,48 +303,52 @@
 
 <p>The resulting data can be used to test different insights — from observing mean and variation across scenarios to comparing the relative frequency of preferences. Below we present just one of the possible results of the simulation — how frequent one portfolio is better than the other:</p>
 
-<p><img class="img-fluid mx-auto d-block w-75" src="/assets/img/simulation/results.png" /></p>
+<figure class="blog text-center">
+    <img class="img-fluid mx-auto d-block w-75" src="/assets/img/simulation/results.png" />
+</figure>
 
 <p>As you can see, simulations work really well for comparing different scenarios, as the values themselves are not informative.</p>
 
 <hr />
 
-<h3 id="3-b-battle-of-the-sexes">3 b. Battle of the sexes</h3>
-<p>laksjdflkj allows for modeling agents one to one or whatever.
-repeated prisoner’s dilemma
-no strategic behavior just adaptation
-collect probabiliites and act with mixed strategies
-important: the whole concept of the problem changes, so they are not substitutes for analytical problem - be careful</p>
+<h3 id="3-b-prisoners-dilemma">3 b. Prisoner’s Dilemma</h3>
 
-<p><img class="img-fluid mx-auto d-block w-50" src="/assets/img/simulation/payoffs.png" /></p>
+<p>Simulations also come in handy for observing the behavior of agents in game theoretic concepts. Consider a standard Prisoner’s dilemma with two agents and the following payoff matrix:</p>
 
-<p>without coordination</p>
+<figure class="blog text-center">
+    <img class="img-fluid w-50" src="/assets/img/simulation/payoffs.png" />
+</figure>
+
+<p>We can model a so-called <em>agent-based</em> simulation where each agents decides to deviate or not, and, sure enough, they converge in a Nash equilibrium:</p>
+
+<figure class="blog text-center">
+    <img class="img-fluid w-50" src="/assets/img/simulation/prisonNN.png" />
+    <figcaption>Starting position (N,N)</figcaption>
+    <img class="img-fluid w-50" src="/assets/img/simulation/prisonCN.png" />
+    <figcaption>Starting position (C,N)</figcaption>
+</figure>
+
+<p>As mentioned above, you can see the advantages of the simulation when the problem gets more complicated, e.g. multi-player Prisoner’s dilemma. An even more interesting application can be to play with the behavioral stuff. For example, we can simulated a repeated game, however the agents are bounded-rational, i.e. they can only see a few periods in the future — this can help to find new insights and new equilibria.</p>
 
 <p><a name="discussion"></a><br /></p>
 <h2 id="4-discussion">4. Discussion</h2>
 
-<p>Really good for comparison. simulation is constructed by you, so no surprises. if there is any surprise then it is either due to complexity, or because you made a mistake in a code. so without comparison, doesn’t really mean anything.</p>
+<p>As we can see, simulations are more than just data-generating tools and can be used for more ambitious applications.</p>
 
-<p>why video games do it and we cannot make macro models right now? because of repetitions</p>
+<p>At the same time, however, we have to be careful not to rely on it unconditionally, because every finding from simulations is determined by the structure and the input parameters we set ourselves.</p>
 
-<p>good for sensitivities.</p>
+<p>That is one of the reasons, why simulations work better for comparative dynamics rather than absolute analyses: we can transform, modify and normalize our obtained datasets, and this will still be valid for comparing scenarios.</p>
 
-<p>Focus is on state and emergence and evolution , not only on results.</p>
+<p>Another implication is that, by definition, the only surprising findings from the simulations should be due to complexity. Any unexpected results from simpler models are highly likely to be caused by the error in formulation or code. On the bright side, you can validate your model for simpler cases and then make the model as complex as you want, and your only limitation will be your computing power, and not the theoretical solvability.</p>
 
-<p>simulation should not be surprising for easy scenarios</p>
+<p>Moreover, we have to be aware that simulation-generated data always loses to the real-world data, and that is why we can see the surge of simulations research when a new phenomenon happens and no data is available, which was exactly what happened with COVID-19 research.</p>
 
-<p>djk jl known as “monte carlo” law of large numbers</p>
+<p>Another interesting question is why do the video games have the economy building / country managing capabilities for two decades, and economics simulation does not. The answer is that for video games you only need the economy structure and parameters hard coded, and the outcome is randomly generated. However, for the research, you have to control for all variability and repeat simulation for a few thousand times, this is what uses the most computational power, memory, and time. And this is what makes simulations research lag behind video games simulations.</p>
 
-<p>you can make it as difficult as you want.
-In relationship to data, analytical uses calibration, empirical uses estimation, and simulation generates data.
-simulation is complementary to analytical and empirical approaches. we can use munk formula with calibrated parameters and simulate the results.
-put codes somewhere</p>
-
-<p>Simulation is useless in presence of data or a good analytical model; simulation is a form of escapism and does not solve any problem , just observes; it is best for the comparison of scenarios and to learn newinsights
-<a name="conclusion"></a><br /></p>
+<p><a name="conclusion"></a><br /></p>
 <h2 id="5-conclusion">5. Conclusion</h2>
 
-<p>really good for comparison. a little bit useless for one scenario. good for experimenting AND CREATING HYPOTHESES.</p>
+<p>In this article I tried to make a non-intrusive introduction to the simulations as a research tool (as opposed to an auxilliary data-generating tool). I have presented a few examples and discussed the weaknesses of the approach that I had discovered from my two years of experience in the field. For questions, please do not hesitate to contact me.</p>
 
   </div>
 </div>
