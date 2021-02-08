@@ -6,7 +6,7 @@ categ: article
 description: This article talks about simulation as a research tool for the economists, how it allows for weaker assumptions, bounded rationality and high complexity.
 keywords: simulation, economics, agent-based modeling, abm 
 tags: economics
-image: /assets/img/simulation/simulation.png
+image: /assets/img/simulation/thematrix.jpg
 ---
 
 ### Contents
