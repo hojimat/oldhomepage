@@ -28,3 +28,7 @@ figcaption {
     font-size: 0.8em;
     color: #888888;
 }
+
+div.highlight {
+    background-color: #F1F1F1;
+}
