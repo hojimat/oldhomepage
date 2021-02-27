@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+<!-- Enable responsiveness on mobile devices-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3">
+<meta name="description" content="This article talks about simulation as a research tool for the economists, how it allows for weaker assumptions, bounded rationality and high complexity.">
+
+<meta name="keywords" content="simulation, economics, agent-based modeling, abm" />
+
+
+<meta name="twitter:site"    content="@ravshansk">
+<meta name="twitter:title"   content="Simulations in economics">
+<meta name="twitter:card"  content="summary_large_image">
+
+<meta name="twitter:image" content="http://localhost:4000/assets/img/simulation/thematrix.jpg">
+
+
+<!-- CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+<!-- Icons -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/apple-touch-icon-precomposed.png">
+<link rel="shortcut icon" href="/assets/favicon.ico">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111922010-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111922010-1');
+</script>
+
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(51528005, "init", {
+        id:51528005,
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/51528005" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+<!-- GDPR -->
+<link rel="stylesheet" href="/assets/css/grt-cookie-consent.css">
+
+</head>
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Simulations in economics | Ravshan S.K.</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Simulations in economics" />
+<meta name="author" content="Ravshanbek Khodzhimatov" />
+<meta property="og:locale" content="english" />
+<meta name="description" content="This article talks about simulation as a research tool for the economists, how it allows for weaker assumptions, bounded rationality and high complexity." />
+<meta property="og:description" content="This article talks about simulation as a research tool for the economists, how it allows for weaker assumptions, bounded rationality and high complexity." />
+<link rel="canonical" href="http://localhost:4000/articles/simulation.html" />
+<meta property="og:url" content="http://localhost:4000/articles/simulation.html" />
+<meta property="og:site_name" content="Ravshan S.K." />
+<meta property="og:image" content="http://localhost:4000/assets/img/simulation/thematrix.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-02-06T00:00:00+01:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/assets/img/simulation/thematrix.jpg" />
+<meta property="twitter:title" content="Simulations in economics" />
+<script type="application/ld+json">
+{"image":"http://localhost:4000/assets/img/simulation/thematrix.jpg","headline":"Simulations in economics","dateModified":"2021-02-06T00:00:00+01:00","description":"This article talks about simulation as a research tool for the economists, how it allows for weaker assumptions, bounded rationality and high complexity.","datePublished":"2021-02-06T00:00:00+01:00","url":"http://localhost:4000/articles/simulation.html","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/articles/simulation.html"},"author":{"@type":"Person","name":"Ravshanbek Khodzhimatov"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <a class="navbar-brand" href="/#">Ravshan S.K.</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="navbarNavDropdown" class="navbar-collapse collapse">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/articles">Articles</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Side projects
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="/blog">Blog</a>
+                    <a class="dropdown-item" href="/blogru">Blog in Russian</a>
+                </div>
+            </li>
+        </ul>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/#works">Works</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/#hire">Hire now</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="row col-md-12">
+    <div class="container content col-md-7 offset-1 py-5">
+      <div class="post">
+  <h1 class="post-title">Simulations in economics</h1>
+  <span class="post-date">06 Feb 2021</span>
+  <div class="py-4">
+  <h3 id="contents">Contents</h3>
+<ul class="index">
+<li><a href="#intro">1. Introduction</a></li>
+<li><a href="#recap">2. Recap</a></li>
+<li><a href="#applications">3. Applications</a></li>
+<li><a href="#discussion">4. Discussion</a></li>
+<li><a href="#conclusion">5. Conclusion</a></li>
+</ul>
+
+<p><a name="intro"></a><br /></p>
+<h2 id="1-introduction">1. Introduction</h2>
+
+<p>Simulation, as a research approach in economics, is not as popular as analytical, empirical, or experimental methods. This article provides an expositive summary of the simulation as a research tool, its strengths and weaknesses, and how it can be used in economic research.</p>
+
+<p><a name="recap"></a><br /></p>
+<h2 id="2-recap">2. Recap</h2>
+
+<p>First of all, let’s recap the various approaches in economic research. Analytical approach tries to find a mathematical formulation of a phenomenon to understand and/or predict it. Empirical approach uses real-world data to explore the phenomenon. The following example illustrates the difference.</p>
+
+<h3 id="2-a-chessboard-example">2 a. Chessboard example</h3>
+<p>Imagine a chessboard with a king on the cell <code class="language-plaintext highlighter-rouge">a1</code>. Every minute, the king moves one cell up and one cell right. What will be the location of the king after 5 minutes?</p>
+
+<ul>
+  <li>Analytical solution identifies that at minute <em>t</em>, the king is on the cell denoted by <em>t</em>‘th letter of the alphabet and number <em>t</em>:</li>
+</ul>
+
+<figure class="blog text-center">
+    <img class="img-fluid mx-auto d-block w-50" src="/assets/img/simulation/formula.png" />
+</figure>
+
+<p>Plugging in <em>t=1+5=6</em> into the equation gives the location of the king after 5 minutes as <code class="language-plaintext highlighter-rouge">f6</code>.</p>
+
+<ul>
+  <li>Empirical solution observes the king for the first 3 minutes and extrapolates a pattern.</li>
+</ul>
+
+<figure class="blog text-center">
+    <img class="img-fluid mx-auto d-block w-50" src="/assets/img/simulation/curve.png" />
+</figure>
+
+<p>Fitting the curve, it forecasts the location of the king after 5 minutes as <code class="language-plaintext highlighter-rouge">f6</code>.</p>
+
+<ul>
+  <li>Simulation, on the other hand, does not make any assumptions or estimations — it takes the initial location parameter <code class="language-plaintext highlighter-rouge">a1</code> and the update rule “1-up-1-right” and runs it in a computer for 5 periods as follows:</li>
+</ul>
+
+<figure class="figure text-center">
+    <img class="figure-img img-fluid w-50" src="/assets/img/simulation/chess1.svg" />
+    <figcaption>Research interest: location of a white king given a starting position and a movement rule</figcaption>
+</figure>
+
+<p>The advantage of simulations becomes clearer when we consider more complex problems. Imagine a chessboard with the following pieces and movement rules:</p>
+
+<ol>
+  <li>white king on <code class="language-plaintext highlighter-rouge">a1</code>: moves 1-up if it is on a black cell and 1-right if it is on a white cell</li>
+  <li>black bishop  on <code class="language-plaintext highlighter-rouge">c8</code>: moves 1-right-1-down</li>
+  <li>white knight on <code class="language-plaintext highlighter-rouge">h1</code>: moves 2-left-1-down if it is on a black cell and 2-up-1-left if it is on a white cell</li>
+  <li>black bishop  on <code class="language-plaintext highlighter-rouge">f8</code>: moves 1-left-1-down</li>
+  <li>capture is required if possible</li>
+  <li>each piece performs one move per period</li>
+</ol>
+
+<p>What is the state of the chessboard after 3 periods?</p>
+
+<figure class="figure text-center">
+    <img class="figure-img img-fluid w-50" src="/assets/img/simulation/chess2.svg" />
+    <figcaption>Research interest: state of the world given population, starting positions, and movement rules</figcaption>
+</figure>
+
+<p>Analytical model gets complicated even at this very simplified special case of a chess game. Empirical models can help only in presence of the relevant data. Simulation comes handy in this type of problems because it does not look for a solution or estimation — it simply runs the game and sees what happens. In fact, this is how chess engines work.</p>
+
+<hr />
+
+<p>A similar example is Rubik’s cube — it is possible to provide an analytical explanation of what a 3-move combination does, but it is very difficult to grasp what a 12-move combination does — that’s why the usual way to understand the combinations is by starting from a completed cube and actually performing the moves and seeing the results after the fact, which is exactly what simulation does. Let’s take a look at another example, this time from economics.</p>
+
+<h3 id="2-b-one-time-investment">2 b. One-time investment</h3>
+
+<p>Imagine a stylized scenario, when you are 25 years old and have 1,000$ and want to make a one-time investment for your retirement at 65. You have two options: invest immediately at 5% annual interest rate or invest at age of 35 at 7% annual interest rate. In the absence of discounting and any kind of time preference, which investment will you choose?</p>
+
+<ul>
+  <li>Analytical solution uses a compound interest rate formula to compare the values:</li>
+</ul>
+
+<figure class="blog text-center">
+    <img class="img-fluid mx-auto d-block w-50" src="/assets/img/simulation/compound.png" />
+</figure>
+
+<ul>
+  <li>Empirical approach surveys 100 people who invested in either option and asks their wealth at retirement.</li>
+  <li>Simulation codes a program, where two hypothetical scenarios take place and compares the results:</li>
+</ul>
+
+<figure class="blog text-center">
+    <img class="img-fluid mx-auto d-block w-50" src="/assets/img/simulation/investment.png" />
+</figure>
+
+<p>Simulation focuses on the evolution of portfolio through time as much as it focuses on its value at retirement. In the above example we can see that the first investment option is better until 60 years and worse after age 60. However, the real advantage of using simulations can be realized when analyzing a more realistic situation, when you make investment contributions every month of your life and the portfolio values change with the economy and stock markets. In this situation, analytical solution gets extremely complicated, and the portfolio choice is better analyzed using simulations. Below is one example of how simulations make life-cycle investment analysis easier in case of multiple stocks changing at the same time.</p>
+
+<hr />
+
+<h3 id="2-c-confidence-interval">2 c. Confidence interval</h3>
+
+<p>Consider two random variables <em>A</em> and <em>B</em>. <em>A</em> is normally distributed around 5 with standard deviation 10, and <em>B</em> is normally distributed around 3 with standard deviation 5. What is the confidence interval of <em>A+B</em>?</p>
+
+<p>We can get into joint distributions or use theorems to solve the problem, but there is another way — to perform a simulation with 10,000 scenarios, where in each scenario we draw values from the distributions of <em>A</em> and <em>B</em> and sum them:</p>
+
+<figure class="blog text-center">
+    <img class="img-fluid mx-auto d-block w-75" src="/assets/img/simulation/confint.png" />
+</figure>
+
+<p>Using simulations, we have obtained a new variable <em>A+B</em> with one mean and one variance instead of original two. Thus, we can calculate the confidence interval from the resulting data, without having to use multivariate probability theory. The advantage becomes clearer when we want products or other nonlinear combinations of the two random variables.</p>
+
+<hr />
+
+<p>The examples above illustrate two important characteristics of simulations: <em>(a)</em> they allow us to study not only the results, but also the evolution of states leading to the results, and <em>(b)</em> they allow for higher complexity in problem formulations. The latter comes from the fact that simulations do not require a solution, and simply implement the process given the initial parameters and the rules. Before we proceed to the discussion of the methodology, let’s take a look at the actual research that employs simulations.</p>
+
+<p><a name="applications"></a><br /></p>
+<h2 id="3-applications">3. Applications</h2>
+
+<p>Reading the previous section might give a false impression of a strict choice among different research tools. However, actual simulation studies heavily involve both analytical and empirical aspects, as can be seen below.</p>
+
+<h3 id="3-a-portfolio-selection">3 a. Portfolio selection</h3>
+
+<p>An individual wants to choose among different <a href="https://www.investopedia.com/terms/l/life_cycle_funds.asp">life-cycle investment</a> strategies for the retirement. The decision is to allocate funds to stocks and bonds. The candidates are listed below:</p>
+
+<p>1) Markowitz : a classical investment rule in financial economics — to invest the following percentage of the funds in stocks (and the rest in bonds):</p>
+
+<figure class="blog text-center">
+    <img class="img-fluid mx-auto d-block w-25" src="/assets/img/simulation/markowitz.png" />
+</figure>
+
+<p>2) <em>α=(100-age)%</em> : invest <em>(100 - age)%</em> of the funds in stocks, and the rest of funds in bonds — this has been a usual (empirically obtained) advice by financial consultants of the second half of the 20th century.</p>
+
+<p>3) Cocco et al. : an upgrade to the previous rule — a rule to invest the following ratio of funds in stocks:</p>
+
+<figure class="blog text-center">
+    <img class="img-fluid mx-auto d-block w-50" src="/assets/img/simulation/cocco.png" />
+</figure>
+
+<p>where <em>t</em> is age of an investor. This heuristic has been obtained from series of dynamic optimizations (speaking of analytical aspects of a simulation study).</p>
+
+<p>The following graph illustrates the ratio of funds to be invested in stocks for different ages:</p>
+
+<figure class="blog text-center">
+    <img class="img-fluid mx-auto d-block w-50" src="/assets/img/simulation/strategies.png" />
+</figure>
+
+<p>The law of motion of the capital follows the following dynamic:</p>
+
+<figure class="blog text-center">
+    <img class="img-fluid mx-auto d-block w-100" src="/assets/img/simulation/motion.png" />
+</figure>
+
+<p>where <em>w<sub>t</sub></em> is the wage of the individual at time <em>t</em>, <em>c</em> is the portion of the wage allocated for investment, and <em>r<sub>p</sub></em> is the rate of return of the portfolio of choice.</p>
+
+<p>Regardless of the portfolio choice, the following processes happen in the background: wages change throughout lifetime (at different rates for different individuals), stock prices change depending on an economic situation.</p>
+
+<p>Moreover, calculating the final capital is not enough for a comprehensive comparison — we have to take into account the individual characteristics like risk aversion, steepness of the earnings curve, and the industry at which the individual works.</p>
+
+<p>This model contains too many moving parts to try to solve it analytically. Even the calculation of the confidence intervals is very difficult, because there are at least two sources of randomness — labor markets and stock markets. And we didn’t even include housing investment!</p>
+
+<p>Simulation is very useful for this type of problems. We can approach the solution as follows:</p>
+
+<ol>
+  <li>Consider a 25-year-old agent that wants to invest in a pension fund.</li>
+  <li>Randomly generate prices for all assets in a portfolio for the whole investment timespan (40 years in this example) from the given distributions (calibrated from the historical data).</li>
+  <li>Calculate portfolio values according to the generated state.</li>
+  <li>Let the agent invest in 3 portfolios and observe the funds until age 65.</li>
+  <li>Repeat the above steps <em>N=10,000</em> times.</li>
+</ol>
+
+<p>The resulting data can be used to test different insights — from observing mean and variation across scenarios to comparing the relative frequency of preferences. Below we present just one of the possible results of the simulation — how frequent one portfolio is better than the other:</p>
+
+<figure class="blog text-center">
+    <img class="img-fluid mx-auto d-block w-75" src="/assets/img/simulation/results.png" />
+</figure>
+
+<p>As you can see, simulations work really well for comparing different scenarios, as the values themselves are not informative.</p>
+
+<hr />
+
+<h3 id="3-b-prisoners-dilemma">3 b. Prisoner’s Dilemma</h3>
+
+<p>Simulations also come in handy for observing the behavior of agents in game theoretic contexts. Consider a standard Prisoner’s dilemma with two agents and the following payoff matrix:</p>
+
+<figure class="blog text-center">
+    <img class="img-fluid w-50" src="/assets/img/simulation/payoffs.png" />
+</figure>
+
+<p>We can model a so-called <em>agent-based</em> simulation where each agent decides to deviate or not, and, sure enough, they converge in a Nash equilibrium:</p>
+
+<figure class="blog text-center">
+    <img class="img-fluid w-50" src="/assets/img/simulation/prisonNN.png" />
+    <figcaption>Starting position (N,N)</figcaption>
+    <img class="img-fluid w-50" src="/assets/img/simulation/prisonCN.png" />
+    <figcaption>Starting position (C,N)</figcaption>
+</figure>
+
+<p>As mentioned above, you can see the advantages of the simulation when the problem gets more complicated, e.g. multi-player Prisoner’s dilemma. An even more interesting application can be to play with the behavioral stuff. For example, we can simulate a repeated game, however the agents are bounded-rational, i.e. they can only see a few periods in the future — this can help to find new insights and new equilibria.</p>
+
+<p><a name="discussion"></a><br /></p>
+<h2 id="4-discussion">4. Discussion</h2>
+
+<p>As we can see, simulations are more than just data-generating tools and can be used for more ambitious applications.</p>
+
+<p>At the same time, however, we have to be careful not to rely on it unconditionally, because every finding from simulations is determined by the structure and the input parameters we set ourselves.</p>
+
+<p>That is one of the reasons, why simulations work better for comparative dynamics rather than absolute analyses: we can transform, modify and normalize our obtained datasets, and this will still be valid for comparing scenarios.</p>
+
+<p>Another implication is that, by definition, the only surprising findings from the simulations should be due to complexity. Any unexpected results from simpler models are highly likely to be caused by the error in formulation or code. On the bright side, you can validate your model for simpler cases and then make the model as complex as you want, and your only limitation will be your computing power, and not the theoretical solvability.</p>
+
+<p>Moreover, we have to be aware that simulation-generated data always loses to the real-world data, and that is why we can see the surge of simulations research when a new phenomenon happens and no data is available, which was exactly what happened with COVID-19 research.</p>
+
+<p>Another interesting question is why do the video games have the economy building / country managing capabilities for two decades, and economics simulation does not. The answer is that for video games you only need the economy structure and parameters hard coded, and the outcome is randomly generated. However, for the research, you have to control for all variability and repeat simulation for a few thousand times, this is what uses the most computational power, memory, and time. And this is what makes simulations research lag behind video games simulations.</p>
+
+<p><a name="conclusion"></a><br /></p>
+<h2 id="5-conclusion">5. Conclusion</h2>
+
+<p>In this article I tried to make a non-intrusive introduction to the simulations as a research tool (as opposed to an auxilliary data-generating tool). I have presented a few examples and discussed the weaknesses of the approach that I had discovered from my two years of experience in the field. For questions, please do not hesitate to contact me.</p>
+
+  </div>
+</div>
+
+<div class="share-page">
+	<a href="https://twitter.com/share?
+		text=[enter%20text]&
+		url=http://localhost:4000/articles/simulation.html&
+		via=ravshansk"
+	   target="_blank"
+	><i class="fab fa-2x fa-twitter"></i>Tweet</a>
+</div>
+
+<!--
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-comments"
+	data-href="http://localhost:4000/articles/simulation.html"
+	data-numposts="5"
+	data-width="642">
+</div>
+
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="oDGFwT7e"></script>
+
+<div class="fb-comments" data-href="http://localhost:4000/articles/simulation.html" data-width="" data-numposts="5"></div>
+
+-->
+
+
+    </div>
+
+	<div class="col-md-4 blog-sidebar py-5">
+		<div class="categories pb-5">
+			<h3>Read categories</h3>
+				<a class="badge badge-light p-2" href="/economics">Economics</a>
+				<a class="badge badge-light p-2" href="/statistics">Statistics</a>
+				<a class="badge badge-light p-2" href="/finance">Finance</a>
+				<a class="badge badge-light p-2" href="/management">Management</a>
+				<a class="badge badge-light p-2" href="/complexity">Complexity</a>
+				<a class="badge badge-light p-2" href="/crypto">Crypto</a>
+		</div>
+		<div class="recent">
+			<h3>Recent articles</h3>
+				<ul class="list-unstyled">
+					
+						
+   	   						<li><a class="text-dark small" href="/articles/matching-timeslot.html">Two-sided matching with time preferences</a></li>
+						
+					
+						
+					
+						
+   	   						<li><a class="text-dark small" href="/articles/simulation.html">Simulations in economics</a></li>
+						
+					
+						
+					
+						
+					
+				</ul>
+		</div>
+	</div>
+</div>
+<footer class="footer mt-auto py-5 bg-dark text-light">
+	<div class="pb-4">
+			</a><h3 class="text-center">Contact me:</h3>
+	</div>
+	       <div class="text-center">
+        <a href="mailto:rsk@ravshansk.com" class="btn" target="_blank"><i class="fas fa-3x fa-envelope fa-inverse"></i></a>
+        <a href="http://twitter.com/ravshansk" class="btn" target="_blank"><i class="fab fa-3x fa-twitter fa-inverse"></i></a>
+        <a href="http://linkedin.com/in/ravshansk" class="btn" target="_blank"><i class="fab fa-3x fa-linkedin fa-inverse"></i></a>
+        <a href="http://facebook.com/ravshanskh" class="btn" target="_blank"><i class="fab fa-3x fa-facebook fa-inverse"></i></a>
+    </div>
+
+</footer>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script src="/assets/js/grt-cookie-consent.js"></script>
+
+    <div class="grt-cookie"> 
+    <div class="grt-cookies-msg">
+        <p>I use cookies as does everyone else. Know that if you want to continue.</p>
+    </div> 
+    <span class="grt-cookie-button">Accept</span>
+</div>
+
+<script> $(".grt-cookie").grtCookie(); </script>
+
+
+  </body>
+
+
+</html>

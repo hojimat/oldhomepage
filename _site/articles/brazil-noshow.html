@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+<!-- Enable responsiveness on mobile devices-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3">
+<meta name="description" content="Kaggle medical appointment no-show problem, brazil, vitoria, kaggle, toptal">
+
+<meta name="keywords" content="machine learning, economic consulting, economic consultant, statistical consulting, statistical consultant, data science, data scientist" />
+
+
+<meta name="twitter:site"    content="@ravshansk">
+<meta name="twitter:title"   content="My take on the famous medical appointment no-show problem">
+<meta name="twitter:card"  content="summary_large_image">
+
+<meta name="twitter:image" content="http://localhost:4000/assets/img/brazil/wday.png">
+
+
+<!-- CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+<!-- Icons -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/apple-touch-icon-precomposed.png">
+<link rel="shortcut icon" href="/assets/favicon.ico">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111922010-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111922010-1');
+</script>
+
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(51528005, "init", {
+        id:51528005,
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/51528005" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+<!-- GDPR -->
+<link rel="stylesheet" href="/assets/css/grt-cookie-consent.css">
+
+</head>
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>My take on the famous medical appointment no-show problem | Ravshan S.K.</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="My take on the famous medical appointment no-show problem" />
+<meta name="author" content="Ravshanbek Khodzhimatov" />
+<meta property="og:locale" content="english" />
+<meta name="description" content="Kaggle medical appointment no-show problem, brazil, vitoria, kaggle, toptal" />
+<meta property="og:description" content="Kaggle medical appointment no-show problem, brazil, vitoria, kaggle, toptal" />
+<link rel="canonical" href="http://localhost:4000/articles/brazil-noshow.html" />
+<meta property="og:url" content="http://localhost:4000/articles/brazil-noshow.html" />
+<meta property="og:site_name" content="Ravshan S.K." />
+<meta property="og:image" content="http://localhost:4000/assets/img/brazil/wday.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-12-10T00:00:00+01:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/assets/img/brazil/wday.png" />
+<meta property="twitter:title" content="My take on the famous medical appointment no-show problem" />
+<script type="application/ld+json">
+{"image":"http://localhost:4000/assets/img/brazil/wday.png","headline":"My take on the famous medical appointment no-show problem","dateModified":"2018-12-10T00:00:00+01:00","description":"Kaggle medical appointment no-show problem, brazil, vitoria, kaggle, toptal","datePublished":"2018-12-10T00:00:00+01:00","url":"http://localhost:4000/articles/brazil-noshow.html","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/articles/brazil-noshow.html"},"author":{"@type":"Person","name":"Ravshanbek Khodzhimatov"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <a class="navbar-brand" href="/#">Ravshan S.K.</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="navbarNavDropdown" class="navbar-collapse collapse">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/articles">Articles</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Side projects
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="/blog">Blog</a>
+                    <a class="dropdown-item" href="/blogru">Blog in Russian</a>
+                </div>
+            </li>
+        </ul>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/#works">Works</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/#hire">Hire now</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="row col-md-12">
+    <div class="container content col-md-7 offset-1 py-5">
+      <div class="post">
+  <h1 class="post-title">My take on the famous medical appointment no-show problem</h1>
+  <span class="post-date">10 Dec 2018</span>
+  <div class="py-4">
+  <h3 id="contents">Contents</h3>
+<ul class="index">
+<li><a href="#intro">1. Introduction</a></li>
+<li><a href="#data">2. Data exploration</a></li>
+<li><a href="#class">3. Classifier</a></li>
+<li><a href="#class">4. Conclusion</a></li>
+</ul>
+
+<p><a name="intro"></a><br /></p>
+<h2 id="1-introduction">1. Introduction</h2>
+
+<p>This is a <a href="https://www.kaggle.com/joniarroba/noshowappointments">famous problem from Kaggle website</a>. We have a dataset of online medical appointments in the city of Vitória, Espírito Santo in Brazil. It turns out that in a period of three months between May and August, 2016, patients did not show up in 25% of appointments. To investigate the possible reasons behind this, we will analyze the data and make inferences.</p>
+
+<p><a name="data"></a><br /></p>
+<h2 id="2-data-exploration">2. Data exploration</h2>
+
+<h3 id="outliers">Outliers</h3>
+<p>First of all, we explore the dataset. We immediately notice that some age values are negative, and very old patients don’t exhibit variation having too few observations:</p>
+
+<figure class="blog">
+	<img class="img-fluid" src="/assets/img/brazil/tableage.png" />
+	<figcaption>Frequency table of age data points</figcaption>
+</figure>
+
+<p>Moreover, some appointments have been done to the dates before it was scheduled, probably, due to some system error. We remove the obvious outliers from our data, combine all data points for households older than 80 (to balance subset size), and continue with our analysis.</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">df</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">df</span><span class="p">[</span><span class="w"> </span><span class="p">(</span><span class="n">df</span><span class="o">$</span><span class="n">age</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="m">0</span><span class="p">)</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="p">(</span><span class="n">df</span><span class="o">$</span><span class="n">dayap</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="n">df</span><span class="o">$</span><span class="n">daysc</span><span class="p">),]</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="demographic-factors">Demographic factors</h3>
+
+<h4 id="age-factor">Age factor</h4>
+<p>Observing the no-show dynamics throughout lifetime, gives important insights to our analysis:</p>
+
+<figure class="blog">
+	<img class="img-fluid" src="/assets/img/brazil/agenoshow.png" />
+	<figcaption>Percentage of patients who showed up, by age</figcaption>
+</figure>
+
+<p>From common experience, we know that appointments for patients younger than 18, are actually done by their parents. We can see how, as kids grow older, the parents tend to miss more appointments (because new parents tend to be concerned more with infant’s health, and as kids grow, parents tend to neglect their health slightly more).</p>
+
+<p>As kids grow into young adults, they start steadily taking their health seriously and miss less appointments.</p>
+
+<p>Also, for patients older than 80, we don’t have many data points at particular ages, so we aggregated them into one group.</p>
+
+<p>So, we use two possible age variables: a continuous one with two dummies for 18 and 80 year olds, and a discrete variable correpsonding to 11 decades of patients.</p>
+
+<h4 id="gender-factor">Gender factor</h4>
+<p>Another demographic factor is gender. The probability distribution shows that gender does not play a significant role in no-show rate:</p>
+
+<figure class="blog">
+	<img class="img-fluid" src="/assets/img/brazil/sexnoshow.png" />
+	<figcaption>Show-up probability, by gender</figcaption>
+</figure>
+
+<p>We tried to look at adults only (age&gt;=18), because usually mothers (female=1) go to doctors with their children, irrespective of the kid’s registered gender, but this procedure returned no significant difference either:</p>
+
+<figure class="blog">
+	<img class="img-fluid" src="/assets/img/brazil/sexnoshow18.png" />
+	<figcaption>Show-up probability for grown-ups only, by gender</figcaption>
+</figure>
+
+<p>Thus, we ignore gender in further discussion.</p>
+
+<h3 id="geographic-factor">Geographic factor</h3>
+<p>Looking at no-show rates by neighbourhood, shows relative balance, with only a few outliers, which do not round to 20\%.</p>
+
+<figure class="blog">
+	<img class="img-fluid" src="/assets/img/brazil/geo1.png" />
+	<figcaption>Show-up probability by neighbourhood</figcaption>
+</figure>
+
+<p>Inspecting frequency tables, shows that most (not all) of the outliers come from neighbourhoods with little data:</p>
+
+<figure class="blog">
+	<img class="img-fluid" src="/assets/img/brazil/geo2.png" />
+	<figcaption>Frequency of data points by neighbourhood</figcaption>
+</figure>
+
+<p>To avoid this, we ignore neighbourhoods with less than 40 data points, namely, <em>Aeroporto, Ilha do Boi, Ilha do Frade, Ilhas Oceanicas de Trinade, and Parque Industrial</em>.</p>
+
+<p>Apart from them, there are still outliers (we considered 3% to be a significant deviation from the average, 20%) in percentage of no-shows: <em>Solon Borges, Santos Dumont, Santa Clara, Santa Cecilia, Itarare, De Lourdes, Do Cabral, Do Quadro, Horto, Jardim Da Penha, Jesus de Nazareth, Mario Cypreste, and Santa Martha</em>.</p>
+
+<p>We will add dummy variables for these 13 neighbourhoods as our geographic predictors. Other neighborhoods will be assumed to contribute no new information to the expected value.</p>
+
+<figure class="blog">
+	<img class="img-fluid" src="/assets/img/brazil/geo3.png" />
+</figure>
+
+<h3 id="temporal-factor">Temporal factor</h3>
+<p>Temporal data brings the crucial information about the appointment no-shows, starting from the weekday of the appointment, and ending with the wait time. Since we don’t have at least a year-long data, we cannot speak of seasonality patterns, and will have to get by with what we have.</p>
+
+<h4 id="weekdays">Weekdays</h4>
+<p>The day of the week is the first thing that comes to mind - during the weekdays, patients might have emergencies at school or at work, and this could cause them to miss the appointment. However, the analysis shows no significant difference through week, except for Saturdays:</p>
+
+<figure class="blog">
+	<img class="img-fluid" src="/assets/img/brazil/wday.png" />
+</figure>
+
+<p>But further analysis shows that this happens because of the lack of enough data for Saturday:</p>
+
+<figure class="blog">
+	<img class="img-fluid" src="/assets/img/brazil/wdaytab.png" />
+</figure>
+
+<p>So, we ignore the weekdays and assume that they don’t affect the no-show rate.</p>
+
+<h4 id="wait-time">Wait time</h4>
+<p>Another obvious variable is a wait time from scheduling the appointment to the appointment itself. It is plausible to assume that in longer wait times patients can get cured, book another earlier appointment, or die before the appointment.</p>
+
+<p>We define the “days between” variable as the difference between “day of appointment” and “day of schedule”:</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">df</span><span class="o">$</span><span class="n">daybw</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">as.numeric</span><span class="p">(</span><span class="n">df</span><span class="o">$</span><span class="n">dayap</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">df</span><span class="o">$</span><span class="n">daysc</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<p>The plot below shows that when appointments are scheduled in that same day (wait time = 0), the patient almost never misses it (just 4\% no-show rate). There is sufficient data (34\% of all observations) to support this claim.</p>
+
+<figure class="blog">
+	<img class="img-fluid" src="/assets/img/brazil/wait1.png" />
+</figure>
+
+<p>In the next days, the no-show rate is very volatile. To avoid weekly seasonality, we aggregate the data by weeks. Also, for two reasons: <em>(i)</em> since the longer wait times have small data points and <em>(ii)</em> since (assuming time discounting — a weak economic assumption) people perceive recent past clearer than distant past, we aggregated first month as 4 weeks, and aggregated the next data points by month:</p>
+
+<figure class="blog">
+	<img class="img-fluid" src="/assets/img/brazil/wait2.png" />
+</figure>
+
+<p>Note that <em>4 months</em> wait is an outlier due to small dataset. Otherwise, all probabilities after 1 week fall into ±3\% interval. Taking this and <em>(ii)</em> into consideration, suggests an even wilder (yet still plausible) aggregation: <em>0 days, 1 week, and &gt;1 week</em>:</p>
+
+<figure class="blog">
+	<img class="img-fluid" src="/assets/img/brazil/wait3.png" />
+</figure>
+
+<p>Thus, we will use three-valued categorical variables to denote wait times.</p>
+
+<h4 id="hour-of-the-day">Hour of the day</h4>
+<p>Lifestyle of people potentially reflects their degree of responsibility — <em>“night owls”</em> tend to sleep during days and maybe miss deadlines, while <em>“early birds”</em> may take their appointments more seriously. We take a look at the data of time o’clock when the appointment was scheduled. The online appointment system opens at 6AM and closes at 10PM. We divide these 16-hour days into 4 groups of 4, and find that <em>“early bird effect”</em> actually exists, and people who scheduled appointments between 6AM and 10AM are significantly less likely to miss their appointments, while any other time slot does not change the no-show probability significantly:</p>
+
+<figure class="blog">
+	<img class="img-fluid" src="/assets/img/brazil/hour.png" />
+</figure>
+
+<p>Thus, we use a binary dummy variable — <em>6AM-10AM</em> or <em>10AM-10PM</em> — to incorporate time.</p>
+
+<h3 id="medical-factor">Medical factor</h3>
+
+<h4 id="appointment-history">Appointment history</h4>
+<p>To incorporate the idiosyncracies of patients, we use the history of their previous appointments, and whether they missed them before. The table below shows the repeat patients’ allocation.</p>
+
+<figure class="blog">
+	<img class="img-fluid" src="/assets/img/brazil/repeat.png" />
+</figure>
+
+<p>For every patient, we found the modes (most frequent observations) of previous no-show stats. For patients that appear in the dataset only once, this value will be 0 (performing sensitivity checks we learned that leaving out one-time patients entirely, returns no significant difference (&lt;0.5%) but complicates the dataset, so we chose to set the average previous no-show rate for first-time patients at 0). We observe that such modes greatly contribute to predicting the next no-show:</p>
+
+<figure class="blog">
+	<img class="img-fluid" src="/assets/img/brazil/modeprev.png" />
+</figure>
+
+<h4 id="patient-condition">Patient condition</h4>
+<p>Patient’s medical history can influence the no-show behavior. The tables below show differences in percentage of no-shows for patients with alcoholism, diabetes, hipertension, medical financial assitance (so-called “scholarship”), and handicaps:</p>
+
+<figure class="blog">
+	<img class="img-fluid" src="/assets/img/brazil/conditions.png" />
+</figure>
+
+<p>Strangely, alcoholism is the only condition which turned out to not have an effect on no-show probability. The probable reason is that alcoholism is not immediately lethal, and people tend to treat is less seriously than any other <em>“more serious”</em> illness like diabetes. So, we include all of the above conditions, except alcoholism, in our classification.</p>
+
+<h4 id="sms">SMS</h4>
+<p>One can justifiably argue that patients may simply forget their appointment date and time. Hospitals tried to send SMS-reminders to their patients, but does this practice worth the cost? A simple frequency table shows that yes, patients, who received SMS-reminders, were less likely to miss the appointment:</p>
+
+<figure class="blog">
+	<img class="img-fluid" src="/assets/img/brazil/sms.png" />
+</figure>
+
+<h4 id="overall-no-show-stata">Overall no-show stata</h4>
+<p>Finally, we decided to include the general historical average of noshows till the moment by all patients. However, this complicated the random sampling, and, most importantly, didn’t affect the final result much (because it had little variation over time). So, we did not include this variable.</p>
+
+<p><a name="class"></a><br /></p>
+<h2 id="3-classifier">3. CLassifier</h2>
+
+<p>We used <em>logit</em> (logistic regression) and <em>decision trees</em> to classify the data.</p>
+
+<h3 id="logit">Logit</h3>
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">df</span><span class="o">$</span><span class="n">waittime</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">ifelse</span><span class="p">(</span><span class="n">df</span><span class="o">$</span><span class="n">daybw</span><span class="o">==</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="n">ifelse</span><span class="p">(</span><span class="n">df</span><span class="o">$</span><span class="n">daybw</span><span class="o">&lt;=</span><span class="m">7</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">2</span><span class="p">))</span><span class="w">
+</span><span class="n">df</span><span class="o">$</span><span class="n">morning</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">ifelse</span><span class="p">(</span><span class="n">df</span><span class="o">$</span><span class="n">hoursc</span><span class="o">&gt;=</span><span class="m">6</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="n">df</span><span class="o">$</span><span class="n">hoursc</span><span class="o">&lt;=</span><span class="m">10</span><span class="p">,</span><span class="w"> </span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="m">0</span><span class="p">)</span><span class="w">
+</span><span class="n">df</span><span class="o">$</span><span class="n">age18</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">ifelse</span><span class="p">(</span><span class="n">df</span><span class="o">$</span><span class="n">age</span><span class="o">&gt;=</span><span class="m">18</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">0</span><span class="p">)</span><span class="w">
+</span><span class="n">df</span><span class="o">$</span><span class="n">age80</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">ifelse</span><span class="p">(</span><span class="n">df</span><span class="o">$</span><span class="n">age</span><span class="o">&gt;=</span><span class="m">80</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">0</span><span class="p">)</span><span class="w">
+</span><span class="n">df</span><span class="o">$</span><span class="n">age_decade</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">floor</span><span class="p">(</span><span class="n">df</span><span class="o">$</span><span class="n">age</span><span class="o">/</span><span class="m">10</span><span class="p">)</span><span class="w">
+</span><span class="n">trainsize</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">round</span><span class="p">(</span><span class="n">nrow</span><span class="p">(</span><span class="n">df</span><span class="p">)</span><span class="o">*</span><span class="m">0.8</span><span class="p">)</span><span class="w">
+</span><span class="n">dftrain</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">df</span><span class="p">[</span><span class="m">1</span><span class="o">:</span><span class="n">trainsize</span><span class="p">,]</span><span class="w">
+</span><span class="n">dftest</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">df</span><span class="p">[(</span><span class="n">trainsize</span><span class="m">+1</span><span class="p">)</span><span class="o">:</span><span class="n">nrow</span><span class="p">(</span><span class="n">df</span><span class="p">),]</span><span class="w">
+</span></code></pre></div></div>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">logit</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">glm</span><span class="p">(</span><span class="n">formula</span><span class="w"> </span><span class="o">=</span><span class="w"> 
+               </span><span class="n">noshow</span><span class="w"> </span><span class="o">~</span><span class="w"> </span><span class="n">age</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">age18</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">age80</span><span class="w"> </span><span class="o">+</span><span class="w">
+               </span><span class="n">burs</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">diabet</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">handcap</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">alcohol</span><span class="w"> </span><span class="o">+</span><span class="w">
+               </span><span class="n">solbor</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">sandum</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">itarar</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">lourde</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">cabral</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">quadro</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">penha</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">jesus</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">sanmar</span><span class="w"> </span><span class="o">+</span><span class="w">
+               </span><span class="n">sms</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">morning</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">waittime</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">mode_previous</span><span class="p">,</span><span class="w">
+             </span><span class="n">family</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">binomial</span><span class="p">(</span><span class="n">link</span><span class="o">=</span><span class="s2">"logit"</span><span class="p">),</span><span class="w">
+             </span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">dftrain</span><span class="w">
+             </span><span class="p">)</span><span class="w">
+</span><span class="n">summary</span><span class="p">(</span><span class="n">logit</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<figure class="blog">
+	<img class="img-fluid" src="/assets/img/brazil/logit.png" />
+</figure>
+
+<p>We found that the wait time, previous no-show history, and geographical location were the most important predictors. Also, alcohol turned out to be statistically significant, while hipertension had to be removed from the final model. Strangely, eligibility to financial assistance increased the likelihood of no-show (but this was discussed in the previous section).</p>
+
+<p>To check the accuracy of the model, we predict the no-show for the test data and use measures called <em>accuracy</em> and <em>AUR</em>:</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">predicted_noshow</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">ifelse</span><span class="p">(</span><span class="n">predict</span><span class="p">(</span><span class="n">logit</span><span class="p">,</span><span class="w"> </span><span class="n">dftest</span><span class="p">,</span><span class="n">type</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"response"</span><span class="p">)</span><span class="o">&gt;=</span><span class="m">0.5</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">0</span><span class="p">)</span><span class="w">
+</span><span class="n">actual_noshow</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">dftest</span><span class="o">$</span><span class="n">noshow</span><span class="w">
+</span><span class="n">mytab</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">table</span><span class="p">(</span><span class="nf">abs</span><span class="p">(</span><span class="n">predicted_noshow</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">actual_noshow</span><span class="p">))</span><span class="w">
+
+</span><span class="n">accuracy</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">mytab</span><span class="p">[</span><span class="m">1</span><span class="p">]</span><span class="o">/</span><span class="p">(</span><span class="n">mytab</span><span class="p">[</span><span class="m">1</span><span class="p">]</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">mytab</span><span class="p">[</span><span class="m">2</span><span class="p">])</span><span class="w">
+</span><span class="n">accuracy</span><span class="w">
+</span><span class="n">roc</span><span class="p">(</span><span class="n">actual_noshow</span><span class="p">,</span><span class="w"> </span><span class="n">predicted_noshow</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<p>So, we have 81\% accuracy, but this is not a very desirable result because of data imbalance — if we just set all “noshows” to zero, we would still get 80% accuracy. The measure <em>AUR</em> confirms this by giving the result 52.9\% — which is slightly better than saying <em>“fifty-fify”</em>.</p>
+
+<p>So, we decide to take a look at decision trees:</p>
+
+<h3 id="decision-trees">Decision trees</h3>
+<p>Before doing the decision trees, we will undersample our majority set (noshow==0). The resulting tree returns 60\% accuracy and 69\% <em>AUR</em> on average. Different tree specifications give different resulting trees, but the average accuracy doesn’t change. The <em>recall</em> is 80\% on average, though. Here is just one of the trees. Notice that we used age as decades here, and not as a continuous variable:</p>
+
+<figure class="blog">
+	<img class="img-fluid" src="/assets/img/brazil/tree.png" />
+</figure>
+
+<p>The above tree is not the one I ended up using, the other ones just didn’t fit the page.</p>
+
+<p><a name="end"></a><br /></p>
+<h2 id="4-conclusion">4. Conclusion</h2>
+<p>We have analyzed the data and tried to do a classification analysis. The results are not perfectly accurate, but they are not worse than a naive “noshow=0” prediction.</p>
+
+<p>As an economist, I believe that having a higher accuracy would be impossible without additional data, like weather that day (was it rainy or not), the traffic situation, the diagnosis, the local news etc.</p>
+
+<p>You can see my code in the following repo: <a href="https://github.com/ravshansk/kaggle">github.com/ravshansk/kaggle</a>.</p>
+
+<p>I believe my approach is wrong in many ways, so I welcome your feedback.</p>
+
+  </div>
+</div>
+
+<div class="share-page">
+	<a href="https://twitter.com/share?
+		text=[enter%20text]&
+		url=http://localhost:4000/articles/brazil-noshow.html&
+		via=ravshansk"
+	   target="_blank"
+	><i class="fab fa-2x fa-twitter"></i>Tweet</a>
+</div>
+
+<!--
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-comments"
+	data-href="http://localhost:4000/articles/brazil-noshow.html"
+	data-numposts="5"
+	data-width="642">
+</div>
+
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="oDGFwT7e"></script>
+
+<div class="fb-comments" data-href="http://localhost:4000/articles/brazil-noshow.html" data-width="" data-numposts="5"></div>
+
+-->
+
+
+    </div>
+
+	<div class="col-md-4 blog-sidebar py-5">
+		<div class="categories pb-5">
+			<h3>Read categories</h3>
+				<a class="badge badge-light p-2" href="/economics">Economics</a>
+				<a class="badge badge-light p-2" href="/statistics">Statistics</a>
+				<a class="badge badge-light p-2" href="/finance">Finance</a>
+				<a class="badge badge-light p-2" href="/management">Management</a>
+				<a class="badge badge-light p-2" href="/complexity">Complexity</a>
+				<a class="badge badge-light p-2" href="/crypto">Crypto</a>
+		</div>
+		<div class="recent">
+			<h3>Recent articles</h3>
+				<ul class="list-unstyled">
+					
+						
+   	   						<li><a class="text-dark small" href="/articles/matching-timeslot.html">Two-sided matching with time preferences</a></li>
+						
+					
+						
+					
+						
+   	   						<li><a class="text-dark small" href="/articles/simulation.html">Simulations in economics</a></li>
+						
+					
+						
+					
+						
+					
+				</ul>
+		</div>
+	</div>
+</div>
+<footer class="footer mt-auto py-5 bg-dark text-light">
+	<div class="pb-4">
+			</a><h3 class="text-center">Contact me:</h3>
+	</div>
+	       <div class="text-center">
+        <a href="mailto:rsk@ravshansk.com" class="btn" target="_blank"><i class="fas fa-3x fa-envelope fa-inverse"></i></a>
+        <a href="http://twitter.com/ravshansk" class="btn" target="_blank"><i class="fab fa-3x fa-twitter fa-inverse"></i></a>
+        <a href="http://linkedin.com/in/ravshansk" class="btn" target="_blank"><i class="fab fa-3x fa-linkedin fa-inverse"></i></a>
+        <a href="http://facebook.com/ravshanskh" class="btn" target="_blank"><i class="fab fa-3x fa-facebook fa-inverse"></i></a>
+    </div>
+
+</footer>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script src="/assets/js/grt-cookie-consent.js"></script>
+
+    <div class="grt-cookie"> 
+    <div class="grt-cookies-msg">
+        <p>I use cookies as does everyone else. Know that if you want to continue.</p>
+    </div> 
+    <span class="grt-cookie-button">Accept</span>
+</div>
+
+<script> $(".grt-cookie").grtCookie(); </script>
+
+
+  </body>
+
+
+</html>
