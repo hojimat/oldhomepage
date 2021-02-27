@@ -6,9 +6,9 @@ lang: russian
 categ: lit
 ---
 
-<figure class="blog">
-	<img src="/assets/img/breakfast/breakfastclub.jpg" alt="movie still">
-	<figcaption>Фильм "Клуб Завтрак"</figcaption>
+<figure class="text-center">
+	<img src="/assets/img/breakfast/breakfastclub.jpg" class="figure-img img-fluid mx-auto d-block" alt="movie still">
+	<figcaption class="figure-caption">Фильм "Клуб Завтрак"</figcaption>
 </figure>
 
 На днях посмотрел фильм Джона Хьюза _"Клуб Завтрак" ("The Breakfast Club")_. Фильм хороший, о переживаниях подростков; каждый может найти что-нибудь общее хотя бы с одним из персонажей. Но так как эти мысли уже не очень актуальны для меня лично (всё таки выросли уже), просмотр навеял на меня другие мысли.  
