@@ -96,7 +96,6 @@ Hey, welcome. I am redesigning my landing page now. Today is Feb. 27, 2021, so t
 - Articles: [/articles](/articles)
 - Blog posts: [/blog](/blog)
 - Посты на русском: [/blogru](/blogru)
-- Креатив на русском: [/lit](https://lit.ravshansk.com)
 
 
 Thanks,  
