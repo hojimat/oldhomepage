@@ -6,7 +6,7 @@ permalink: /
 
 <a name="about"></a><br>
 # About
-
+<!--
 My name is Ravshan S.K. (Ravshanbek Khodzhimatov). I hold a [Master's Degree in Economics](http://econ.boun.edu.tr) from [Bogazici University](http://boun.edu.tr), [Istanbul, Turkey](https://en.wikipedia.org/wiki/Istanbul). My research interests are _agent-based modeling, macroeconometrics and forecasting_. Aside from my expertise in economics, I have an experience working as _financial analyst, customer service assistant, marketing assistant, interpreter, data scientist and web developer_.  
 
 ## What services do I provide?
@@ -90,4 +90,14 @@ In the blog of this website I give a generic picture of works done and publish o
 
 ### Don't like forms?
 You can also contact me via email or social media. The most recent info is available below. Please write the subject and description of your project and include the estimated budget. 
+-->
+Hey, welcome. I am redesigning my landing page now. Today is Feb. 27, 2021, so that you know that the website is not dead. You can proceed to read my content here:
 
+- Articles: [/articles](/articles)
+- Blog posts: [/blog](/blog)
+- Посты на русском: [/blogru](/blogru)
+- Креатив на русском: [/lit](https://lit.ravshansk.com)
+
+
+Thanks,  
+Ravshan
