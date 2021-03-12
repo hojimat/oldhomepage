@@ -2,13 +2,14 @@ html {
 	scroll-behavior: smooth;
 }
 
-body {
+body#myblog {
 	font-family: 'PT Serif', serif;
 	font-size: 1.2em;
 }
 
-nav, div.card, footer{
+body#myblog nav , body#myblog footer, body#myblog h3{
 	font-family: 'PT Sans', sans-serif;
+	font-size: 1.2em;
 }
 
 a, a:hover {

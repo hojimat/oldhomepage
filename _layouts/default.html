@@ -3,10 +3,9 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-
 {% include head.html %}
 {% seo %}
-<body>
+<body id="myblog">
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
     <a class="navbar-brand" href="/#">Ravshan S.K.</a>
@@ -39,15 +38,6 @@
     </div>
 
 	<div class="col-md-4 blog-sidebar py-5">
-		<div class="categories pb-5">
-			<h3>Read categories</h3>
-				<a class="badge badge-light p-2" href="/economics">Economics</a>
-				<a class="badge badge-light p-2" href="/statistics">Statistics</a>
-				<a class="badge badge-light p-2" href="/finance">Finance</a>
-				<a class="badge badge-light p-2" href="/management">Management</a>
-				<a class="badge badge-light p-2" href="/complexity">Complexity</a>
-				<a class="badge badge-light p-2" href="/crypto">Crypto</a>
-		</div>
 		<div class="recent">
 			<h3>Recent articles</h3>
 				<ul class="list-unstyled">
@@ -75,7 +65,7 @@
 	{% include scripts.html %}
     {% include gdpr.html %}
 
-  </body>
+</body>
 
 
 </html>
