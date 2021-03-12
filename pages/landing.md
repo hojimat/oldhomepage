@@ -113,12 +113,3 @@ permalink: /
         </ul>
     </div>
 </section>
-<hr class="m-0" />
-<!-- Interests-->
-<section class="resume-section" id="interests">
-    <div class="resume-section-content">
-        <h2 class="mb-5">Interests</h2>
-        <p>I have a wide range of interests. As everyone else, I watch all the franchises you can think of, read the source material and subreddits, and theorize. As a kid of early 2000s, I have a special relationship with everything PCs --- I can spend days fixing my computer.</p>
-        <p class="mb-0">I also love biking and swimming (more so after the pandemic)... and I have recently become interested in music.</p>
-    </div>
-</section>
