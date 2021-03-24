@@ -113,3 +113,27 @@ permalink: /
         </ul>
     </div>
 </section>
+<hr class="m-0" />
+<!-- Articles -->
+<section class="resume-section" id="articles">
+    <div class="resume-section-content">
+        <h2 class="mb-5">Articles</h2>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="flex-grow-1">
+                <div class="subheading mb-3">Interactions between social norms and incentive mechanisms in organizations</div>
+                <p>Ravshanbek Khodzhimatov, Stephan Leitner, Friederike Wall</p>
+                <p><a href="https://arxiv.org/pdf/2102.12309.pdf">Download [pdf]</a></p>
+            </div>
+            <div class="flex-shrink-0"><span class="text-primary">2021</span></div>
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="flex-grow-1">
+                <div class="subheading mb-3">xtcointreg</div>
+                <p>Stata module for panel data generalization of cointegration regression using fully modified ordinary least squares, dynamic ordinary least squares, and canonical correlation regression methods Statistical Software Components S458447, Boston College Department of Economics.</p>
+                <p><a href="/blog/xtcointreg.html">Go to [doc]</a></p>
+            </div>
+            <div class="flex-shrink-0"><span class="text-primary">2018</span></div>
+        </div>
+    </div>
+</section>
+<hr class="m-0" />
