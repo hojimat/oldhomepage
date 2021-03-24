@@ -2,7 +2,7 @@
 layout: post
 title: Using matching with quotas to solve Hajj visa problem
 lang: english
-categ: article
+categ: blog
 description: This matching mechanism solves the problem of unfair visa allocation to Saudi Arabia during Hajj season. 
 keywords:  economic consultant, hire economist
 tags: economics management

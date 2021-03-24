@@ -2,7 +2,7 @@
 layout: post
 title: My take on the famous medical appointment no-show problem  
 lang: english
-categ: article
+categ: blog
 description: Kaggle medical appointment no-show problem, brazil, vitoria, kaggle, toptal 
 keywords: machine learning, economic consulting, economic consultant, statistical consulting, statistical consultant, data science, data scientist
 tags: [statistics, economics]
