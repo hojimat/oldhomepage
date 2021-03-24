@@ -6,7 +6,7 @@ categ: blog
 description: This article illustrates how to apply Deferred Acceptance matching mechanism with time slot preferences to solve the problem of assigning tutors to tutees.
 keywords: economics, matching theory, allocation, scheduling
 tags: economics
-redirect_from: /articles/matching-timeslot/
+redirect_from: /articles/matching-timeslot
 image: /assets/img/matching/match.jpg
 ---
 

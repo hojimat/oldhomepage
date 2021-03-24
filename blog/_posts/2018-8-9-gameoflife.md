@@ -5,7 +5,7 @@ lang: english
 categ: blog
 keywords: object-oriented, game of life, agent-based model
 tags: economics complexity
-redirect_from: /articles/gameoflife/
+redirect_from: /articles/gameoflife
 image: /assets/img/gameoflife/time0.png
 ---
 

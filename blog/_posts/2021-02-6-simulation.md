@@ -7,7 +7,7 @@ description: This article talks about simulation as a research tool for the econ
 keywords: simulation, economics, agent-based modeling, abm 
 tags: economics
 image: /assets/img/simulation/thematrix.jpg
-redirect_from: /articles/simulation/
+redirect_from: /articles/simulation
 ---
 
 ### Contents
