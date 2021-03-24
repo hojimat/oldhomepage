@@ -15,16 +15,10 @@
     <div id="navbarNavDropdown" class="navbar-collapse collapse">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="/articles">Articles</a>
+                <a class="nav-link" href="/blog">Blog</a>
             </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Side projects
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="/blog">Blog</a>
-                    <a class="dropdown-item" href="/blogru">Blog in Russian</a>
-                </div>
+            <li class="nav-item">
+                <a class="nav-link" href="/blogru">Blog in Russian</a>
             </li>
         </ul>
         <ul class="navbar-nav">
@@ -39,12 +33,10 @@
 
 	<div class="col-md-4 blog-sidebar py-5">
 		<div class="recent">
-			<h3>Recent articles</h3>
+			<h3>Recent posts</h3>
 				<ul class="list-unstyled">
-					{% for post in site.posts limit:5%}
-						{% if post.lang contains 'english' %}
-   	   						<li><a class="text-dark small" href="{{ site.baseurl }}{{ post.url }}">{{ post.title | truncate:60}}</a></li>
-						{% endif %}
+					{% for post in site.posts limit:10 %}
+   	   					<li><a class="text-dark small" href="{{ site.baseurl }}{{ post.url }}">{{ post.title | truncate:60}}</a></li>
 					{% endfor %}
 				</ul>
 		</div>
