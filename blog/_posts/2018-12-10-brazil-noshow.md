@@ -7,6 +7,7 @@ description: Kaggle medical appointment no-show problem, brazil, vitoria, kaggle
 keywords: machine learning, economic consulting, economic consultant, statistical consulting, statistical consultant, data science, data scientist
 tags: [statistics, economics]
 image: /assets/img/brazil/wday.png
+redirect_from: /articles/brazil-noshow/
 ---
 
 

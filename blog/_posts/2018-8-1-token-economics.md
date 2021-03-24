@@ -6,7 +6,7 @@ categ: blog
 description: economic model of utility tokens in R
 keywords: cryptocurrency, token, ethereum, proof-of-stake, hackernoon, economics, token economics, tokenomics
 tags: crypto economics
-redirect_from: /blog/2018/08/01/tokens/
+redirect_from: /articles/token-economics/
 image: /assets/img/token/tokenomy.png
 ---
 

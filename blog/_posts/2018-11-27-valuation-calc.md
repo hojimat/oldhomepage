@@ -6,7 +6,7 @@ categ: blog
 description: R reimplementation of Daniel McCarthy and Peter Fader's valuation model
 keywords: peter fader, R, economics, management, stock, valuation, IPO, public data, subscription
 tags: economics management finance
-redirect_from: /blog/2018/09/09/subvalue/
+redirect_from: /articles/valuation-calc/
 image: /assets/img/churn/diag2.png
 ---
 
