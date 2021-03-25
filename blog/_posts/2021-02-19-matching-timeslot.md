@@ -10,7 +10,7 @@ redirect_from: /articles/matching-timeslot
 image: /assets/img/matching/match.jpg
 ---
 
-<figure class="blog">
+<figure class="text-center">
 <img class="w-75" src="/assets/img/matching/match.jpg"/>
 </figure>
 

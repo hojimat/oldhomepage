@@ -8,7 +8,9 @@ keywords: statistical consulting, economic consulting, data analytics, econometr
 image: /assets/img/landscape/maxima.jpg
 ---
 
+<figure class="text-center">
 <img class="w-75" src="/assets/img/landscape/maxima.jpg"/>
+</figure>
 
 This blog post states a problem, does not provide any solutions. This is a high form of whining.
 
