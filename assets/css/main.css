@@ -13,13 +13,13 @@ div.post {
   font-family: "PT Sans", sans-serif;
   font-size: 3em;
   color: #343a40;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 .post h2, .post h3, .post h4, .recent h3 {
   font-family: "PT Sans", sans-serif;
   color: #343a40;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 .post h2 {
