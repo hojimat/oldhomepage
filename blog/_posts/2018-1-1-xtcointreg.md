@@ -25,3 +25,8 @@ Hope it will help you in your research. Please feel free to [contact me](/contac
 1. write a command `which xtcointreg` and find the location of the **xtcointreg.ado** file;
 2. open that file with any text editor and remove the line number 8 `capt program drop xtcointreg`;
 3. save the file and try to run `xtcointreg` again. This problem is related to the publisher of the code and not to my code itself.
+
+**Update 3** Please install `cointreg` first! This is the most common error. To do that:
+1. write `findit cointreg`
+2. click on the first link
+3. scroll down and click `install cointreg`
