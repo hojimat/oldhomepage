@@ -22,6 +22,7 @@ permalink: /
             <a class="social-icon" href="https://twitter.com/ravshansk" target="_blank"><i class="fab fa-twitter"></i></a>
             <a class="social-icon" href="https://facebook.com/ravshanskh" target="_blank"><i class="fab fa-facebook-f"></i></a>
             <a class="social-icon" href="https://t.me/dismalfriedman" target="_blank"><i class="fab fa-telegram"></i></a>
+            <a class="social-icon" href="https://orcid.org/0000-0002-2761-2029" target="_blank"><i class="fab fa-orcid"></i></a>
         </div>
     </div>
 </section>
