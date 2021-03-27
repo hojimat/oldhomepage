@@ -14,7 +14,7 @@ Last summer I worked on a project that used Daniel McCarthy, Peter Fader and Bru
 
 Their model features a lot of series, vectors, matrices, intertwined recursive definitions, that it was very difficult to comprehend at first. So, if you are going to read their paper, here is the diagram that I have drawn to make it easier for you to understand it. 
 
-<figure class="blog">
+<figure class="text-center">
 	<img class="img-fluid" src="/assets/img/churn/diag.png" height="300%">
 	<figcaption>McCarthy et al.'s Customer behavior model</figcaption>
 </figure>
