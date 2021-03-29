@@ -15,7 +15,7 @@ permalink: /
             9020 · Klagenfurt, Austria · 
             <a href="mailto:rsk@ravshansk.com">rsk@ravshansk.com</a>
         </div>
-        <p class="lead mb-5">I am currently developing computer simulations of economies using agent-based approach. My research interests are complexity (agent interactions and emergent behavior), statistical learning, and numeric methods.</p>
+        <p class="lead mb-5">My name is Ravshanbek Khodzhimatov and I am an economist. I am currently developing computer simulations of economies using agent-based approach. My research interests are complexity (agent interactions and emergent behavior), statistical learning, and numeric methods.</p>
         <div class="social-icons">
             <a class="social-icon" href="https://linkedin.com/in/ravshansk" target="_blank"><i class="fab fa-linkedin-in"></i></a>
             <a class="social-icon" href="https://github.com/ravshansk" target="_blank"><i class="fab fa-github"></i></a>
