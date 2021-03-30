@@ -28,3 +28,14 @@ OK, so let's say we have decided to generate values on the fly and estimate the 
 
 ### Conclusion
 Life is difficult. 
+
+**Update** I have made some sensitivities on _K/N_, here are the results:
+
+<figure class="text-center">
+<img class="w-100" src="/assets/img/landscape/globalmax.png"/>
+</figure>
+
+So, ... kinda proves my point: there is a pattern, but too risky to straight out assume. ikr: if I solved this, then I would solve _P vs. NP problem_.
+
+A new conclusion: pick your battles!
+
