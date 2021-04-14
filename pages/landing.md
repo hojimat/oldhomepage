@@ -121,6 +121,14 @@ permalink: /
         <h2 class="mb-5">Articles</h2>
         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
             <div class="flex-grow-1">
+                <div class="subheading mb-3">On the effect of social norms on performance in teams with distributed decision makers</div>
+                <p>Ravshanbek Khodzhimatov, Stephan Leitner, Friederike Wall</p>
+                <p><a href="https://arxiv.org/pdf/2104.05993">Download [pdf]</a></p>
+            </div>
+            <div class="flex-shrink-0"><span class="text-primary">2021</span></div>
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="flex-grow-1">
                 <div class="subheading mb-3">Interactions between social norms and incentive mechanisms in organizations</div>
                 <p>Ravshanbek Khodzhimatov, Stephan Leitner, Friederike Wall</p>
                 <p><a href="https://arxiv.org/pdf/2102.12309.pdf">Download [pdf]</a></p>
