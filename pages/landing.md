@@ -121,6 +121,14 @@ permalink: /
         <h2 class="mb-5">Articles</h2>
         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
             <div class="flex-grow-1">
+                <div class="subheading mb-3">Controlling replication via the belief system in multi-unit organizations</div>
+                <p>Ravshanbek Khodzhimatov, Stephan Leitner, Friederike Wall</p>
+                <p><a href="https://arxiv.org/pdf/2206.03786.pdf">Download [pdf]</a></p>
+            </div>
+            <div class="flex-shrink-0"><span class="text-primary">2021</span></div>
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="flex-grow-1">
                 <div class="subheading mb-3">A Comparative Analysis of Alternative Life-Cycle Investment Strategies for Turkey</div>
                 <p>Ravshanbek Khodzhimatov, Tolga Umut Kuzuba&#x15F;, Burak Salto&#x11F;lu</p>
                 <p><a href="http://ideas.econ.boun.edu.tr/content/wp/EC2022_01.pdf">Download [pdf]</a></p>
