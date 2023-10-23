@@ -23,7 +23,7 @@ redirect_from: /articles/simulation
 <a name="intro"></a><br>
 ## 1. Introduction
 
-Simulation, as a research approach in economics, is not as popular as analytical, empirical, or experimental methods. This article provides an expositive summary of the simulation as a research tool, its strengths and weaknesses, and how it can be used in economic research. 
+Simulation, as a research approach in economics, is not as popular as analytical, empirical, or experimental methods. This article provides an expository summary of the simulation as a research tool, its strengths and weaknesses, and how it can be used in economic research. 
 
 <a name="recap"></a><br>
 ## 2. Recap

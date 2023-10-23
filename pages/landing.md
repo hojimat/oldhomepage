@@ -8,8 +8,8 @@ permalink: /
 <section class="resume-section" id="about">
     <div class="resume-section-content">
         <h1 class="mb-0">
-            Ravshan
-            <span class="text-primary">S.K.</span>
+            R.
+            <span class="text-primary">Hojimatov</span>
         </h1>
         <div class="subheading mb-5">
             9020 · Klagenfurt, Austria · 
@@ -33,11 +33,19 @@ permalink: /
         <h2 class="mb-5">Experience</h2>
         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
             <div class="flex-grow-1">
+                <h3 class="mb-0">Software Engineer</h3>
+                <div class="subheading mb-3">Entwicklerburg LLC</div>
+                <p>Description here.</p>
+            </div>
+            <div class="flex-shrink-0"><span class="text-primary">Dec 2022 - present</span></div>
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="flex-grow-1">
                 <h3 class="mb-0">Researcher</h3>
                 <div class="subheading mb-3">Digital Age Research Center</div>
                 <p>Researching complexity economics. Modeling agent interactions and emergent phenomena in artificial societies. Developing optimization algorithms.</p>
             </div>
-            <div class="flex-shrink-0"><span class="text-primary">Oct'2019 - Present</span></div>
+            <div class="flex-shrink-0"><span class="text-primary">Oct 2019 - Oct 2022</span></div>
         </div>
         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
             <div class="flex-grow-1">
@@ -45,7 +53,7 @@ permalink: /
                 <div class="subheading mb-3">Gammametric</div>
                 <p>Worked independently as an economic and statistical consultant, helped clients develop statistical algorithms.</p>
             </div>
-            <div class="flex-shrink-0"><span class="text-primary">Sep'2017 - Aug'2019</span></div>
+            <div class="flex-shrink-0"><span class="text-primary">Sep 2017 - Aug 2019</span></div>
         </div>
         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
             <div class="flex-grow-1">
@@ -53,7 +61,7 @@ permalink: /
                 <div class="subheading mb-3">Devoin SDS</div>
                 <p>Automated data mining processes, managed databases and website-backend, performed statistical analyses.</p>
             </div>
-            <div class="flex-shrink-0"><span class="text-primary">Jul'2016 - Jun'2017</span></div>
+            <div class="flex-shrink-0"><span class="text-primary">Jul 2016 - Jun 2017</span></div>
         </div>
     </div>
 </section>
